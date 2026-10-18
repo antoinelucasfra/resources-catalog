@@ -1,0 +1,121 @@
+name: Suggest a resource
+description: Propose a resource for the catalog
+title: "Suggest: "
+labels: ["resource-suggestion"]
+body:
+  - type: input
+    id: url
+    attributes:
+      label: URL
+      description: Full link to the resource.
+      placeholder: "https://example.com/resource"
+    validations:
+      required: true
+  - type: input
+    id: title
+    attributes:
+      label: Title
+      description: Display name of the resource (max 120 characters).
+      placeholder: "Mastering Shiny"
+    validations:
+      required: true
+  - type: dropdown
+    id: type
+    attributes:
+      label: Type
+      description: What kind of resource is this?
+      options:
+        - Blog
+        - Book
+        - Website
+        - Package
+        - Video
+        - Paper
+        - Course
+        - Community
+        - Newsletter
+        - Conference
+        - Forum
+        - Journal
+        - Repository
+        - App
+        - Cheatsheet
+        - Documentation
+        - Gallery
+        - Game
+        - Guide
+        - Magazine
+        - Platform
+        - Slides
+        - Social
+        - Tool
+        - Tutorial
+        - Workshop
+    validations:
+      required: true
+  - type: checkboxes
+    id: language
+    attributes:
+      label: Language
+      description: Programming language(s) the resource is about. Select all that apply.
+      options:
+        - label: R
+        - label: Python
+        - label: Other
+        - label: Julia
+        - label: JavaScript
+    validations:
+      required: true
+  - type: checkboxes
+    id: category
+    attributes:
+      label: Category
+      description: Topic(s) covered by the resource. Select all that apply.
+      options:
+        - label: Machine Learning
+        - label: Statistics
+        - label: Reference
+        - label: Bayesian
+        - label: Causal Inference
+        - label: AI
+        - label: Generative AI
+        - label: Agents
+        - label: Deep Learning
+        - label: NLP & Speech
+        - label: Computer Vision
+        - label: MLOps
+        - label: Docker
+        - label: Data Engineering
+        - label: Programming
+        - label: R Ecosystem
+        - label: R Markdown
+        - label: Quarto
+        - label: Shiny
+        - label: Data Visualization
+        - label: Business Intelligence
+        - label: Presentations
+        - label: Data Science
+        - label: Education
+        - label: Research
+        - label: Reproducibility
+        - label: Ethics
+        - label: Best Practices
+        - label: Git
+        - label: Developer Tools
+        - label: Web Development
+        - label: Medical & Life Sciences
+        - label: Social Sciences
+        - label: Social Media
+        - label: Career & Industry
+        - label: Creative & Games
+        - label: Open Source & Automation
+        - label: General
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Anything else
+      description: Optional context for the maintainer. Not added to the catalog entry.
+    validations:
+      required: false

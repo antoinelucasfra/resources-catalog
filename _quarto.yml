@@ -32,6 +32,8 @@ website:
     background: dark
     left: []
     right:
+      - text: Suggest
+        href: "https://github.com/antoinelucasfra/resources-catalog/issues/new?template=suggest-resource.yml"
       - text: Portfolio
         href: https://antoinelucasfra.github.io
       - icon: github

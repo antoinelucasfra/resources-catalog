@@ -15,7 +15,7 @@ Part of [antoinelucasfra.github.io](https://antoinelucasfra.github.io) — extra
 
 ## Adding a resource
 
-Edit `resources.txt` and open a pull request. Each entry is a small YAML block:
+Use the **Suggest** tab in the site navbar to open a GitHub issue form; a bot validates the submission and opens a pull request automatically. To add a resource directly, edit `resources.txt` and open a pull request. Each entry is a small YAML block:
 
 ```yaml
 ---
@@ -28,7 +28,7 @@ description: "The online version of Mastering Shiny, a book that teaches you to 
 ---
 ```
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) for the full field reference, the Google Keep sync workflow, and backfilling tools.
+See [CONTRIBUTING.md](CONTRIBUTING.md) for the full field reference, the suggestion workflow, and backfilling tools.
 
 ## Local development
 
@@ -38,7 +38,7 @@ Requirements: R (4.4+), Quarto (1.9+), and R packages `here`, `yaml`, `tibble`, 
 quarto render   # writes docs/ (gitignored)
 ```
 
-The scripts under `scripts/` are manual, local-only utilities (Google Keep sync, description backfill) managed with `uv` — see CONTRIBUTING.md.
+The scripts under `scripts/` are manual, local-only utilities (description backfill) managed with `uv` — see CONTRIBUTING.md.
 
 ## License
 
