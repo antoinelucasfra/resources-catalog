@@ -37,12 +37,11 @@ jobs:
             any::dplyr
             any::rlang
 
-      - name: Setup Quarto
-        uses: quarto-dev/quarto-actions/setup@v2
-        env:
-          GH_TOKEN: ${{ github.token }}
-        with:
-          version: 1.9.37
+      # The runner image ships a current Quarto; the action's pinned install
+      # trips apt's downgrade guard. `quarto-required` in _quarto.yml gates the
+      # version floor instead of the workflow.
+      - name: Check Quarto
+        run: quarto --version
 
       - name: Render catalog
         run: quarto render
