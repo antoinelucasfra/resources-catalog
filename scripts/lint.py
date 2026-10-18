@@ -34,41 +34,9 @@ HARD_REQUIRED_FIELDS = ("title", "type", "link", "language", "category")
 OPTIONAL_FIELDS = ("date",)
 ALL_FIELDS = REQUIRED_FIELDS + OPTIONAL_FIELDS
 
-KNOWN_TYPES: frozenset[str] = frozenset(
-    {
-        "Blog",
-        "Book",
-        "Website",
-        "Package",
-        "Video",
-        "Paper",
-        "Course",
-        "Community",
-        "Newsletter",
-        "Conference",
-        "Forum",
-        "Journal",
-        "Repository",
-        "App",
-        "Cheatsheet",
-        "Documentation",
-        "Gallery",
-        "Game",
-        "Guide",
-        "Magazine",
-        "Platform",
-        "Slides",
-        "Social",
-        "Tool",
-        "Tutorial",
-        "Workshop",
-    }
-)
+from utils import DESC_MAX_LEN, KNOWN_LANGUAGES, KNOWN_TYPES
 
-KNOWN_LANGUAGES: frozenset[str] = frozenset({"R", "Python", "Other", "French", "JavaScript", "Julia"})
 LANGUAGE_SHAPED_CATEGORY_VALUES: frozenset[str] = frozenset({"R", "Python", "French"})
-
-DESC_MAX_LEN = 300
 
 
 def split_semicolon(raw: str) -> list[str]:

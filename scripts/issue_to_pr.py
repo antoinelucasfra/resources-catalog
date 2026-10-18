@@ -30,14 +30,13 @@ import tomllib
 from pathlib import Path
 
 from utils import (
+    KNOWN_LANGUAGES,
     KNOWN_TYPES,
     append_blocks,
     existing_links,
     fetch_description,
     make_block,
 )
-
-KNOWN_LANGUAGES = frozenset({"R", "Python", "Other", "Julia", "JavaScript"})
 
 TAGS_TOML_PATH = Path(__file__).resolve().parent / "tags.toml"
 

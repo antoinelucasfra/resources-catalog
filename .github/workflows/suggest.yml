@@ -2,7 +2,7 @@ name: Suggest resource
 
 on:
   issues:
-    types: [labeled]
+    types: [opened, labeled]
 
 permissions:
   contents: write
@@ -15,7 +15,7 @@ concurrency:
 
 jobs:
   process:
-    if: github.event.label.name == 'resource-suggestion'
+    if: (github.event.action == 'labeled' && github.event.label.name == 'resource-suggestion') || (github.event.action == 'opened' && contains(github.event.issue.labels.*.name, 'resource-suggestion'))
     runs-on: ubuntu-latest
     env:
       GH_TOKEN: ${{ github.token }}
@@ -24,6 +24,15 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+
+      - name: Skip if a PR is already open for this suggestion
+        id: pr_guard
+        run: |
+          if [ -n "$(gh pr list --head "suggest/issue-${{ github.event.issue.number }}" --state open --json number --jq '.[0].number')" ]; then
+            echo "exists=true" >> "$GITHUB_OUTPUT"
+            gh issue comment "$ISSUE_NUMBER" --body "A pull request is already open for this suggestion."
+            exit 0
+          fi
 
       - name: Fetch issue body
         run: gh issue view "$ISSUE_NUMBER" --json body -q .body > body.md
@@ -36,6 +45,7 @@ jobs:
         run: uv sync --locked
 
       - name: Convert suggestion
+        if: steps.pr_guard.outputs.exists != 'true'
         id: convert
         working-directory: scripts
         run: |

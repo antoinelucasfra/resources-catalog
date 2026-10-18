@@ -110,7 +110,7 @@ title: "Your Resource Title"
 type: "Blog"
 link: "https://example.com/resource"
 language: "R"
-category: "Statistics;Tutorial"
+category: "Statistics;Data Science"
 description: "A one-sentence description of what this resource is and who it is for."
 ---
 ```

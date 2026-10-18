@@ -39,15 +39,15 @@ jobs:
           TITLE="Link health report — $(date +%Y-%m)"
           BODY="$(cat link-health-report.md)"
 
-          # Reuse the open sticky issue for this title prefix, if any.
+          # Reuse the open sticky issue by stable title prefix, if any.
           ISSUE_NUMBER=$(gh issue list \
             --state open \
-            --search "Link health report — in:title" \
-            --json number,title \
-            --jq ".[] | select(.title == \"$TITLE\") | .number" | head -n 1)
+            --search "Link health report in:title" \
+            --json number \
+            --jq ".[].number" | head -n 1)
 
           if [ -n "$ISSUE_NUMBER" ]; then
-            gh issue edit "$ISSUE_NUMBER" --body "$BODY"
+            gh issue edit "$ISSUE_NUMBER" --title "$TITLE" --body "$BODY"
           else
             gh issue create --title "$TITLE" --body "$BODY"
           fi

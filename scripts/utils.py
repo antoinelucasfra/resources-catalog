@@ -46,6 +46,10 @@ KNOWN_TYPES: frozenset[str] = frozenset(
     }
 )
 
+KNOWN_LANGUAGES: frozenset[str] = frozenset(
+    {"R", "Python", "Other", "French", "Julia", "JavaScript"}
+)
+
 FIELD_ORDER = ("title", "type", "link", "language", "category", "description", "date")
 
 DESC_MAX_LEN = 300
@@ -148,6 +152,9 @@ def _format_block(entry: dict[str, str]) -> str:
     lines = ["---"]
     for field in FIELD_ORDER:
         value = entry.get(field, "")
+        # Escape backslashes first so later quote-escaping can't turn a literal
+        # backslash into a YAML escape sequence (e.g. C:\temp → "C:\itemp").
+        value = value.replace("\\", "\\\\")
         # Escape any embedded double-quotes
         value = value.replace('"', '\\"')
         lines.append(f'{field}: "{value}"')
