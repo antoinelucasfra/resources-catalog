@@ -13,7 +13,7 @@ mode; pass --strict to treat them as errors too (used once the hygiene
 backfill/dedup workstream has cleaned the data).
 
 Each line is printed as:
-  line <n> of block starting <line>: <rule> — <value>
+  line <n> of block starting <line>: <rule> -- <value>
 (warnings are prefixed with "WARNING: ")
 
 Does not modify resources.txt or any other file.
@@ -133,10 +133,10 @@ def main() -> int:
         fields = block["fields"]
 
         def error(line: int, rule: str, value: str) -> None:
-            violations.append(f"line {line} of block starting {start}: {rule} — {value}")
+            violations.append(f"line {line} of block starting {start}: {rule} -- {value}")
 
         def warn(line: int, rule: str, value: str) -> None:
-            warnings.append(f"line {line} of block starting {start}: {rule} — {value}")
+            warnings.append(f"line {line} of block starting {start}: {rule} -- {value}")
 
         # --- taxonomy rules: hard errors, always enforced ---
         for field in HARD_REQUIRED_FIELDS:

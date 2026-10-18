@@ -1,0 +1,50 @@
+# Weekly backfill of placeholder resource descriptions (empty or overlong).
+# `--mode descriptions` is the mode that targets exactly that set (see
+# backfill.py: _needs_desc() treats empty and is_placeholder() descriptions
+# as due, everything else is already skipped). Opens/updates a single PR;
+# merging it is manual, by design, so a human reviews scraped descriptions
+# before they land.
+#
+# Once this workstream has cleaned the data (this PR lands empty, i.e.
+# nothing left to backfill), lint.py's --strict flag can be turned on in
+# ci.yml to make empty/overlong descriptions hard errors instead of warnings.
+
+name: Backfill descriptions
+
+on:
+  schedule:
+    - cron: "0 4 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  backfill:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v5
+
+      - name: Sync dependencies
+        working-directory: scripts
+        run: uv sync --locked
+
+      - name: Backfill placeholder descriptions
+        working-directory: scripts
+        run: RESOURCES_PATH=../resources.txt uv run python backfill.py --mode descriptions
+
+      - name: Open pull request
+        uses: peter-evans/create-pull-request@v7
+        with:
+          title: "chore: backfill resource descriptions"
+          commit-message: "chore: backfill resource descriptions"
+          branch: chore/backfill-descriptions
+          body: |
+            Automated weekly run of `backfill.py --mode descriptions`,
+            fetching real descriptions for entries with an empty or
+            placeholder description.
