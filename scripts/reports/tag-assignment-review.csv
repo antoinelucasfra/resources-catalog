@@ -1,0 +1,419 @@
+link,title,old_category,new_category,score,confident,reason
+https://youtu.be/nfP-mGIsqVs,Colin Fay Video,Tutorial,"(kept type=Video, dropped tag 'Tutorial')",,n/a,type_conflict
+https://youtu.be/nfP-mGIsqVs,Colin Fay Video,Tutorial,General,0,no,auto_classify
+http://www.cookbook-r.com/,Cookbook for R,Programming;Tutorial,"(kept type=Website, dropped tag 'Tutorial')",,n/a,type_conflict
+https://mtes-mct.github.io/parcours-r/,Parcours R MTES,Tutorial;French,"(kept type=Website, dropped tag 'Tutorial')",,n/a,type_conflict
+https://mtes-mct.github.io/parcours-r/,Parcours R MTES,Tutorial;French,General,0,no,auto_classify
+https://stat.ethz.ch/pipermail/r-help/2014-April/373488.html,R-help Mailing List,Community;Support,"(kept type=Forum, dropped tag 'Community')",,n/a,type_conflict
+https://statswithr.github.io/book/,Statistics with R,Statistics;Tutorial,"(kept type=Book, dropped tag 'Tutorial')",,n/a,type_conflict
+https://bookdown.org/yihui/rmarkdown-cookbook/,R Markdown Cookbook,R Markdown;Documentation,"(kept type=Book, dropped tag 'Documentation')",,n/a,type_conflict
+https://github.com/jupyter/jupyter/wiki/A-gallery-of-interesting-Jupyter-Notebooks,Jupyter Notebooks Gallery,Data Science;Tutorial,"(kept type=Community, dropped tag 'Tutorial')",,n/a,type_conflict
+https://opendatascience.com/,Open Data Science,Data Science;Community,"(kept type=Website, dropped tag 'Community')",,n/a,type_conflict
+https://stanford.edu/~shervine/l/fr/teaching/,Stanford CS Cheatsheets,Machine Learning;Cheatsheet;French,"(kept type=Website, dropped tag 'Cheatsheet')",,n/a,type_conflict
+https://oliviergimenez.github.io/intro_rmarkdown/#68,Olivier Gimenez - R Markdown,R Markdown;Tutorial,"(kept type=Blog, dropped tag 'Tutorial')",,n/a,type_conflict
+http://zoonek2.free.fr/UNIX/48_R_2004/08.html,R Tutorial Zoonek,Programming;Tutorial;French,"(kept type=Website, dropped tag 'Tutorial')",,n/a,type_conflict
+https://abcdr.thinkr.fr/ressources/,abcdR ThinkR,Resources;French,General,0,no,auto_classify
+https://www.codecademy.com/learn/learn-python-3,Codecademy Python,Programming;Tutorial,"(kept type=Course, dropped tag 'Tutorial')",,n/a,type_conflict
+https://statisticsglobe.com/r-programming-language,Statistics Globe,Programming;Tutorial,"(kept type=Website, dropped tag 'Tutorial')",,n/a,type_conflict
+https://www.bigbookofr.com/,Big Book of R,Books;Resources,General,0,no,auto_classify
+https://pythonforbiologists.com/29-common-beginner-errors-on-one-page/,Python Beginner Errors,Programming;Tutorial,"(kept type=Blog, dropped tag 'Tutorial')",,n/a,type_conflict
+https://www.pythonfromtheverybeginning.com/,Python from the Very Beginning,Programming;Tutorial,"(kept type=Website, dropped tag 'Tutorial')",,n/a,type_conflict
+https://www.pythonkitchen.com/legally-free-python-books-list/,Python Kitchen - Free Books,Books;Resources,"(kept type=Website, dropped tag 'Books')",,n/a,type_conflict
+https://www.pythonkitchen.com/legally-free-python-books-list/,Python Kitchen - Free Books,Books;Resources,General,0,no,auto_classify
+http://wavedatalab.github.io/datawithpython/,Wave Data Lab,Data Science;Tutorial,"(kept type=Website, dropped tag 'Tutorial')",,n/a,type_conflict
+https://jakevdp.github.io/PythonDataScienceHandbook/,Python Data Science Handbook,Data Science;Tutorial,"(kept type=Book, dropped tag 'Tutorial')",,n/a,type_conflict
+https://youtu.be/8DvywoWv6fI,Python Tutorial Video,Programming;Tutorial,"(kept type=Video, dropped tag 'Tutorial')",,n/a,type_conflict
+https://www.pylenin.com/blogs/python-string-formatting/,Pylenin - String Formatting,Programming;Tutorial,"(kept type=Blog, dropped tag 'Tutorial')",,n/a,type_conflict
+https://blog.crossminds.ai/post/10-ai-books-to-read-in-2021-machine-learning-researchers-engineers,AI Books 2021,Machine Learning;Books,"(kept type=Blog, dropped tag 'Books')",,n/a,type_conflict
+https://www.conorjohanlon.com/web-scraping-with-python-using-ebay-as-an-example/,Web Scraping with Python,Web Scraping;Tutorial,"(kept type=Blog, dropped tag 'Tutorial')",,n/a,type_conflict
+https://www.makeareadme.com/,Make a README,Documentation;Best Practices,"(kept type=Website, dropped tag 'Documentation')",,n/a,type_conflict
+https://twitter.com/_ColinFay/status/1539524332111679488,Twitter - Colin Fay,Tutorial,"(kept type=Website, dropped tag 'Tutorial')",,n/a,type_conflict
+https://twitter.com/_ColinFay/status/1539524332111679488,Twitter - Colin Fay,Tutorial,General,1,no,auto_classify
+https://youtu.be/brmidghOP6c,Git Tutorial Video,Git;Tutorial,"(kept type=Video, dropped tag 'Tutorial')",,n/a,type_conflict
+https://www.amelia.mn/presentations/user2022.html#/title-slide,useR 2022 - Amelia McNamara,Conference;Presentation,"(kept type=Video, dropped tag 'Conference')",,n/a,type_conflict
+https://youtu.be/ErRX8plZpQE,Python Data Visualization,Visualization;Tutorial,"(kept type=Video, dropped tag 'Tutorial')",,n/a,type_conflict
+https://riptutorial.com/,RIP Tutorial,Programming;Tutorial,"(kept type=Website, dropped tag 'Tutorial')",,n/a,type_conflict
+http://apprendre-python.com/page-apprendre-tuples-tuple-python,Python Tuples,Programming;Tutorial;French,"(kept type=Website, dropped tag 'Tutorial')",,n/a,type_conflict
+https://www.codingame.com/playgrounds/17176/recueil-dexercices-pour-apprendre-python-au-lycee/cours---les-boucles-for,Python For Loops,Programming;Tutorial;French,"(kept type=Website, dropped tag 'Tutorial')",,n/a,type_conflict
+https://elitedatascience.com/learn-machine-learning,Elite Data Science,Machine Learning;Tutorial,"(kept type=Website, dropped tag 'Tutorial')",,n/a,type_conflict
+https://machinelearningmastery.com/start-here/,ML Mastery,Machine Learning;Tutorial,"(kept type=Website, dropped tag 'Tutorial')",,n/a,type_conflict
+https://training.play-with-kubernetes.com/,Play with Kubernetes,Kubernetes;Tutorial,"(kept type=Website, dropped tag 'Tutorial')",,n/a,type_conflict
+https://labs.play-with-docker.com/,Play with Docker,Docker;Tutorial,"(kept type=Website, dropped tag 'Tutorial')",,n/a,type_conflict
+https://guides.github.com/activities/hello-world/,GitHub Hello World,Git;Tutorial,"(kept type=Website, dropped tag 'Tutorial')",,n/a,type_conflict
+https://stateofther.github.io/finistR2018/atelier3_git.html,Git with R - finistR,Git;Tutorial;French,"(kept type=Website, dropped tag 'Tutorial')",,n/a,type_conflict
+https://www.youtube.com/watch?v=DVRQoVRzMIY,Git Tutorial Video,Git;Tutorial,"(kept type=Video, dropped tag 'Tutorial')",,n/a,type_conflict
+https://git-scm.com/,Git SCM,Git;Documentation,"(kept type=Website, dropped tag 'Documentation')",,n/a,type_conflict
+https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging,Git Branching,Git;Tutorial,"(kept type=Website, dropped tag 'Tutorial')",,n/a,type_conflict
+https://stat545.com/,STAT 545,Data Science;Course,"(kept type=Website, dropped tag 'Course')",,n/a,type_conflict
+https://r4ds.had.co.nz/dates-and-times.html,R for Data Science - Dates,Programming;Tutorial,"(kept type=Website, dropped tag 'Tutorial')",,n/a,type_conflict
+http://qiime.org/tutorials/,QIIME Tutorials,Microbiome;Tutorial,"(kept type=Website, dropped tag 'Tutorial')",,n/a,type_conflict
+https://yihui.org/en/2017/08/why-xaringan-remark-js/,Yihui Xie - xaringan,Presentations;Tutorial,"(kept type=Blog, dropped tag 'Tutorial')",,n/a,type_conflict
+https://www.tidyverse.org/,Tidyverse.org,Tidyverse;Documentation,"(kept type=Website, dropped tag 'Documentation')",,n/a,type_conflict
+https://rstudio.com/resources/webinars/how-to-work-with-list-columns/,List Columns Webinar,Programming;Tutorial,"(kept type=Video, dropped tag 'Tutorial')",,n/a,type_conflict
+https://speakerdeck.com/jennybc/purrr-workshop,purrr Workshop,Functional Programming;Tutorial,"(kept type=Website, dropped tag 'Tutorial')",,n/a,type_conflict
+https://jennybc.github.io/purrr-tutorial/,purrr Tutorial,Functional Programming;Tutorial,"(kept type=Website, dropped tag 'Tutorial')",,n/a,type_conflict
+https://github.com/jennybc/row-oriented-workflows#readme,Row-Oriented Workflows,Data Manipulation;Tutorial,"(kept type=Website, dropped tag 'Tutorial')",,n/a,type_conflict
+https://genomicsclass.github.io/book/pages/dplyr_tutorial.html,dplyr Tutorial,Data Manipulation;Tutorial,"(kept type=Website, dropped tag 'Tutorial')",,n/a,type_conflict
+https://r-mageddon.netlify.app/post/writing-an-r-package-from-scratch/,R Package from Scratch,Package Development;Tutorial,"(kept type=Blog, dropped tag 'Tutorial')",,n/a,type_conflict
+https://www.flutterbys.com.au/stats/tut/tut15.2.html,Murray Logan Stats,Statistics;Tutorial,"(kept type=Website, dropped tag 'Tutorial')",,n/a,type_conflict
+https://education.rstudio.com/learn/intermediate/,RStudio Education - Intermediate,Education;Tutorial,"(kept type=Website, dropped tag 'Tutorial')",,n/a,type_conflict
+https://education.rstudio.com/learn/expert/,RStudio Education - Expert,Education;Tutorial,"(kept type=Website, dropped tag 'Tutorial')",,n/a,type_conflict
+https://www.datacamp.com/courses/data-table-data-manipulation-r-tutorial,DataCamp - data.table,Data Manipulation;Tutorial,"(kept type=Course, dropped tag 'Tutorial')",,n/a,type_conflict
+https://remibacha.com/data-pre-processing-r/,Remi Bacha - Data Pre-processing,Data Manipulation;Tutorial,"(kept type=Website, dropped tag 'Tutorial')",,n/a,type_conflict
+http://www.sthda.com/french/,STHDA,Statistics;Tutorial;French,"(kept type=Website, dropped tag 'Tutorial')",,n/a,type_conflict
+http://r-statistics.co/ggplot2-Tutorial-With-R.html,ggplot2 Tutorial,Visualization;Tutorial,"(kept type=Website, dropped tag 'Tutorial')",,n/a,type_conflict
+http://rpubs.com/,RPubs,Publishing;Community,"(kept type=Website, dropped tag 'Community')",,n/a,type_conflict
+https://fleuret.org/dlc/#lecture-13,François Fleuret DLC,Deep Learning;Course,"(kept type=Website, dropped tag 'Course')",,n/a,type_conflict
+https://share.streamlit.io/jeanmilpied/reparatorai/main/reparator.py,ReparatorAI Streamlit,Streamlit;App,"(kept type=Website, dropped tag 'App')",,n/a,type_conflict
+https://github.com/dair-ai/MLOPs-Primer,MLOps Primer,MLOps;Tutorial,"(kept type=Website, dropped tag 'Tutorial')",,n/a,type_conflict
+https://github.com/jeremy-allen/quarto-demo,Quarto Demo,Quarto;Tutorial,"(kept type=Website, dropped tag 'Tutorial')",,n/a,type_conflict
+https://github.com/deepmind/educational/blob/master/colabs/summer_schools/intro_to_graph_nets_tutorial_with_jraph.ipynb,DeepMind Graph Nets,Graph Neural Networks;Tutorial,"(kept type=Website, dropped tag 'Tutorial')",,n/a,type_conflict
+https://www.cararthompson.com/talks/user2022,Cara Thompson useR 2022,Conference;Visualization,"(kept type=Website, dropped tag 'Conference')",,n/a,type_conflict
+https://vas3k.com/blog/machine_learning/,ML for Everyone,Machine Learning;Tutorial,"(kept type=Website, dropped tag 'Tutorial')",,n/a,type_conflict
+https://www.dropbox.com/s/3ds01k9hdtn2ghb/user2022_silge.pdf,Julia Silge useR 2022,tidymodels;Conference,"(kept type=Website, dropped tag 'Conference')",,n/a,type_conflict
+https://github.com/agstn/UseR2022_dashboards,useR 2022 Dashboards,Conference;Dashboards,"(kept type=Website, dropped tag 'Conference')",,n/a,type_conflict
+https://thedatathread.com/,The Data Thread,Data Science;Newsletter,"(kept type=Blog, dropped tag 'Newsletter')",,n/a,type_conflict
+https://github.com/njtierney/talk-user-2022,Nick Tierney useR 2022,Conference;Missing Data,"(kept type=Website, dropped tag 'Conference')",,n/a,type_conflict
+https://yihui.org/en/2022/06/user-blogdown/,Yihui Xie blogdown,Blogdown;Tutorial,"(kept type=Website, dropped tag 'Tutorial')",,n/a,type_conflict
+https://www.jottr.org/2022/06/23/future-user2022-slides/,Future useR 2022,Parallel Computing;Conference,"(kept type=Website, dropped tag 'Conference')",,n/a,type_conflict
+https://patrick-weiss.github.io/slides-useR2022/#1,Patrick Weiss useR 2022,Conference;Presentation,"(kept type=Website, dropped tag 'Conference')",,n/a,type_conflict
+https://evamaerey.github.io/mytidytuesday/2022-06-20-tabyl/2022-06-20-tabyl.html#18,Tidy Tuesday tabyl,tidyverse;Tutorial,"(kept type=Website, dropped tag 'Tutorial')",,n/a,type_conflict
+https://www.zeileis.org/news/user2022/,Achim Zeileis useR 2022,Conference;Statistics,"(kept type=Website, dropped tag 'Conference')",,n/a,type_conflict
+https://oliviergimenez.github.io/hmm-cr-nimble-isec2022-workshop/,HMM Nimble Full Workshop,Statistics;HMM;Workshop,"(kept type=Website, dropped tag 'Workshop')",,n/a,type_conflict
+https://mine-cetinkaya-rundel.github.io/quarto-tip-a-day/,Quarto Tip a Day,Quarto;Tutorial,"(kept type=Website, dropped tag 'Tutorial')",,n/a,type_conflict
+https://christianb.gumroad.com/l/tidyverse-booster,Tidyverse Booster,tidyverse;Course,"(kept type=Website, dropped tag 'Course')",,n/a,type_conflict
+https://albert-rapp.de/posts/13_quarto_blog_writing_guide/13_quarto_blog_writing_guide.html,Quarto Blog Writing Guide,Quarto;Tutorial,"(kept type=Blog, dropped tag 'Tutorial')",,n/a,type_conflict
+https://www.writethedocs.org/guide/writing/beginners-guide-to-docs/,Write the Docs Guide,Documentation;Best Practices,"(kept type=Website, dropped tag 'Documentation')",,n/a,type_conflict
+https://www.math3ma.com/,Math3ma,Mathematics;Blog,"(kept type=Website, dropped tag 'Blog')",,n/a,type_conflict
+https://www.rstudio.com/conference/2022/schedule/,RStudio Conference 2022 Schedule,Conference;Schedule,"(kept type=Website, dropped tag 'Conference')",,n/a,type_conflict
+https://www.rstudio.com/conference/2022/schedule/,RStudio Conference 2022 Schedule,Conference;Schedule,Data Science,4,yes,auto_classify
+https://jollydata.blog/posts/2022-06-12-when-not-in-rome/when-not-in-rome.html,When Not in Rome,Best Practices;Tutorial,"(kept type=Blog, dropped tag 'Tutorial')",,n/a,type_conflict
+https://github.com/AlbertRapp/quarto_bottomup_blog,Quarto Bottom Up Blog,Quarto;Tutorial,"(kept type=Website, dropped tag 'Tutorial')",,n/a,type_conflict
+https://medium.com/data-from-the-trenches/graphical-neural-networks-link-prediction-part-ii-c60f6d97fd97,Graph Neural Networks Link Prediction,Graph Neural Networks;Tutorial,"(kept type=Blog, dropped tag 'Tutorial')",,n/a,type_conflict
+https://oscarbaruffa.com/bbofr_300_part1/,Big Book of R Part 1,Books;Resources,"(kept type=Blog, dropped tag 'Books')",,n/a,type_conflict
+https://oscarbaruffa.com/bbofr_300_part1/,Big Book of R Part 1,Books;Resources,Programming,3,yes,auto_classify
+https://fr.futurecoder.io/,Futurecoder Python,Programming;Tutorial;French,"(kept type=Website, dropped tag 'Tutorial')",,n/a,type_conflict
+https://arthurdouillard.com/deepcourse/,Arthur Douillard Deep Course,Deep Learning;Course;French,"(kept type=Website, dropped tag 'Course')",,n/a,type_conflict
+https://rfortherestofus.com/2019/11/how-to-make-beautiful-tables-in-r/,Beautiful Tables in R,Tables;Tutorial,"(kept type=Blog, dropped tag 'Tutorial')",,n/a,type_conflict
+https://www.openscapes.org/blog/2022/05/27/github-illustrated-series/,GitHub Illustrated Series,Git;Tutorial,"(kept type=Blog, dropped tag 'Tutorial')",,n/a,type_conflict
+https://nick.quarto.pub/rstudioconf2022/,Nick Strayer RStudio Conf,Conference;Presentation,"(kept type=Website, dropped tag 'Conference')",,n/a,type_conflict
+https://github.com/isabelizimm/rstudioconf2022-mlops,MLOps RStudio Conf,MLOps;Conference,"(kept type=Website, dropped tag 'Conference')",,n/a,type_conflict
+https://www.apreshill.com/blog/2022-04-we-dont-talk-about-quarto/,We Don't Talk About Quarto,Quarto;Tutorial,"(kept type=Blog, dropped tag 'Tutorial')",,n/a,type_conflict
+https://debruine.github.io/quarto_demo/dark_mode.html,Quarto Dark Mode,Quarto;Tutorial,"(kept type=Website, dropped tag 'Tutorial')",,n/a,type_conflict
+https://github.com/rstudio/rstudio-conf-2022-program,RStudio Conf 2022 Program,Conference;Schedule,"(kept type=Website, dropped tag 'Conference')",,n/a,type_conflict
+https://github.com/rstudio/rstudio-conf-2022-program,RStudio Conf 2022 Program,Conference;Schedule,General,1,no,auto_classify
+https://github.com/sadanandpai/git-guide,Git Guide,Git;Tutorial,"(kept type=Community, dropped tag 'Tutorial')",,n/a,type_conflict
+https://rstudio-conf-2022.github.io/get-started-quarto/,Get Started Quarto,Quarto;Workshop,"(kept type=Website, dropped tag 'Workshop')",,n/a,type_conflict
+https://twitter.com/starfalldocs/status/1569248479536373764,Twitter Starfall Docs,Documentation;Twitter,"(kept type=Website, dropped tag 'Documentation')",,n/a,type_conflict
+https://twitter.com/iximiuz/status/1563851156417298434,Twitter Container Tutorial,Docker;Tutorial,"(kept type=Website, dropped tag 'Tutorial')",,n/a,type_conflict
+https://twitter.com/WomenInStat/status/1286420597505892352,Twitter Women in Stat,Statistics;Community,"(kept type=Website, dropped tag 'Community')",,n/a,type_conflict
+https://betaandbit.github.io/RML/,R Machine Learning Book,Machine Learning;Book,"(kept type=Website, dropped tag 'Book')",,n/a,type_conflict
+https://ucsb-meds.github.io/creating-quarto-websites/,Creating Quarto Websites,Quarto;Tutorial,"(kept type=Website, dropped tag 'Tutorial')",,n/a,type_conflict
+https://www.r-bloggers.com/how-to-learn-r-2/,R-bloggers - How to Learn R,Education;Tutorial,"(kept type=Blog, dropped tag 'Tutorial')",,n/a,type_conflict
+http://pbil.univ-lyon1.fr/R/enseignement_div.php?contents=html/entree,PBIL Lyon R Teaching,Statistics;Tutorial;French,"(kept type=Website, dropped tag 'Tutorial')",,n/a,type_conflict
+https://abcdr.thinkr.fr/,abcdR ThinkR,Resources;Tutorial;French,"(kept type=Website, dropped tag 'Tutorial')",,n/a,type_conflict
+https://abcdr.thinkr.fr/,abcdR ThinkR,Resources;Tutorial;French,General,0,no,auto_classify
+https://github.com/StateOfTheR,State of the R,Community;Resources,General,0,no,auto_classify
+https://github.com/rstudio/webinars,RStudio Webinars,Education;Video,"(kept type=Community, dropped tag 'Video')",,n/a,type_conflict
+https://stat.ethz.ch/R-manual/R-devel/doc/manual/R-lang.html#Objects,R Language Manual,Programming;Documentation,"(kept type=Website, dropped tag 'Documentation')",,n/a,type_conflict
+https://dcl-docs.stanford.edu/home/,Stanford DCL,Data Science;Course,"(kept type=Website, dropped tag 'Course')",,n/a,type_conflict
+https://www.pdfdrive.com/le-logiciel-r-ma%C3%AEtriser-le-langage-effectuer-des-analyses-statistiques-e156638014.html,PDF Drive R Books,Books;French,"(kept type=Website, dropped tag 'Books')",,n/a,type_conflict
+https://www.pdfdrive.com/le-logiciel-r-ma%C3%AEtriser-le-langage-effectuer-des-analyses-statistiques-e156638014.html,PDF Drive R Books,Books;French,General,0,no,auto_classify
+https://ropensci.org/,rOpenSci,Community;Open Source,"(kept type=Website, dropped tag 'Community')",,n/a,type_conflict
+https://rtask.thinkr.fr/,rtask ThinkR,Blog;French,General,0,no,auto_classify
+https://laderast.github.io/gradual_shiny/,Gradual Shiny,Shiny;Tutorial,"(kept type=Website, dropped tag 'Tutorial')",,n/a,type_conflict
+https://shiny.rstudio.com/articles/,Shiny Articles,Shiny;Documentation,"(kept type=Website, dropped tag 'Documentation')",,n/a,type_conflict
+https://shiny.rstudio.com/articles/layout-guide.html,Shiny Layout Guide,Shiny;Tutorial,"(kept type=Website, dropped tag 'Tutorial')",,n/a,type_conflict
+http://zevross.com/blog/2016/04/19/r-powered-web-applications-with-shiny-a-tutorial-and-cheat-sheet-with-40-example-apps/,Zev Ross Shiny Tutorial,Shiny;Tutorial,"(kept type=Blog, dropped tag 'Tutorial')",,n/a,type_conflict
+https://shiny.rstudio.com/reference/shiny/1.4.0/,Shiny Reference,Shiny;Documentation,"(kept type=Website, dropped tag 'Documentation')",,n/a,type_conflict
+https://rtask.thinkr.fr/fr/demarrer-avec-golem/,ThinkR golem Tutorial,Shiny;Tutorial;French,"(kept type=Blog, dropped tag 'Tutorial')",,n/a,type_conflict
+https://www.youtube.com/watch?v=OU1-CkSVdTI&t=1356s,golem Demo,Shiny;Tutorial,"(kept type=Video, dropped tag 'Tutorial')",,n/a,type_conflict
+https://groups.google.com/forum/m/#!topic/shiny-discuss/cGbnVQbutLI,Shiny Google Group,Shiny;Community,"(kept type=Forum, dropped tag 'Community')",,n/a,type_conflict
+http://golemverse.org/,golemverse,Shiny;Community,"(kept type=Website, dropped tag 'Community')",,n/a,type_conflict
+https://www.youtube.com/watch?v=6qI4NzxlAFU&feature=youtu.be,Shiny Advanced Tips,Shiny;Tutorial,"(kept type=Video, dropped tag 'Tutorial')",,n/a,type_conflict
+https://deanattali.com/blog/advanced-shiny-tips/,Dean Attali Advanced Shiny,Shiny;Tutorial,"(kept type=Blog, dropped tag 'Tutorial')",,n/a,type_conflict
+http://emilkirkegaard.dk/understanding_statistics/,Understanding Statistics,Statistics;Tutorial,"(kept type=Website, dropped tag 'Tutorial')",,n/a,type_conflict
+https://www.statisticshowto.datasciencecentral.com/parametric-and-non-parametric-data/,Parametric vs Non-parametric,Statistics;Tutorial,"(kept type=Website, dropped tag 'Tutorial')",,n/a,type_conflict
+https://github.com/mine-cetinkaya-rundel/hello-quarto-demo,Hello Quarto Demo,Quarto;Tutorial,"(kept type=Website, dropped tag 'Tutorial')",,n/a,type_conflict
+https://art-from-code.netlify.app/,Art from Code,Generative Art;Tutorial,"(kept type=Website, dropped tag 'Tutorial')",,n/a,type_conflict
+https://github.com/rstudio/rstudio-conf/blob/master/2022/,RStudio Conf 2022 Talks,Conference;Presentations,"(kept type=Website, dropped tag 'Conference')",,n/a,type_conflict
+https://beamilz.com/talks/en/2022-rstudio-conf/,Bea Milz Talks,Conference;Presentations,"(kept type=Website, dropped tag 'Conference')",,n/a,type_conflict
+https://meghan.rbind.io/talk/rstudioconf/,Meghan Hall Talks,Conference;Presentations,"(kept type=Website, dropped tag 'Conference')",,n/a,type_conflict
+https://www.youtube.com/watch?v=oOKJLMAkEiw,Shiny Modules,Shiny;Tutorial,"(kept type=Video, dropped tag 'Tutorial')",,n/a,type_conflict
+https://github.com/rstudio/rstudio-conf/blob/master/2022/davidsmith/Zero%20Setup%20Workshops%20RStudioConf%202022%20-%20David%20Smith.pdf,Zero Setup Workshops,Education;Workshops,"(kept type=Website, dropped tag 'Workshops')",,n/a,type_conflict
+https://nrennie.rbind.io/talks/2022-july-rstudio-conf/,Nicola Rennie rstudio::conf,Conference;Presentations,"(kept type=Website, dropped tag 'Conference')",,n/a,type_conflict
+https://github.com/rstudio/rstudio-conf/blob/master/2022/colingillespie/2022-07-27_rstudio-conf%20-%20Colin%20Gillespie.pdf,Colin Gillespie Presentation,Conference;Programming,"(kept type=Website, dropped tag 'Conference')",,n/a,type_conflict
+https://github.com/rstudio/rstudio-conf/blob/master/2022/josiahparry/rstudio__conf(2022L)%20-%20Josiah%20Parry.pdf,Josiah Parry Presentation,Conference;Spatial,"(kept type=Website, dropped tag 'Conference')",,n/a,type_conflict
+https://rconf-2022-caro-buck.netlify.app/#/section,Caro Buck Presentation,Conference;Presentations,"(kept type=Website, dropped tag 'Conference')",,n/a,type_conflict
+https://wikimpri.dptinfo.ens-cachan.fr/doku.php?id=cours:c-2-40,MPRI Probabilistic Programming,Probabilistic Programming;Course,"(kept type=Website, dropped tag 'Course')",,n/a,type_conflict
+https://learnopencv.com/about/,Learn OpenCV,Computer Vision;Tutorial,"(kept type=Blog, dropped tag 'Tutorial')",,n/a,type_conflict
+https://www.youtube.com/watch?v=HskbLn212-8&list=PLCOlyo7OBQvtzOda3jJLgq3RmXK9hYPKi,Deep Learning Course,Deep Learning;Course,"(kept type=Video, dropped tag 'Course')",,n/a,type_conflict
+https://github.com/frrrenchies/frrrenchies,French R Users,Community;French,General,0,no,auto_classify
+https://python-charts.com/,Python Charts,Visualization;Tutorial,"(kept type=Website, dropped tag 'Tutorial')",,n/a,type_conflict
+https://stanford.edu/~shervine/teaching/,Stanford CS Cheatsheets,Machine Learning;Cheatsheet,"(kept type=Website, dropped tag 'Cheatsheet')",,n/a,type_conflict
+https://eliocamp.github.io/reproducibility-with-r/about/,Reproducibility with R,Reproducibility;Tutorial,"(kept type=Book, dropped tag 'Tutorial')",,n/a,type_conflict
+https://rinpharma.com/,R in Pharma,Pharmaceutical;Community,"(kept type=Website, dropped tag 'Community')",,n/a,type_conflict
+https://github.com/rstudio/rstudio-conf/blob/master/2022/README.md#keynotes-and-talks,rstudio::conf 2022 Materials,Conference;Resources,"(kept type=Website, dropped tag 'Conference')",,n/a,type_conflict
+https://github.com/rstudio/rstudio-conf/blob/master/2022/README.md#keynotes-and-talks,rstudio::conf 2022 Materials,Conference;Resources,General,1,no,auto_classify
+https://cedricbatailler.me/blog/2022-apero/,Cédric Batailler - Apéro,Blog;Tutorial,"(kept type=Blog, dropped tag 'Tutorial')",,n/a,type_conflict
+https://cedricbatailler.me/blog/2022-apero/,Cédric Batailler - Apéro,Blog;Tutorial,General,0,no,auto_classify
+https://samanthacsik.github.io/posts/2022-10-24-quarto-blogs/,Samantha Csik - Quarto Blogs,Quarto;Tutorial,"(kept type=Blog, dropped tag 'Tutorial')",,n/a,type_conflict
+https://drmowinckels.github.io/quartaki/,Quartaki,Quarto;Tutorial,"(kept type=Website, dropped tag 'Tutorial')",,n/a,type_conflict
+https://book.rwithoutstatistics.com/,R Without Statistics,Programming;Tutorial,"(kept type=Book, dropped tag 'Tutorial')",,n/a,type_conflict
+https://github.com/ThinkR-open/golem/wiki,golem Wiki,Shiny;Documentation,"(kept type=Website, dropped tag 'Documentation')",,n/a,type_conflict
+https://epirhandbook.com/en/,Epi R Handbook,Epidemiology;Tutorial,"(kept type=Book, dropped tag 'Tutorial')",,n/a,type_conflict
+https://www.learnr4free.com/en/index.html,Learn R for Free,Education;Tutorial,"(kept type=Website, dropped tag 'Tutorial')",,n/a,type_conflict
+https://github.com/rmcelreath/stat_rethinking_2022,Statistical Rethinking 2022,Statistics;Bayesian;Course,"(kept type=Website, dropped tag 'Course')",,n/a,type_conflict
+https://nyandwi.com/machine_learning_complete/,ML Complete Course,Machine Learning;Tutorial,"(kept type=Website, dropped tag 'Tutorial')",,n/a,type_conflict
+https://oscarbaruffa.com/rscreencasts/,R Screencasts,Video;Tutorial,"(kept type=Website, dropped tag 'Video')",,n/a,type_conflict
+https://oscarbaruffa.com/rscreencasts/,R Screencasts,Video;Tutorial,"(kept type=Website, dropped tag 'Tutorial')",,n/a,type_conflict
+https://oscarbaruffa.com/rscreencasts/,R Screencasts,Video;Tutorial,General,1,no,auto_classify
+https://rzine.fr/,Rzine,Community,"(kept type=Magazine, dropped tag 'Community')",,n/a,type_conflict
+https://rzine.fr/,Rzine,Community,General,0,no,auto_classify
+https://t.co/Atx1sVAb55,t.co,General,Deep Learning,2,yes,auto_classify
+https://simplystatistics.org](https://simplystatistics.org/),simplystatistics](https,General,General,0,no,auto_classify
+https://www.amazon.com/gp/product/1491962291/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&tag=quantpytho-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=1491962291&linkId=e1818e0c5c578f9fc0b487a70f3f4266,amazon,General,Machine Learning,2,yes,auto_classify
+https://twitter.com/_ColinFay/status/1539524332111679488?t=axH94EBeUDtOzcIgaPsJsQ&s=19,twitter,General,General,1,no,auto_classify
+https://learngitbranching.js.org/?locale=fr_FR,learngitbranching.js,General,Data Visualization,2,yes,auto_classify
+http://apprendre-python.com/page-apprendre-tuples-tuple-python?fbclid=IwAR0uvoiEj_Xy7Pq8q64IY11dm2PA1YxnMOYB93R4AYudq5s-SsZx7x82-g4,apprendre-python,General,General,0,no,auto_classify
+https://github.com/gadenbuie/xaringanExtra,github,General,General,1,no,auto_classify
+https://r-pkgs.org/e,r-pkgs,General,General,0,no,auto_classify
+https://statistique-et-logiciel-r.com/introduction-aux-glm/),statistique-et-logiciel-r,General,General,0,no,auto_classify
+http://statsoft.fr/concepts-statistiques/test-non-parametriques/test-non-parametriques.htm#.XXXwwygzZaQ,statsoft.fr,General,General,0,no,auto_classify
+https://github.com/rstudio/rstudio-conf/blob/master/2022/nicholastierney/The%20Future%20of%20NA%20Data.pdf,github,General,General,1,no,auto_classify
+https://www.sciencedirect.com/science/article/abs/pii/S0950329322000568?dgcid=author,sciencedirect,General,General,0,no,auto_classify
+https://www.dropbox.com/s/3ds01k9hdtn2ghb/user2022_silge.pdf?dl=0,dropbox,General,General,0,no,auto_classify
+https://www.writethedocs.org/guide/writing/beginners-guide-to-docs/?highlight=readme#readme,writethedocs,General,Programming,2,yes,auto_classify
+https://rtask.thinkr.fr/download-gitlab-or-github-issues-and-make-a-summary-report-of-your-commits/?utm_source=dlvr.it&utm_medium=twitter,rtask.thinkr.fr,General,Git,2,yes,auto_classify
+https://twitter.com/GoAbiAryan/status/1580852750526468097?s=20&t=qFrbF1hlfZcc5gElrfCXaw,twitter,General,General,1,no,auto_classify
+https://twitter.com/ChristophMolnar/status/1570336874799190016?s=20&t=qFrbF1hlfZcc5gElrfCXaw,twitter,General,General,1,no,auto_classify
+https://twitter.com/starfalldocs/status/1569248479536373764?s=20&t=qFrbF1hlfZcc5gElrfCXaw,twitter,General,General,1,no,auto_classify
+https://twitter.com/PipingHotData/status/1565354597656690697?s=20&t=qFrbF1hlfZcc5gElrfCXaw,twitter,General,General,1,no,auto_classify
+https://twitter.com/iximiuz/status/1563851156417298434?s=20&t=qFrbF1hlfZcc5gElrfCXaw,twitter,General,General,1,no,auto_classify
+https://twitter.com/oaggimenez/status/1556559752938885120?s=20&t=qFrbF1hlfZcc5gElrfCXaw,twitter,General,General,1,no,auto_classify
+https://twitter.com/jackclarkSF/status/1555980412333133824?s=20&t=qFrbF1hlfZcc5gElrfCXaw,twitter,General,General,1,no,auto_classify
+https://twitter.com/WomenInStat/status/1286420597505892352?s=20&t=qFrbF1hlfZcc5gElrfCXaw,twitter,General,General,1,no,auto_classify
+https://twitter.com/emollick/status/1549353991523426305?s=20&t=qFrbF1hlfZcc5gElrfCXaw,twitter,General,General,1,no,auto_classify
+https://twitter.com/suzatweet/status/1545685140822687746?s=20&t=qFrbF1hlfZcc5gElrfCXaw,twitter,General,General,1,no,auto_classify
+https://twitter.com/giulianonetto/status/1539707646751649793?s=20&t=qFrbF1hlfZcc5gElrfCXaw,twitter,General,General,1,no,auto_classify
+https://twitter.com/iScienceLuvr/status/1531553413581791233?s=20&t=qFrbF1hlfZcc5gElrfCXaw,twitter,General,General,1,no,auto_classify
+https://twitter.com/marktenenholtz/status/1522184346324459520?s=20&t=qFrbF1hlfZcc5gElrfCXaw,twitter,General,General,1,no,auto_classify
+https://twitter.com/KarSergios/status/1516732541444763648?s=20&t=qFrbF1hlfZcc5gElrfCXaw,twitter,General,General,1,no,auto_classify
+https://twitter.com/v_vashishta/status/1516461652400427010?s=20&t=qFrbF1hlfZcc5gElrfCXaw,twitter,General,General,1,no,auto_classify
+https://twitter.com/DalianaLiu/status/1513962919884591106?s=20&t=qFrbF1hlfZcc5gElrfCXaw,twitter,General,General,1,no,auto_classify
+https://twitter.com/marktenenholtz/status/1511312726923964421?s=20&t=qFrbF1hlfZcc5gElrfCXaw,twitter,General,General,1,no,auto_classify
+https://twitter.com/heyeaslo/status/1487607754692956166?s=20&t=qFrbF1hlfZcc5gElrfCXaw,twitter,General,General,1,no,auto_classify
+https://twitter.com/heyeaslo/status/1505725893674627075?s=20&t=qFrbF1hlfZcc5gElrfCXaw,twitter,General,General,1,no,auto_classify
+https://twitter.com/ChristophMolnar/status/1504449282073677824?s=20&t=qFrbF1hlfZcc5gElrfCXaw,twitter,General,General,1,no,auto_classify
+https://twitter.com/marktenenholtz/status/1501905740813848582?s=20&t=qFrbF1hlfZcc5gElrfCXaw,twitter,General,General,1,no,auto_classify
+https://twitter.com/data_question/status/1498303990110777346?s=20&t=qFrbF1hlfZcc5gElrfCXaw,twitter,General,General,1,no,auto_classify
+https://twitter.com/ChristophMolnar/status/1485549716268109824?s=20&t=qFrbF1hlfZcc5gElrfCXaw,twitter,General,General,1,no,auto_classify
+https://youtu.be/NFo9v_yKQXA,youtu.be,General,Machine Learning,2,yes,auto_classify
+https://youtu.be/vO_Wn2tgIck,youtu.be,General,General,1,no,auto_classify
+https://sites.google.com/site/indrajeetspatilmorality/presentations,sites.google,General,General,1,no,auto_classify
+https://statnmap.com/fr/2021-10-09-comment-ne-pas-etre-perdu-avec-vscode-quand-on-vient-de-rstudio/,statnmap,General,General,1,no,auto_classify
+https://www.rselenium-teaching.etiennebacher.com/#/title-slide,rselenium-teaching.etiennebacher,General,General,1,no,auto_classify
+https://indrajeetpatil.github.io/dry-r-package-development/#/dry-package-development-in-r,indrajeetpatil.github.io,General,R Ecosystem,3,yes,auto_classify
+https://afia.asso.fr/p,afia.asso.fr,General,General,0,no,auto_classify
+https://codyhouse.co/nuggets,codyhouse.co,General,General,0,no,auto_classify
+https://indrajeetpatil.github.io/awesome-r-pkgtools/,indrajeetpatil.github.io,General,General,1,no,auto_classify
+https://ellakaye.co.uk/,ellakaye.co.uk,General,General,0,no,auto_classify
+https://mgirlich.github.io/tibblify/,mgirlich.github.io,General,General,1,no,auto_classify
+https://arxiv.org/abs/2211.09110,arxiv,General,General,1,no,auto_classify
+https://www.riffusion.com/about,riffusion,General,General,0,no,auto_classify
+https://github.com/EleutherAI/pythia,github,General,General,1,no,auto_classify
+https://arxiv.org/abs/2208.07614,arxiv,General,General,0,no,auto_classify
+https://indrajeetpatil.github.io/dry-r-package-development/#/plan,indrajeetpatil.github.io,General,R Ecosystem,3,yes,auto_classify
+https://dynalist.io/d/n2ZWtnoYHrU1s4vnFSAQ519J,dynalist.io,General,General,0,no,auto_classify
+https://johnbedwards.io/blog/stacks/,johnbedwards.io,General,General,1,no,auto_classify
+https://github.com/MichelNivard/GPTstudio,github,General,General,1,no,auto_classify
+https://github.com/JamesHWade/gpttools,github,General,Programming,2,yes,auto_classify
+https://ruder.io/optimizing-gradient-descent/,ruder.io,General,Machine Learning,6,yes,auto_classify
+https://medium.com/@gspmalloy/a-quick-intro-to-infectious-disease-modeling-in-r-for-beginners-5f4dbdf68e9e,gspmalloy,General,General,0,no,auto_classify
+https://evalsp23.classes.andrewheiss.com/,evalsp23.classes.andrewheiss,General,Causal Inference,2,yes,auto_classify
+https://pudding.cool/,pudding.cool,General,General,0,no,auto_classify
+https://www.stephaniehicks.com/jhustatcomputing2022/schedule,stephaniehicks,General,General,1,no,auto_classify
+https://www.stephaniehicks.com/jhustatprogramming2022/schedule,stephaniehicks,General,General,1,no,auto_classify
+https://geocompx.org/,geocompx,General,Data Science,3,yes,auto_classify
+https://makevscodeawesome.com/,makevscodeawesome,General,Developer Tools,2,yes,auto_classify
+https://udlbook.github.io/udlbook/,udlbook.github.io,General,General,1,no,auto_classify
+https://fr.vittascience.com/learn/?search=&support=&difficulty=&lang=fr,fr.vittascience,General,General,0,no,auto_classify
+https://stats.oarc.ucla.edu/r/,stats.oarc.ucla.edu,General,Data Science,3,yes,auto_classify
+https://www.rscreencasts.com/,rscreencasts,General,Data Science,3,yes,auto_classify
+https://github.com/linkwarden/linkwarden,github,General,General,1,no,auto_classify
+https://bachl.github.io/sim/,bachl.github.io,General,General,1,no,auto_classify
+https://github.com/etiennebacher/tidypolars,github,General,R Ecosystem,2,yes,auto_classify
+https://github.com/Alpha-VLLM/LLaMA2-Accessory,github,General,General,1,no,auto_classify
+https://nixtla.github.io/statsforecast/,nixtla.github.io,General,General,1,no,auto_classify
+https://raps-with-r.dev/,raps-with-r.dev,General,Programming,2,yes,auto_classify
+https://rolkra.github.io/R-VSCode/,rolkra.github.io,General,General,1,no,auto_classify
+https://github.com/matthewvowels1/Awesome-Causal-Inference,github,General,Causal Inference,2,yes,auto_classify
+https://github.com/tiimgreen/github-cheat-sheet,github,General,Git,2,yes,auto_classify
+https://github.com/jnv/lists,github,General,General,1,no,auto_classify
+https://www.andrewheiss.com/blog/2022/05/20/marginalia/,andrewheiss,General,General,1,no,auto_classify
+https://github.com/jondot/awesome-devenv,github,General,General,1,no,auto_classify
+https://www.r-consortium.org/tag/r-pharma,r-consortium,General,General,0,no,auto_classify
+https://twitter.com/GregoireSimpson/status/1655239877783347201?t=AmmSEMTAbxZI8yt4tx8Oaw&s=19,twitter,General,General,1,no,auto_classify
+https://www.shutterencoder.com/fr/,shutterencoder,General,Open Source & Automation,2,yes,auto_classify
+https://spacesniffer.fr.softonic.com/m,spacesniffer.fr.softonic,General,General,1,no,auto_classify
+https://fromsmash.com/,fromsmash,General,General,0,no,auto_classify
+https://arxiv.org/abs/2302.07730,arxiv,General,Machine Learning,2,yes,auto_classify
+https://openpress.sussex.ac.uk/introductiontobiologicalpsychology,openpress.sussex.ac.uk,General,General,1,no,auto_classify
+https://psyteachr.github.io/,psyteachr.github.io,General,General,1,no,auto_classify
+https://www.bortzmeyer.org/,bortzmeyer,General,General,0,no,auto_classify
+https://bougioukas-medstats-r.netlify.app/,bougioukas-medstats-r.netlify.app,General,General,1,no,auto_classify
+https://www.good-practices.etiennebacher.com/#/title-slide,good-practices.etiennebacher,General,General,1,no,auto_classify
+https://justice.pappers.fr/,justice.pappers.fr,General,General,0,no,auto_classify
+https://observablehq.com/@observablehq/data-wrangling-translations,observablehq,General,General,1,no,auto_classify
+https://davidpicard.github.io/,davidpicard.github.io,General,Computer Vision,2,yes,auto_classify
+https://youtu.be/DTMVzK7iZFU,youtu.be,General,General,1,no,auto_classify
+https://solomonkurz.netlify.app/blog/2023-04-12-boost-your-power-with-baseline-covariates/,solomonkurz.netlify.app,General,Causal Inference,2,yes,auto_classify
+https://speakerdeck.com/gaelvaroquaux/representation-learning-on-relational-data-to-automate-data-preparation?slide=7,speakerdeck,General,Data Science,2,yes,auto_classify
+https://www.cambridge.org/core/elements/language-of-fake-news/7B37014A5C0768AEE806167E8ADD5897,cambridge,General,General,0,no,auto_classify
+https://schmidtpaul.github.io/,schmidtpaul.github.io,General,Education,2,yes,auto_classify
+https://github.com/Hannibal046/Awesome-LLM#other-awesome-lists,github,General,General,1,no,auto_classify
+https://githubnext.com/,githubnext,General,General,1,no,auto_classify
+https://t.co/AflLxMgm0I,t.co,General,General,0,no,auto_classify
+https://bookdown.org/content/4253/,bookdown,General,General,0,no,auto_classify
+https://arxiv.org/abs/2103.11251,arxiv,General,Machine Learning,3,yes,auto_classify
+https://arxiv.org/abs/1702.08608,arxiv,General,Machine Learning,2,yes,auto_classify
+https://arxiv.org/abs/1901.04592,arxiv,General,General,1,no,auto_classify
+https://www.datarevenue.com/en-blog/interpretable-machine-learning,datarevenue,General,General,0,no,auto_classify
+https://github.com/moodymudskipper,github,General,General,1,no,auto_classify
+https://github.com/orgs/InseeFrLab/repositories,github,General,General,1,no,auto_classify
+https://pythonds.linogaliana.fr/,pythonds.linogaliana.fr,General,Data Science,4,yes,auto_classify
+https://statnmap.com/fr/2021-10-09-comment-ne-pas-etre-perdu-avec-vscode-quand-on-vient-de-rstudio/#je-ne-comprend-pas-sa-fa%C3%A7on-douvrir-des-fichiers-dans-des-onglets,statnmap,General,General,1,no,auto_classify
+https://datamares.netlify.app/en/post/r-vscode/,datamares.netlify.app,General,General,0,no,auto_classify
+https://pages.citedrive.com/r-markdown/,pages.citedrive,General,General,0,no,auto_classify
+https://huggingface.co/chat/,huggingface.co,General,General,1,no,auto_classify
+https://legigpt.fr/,legigpt.fr,General,General,0,no,auto_classify
+https://poe.com/login?redirect_url=%2F,poe,General,General,0,no,auto_classify
+https://tellingstorieswithdata.com/,tellingstorieswithdata,General,General,1,no,auto_classify
+https://huggingface.co/spaces/HuggingFaceH4/starchat-playground,huggingface.co,General,General,0,no,auto_classify
+https://github.com/mshumer/gpt-prompt-engineer,github,General,General,1,no,auto_classify
+https://www.calicarpa.com/,calicarpa,General,General,1,no,auto_classify
+https://www.infomaniak.com/fr,infomaniak,General,General,1,no,auto_classify
+https://consensus.app/,consensus.app,General,General,1,no,auto_classify
+https://www.nature.com/articles/s41562-023-01623-8,nature,General,General,0,no,auto_classify
+https://github.com/ShishirPatil/gorilla,github,General,General,1,no,auto_classify
+https://do4ds.com/,do4ds,General,Data Science,4,yes,auto_classify
+https://pub.demo.posit.team/public/Life_Sciences_Shiny_Showcase/,pub.demo.posit.team,General,General,1,no,auto_classify
+https://rud.is/b/2018/04/08/dissecting-r-package-utility-belts/,rud.is,General,General,1,no,auto_classify
+https://github.com/ollama/ollama,github,General,General,1,no,auto_classify
+https://glittr.org/contribute,glittr,General,General,1,no,auto_classify
+https://summarize.ing/fr/pricing,summarize.ing,General,General,0,no,auto_classify
+https://www.tidy-finance.org/r/,tidy-finance,General,Social Sciences,2,yes,auto_classify
+https://github.com/toeverything/AFFiNE,github,General,Developer Tools,2,yes,auto_classify
+https://github.com/Kanaries/pygwalker?tab=readme-ov-file,github,General,General,1,no,auto_classify
+https://arxiv.org/abs/2404.19756,arxiv,General,General,0,no,auto_classify
+https://paperswithcode.com/sota,paperswithcode,General,General,1,no,auto_classify
+https://github.com/yihui/litedown,github,General,R Markdown,2,yes,auto_classify
+https://colah.github.io/posts/2014-03-NN-Manifolds-Topology/,colah.github.io,General,Computer Vision,2,yes,auto_classify
+https://colah.github.io/,colah.github.io,General,General,1,no,auto_classify
+https://fireducks-dev.github.io/docs/benchmarks/,fireducks-dev.github.io,General,General,1,no,auto_classify
+https://github.com/OpenDevin/OpenDevin,github,General,General,1,no,auto_classify
+https://calculatingempires.net/?pos=157414.82%2C14853.40%2C14.3526,calculatingempires.net,General,General,1,no,auto_classify
+https://roadmap.sh/,roadmap.sh,General,General,1,no,auto_classify
+https://livebook.dev/?utm_source=twitter&utm_medium=social&utm_content=twitter-livebook-profile,livebook.dev,General,General,1,no,auto_classify
+https://www.jiddualexander.com/svg-input-generator,jiddualexander,General,General,1,no,auto_classify
+https://github.com/the-y-company/flexfilter?tab=readme-ov-file,github,General,General,1,no,auto_classify
+https://r-packages.io/,r-packages.io,General,General,1,no,auto_classify
+https://joss.theoj.org/papers/10.21105/joss.06394,joss.theoj,General,Open Source & Automation,2,yes,auto_classify
+https://zed.dev/,zed.dev,General,Programming,3,yes,auto_classify
+https://magicinsert.github.io/,magicinsert.github.io,General,General,1,no,auto_classify
+https://francoismichonneau.net/hire-me/,francoismichonneau.net,General,General,1,no,auto_classify
+https://vincentarelbundock.github.io/tinytable/,vincentarelbundock.github.io,General,General,1,no,auto_classify
+https://www.cursor.com/,cursor,General,General,1,no,auto_classify
+https://posit-conf-2024.github.io/databases/#1,posit-conf-2024.github.io,General,General,1,no,auto_classify
+https://github.com/padamson/stratvis/blob/master/example/server.R,github,General,Data Visualization,3,yes,auto_classify
+https://github.com/epi-interactive/Datatable_Overlay,github,General,General,1,no,auto_classify
+https://github.com/ddotta/ddotta,github,General,General,1,no,auto_classify
+https://themockup.blog/,themockup.blog,General,Data Science,4,yes,auto_classify
+https://vdsbook.com/,vdsbook,General,Data Science,6,yes,auto_classify
+https://rebeccabarter.com/blog/2019-08-19_purrr,rebeccabarter,General,R Ecosystem,4,yes,auto_classify
+https://jchiquet.github.io/MAP566/,jchiquet.github.io,General,General,1,no,auto_classify
+https://www.pynerds.com/modules-in-python/,pynerds,General,General,0,no,auto_classify
+https://vapour.run/,vapour.run,General,General,1,no,auto_classify
+https://ollama.com/blog/continue-code-assistant,ollama,General,General,1,no,auto_classify
+https://cosimameyer.com/post/git-the-perks-of-collaboration-and-version-control/,cosimameyer,General,Git,3,yes,auto_classify
+https://rtask.thinkr.fr/fr/au-dela-des-fonctions-comment-enrichir-un-package-r-avec-des-donnees/,rtask.thinkr.fr,General,General,0,no,auto_classify
+https://clementc.github.io/blog/2024/10/23/notes_on_PyData_Paris_2024/,clementc.github.io,General,General,1,no,auto_classify
+https://presentofcoding.substack.com/p/github-how-to-tell-your-professional,presentofcoding.substack,General,General,0,no,auto_classify
+https://pastum.anatolii.nz/,pastum.anatolii.nz,General,Developer Tools,2,yes,auto_classify
+https://llamaocr.com/,llamaocr,General,General,0,no,auto_classify
+https://pythonds.linogaliana.fr/content/NLP/,pythonds.linogaliana.fr,General,Data Science,4,yes,auto_classify
+https://pydevtools.com/blog/effective-python-developer-tooling-in-december-2024/,pydevtools,General,General,1,no,auto_classify
+https://closeread.dev/,closeread.dev,General,General,1,no,auto_classify
+https://docs.astral.sh/ruff/,docs.astral.sh,General,Programming,2,yes,auto_classify
+https://astral.sh/blog/uv,astral.sh,General,General,1,no,auto_classify
+https://github.com/stackblitz-labs/bolt.diy,github,General,General,1,no,auto_classify
+https://openwebui.com/,openwebui,General,General,1,no,auto_classify
+https://docs.github.com/en/copilot/how-tos/set-up/install-copilot-cli,docs.github,General,General,1,no,auto_classify
+https://www.thekangaroofactory.com/,Philippe PERET,General,General,1,no,auto_classify
+https://www.codecentric.de/en/knowledge-hub/blog/duckdb-vs-dataframe-libraries,DuckDB vs. Polars vs. Pandas: Benchmark & Comparison,General,Programming,2,yes,auto_classify
+https://posit.co/blog/how-to-use-shinymatrix-and-plotly-graphs/,How to use shinyMatrix and plotly graphs as inputs in a Shiny app - Posit,General,General,1,no,auto_classify
+https://www.wizwand.com/task/knowledge-graph-completion,izwand.com — Knowledge Graph Completion,General,General,1,no,auto_classify
+https://walker-data.com/geosam/,geosam,General,General,0,no,auto_classify
+https://www.emilyriederer.com/post/py-rgo-crosspol/,R + Python: From polyglot to pluralism | Emily Riederer,General,Open Source & Automation,2,yes,auto_classify
+https://henry.codes/writing/a-website-to-destroy-all-websites/,A website to destroy all websites.,General,General,1,no,auto_classify
+https://www.productive-r-workflow.com/r/bonus/webr,productive-r-workflow.com — Webr,Tutorial,"(kept type=Website, dropped tag 'Tutorial')",,n/a,type_conflict
+https://www.productive-r-workflow.com/r/bonus/webr,productive-r-workflow.com — Webr,Tutorial,General,1,no,auto_classify
+https://github.com/posit-dev/skills,GitHub - posit-dev/skills: A collection of Claude Skills from Posit,General,General,1,no,auto_classify
+https://mbuffett.com/posts/programming-advice-younger-self/,A Bunch of Programming Advice I’d Give To Myself 15 Years Ago,General,General,1,no,auto_classify
+https://news.ycombinator.com/,Hacker News,General,General,1,no,auto_classify
+https://cynkra.github.io/g6R/articles/shiny.html#mouse-position,Shiny,General,General,1,no,auto_classify
+https://github.com/belian-earth/duckdb-r-editor,GitHub - belian-earth/duckdb-r-editor: A Positron IDE extension to create a rich in-line DuckDB SQL editor experience wi,General,Developer Tools,2,yes,auto_classify
+https://futurize.futureverse.org/index.html,Parallelize Common Functions via One Magic Function,General,Programming,2,yes,auto_classify
+https://github.com/posit-dev/ptd,GitHub - posit-dev/ptd: posit team dedicated toolkit,General,General,1,no,auto_classify
+https://korben.info/mistikee-gestionnaire-mots-de-passe-deni-plausible.html,Mistikee - Le gestionnaire de mots de passe à déni plausible - Korben,General,General,0,no,auto_classify
+https://apps.apple.com/us/app/webrios/id6758071087,webrios App - App Store,General,General,1,no,auto_classify
+https://github.com/tgerke/ducklake-r,GitHub - tgerke/ducklake-r: An R package to interface with DuckLake lakehouses,General,General,1,no,auto_classify
+https://korben.info/claude-code-safety-net-plugin-securite-agent-ia.html,Claude Code Safety Net - Le plugin qui empêche l'IA de tout niquer - Korben,General,General,1,no,auto_classify
+https://korben.info/the-vibe-companion-web-ui-claude-code.html,The Vibe Companion - Une interface web pour piloter Claude Code - Korben,General,General,1,no,auto_classify
+https://gist.github.com/sj-io/3828d64d0969f2a0f05297e59e6c15ad,Claude R Tidyverse Expert,General,R Ecosystem,2,yes,auto_classify
+https://gist.github.com/simonpcouch/fcb6d4d2b6dc4df79f91cd1f0c2e7f52,An example `CLAUDE.md` prompt for R package development,General,R Ecosystem,2,yes,auto_classify
+https://github.com/jeremy-allen/claude-skills,GitHub - jeremy-allen/claude-skills,General,General,1,no,auto_classify
+https://github.com/hesreallyhim/awesome-claude-code#claudemd-files-,"GitHub - hesreallyhim/awesome-claude-code: A curated list of awesome skills, hooks, slash-commands, agent orchestrators,",General,General,1,no,auto_classify
+https://github.com/topepo/bookdown-to-quarto/blob/main/CONVERSION_GUIDE.md,bookdown-to-quarto/CONVERSION_GUIDE.md at main · topepo/bookdown-to-quarto,General,General,1,no,auto_classify
+https://mathieugrenier.fr/blog/coder-avec-claude-c-est-facile-et-rapide-1/les-outils-cli-qui-ont-transforme-mes-agents-ia-audit-adoption-et-synergies-27,Outils CLI pour agent claude: performance et qualité,General,General,1,no,auto_classify
+https://github.com/bahdotsh/wrkflw,GitHub - bahdotsh/wrkflw: Validate and Run GitHub Actions locally.,General,MLOps,2,yes,auto_classify
+https://github.com/hyperverse-r,hyperverse-r,General,R Ecosystem,2,yes,auto_classify
+https://github.com/zeroclaw-labs/zeroclaw,"GitHub - zeroclaw-labs/zeroclaw: Fast, small, and fully autonomous AI assistant infrastructure — deploy anywhere, swap a",General,General,1,no,auto_classify
+https://ragnar.tidyverse.org/,Retrieval-Augmented Generation (RAG) Workflows,General,Generative AI,2,yes,auto_classify
+https://posit-dev.github.io/mcptools/articles/server.html,R as an MCP server,General,Agents,2,yes,auto_classify
+https://posit-dev.github.io/querychat/r/index.html,Filter and Query Data Frames in shiny Using an LLM Chat Interface,General,General,1,no,auto_classify
+https://posit-dev.github.io/shinychat/r/,Chat UI Component for shiny,General,General,1,no,auto_classify
+https://www.reddit.com/r/Python/s/oMqyusmQsV,Top Python Libraries of 2025 (11th Edition),General,General,1,no,auto_classify
+https://posit.co/blog/closeread-prize-winners/,Winners of the Closeread Prize - Data-Driven Scrollytelling with Quarto - Posit,General,General,1,no,auto_classify
+https://blog.davisvaughan.com/posts/2026-01-09-claude-200-pull-requests/,Semi-automating 200 Pull Requests with Claude Code,General,General,1,no,auto_classify
+https://www.sspcloud.fr/catalog,SSPCloud,General,General,0,no,auto_classify
+https://ssm-agriculture.github.io/site-formations-R/,Modules de formations à et Git dispensés au SSM Agriculture,General,General,1,no,auto_classify
+https://ggsql.org/,ggsql,General,Data Visualization,3,yes,auto_classify
+https://rwarehouse.netlify.app/,rwarehouse.netlify.app,General,General,1,no,auto_classify
+https://m.canouil.dev/mastering-quarto-cli/,Mastering Quarto CLI: From Authoring to Publishing – Mastering Quarto CLI,General,Data Science,4,yes,auto_classify
+https://github.com/github/awesome-copilot/tree/cfb896c2325b8c0527a88362846d25b8080c5071?tab=readme-ov-file,GitHub - github/awesome-copilot at cfb896c2325b8c0527a88362846d25b8080c5071,General,Agents,3,yes,auto_classify
+https://emilhvitfeldt.com/project/slidecraft-101/,slidecraft-101,Slides;Quarto,"(kept type=Website, dropped tag 'Slides')",,n/a,type_conflict
+https://github.com/EmilHvitfeldt/slidecrafting-book.com,slidecrafting-book.com,Slides;Quarto;Book,"(kept type=Repository, dropped tag 'Slides')",,n/a,type_conflict
+https://github.com/EmilHvitfeldt/slidecrafting-book.com,slidecrafting-book.com,Slides;Quarto;Book,"(kept type=Repository, dropped tag 'Book')",,n/a,type_conflict
+https://pierrot.show/,pierrot.show,Slides;Quarto,"(kept type=Website, dropped tag 'Slides')",,n/a,type_conflict
+https://www.rencontresr.fr/rencontres.html,Rencontres R,Conference;French,"(kept type=Website, dropped tag 'Conference')",,n/a,type_conflict
+https://www.rencontresr.fr/rencontres.html,Rencontres R,Conference;French,General,0,no,auto_classify
+https://sadtalkerai.com/real-time-speech-text-streaming-app-hugging-face/,SadTalker - Real-time ASR Streaming App,Speech;Deep Learning;Tutorial,"(kept type=Blog, dropped tag 'Tutorial')",,n/a,type_conflict
+https://yohann-data.fr/posts/sweetalert2/,yohann-data.fr - SweetAlert2,Shiny;Tutorial;French,"(kept type=Blog, dropped tag 'Tutorial')",,n/a,type_conflict
+https://github.com/github/awesome-copilot/blob/main/docs/README.hooks.md,awesome-copilot - README.hooks,AI;Hooks;Documentation,"(kept type=Repository, dropped tag 'Documentation')",,n/a,type_conflict
+https://slidecrafting-book.com/,slidecrafting-book.com,Slides;Quarto;Book,"(kept type=Website, dropped tag 'Slides')",,n/a,type_conflict
+https://slidecrafting-book.com/,slidecrafting-book.com,Slides;Quarto;Book,"(kept type=Website, dropped tag 'Book')",,n/a,type_conflict
+https://r-project.ro/conference2026.html#Registration,R Project Conference 2026 (Romania),Conference;R,General,0,no,auto_classify
+https://claude.com/resources/tutorials,Claude resources/tutorials,AI;Claude;Tutorials,"(kept type=Website, dropped tag 'Tutorials')",,n/a,type_conflict
+https://github.com/EmilHvitfeldt/quarto-revealjs-editable,EmilHvitfeldt/quarto-revealjs-editable,Quarto;Reveal.js;Slides,"(kept type=Repository, dropped tag 'Slides')",,n/a,type_conflict
+https://pytogether.org/playground,pytogether playground,Python;Community,"(kept type=Website, dropped tag 'Community')",,n/a,type_conflict
+https://pytogether.org/playground,pytogether playground,Python;Community,General,0,no,auto_classify
+https://typst-in-production.com/crash-course/lesson-1/,typst-in-production - crash course,Typst;Tutorial,"(kept type=Course, dropped tag 'Tutorial')",,n/a,type_conflict
+https://goose-docs.ai/,goose-docs,AI;Agents;Documentation,"(kept type=Website, dropped tag 'Documentation')",,n/a,type_conflict
+https://r-statistics.co/OOP-in-R.html,r-statistics.co - OOP in R,R;OOP;Tutorial,"(kept type=Website, dropped tag 'Tutorial')",,n/a,type_conflict
+https://emilhvitfeldt.github.io/quarto-revealjs-editable/,quarto-revealjs-editable (site),Quarto;Reveal.js;Slides,"(kept type=Website, dropped tag 'Slides')",,n/a,type_conflict
+https://repoinsider.com/,repoinsider,GitHub;Repository;Tools,"(kept type=Website, dropped tag 'Repository')",,n/a,type_conflict
+https://rinpharma.com/docs/blog/posts/2026-05-12-genAI-schedule/,rinpharma - genAI schedule,R;Conference;GenAI,"(kept type=Blog, dropped tag 'Conference')",,n/a,type_conflict
+https://altdoc.etiennebacher.com/#/,altdoc etiennebacher,R;Documentation;Tools,"(kept type=Website, dropped tag 'Documentation')",,n/a,type_conflict
+https://bjarkehautop.github.io/reftip/,bjarkehautop/reftip,R;References;Tutorial,"(kept type=Website, dropped tag 'Tutorial')",,n/a,type_conflict
+https://github.com/christopherkenny/awesome-rstats-skills,GitHub - christopherkenny/awesome-rstats-skills: Awesome list of rstats skills for AI workflows,General,General,1,no,auto_classify

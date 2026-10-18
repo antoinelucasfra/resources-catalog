@@ -39,13 +39,21 @@ description: "The online version of Mastering Shiny, a book that teaches you to 
 
 ### Valid `language` values
 
-`R` · `Python` · `Other` · or a combination like `R;Python`
+`R` · `Python` · `Other` · `French` · `JavaScript` · `Julia` · or a combination like `R;Python`
 
 ### `category` conventions
 
 - Use existing category tags when possible (check the catalog category filter for current tags)
 - Separate multiple tags with `;` and no surrounding spaces: `"Statistics;Mixed Models;GLMM"`
 - Tags are case-sensitive as written in the file: use title case
+
+### Tag vocabulary
+
+The canonical topic list lives in `scripts/tags.toml` under `[topics]`: each entry is a topic name followed by the raw tag spellings that merge onto it. `category` values that aren't a topic name or a listed alias are invented tags, and CI's `scripts/lint.py` rejects them, so don't make up a new tag inline in a PR.
+
+To propose a new topic (or a new alias for an existing one), open a PR that edits `scripts/tags.toml` alongside the resource entries that need it, and make sure `uv run python scripts/lint.py` passes. A new topic should cover more than one or two entries; smaller clusters belong as an alias on an existing topic instead.
+
+`General` is the fallback tag for entries that don't fit anywhere else yet. Prefer reusing an existing alias over adding `General` or inventing a new topic, and when scoring or auto-tagging new entries, check `scripts/tags.toml` first.
 
 ---
 
