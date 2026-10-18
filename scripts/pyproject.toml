@@ -9,6 +9,3 @@ dependencies = [
     "trafilatura",
     "htmldate",
 ]
-
-[tool.uv]
-dev-dependencies = []

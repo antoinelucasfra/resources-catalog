@@ -38,12 +38,15 @@ jobs:
             any::rlang
 
       # Runner images are mid-migration (Quarto present in some snapshots,
-      # absent in others). Install a pinned .deb with dpkg: deterministic, and
-      # dpkg does not have apt's --allow-downgrades guard. `quarto-required`
-      # in _quarto.yml gates the version floor as a backstop.
+      # absent in others), and the official quarto-actions setup still apt-
+      # installs pinned versions, which trips the downgrade guard. Install a
+      # pinned .deb with dpkg instead: deterministic, checksum-verified, and
+      # dpkg has no downgrade guard. `quarto-required` in _quarto.yml gates the
+      # version floor as a backstop.
       - name: Install Quarto
         run: |
           wget -q https://github.com/quarto-dev/quarto-cli/releases/download/v1.9.37/quarto-1.9.37-linux-amd64.deb
+          echo "98aad03c8ce11705caa7c48b8f6ea59f6ab02d1579e754ddb530c0f2e7b471c6  quarto-1.9.37-linux-amd64.deb" | sha256sum -c -
           sudo dpkg --force-downgrade -i quarto-1.9.37-linux-amd64.deb
           quarto --version
 
