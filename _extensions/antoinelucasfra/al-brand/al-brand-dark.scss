@@ -1,0 +1,9 @@
+// AL Brand — dark theme entry point.
+// Pair with: theme: [..., al-brand-dark]
+/*-- scss:defaults --*/
+@import "defaults-dark";
+
+/*-- scss:rules --*/
+@import "root-dark";
+@import "components";
+@import "rules";

@@ -1,0 +1,71 @@
+// AL Brand — dark mode defaults.
+// Maps the brand palette onto common variable names shared by both modes,
+// so _rules.scss is written once.
+
+// ── Accent: sky-blue family ──────────────────────────────────────────────
+$sky:          #38BDF8;
+$sky-light:    #7DD3FC;
+$sky-deep:     #0284C7;
+$sky-dim:      #0EA5E9;
+
+// ── Surfaces (dark) ──────────────────────────────────────────────────────
+$page-bg:      #0F1117;   // void — true dark base
+$surface:      #161B22;   // cards, sidebar, secondary surfaces
+$surface-el:   #1C2128;   // elevated surfaces
+$bord-subtle:  #21262D;   // subtle borders
+$bord-strong:  #30363D;   // stronger borders / dividers
+
+// ── Text ─────────────────────────────────────────────────────────────────
+$text:         #E6EDF3;   // near-white body text
+$text-dim:     #C9D1D9;   // slightly muted headings / secondary text
+$muted:        #8B949E;
+
+// ── Code surfaces (Dracula-family — same in both modes) ──────────────────
+$code-bg:      #0D1117;
+$code-surface: #161B22;
+$code-text:    #79C0FF;
+$code-border:  #30363D;
+
+// ── Semantic ─────────────────────────────────────────────────────────────
+$teal:         #2DD4BF;
+$danger-c:     #F85149;
+$chrome:       #0F1117;   // navbar — deliberately dark in both modes
+
+// ── Per-mode typography colours for _rules.scss ──────────────────────────
+$h1-color:        $sky;
+$h2-color:        $text-dim;
+$h34-color:       #B0BAC6;
+$table-th-bg:     rgba(56, 189, 248, 0.08);
+$table-th-fg:     $sky-light;
+$card-title-c:    $sky-light;
+$banner-fg:       $text;
+$toc-active-c:    $sky;
+$btn-primary-bg:  $sky;
+$btn-primary-fg:  $page-bg;
+$pill-fg:         $sky-light;
+
+// ── Bootstrap semantic overrides ─────────────────────────────────────────
+$primary:   $sky;
+$secondary: $muted;
+$success:   $teal;
+$info:      $sky-light;
+$warning:   $sky-dim;
+$danger:    $danger-c;
+
+$body-bg:    $page-bg;
+$body-color: $text;
+
+$link-color:       $sky;
+$link-hover-color: $sky-light;
+
+$headings-color:       $sky;
+$headings-font-weight: 700;
+
+$navbar-dark-color:       #E6EDF3;
+$navbar-dark-hover-color: $sky;
+$navbar-dark-brand-color: $sky;
+
+// Typography — pairs with brand.yml fonts (Space Grotesk / JetBrains Mono)
+$font-size-base: 1.0rem;
+$line-height-base: 1.7;
+$font-family-monospace: "JetBrains Mono", monospace;

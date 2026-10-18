@@ -1,0 +1,58 @@
+# Resources Catalog — standalone Quarto site.
+# Published at https://antoinelucasfra.github.io/resources-catalog/ (project page,
+# hence the subpath in site-url: Quarto derives the link base from it).
+project:
+  type: website
+  output-dir: docs
+  render:
+    - "index.qmd"
+
+quarto-required: ">=1.9.37"
+
+website:
+  title: "Resources Catalog"
+  description: "A curated and filterable catalog of 1,000+ data science resources for R, Python, and beyond."
+  favicon: assets/images/favicon.svg
+  image: assets/images/profile-pic.jpg
+  site-url: https://antoinelucasfra.github.io/resources-catalog
+  repo-url: https://github.com/antoinelucasfra/resources-catalog
+  repo-actions: [edit, issue]
+  open-graph: true
+  page-footer:
+    border: true
+    left: |
+      Part of [antoinelucasfra.github.io](https://antoinelucasfra.github.io).
+    center: |
+      &copy; 2026 Antoine Lucas.
+    right: |
+      License: [CC BY NC SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0).
+  navbar:
+    title: "Resources Catalog"
+    search: false
+    background: dark
+    left: []
+    right:
+      - text: Portfolio
+        href: https://antoinelucasfra.github.io
+      - icon: github
+        href: "https://github.com/antoinelucasfra/resources-catalog"
+        aria-label: GitHub
+
+format:
+  html:
+    theme:
+      light:
+        - cosmo
+        - _extensions/antoinelucasfra/al-brand/al-brand-light.scss
+      dark:
+        - cosmo
+        - _extensions/antoinelucasfra/al-brand/al-brand-dark.scss
+    lang: en
+    date-format: "MMMM D, YYYY"
+    highlight-style: dracula
+    anchor-sections: true
+    link-external-newwindow: true
+    toc: false
+
+execute:
+  echo: false

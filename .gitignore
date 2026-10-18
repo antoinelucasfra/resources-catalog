@@ -1,0 +1,26 @@
+# Render output. CI renders docs/ and deploys it to GitHub Pages; it is never
+# committed. Delete an entry here is not needed: a fresh render regenerates all.
+docs/
+
+# Generated listing source, rebuilt at render from resources.txt by index.qmd's
+# R chunk. A frozen chunk would stop clones from re-executing it.
+resources-items.yml
+
+# R
+.Rhistory
+.RData
+.Rproj.user/
+*.Rproj
+
+# Quarto internal
+/.quarto/
+
+# Python
+__pycache__/
+.ruff_cache/
+.env
+
+# OS
+.DS_Store
+
+**/*.quarto_ipynb

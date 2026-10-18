@@ -1,0 +1,70 @@
+---
+title: "Resources Catalog"
+subtitle: "A curated collection of data science resources for R, Python, and beyond."
+description: "A curated and filterable catalog of 1,000+ data science resources for R, Python, and beyond."
+search: false
+format:
+  html:
+    page-layout: full
+listing:
+  - id: resources
+    contents: resources-items.yml
+    type: custom
+    template: catalog-card.ejs
+    sort: "title"
+    sort-ui: [date, title]
+    filter-ui: true
+    categories: true
+    page-size: 24
+    fields: [date, title, description, categories]
+execute:
+  echo: false
+---
+
+## Overview
+
+This project turns a plain-text resource list into a searchable front end for curated data science references across R, Python, statistics, visualization, research workflows, and life sciences.
+
+It is intentionally both a curation project and a small product-engineering exercise: define a lightweight schema, keep the source easy to edit, and ship a fast browsing experience without introducing a heavyweight backend.
+
+## What This Project Includes
+
+- A hand-curated catalog stored in `resources.txt`, with each entry typed, categorized, and optionally annotated with a short description
+- An R step that turns the catalog into a native Quarto listing at render time — text search, sorting, category filtering, and pagination included, with no custom JavaScript
+- A low-friction contribution workflow based on small YAML blocks and documented pull requests
+
+```{r resource-catalog-items}
+#| echo: false
+#| message: false
+#| warning: false
+#| output: false
+source(here::here("resources.R"))
+
+resources <- parse_resources_md(here::here("resources.txt"))
+write_listing_items(resources, here::here("resources-items.yml"))
+```
+
+::: {#resources}
+:::
+
+:::: {.callout-note}
+## Contributing
+Want to add a resource? Edit `resources.txt` and open a PR on [GitHub](https://github.com/antoinelucasfra/resources-catalog). Each resource is a small YAML block:
+
+```yaml
+---
+title: "Resource Title"
+type: Book
+link: https://example.com
+language: R
+category: "Statistics;Tutorial"
+description: "A brief one-sentence description shown on the card and in search."
+---
+```
+
+The `description` field is optional but recommended — it appears on the card and is included in the full-text search.
+
+See [CONTRIBUTING.md](https://github.com/antoinelucasfra/resources-catalog/blob/main/CONTRIBUTING.md) for the full guide, including how resources are synced from Google Keep.
+::::
+
+*Links to external websites are provided for convenience and informational purposes only.*

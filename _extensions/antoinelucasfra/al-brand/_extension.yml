@@ -1,0 +1,9 @@
+title: AL Brand
+author: Antoine Lucas
+version: 1.1.0
+quarto-required: ">=1.9.0"
+description: Personal brand of Antoine Lucas as a Quarto brand extension — sky-blue accent, Space Grotesk / DM Sans / JetBrains Mono, light + dark modes, plus a component SCSS suite (hero, cards, stats band, CV layout).
+contributes:
+  metadata:
+    project:
+      brand: brand.yml

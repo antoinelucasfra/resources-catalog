@@ -1,0 +1,9 @@
+// AL Brand — light theme entry point.
+// Pair with: theme: [cosmo, brand, al-brand-light]
+/*-- scss:defaults --*/
+@import "defaults-light";
+
+/*-- scss:rules --*/
+@import "root-light";
+@import "components";
+@import "rules";
