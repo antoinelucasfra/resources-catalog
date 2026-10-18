@@ -268,12 +268,6 @@ body {
   }
 }
 
-.availability {
-  margin-top: 0.6rem;
-  font-size: 0.95rem;
-  font-weight: 600;
-}
-
 .site-nav-footer {
   margin: 2.5rem 0 1rem;
   font-size: 0.875rem;
@@ -293,6 +287,7 @@ body {
   }
 }
 
+.about-body,
 .about-section {
   max-width: 820px;
   margin: 2rem auto;
@@ -323,6 +318,27 @@ body {
   }
 }
 
+.interests ul {
+  columns: 2;
+  column-gap: 2rem;
+  list-style-type: none;
+  padding-left: 0;
+
+  li {
+    padding: 0.2rem 0 0.2rem 1.2em;
+    position: relative;
+
+    &::before {
+      content: "▸";
+      color: var(--interest-bullet-color);
+      font-size: 0.72em;
+      position: absolute;
+      left: 0;
+      top: 0.28em;
+    }
+  }
+}
+
 .cv-page {
   max-width: 860px;
   margin: 0.75rem auto 3rem;
@@ -343,10 +359,6 @@ body {
   display: flex;
   flex-direction: column;
   gap: 0;
-
-  p {
-    margin: 0;
-  }
 }
 
 .cv-name {
@@ -366,7 +378,6 @@ body {
 }
 
 .cv-title {
-  display: block;
   font-family: "Space Grotesk", sans-serif;
   font-size: 1rem;
   font-weight: 600;
@@ -375,7 +386,6 @@ body {
 }
 
 .cv-subtitle {
-  display: block;
   font-size: 0.85rem;
   color: var(--cv-subtitle-color);
   margin: 0 0 0.75rem 0;
@@ -385,13 +395,6 @@ body {
   display: flex;
   flex-wrap: wrap;
   gap: 0.3rem 1.25rem;
-
-  > p {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.3rem 1.25rem;
-    margin: 0;
-  }
 
   a {
     font-size: 0.82rem;
@@ -443,10 +446,6 @@ body {
   background: var(--cv-summary-bg);
   border-left: 2px solid var(--cv-summary-border);
   border-radius: 0 0.375rem 0.375rem 0;
-
-  p {
-    margin: 0;
-  }
 }
 
 .cv-section-title {
@@ -517,7 +516,6 @@ body {
   color: var(--cv-role-color);
   line-height: 1.25;
   display: block;
-  margin: 0;
 }
 
 .cv-org {
@@ -536,11 +534,9 @@ body {
   padding-top: 0.18rem;
   font-weight: 500;
   font-family: "JetBrains Mono", monospace;
-  margin: 0;
 }
 
-.cv-entry ul,
-.cv-earlier ul {
+.cv-entry ul {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -551,8 +547,7 @@ body {
     font-size: 0.875rem;
     line-height: 1.62;
     color: var(--cv-entry-text-color);
-    /* Gap must clear the wrapped-line leading (0.5425rem at line-height 1.62). */
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.28rem;
 
     &::before {
       content: "▸";
@@ -570,14 +565,20 @@ body {
   }
 }
 
-.cv-skills dl {
-  display: grid;
-  grid-template-columns: 90px 1fr;
-  gap: 0.42rem 0.75rem;
-  margin: 0;
+.cv-skills-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 0.42rem;
 }
 
-.cv-skills dt {
+.cv-skill-row {
+  display: grid;
+  grid-template-columns: 90px 1fr;
+  gap: 0.75rem;
+  align-items: baseline;
+}
+
+.cv-skill-label {
   font-size: 0.68rem;
   font-weight: 700;
   text-transform: uppercase;
@@ -587,8 +588,7 @@ body {
   padding-top: 0.1rem;
 }
 
-.cv-skills dd {
-  margin: 0;
+.cv-skill-value {
   font-size: 0.875rem;
   color: var(--cv-skill-value-color);
   line-height: 1.55;
@@ -604,14 +604,12 @@ body {
   }
 }
 
-.cv-inline-section ul {
-  margin: 0;
-  padding-left: 1.1rem;
+.cv-inline-text {
   font-size: 0.875rem;
   color: var(--cv-inline-text-color);
+  margin: 0;
   line-height: 1.55;
 }
-
 /* ── Homepage: stats band ──────────────────────────────────────────── */
 .stats-band {
   display: grid;

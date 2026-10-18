@@ -12,60 +12,60 @@ meta:
 color:
   palette:
     # ── Near-black dark surfaces ───────────────────────────────────────────
-    void: "#0F1117" # darkest background / true dark base
-    surface: "#161B22" # cards, sidebar, secondary surfaces (dark)
-    surface-mid: "#1C2128" # elevated surfaces, hover states (dark)
-    border-dark: "#21262D" # subtle borders (dark)
-    border-mid: "#30363D" # stronger borders, dividers (dark)
+    void:         "#0F1117"   # darkest background / true dark base
+    surface:      "#161B22"   # cards, sidebar, secondary surfaces (dark)
+    surface-mid:  "#1C2128"   # elevated surfaces, hover states (dark)
+    border-dark:  "#21262D"   # subtle borders (dark)
+    border-mid:   "#30363D"   # stronger borders, dividers (dark)
 
     # ── Sky-blue accent family ─────────────────────────────────────────────
-    sky: "#38BDF8" # primary accent — electric, crisp
-    sky-light: "#7DD3FC" # hover / lighter variant
-    sky-deep: "#0284C7" # darker for pressed / contrast anchoring
-    sky-dim: "#0EA5E9" # mid-weight accent
+    sky:          "#38BDF8"   # primary accent — electric, crisp
+    sky-light:    "#7DD3FC"   # hover / lighter variant
+    sky-deep:     "#0284C7"   # darker for pressed / contrast anchoring
+    sky-dim:      "#0EA5E9"   # mid-weight accent
 
     # ── Light mode surfaces ────────────────────────────────────────────────
-    white-warm: "#FAFAF8" # warm off-white page background
-    surface-l: "#F0F2F5" # cards, secondary surfaces (light)
-    border-l: "#D0D7DE" # borders (light)
+    white-warm:   "#FAFAF8"   # warm off-white page background
+    surface-l:    "#F0F2F5"   # cards, secondary surfaces (light)
+    border-l:     "#D0D7DE"   # borders (light)
 
     # ── Text colours ──────────────────────────────────────────────────────
-    ink-dark: "#E6EDF3" # warm near-white body text (dark bg)
-    ink-light: "#1C2128" # very dark charcoal body text (light bg)
-    muted-dark: "#8B949E" # secondary / meta text on dark bg
-    muted-light: "#57606A" # secondary / meta text on light bg
+    ink-dark:     "#E6EDF3"   # warm near-white body text (dark bg)
+    ink-light:    "#1C2128"   # very dark charcoal body text (light bg)
+    muted-dark:   "#8B949E"   # secondary / meta text on dark bg
+    muted-light:  "#57606A"   # secondary / meta text on light bg
 
     # ── Semantic accents ──────────────────────────────────────────────────
-    teal: "#2DD4BF" # success / info — cool spectrum
-    danger: "#F85149" # error / danger
+    teal:         "#2DD4BF"   # success / info — cool spectrum
+    danger:       "#F85149"   # error / danger
 
     # ── Code surfaces (Dracula-family) ────────────────────────────────────
-    code-bg: "#0D1117" # code block background — deepest dark
-    code-surface: "#161B22" # inline code pill background
-    code-text: "#79C0FF" # inline code text — GitHub-dark blue token
+    code-bg:      "#0D1117"   # code block background — deepest dark
+    code-surface: "#161B22"   # inline code pill background
+    code-text:    "#79C0FF"   # inline code text — GitHub-dark blue token
 
   # ── Semantic color roles — light/dark variants ────────────────────────
   foreground:
     light: ink-light
-    dark: ink-dark
+    dark:  ink-dark
   background:
     light: white-warm
-    dark: void
+    dark:  void
   primary:
     light: sky-deep
-    dark: sky
+    dark:  sky
   secondary:
     light: muted-light
-    dark: muted-dark
+    dark:  muted-dark
   tertiary:
     light: surface-l
-    dark: surface
-  success: teal
-  info: teal
-  warning: sky
-  danger: danger
-  light: white-warm
-  dark: void
+    dark:  surface
+  success:    teal
+  info:       teal
+  warning:    sky
+  danger:     danger
+  light:      white-warm
+  dark:       void
 
 typography:
   fonts:
@@ -99,24 +99,24 @@ typography:
     line-height: 1.2
     color:
       light: ink-light
-      dark: sky
+      dark:  sky
 
   monospace:
     family: "JetBrains Mono"
     size: 0.875em
 
   monospace-inline:
-    color: code-text
+    color:            code-text
     background-color: code-surface
 
   monospace-block:
-    color: ink-dark
+    color:            ink-dark
     background-color: code-bg
 
   link:
     color:
       light: sky-deep
-      dark: sky
+      dark:  sky
     decoration: none
 
 defaults:

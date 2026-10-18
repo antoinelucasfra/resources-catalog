@@ -24,6 +24,17 @@
   &:hover { color: $sky-light !important; }
 }
 
+.navbar-dark .navbar-nav .nav-link {
+  color: rgba(#E6EDF3, 0.78) !important;
+  font-weight: 500;
+  font-size: 0.875rem;
+  letter-spacing: 0.01em;
+  transition: color 0.15s;
+
+  &:hover, &:focus { color: $sky !important; }
+  &.active          { color: $sky !important; }
+}
+
 // ── Headings ──────────────────────────────────────────────────────────────
 
 h1, h2, h3, h4, h5, h6 {
@@ -119,6 +130,13 @@ table {
   .card-text { font-size: 0.85rem; color: rgba($text, 0.68); }
 }
 
+// ── Blog listing (list fallback) ──────────────────────────────────────────
+
+.listing-item {
+  transition: transform 0.15s ease;
+  &:hover { transform: translateX(3px); }
+}
+
 // ── Code blocks ───────────────────────────────────────────────────────────
 // Dark Dracula-family containers in both modes — coherent with dracula
 // syntax highlighting. pre.sourceCode → language-tagged fenced blocks;
@@ -164,6 +182,33 @@ code:not(pre code) {
 .callout-tip      { border-left-color: $teal; }
 .callout-warning  { border-left-color: $sky-dim; }
 .callout-caution  { border-left-color: $danger-c; }
+
+// ── Buttons ──────────────────────────────────────────────────────────────
+
+.btn-primary {
+  background-color: $btn-primary-bg;
+  border-color: $btn-primary-bg;
+  color: $btn-primary-fg;
+  font-weight: 600;
+
+  &:hover {
+    background-color: $btn-hover-bg;
+    border-color: $btn-hover-bg;
+    color: $btn-primary-fg;
+  }
+}
+
+.btn-secondary {
+  background-color: transparent;
+  border-color: rgba($sky, 0.4);
+  color: $pill-fg;
+
+  &:hover {
+    background-color: rgba($sky, 0.09);
+    border-color: $sky;
+    color: $sky-light;
+  }
+}
 
 // ── Category / tag badges ─────────────────────────────────────────────────
 
@@ -215,7 +260,8 @@ code:not(pre code) {
   color: $banner-fg;
   border-bottom: 2px solid $sky;
 
-  .quarto-title h1 { color: $banner-fg; }
+  .quarto-title h1,
+  .quarto-title-subtitle { color: $banner-fg; }
 }
 
 // ── Pagination ───────────────────────────────────────────────────────────
@@ -296,6 +342,15 @@ figcaption {
   margin-top: 0.5rem;
 }
 
+// ── Footnotes ────────────────────────────────────────────────────────────
+
+.footnotes {
+  font-size: 0.85rem;
+  color: $muted;
+  border-top: 1px solid $bord-subtle;
+  margin-top: 2.5rem;
+}
+
 // ── Horizontal rules — fading accent line ────────────────────────────────
 
 hr {
@@ -320,6 +375,19 @@ details {
     color: $pill-fg;
 
     &:hover { color: $sky-light; }
+  }
+}
+
+// ── Outline buttons ──────────────────────────────────────────────────────
+
+.btn-outline-primary {
+  border-color: rgba($sky, 0.4);
+  color: $pill-fg;
+
+  &:hover {
+    background-color: rgba($sky, 0.09);
+    border-color: $sky;
+    color: $sky-light;
   }
 }
 
