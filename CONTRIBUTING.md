@@ -4,7 +4,7 @@ The catalog at [antoinelucasfra.github.io/resources-catalog](https://antoineluca
 
 There are two ways to add a resource:
 
-- **Personal workflow**: via a Google Keep note, synced locally with `scripts/sync_keep.py` (see [Google Keep workflow](#google-keep-workflow-run-locally))
+- **Suggest it**: use the ["Suggest" link](https://github.com/antoinelucasfra/resources-catalog/issues/new?template=suggest-resource.yml) in the site navbar, no fork or PR needed (see [Suggesting a resource](#suggesting-a-resource))
 - **PR path**: fork the repo, edit `resources.txt`, open a pull request (see [Contributing via PR](#contributing-via-pr))
 
 ---
@@ -39,7 +39,7 @@ description: "The online version of Mastering Shiny, a book that teaches you to 
 
 ### Valid `language` values
 
-`R` · `Python` · `Other` · or a combination like `R;Python`
+`R` · `Python` · `Other` · `French` · `JavaScript` · `Julia` · or a combination like `R;Python`
 
 ### `category` conventions
 
@@ -47,85 +47,21 @@ description: "The online version of Mastering Shiny, a book that teaches you to 
 - Separate multiple tags with `;` and no surrounding spaces: `"Statistics;Mixed Models;GLMM"`
 - Tags are case-sensitive as written in the file: use title case
 
+### Tag vocabulary
+
+The canonical topic list lives in `scripts/tags.toml` under `[topics]`: each entry is a topic name followed by the raw tag spellings that merge onto it. `category` values that aren't a topic name or a listed alias are invented tags, and CI's `scripts/lint.py` rejects them, so don't make up a new tag inline in a PR.
+
+To propose a new topic (or a new alias for an existing one), open a PR that edits `scripts/tags.toml` alongside the resource entries that need it, and make sure `uv run python scripts/lint.py` passes. A new topic should cover more than one or two entries; smaller clusters belong as an alias on an existing topic instead.
+
+`General` is the fallback tag for entries that don't fit anywhere else yet. Prefer reusing an existing alias over adding `General` or inventing a new topic, and when scoring or auto-tagging new entries, check `scripts/tags.toml` first.
+
 ---
 
-## Google Keep workflow (run locally)
+## Suggesting a resource
 
-This is the personal workflow for adding resources from curation to the catalog without editing the file by hand. It runs **on demand, locally**. There is no scheduled job.
+Visitors don't need to fork the repo or write YAML. Clicking **Suggest** in the site navbar opens a GitHub issue form; filling it in and submitting triggers `.github/workflows/suggest.yml`, which runs `scripts/issue_to_pr.py` to validate the submission, fetch a real description for the URL, and open a pull request with the new entry appended to `resources.txt`. A maintainer reviews and merges it like any other PR.
 
-### How it works end-to-end
-
-```
-You add a line to the Keep note
-        ↓
-You run `uv run python sync_keep.py` from scripts/
-        ↓
-Script parses each line, fetches the URL, extracts a real description
-        ↓
-Valid new entries are appended to resources.txt
-        ↓
-Processed lines are removed from the Keep note
-        ↓
-Commit and push resources.txt through the normal branch → PR flow
-```
-
-### Keep note format
-
-Create a note in Google Keep with the title you export as `KEEP_NOTE_TITLE`. Add one resource per line using **exactly 5 fields separated by ` - `** (space-dash-space):
-
-```
-https://mastering-shiny.org/ - Mastering Shiny - Book - R - Shiny;Web Development
-https://r4ds.hadley.nz - R for Data Science - Book - R - Statistics;Data Science
-https://fastapi.tiangolo.com - FastAPI - Website - Python - Web;API
-```
-
-Field order: `URL - Title - Type - Language - Category`
-
-The `description` field is **not** written in the note. It is fetched automatically from the URL by `trafilatura` (og:description → first body sentence → empty).
-
-### One-time setup: obtain the master token
-
-`gkeepapi` authenticates with a **master token**, not your password. Obtain it once and export it as `KEEP_MASTER_TOKEN` when running the sync.
-
-**Prerequisites:** Docker installed locally.
-
-```sh
-docker run --rm -it --entrypoint /bin/sh python:3 -c \
-  'pip install gpsoauth
-   python3 -c "
-import gpsoauth
-email = input(\"Email: \")
-oauth_token = input(\"OAuth Token: \")
-android_id  = input(\"Android ID: \")
-print(gpsoauth.exchange_token(email, oauth_token, android_id))
-"'
-```
-
-To get the **OAuth Token** and **Android ID** needed above, follow the [gpsoauth alternative flow documentation](https://github.com/simon-weber/gpsoauth#alternative-flow).
-
-### Environment variables
-
-Export these in the shell you run the script from:
-
-| Variable | Value |
-|---|---|
-| `KEEP_EMAIL` | Your Gmail address |
-| `KEEP_MASTER_TOKEN` | The master token obtained above |
-| `KEEP_NOTE_TITLE` | Exact title of your curation note in Google Keep |
-| `RESOURCES_PATH` | Path to `resources.txt` |
-
-### Running the sync
-
-```sh
-cd scripts/
-uv sync
-export KEEP_EMAIL="you@example.com"
-export KEEP_MASTER_TOKEN="..."
-export KEEP_NOTE_TITLE="Resources inbox"
-RESOURCES_PATH=../resources.txt uv run python sync_keep.py
-```
-
-The run summary is printed to stdout. Review `git diff ../resources.txt` before committing.
+Pick a `type` from the dropdown, the resource's programming language(s), and at least one `category` from the checkboxes: both are checked against the controlled vocabulary in `scripts/lint.py` and `scripts/tags.toml` (see Field Reference and Tag vocabulary above). Suggestions that fail validation, or whose URL is already in the catalog, get a comment explaining why and are closed automatically, no PR is opened.
 
 ### Regenerating the listing
 
@@ -174,7 +110,7 @@ title: "Your Resource Title"
 type: "Blog"
 link: "https://example.com/resource"
 language: "R"
-category: "Statistics;Tutorial"
+category: "Statistics;Data Science"
 description: "A one-sentence description of what this resource is and who it is for."
 ---
 ```

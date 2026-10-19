@@ -1,0 +1,71 @@
+---
+title: "Topics"
+subtitle: "The topic vocabulary behind the catalog."
+description: "The 38 canonical topics of the Resources Catalog, with live entry counts, plus type and language facets."
+search: true
+---
+
+The catalog's `category` field is being consolidated into a controlled vocabulary of **38 canonical topics**, defined in [`scripts/tags.toml`](https://github.com/antoinelucasfra/resources-catalog/blob/main/scripts/tags.toml). Every existing category value maps onto one of these topics, and entries matching no topic fall back to **General**. To propose a new topic, edit `scripts/tags.toml` and open a pull request — the tags and this page update at the next render. Counts below are computed live from `resources.txt`; badges are informational only (use the filters on the [home page](index.qmd) to drill down). Entries may carry several categories, so they can appear under several topics, and facet counts do not sum to the catalog size.
+
+```{r topics}
+#| execute: true
+#| echo: false
+#| message: false
+#| warning: false
+#| results: asis
+source(here::here("resources.R"))
+resources <- parse_resources_md(here::here("resources.txt"))
+
+esc <- function(x) {
+  x <- gsub("&", "&amp;", x, fixed = TRUE)
+  x <- gsub("<", "&lt;", x, fixed = TRUE)
+  gsub(">", "&gt;", x, fixed = TRUE)
+}
+
+# Canonical topics: parse the [topics] section of scripts/tags.toml
+# ("Topic" = ["alias1", "alias2", ...]) and build alias -> topic lookup.
+toml_lines <- readLines(here::here("scripts", "tags.toml"), encoding = "UTF-8")
+sec_starts <- grep("^\\s*\\[", toml_lines)
+topics_start <- grep("^\\s*\\[topics\\]", toml_lines)
+after <- sec_starts[sec_starts > topics_start]
+# If [topics] is the last section, the block runs to end of file.
+topics_end <- if (length(after) > 0) min(after) - 1L else length(toml_lines)
+topic_block <- toml_lines[(topics_start + 1L):topics_end]
+
+topic_of <- character()
+for (line in topic_block) {
+  if (!grepl('^\\s*"', line)) next
+  quoted <- regmatches(line, gregexpr('"[^"]*"', line))[[1]]
+  topic <- sub('^"(.*)"$', "\\1", quoted[1])
+  for (alias in quoted) topic_of[sub('^"(.*)"$', "\\1", alias)] <- topic
+}
+
+# Topic counts: every matched category value votes its topic per entry;
+# entries matching no topic fall back to General.
+entry_topics <- lapply(resources$category, function(cat) {
+  topics <- unique(topic_of[split_values(cat)])
+  topics[!is.na(topics) & nzchar(topics)]
+})
+entry_topics[lengths(entry_topics) == 0] <- "General"
+
+# Facet counts (categories, split like write_listing_items does)
+topic_counts <- table(unlist(entry_topics))
+type_counts <- table(esc(resources$type[nzchar(resources$type)]))
+lang_values <- unlist(lapply(resources$language, split_values))
+lang_counts <- table(esc(lang_values))
+
+badges <- function(counts) {
+  counts <- sort(counts, decreasing = TRUE)
+  cat(paste0(
+    '<span class="badge text-bg-secondary mx-1 my-1" style="font-size: 0.95rem;">',
+    esc(names(counts)), " · ", counts, "</span>"
+  ), sep = "\n")
+}
+
+cat("## Topics\n\n")
+badges(topic_counts)
+cat("\n\n## Types\n\n")
+badges(type_counts)
+cat("\n\n## Languages\n\n")
+badges(lang_counts)
+```

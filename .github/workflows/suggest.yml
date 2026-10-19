@@ -1,0 +1,98 @@
+name: Suggest resource
+
+on:
+  issues:
+    types: [opened, labeled]
+
+permissions:
+  contents: write
+  pull-requests: write
+  issues: write
+
+concurrency:
+  group: suggest-${{ github.event.issue.number }}
+  cancel-in-progress: true
+
+jobs:
+  process:
+    if: (github.event.action == 'labeled' && github.event.label.name == 'resource-suggestion') || (github.event.action == 'opened' && contains(github.event.issue.labels.*.name, 'resource-suggestion'))
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ github.token }}
+      ISSUE_NUMBER: ${{ github.event.issue.number }}
+      ISSUE_TITLE: ${{ github.event.issue.title }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Skip if a PR is already open for this suggestion
+        id: pr_guard
+        run: |
+          if [ -n "$(gh pr list --head "suggest/issue-${{ github.event.issue.number }}" --state open --json number --jq '.[0].number')" ]; then
+            echo "exists=true" >> "$GITHUB_OUTPUT"
+            gh issue comment "$ISSUE_NUMBER" --body "A pull request is already open for this suggestion."
+            exit 0
+          fi
+
+      - name: Fetch issue body
+        run: gh issue view "$ISSUE_NUMBER" --json body -q .body > body.md
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v5
+
+      - name: Sync dependencies
+        working-directory: scripts
+        run: uv sync --locked
+
+      - name: Convert suggestion
+        if: steps.pr_guard.outputs.exists != 'true'
+        id: convert
+        working-directory: scripts
+        run: |
+          set +e
+          output=$(uv run python issue_to_pr.py --body ../body.md)
+          status=$?
+          set -e
+          echo "$output"
+          {
+            echo "output<<SUGGEST_EOF"
+            echo "$output"
+            echo "SUGGEST_EOF"
+          } >> "$GITHUB_OUTPUT"
+          echo "status=$status" >> "$GITHUB_OUTPUT"
+
+      - name: Handle duplicate suggestion
+        if: steps.convert.outputs.status == '2'
+        run: |
+          url=$(echo "${{ steps.convert.outputs.output }}" | grep '^ALREADY_PRESENT' | sed 's/^ALREADY_PRESENT //')
+          gh issue comment "$ISSUE_NUMBER" --body "Thanks for the suggestion! \`$url\` is already in the catalog."
+          gh issue close "$ISSUE_NUMBER" --reason "not planned"
+
+      - name: Handle invalid suggestion
+        if: steps.convert.outputs.status == '3'
+        run: |
+          reason=$(echo "${{ steps.convert.outputs.output }}" | grep '^INVALID')
+          gh issue comment "$ISSUE_NUMBER" --body "This suggestion could not be processed automatically: ${reason#INVALID }"
+          gh issue close "$ISSUE_NUMBER" --reason "not planned"
+
+      - name: Create pull request
+        if: steps.convert.outputs.status == '0'
+        id: pr
+        uses: peter-evans/create-pull-request@v7
+        with:
+          token: ${{ github.token }}
+          branch: suggest/issue-${{ github.event.issue.number }}
+          title: "feat: add ${{ github.event.issue.title }}"
+          commit-message: |
+            feat: add "${{ github.event.issue.title }}" from suggestion #${{ github.event.issue.number }}
+          body: |
+            Automated suggestion from #${{ github.event.issue.number }}.
+
+            Closes #${{ github.event.issue.number }}
+          add-paths: resources.txt
+
+      - name: Comment and close issue
+        if: steps.convert.outputs.status == '0'
+        run: |
+          gh issue comment "$ISSUE_NUMBER" --body "Opened ${{ steps.pr.outputs.pull-request-url }}"
+          gh issue close "$ISSUE_NUMBER" -c "${{ steps.pr.outputs.pull-request-url }}"

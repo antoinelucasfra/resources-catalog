@@ -1,0 +1,53 @@
+# Monthly liveness check of every resource URL in resources.txt.
+# Report-only: results are data, never build status — this workflow never
+# fails, never auto-removes entries and never opens PRs. Retiring a dead
+# link is a manual decision made via scripts/retire.py.
+
+name: Link health
+
+on:
+  schedule:
+    - cron: "0 5 2 * *" # 2nd of the month, 05:00 UTC (off-peak)
+  workflow_dispatch:
+
+permissions:
+  issues: write
+  contents: read
+
+jobs:
+  link-health:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v5
+
+      - name: Sync dependencies
+        working-directory: scripts
+        run: uv sync --locked
+
+      - name: Check all resource URLs
+        working-directory: scripts
+        run: RESOURCES_PATH=../resources.txt uv run python link_health.py --output ../link-health-report.md
+
+      - name: Create or update sticky link health issue
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          TITLE="Link health report — $(date +%Y-%m)"
+          BODY="$(cat link-health-report.md)"
+
+          # Reuse the open sticky issue by stable title prefix, if any.
+          ISSUE_NUMBER=$(gh issue list \
+            --state open \
+            --search "Link health report in:title" \
+            --json number \
+            --jq ".[].number" | head -n 1)
+
+          if [ -n "$ISSUE_NUMBER" ]; then
+            gh issue edit "$ISSUE_NUMBER" --title "$TITLE" --body "$BODY"
+          else
+            gh issue create --title "$TITLE" --body "$BODY"
+          fi

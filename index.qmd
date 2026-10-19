@@ -57,14 +57,14 @@ title: "Resource Title"
 type: Book
 link: https://example.com
 language: R
-category: "Statistics;Tutorial"
+category: "Statistics;Data Science"
 description: "A brief one-sentence description shown on the card and in search."
 ---
 ```
 
 The `description` field is optional but recommended — it appears on the card and is included in the full-text search.
 
-See [CONTRIBUTING.md](https://github.com/antoinelucasfra/resources-catalog/blob/main/CONTRIBUTING.md) for the full guide, including how resources are synced from Google Keep.
+No file editing needed: use the **Suggest** tab in the site navbar — it opens a GitHub issue form, and a bot validates the submission and opens a pull request automatically. See [CONTRIBUTING.md](https://github.com/antoinelucasfra/resources-catalog/blob/main/CONTRIBUTING.md) for the full guide.
 ::::
 
 *Links to external websites are provided for convenience and informational purposes only.*

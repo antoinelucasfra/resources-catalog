@@ -25,6 +25,7 @@ import trafilatura
 
 from utils import (
     DATE_RE,
+    DESC_MAX_LEN,
     FIELD_ORDER,
     KNOWN_TYPES,
     append_blocks,
@@ -397,7 +398,7 @@ def _backfill(
         if force:
             return True
         desc = b.get("description", "").strip()
-        return not desc or is_placeholder(desc)
+        return not desc or is_placeholder(desc) or len(desc) > DESC_MAX_LEN
 
     if mode == "dates":
         to_process = [b for b in blocks if _needs_date(b)]
@@ -478,7 +479,10 @@ def _backfill(
                 print(f"         → {short}")
                 changed = True
             else:
-                if not dry_run:
+                # Only clear the description when it was empty/placeholder.
+                # A fetch failure must never wipe a real (even overlong) one.
+                old_desc = block_by_link[url].get("description", "").strip()
+                if not dry_run and (not old_desc or is_placeholder(old_desc)):
                     block_by_link[url]["description"] = ""
                 print(f"{prefix} desc  SKIP {url} (no description found)")
 

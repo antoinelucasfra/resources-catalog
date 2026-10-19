@@ -6,6 +6,7 @@ project:
   output-dir: docs
   render:
     - "index.qmd"
+    - "topics.qmd"
 
 quarto-required: ">=1.9.37"
 
@@ -30,8 +31,12 @@ website:
     title: "Resources Catalog"
     search: false
     background: dark
-    left: []
+    left:
+      - text: Topics
+        href: topics.qmd
     right:
+      - text: Suggest
+        href: "https://github.com/antoinelucasfra/resources-catalog/issues/new?template=suggest-resource.yml"
       - text: Portfolio
         href: https://antoinelucasfra.github.io
       - icon: github
