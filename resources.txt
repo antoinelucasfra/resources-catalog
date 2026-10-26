@@ -643,7 +643,7 @@ type: "Blog"
 link: "https://www.r-bloggers.com/2021/03/how-to-build-your-own-image-recognition-app-with-r-part-1/"
 language: "R"
 category: "Computer Vision;Shiny"
-description: "<div style = \\\"width:60%; display: inline-block; float:left; \\\"> Imagine you could: Take a picture with your phone of a bird in your backyard. Upload the foto to an app. The app tells you what kind of bird it is. In this tutorial, you will learn how to quickly build an app that does just that – using "
+description: "<div style = \"width:60%; display: inline-block; float:left; \"> Imagine you could: Take a picture with your phone of a bird in your backyard. Upload the foto to an app. The app tells you what kind of bird it is. In this tutorial, you will learn how to quickly build an app that does just that – using "
 date: "2021-03-16"
 ---
 ---
@@ -679,7 +679,7 @@ type: "Website"
 link: "http://sia.webpopix.org/mixtureModels.html"
 language: "Other"
 category: "Statistics"
-description: ""
+description: "Find information, resources and relevant links for webpopix.org. This domain may be for sale."
 date: ""
 ---
 ---
@@ -697,7 +697,7 @@ type: "Blog"
 link: "https://www.r-bloggers.com/2017/02/an-intro-to-gaussian-mixture-modeling/"
 language: "R"
 category: "Statistics;Machine Learning"
-description: "<div style = \\\"width:60%; display: inline-block; float:left; \\\"> One of my goals for 2016 is to improve my ability to understand different statistical/machine learning problems. I have an educational background in economics, so I have spent a good deal of time studying and using linear modeling in it’"
+description: "<div style = \"width:60%; display: inline-block; float:left; \"> One of my goals for 2016 is to improve my ability to understand different statistical/machine learning problems. I have an educational background in economics, so I have spent a good deal of time studying and using linear modeling in it’"
 date: "2017-02-15"
 ---
 ---
@@ -1876,7 +1876,7 @@ type: "Website"
 link: "https://www.flutterbys.com.au/stats/tut/tut15.2.html"
 language: "R"
 category: "Statistics"
-description: ""
+description: "Find information, resources and relevant links for flutterbys.com.au. This domain may be for sale."
 date: ""
 ---
 ---
@@ -2371,7 +2371,7 @@ type: "Website"
 link: "http://juliejosse.com/"
 language: "R"
 category: "Statistics"
-description: ""
+description: "Julie Josse - Senior Researcher at Inria"
 date: "2017-08-29"
 ---
 ---
@@ -2803,7 +2803,7 @@ type: "Package"
 link: "https://business-science.github.io/modeltime/"
 language: "R"
 category: "Statistics;Machine Learning"
-description: "The time series forecasting framework for use with the tidymodels ecosystem. Models include ARIMA, Exponential Smoothing, and additional time series models from the forecast and prophet packages. Refer to \\\"Forecasting Principles & Practice, Second edition\\\" (<https://otexts.com/fpp2/>). Refer to \\\"Pro"
+description: "The time series forecasting framework for use with the tidymodels ecosystem. Models include ARIMA, Exponential Smoothing, and additional time series models from the forecast and prophet packages. Refer to \"Forecasting Principles & Practice, Second edition\" (<https://otexts.com/fpp2/>). Refer to \"Pro"
 date: "2017-02-01"
 ---
 ---
@@ -3127,7 +3127,7 @@ type: "Blog"
 link: "https://argmax.ghost.io/"
 language: "Other"
 category: "Machine Learning"
-description: ""
+description: "Thoughts, stories and ideas."
 date: ""
 ---
 ---
@@ -3982,7 +3982,7 @@ type: "Blog"
 link: "https://www.r-bloggers.com/writing-functions-to-automate-repetitive-plotting-tasks-in-ggplot2/"
 language: "R"
 category: "Data Visualization;Open Source & Automation"
-description: "<div style = \\\"width:60%; display: inline-block; float:left; \\\"> Introduction Making Multiple Plots on the Same Subject Preparing the Data Writing Functions to Generate Multiple Plots Making Custom Plot Themes Updating Plot Themes Introduction There are often situations when you need to perform repeti"
+description: "<div style = \"width:60%; display: inline-block; float:left; \"> Introduction Making Multiple Plots on the Same Subject Preparing the Data Writing Functions to Generate Multiple Plots Making Custom Plot Themes Updating Plot Themes Introduction There are often situations when you need to perform repeti"
 date: "2020-07-08"
 ---
 ---
@@ -5449,7 +5449,7 @@ type: "Website"
 link: "https://r-universe.dev/search/"
 language: "R"
 category: "R Ecosystem;Developer Tools"
-description: ""
+description: "R-universe is rOpenSci’s open platform for publication and discovery of research software in R"
 date: ""
 ---
 ---
@@ -5593,7 +5593,7 @@ type: "Website"
 link: "https://settlers-rl.github.io/"
 language: "Python"
 category: "Deep Learning;Creative & Games"
-description: "In recent years RL has attracted a lot of attention due to the extremely impressive results that have been achieved in games such as Go As a way to teach myself about RL, a couple of years ago I built a simulator and trained an agent I ended up deciding that an interesting game to try would be \\\"Sett"
+description: "In recent years RL has attracted a lot of attention due to the extremely impressive results that have been achieved in games such as Go As a way to teach myself about RL, a couple of years ago I built a simulator and trained an agent I ended up deciding that an interesting game to try would be \"Sett"
 date: "2019-01-01"
 ---
 ---
@@ -5629,7 +5629,7 @@ type: "Blog"
 link: "https://www.jumpingrivers.com/blog/regular-expressions-every-r-programmer-should-know/"
 language: "R"
 category: "Programming"
-description: "Regular expressions. How they can be cruel! Well we’re here to make them a tad easier. To do so we’re going to make use of the {stringr} package install.packages(\\\"stringr\\\") library(\\\"stringr\\\") We’re going to use the str_detect() and str_subset() functions. In particular the latter. These have the syn"
+description: "Regular expressions. How they can be cruel! Well we’re here to make them a tad easier. To do so we’re going to make use of the {stringr} package install.packages(\"stringr\") library(\"stringr\") We’re going to use the str_detect() and str_subset() functions. In particular the latter. These have the syn"
 date: "2018-04-12"
 ---
 ---
@@ -5854,7 +5854,7 @@ type: "Blog"
 link: "https://dominiquemakowski.github.io/post/2022-05-18-neurokit_release_2/"
 language: "R"
 category: "Social Sciences;Medical & Life Sciences"
-description: ""
+description: "This page has moved to https://realitybendinglab."
 date: ""
 ---
 ---
@@ -7897,7 +7897,7 @@ type: "Website"
 link: "https://legigpt.fr/"
 language: "Other"
 category: "General"
-description: ""
+description: "Discutons avec la loi."
 date: ""
 ---
 ---
@@ -8176,7 +8176,7 @@ type: "Paper"
 link: "https://arxiv.org/abs/2404.19756"
 language: "Other"
 category: "General"
-description: "Inspired by the Kolmogorov-Arnold representation theorem, we propose Kolmogorov-Arnold Networks (KANs) as promising alternatives to Multi-Layer Perceptrons (MLPs). While MLPs have fixed activation functions on nodes (\\\"neurons\\\"), KANs have learnable activation functions on edges (\\\"weights\\\"). KANs hav"
+description: "Inspired by the Kolmogorov-Arnold representation theorem, we propose Kolmogorov-Arnold Networks (KANs) as promising alternatives to Multi-Layer Perceptrons (MLPs). While MLPs have fixed activation functions on nodes (\"neurons\"), KANs have learnable activation functions on edges (\"weights\"). KANs hav"
 date: "2024-04-30"
 ---
 ---
@@ -9130,7 +9130,7 @@ type: "Repository"
 link: "https://github.com/tgerke/ducklake-r"
 language: "Other"
 category: "General"
-description: "An R package to interface with DuckLake lakehouses - tgerke/ducklake-r"
+description: "Tidyverse-friendly R interface to DuckLake, the DuckDB lakehouse format - tgerke/ducklake-r"
 date: "2025-09-09"
 ---
 ---
