@@ -10,6 +10,7 @@ from pathlib import Path
 
 import trafilatura
 import yaml
+from urllib.parse import parse_qsl, urlencode, urlparse, urlunparse
 
 # ---------------------------------------------------------------------------
 # Constants
@@ -19,30 +20,16 @@ KNOWN_TYPES: frozenset[str] = frozenset(
     {
         "Blog",
         "Book",
-        "Website",
-        "Package",
-        "Video",
-        "Paper",
-        "Course",
         "Community",
-        "Newsletter",
-        "Conference",
-        "Forum",
-        "Journal",
-        "Repository",
-        "App",
-        "Cheatsheet",
+        "Course",
         "Documentation",
-        "Gallery",
-        "Game",
-        "Guide",
-        "Magazine",
-        "Platform",
-        "Slides",
-        "Social",
+        "Other",
+        "Package",
+        "Paper",
+        "Repository",
         "Tool",
-        "Tutorial",
-        "Workshop",
+        "Video",
+        "Website",
     }
 )
 
@@ -50,7 +37,17 @@ KNOWN_LANGUAGES: frozenset[str] = frozenset(
     {"R", "Python", "Other", "French", "Julia", "JavaScript"}
 )
 
+# Query parameters that only track the visitor; they never identify the resource.
+TRACKING_PARAMS = re.compile(
+    r"^(utm_[a-z]+|fbclid|gclid|dclid|msclkid|mc_cid|mc_eid|igshid|ref_src|ref_url|_hsenc|_hsmi)$",
+    re.IGNORECASE,
+)
+
+# Pasted-markdown accident: "https://a.org](https://a.org/)".
+MARKDOWN_LINK = re.compile(r"^(https?://[^\s\]]+)\]\((https?://[^\s)]+)\)$")
+
 FIELD_ORDER = ("title", "type", "link", "language", "category", "description", "date")
+OPTIONAL_FIELDS = ("description", "date")
 
 DESC_MAX_LEN = 300
 
@@ -71,6 +68,14 @@ _PLACEHOLDER_RE = re.compile(
 
 # Matches ISO-8601 dates: YYYY-MM-DD, YYYY-MM, or YYYY
 DATE_RE = re.compile(r"^\d{4}(-\d{2}(-\d{2})?)?$")
+
+
+def enable_utf8_output() -> None:
+    """Windows consoles default to cp1252: printing a title with an em dash then
+    raises UnicodeEncodeError and kills a long-running run. Call from main()."""
+    for stream in (sys.stdout, sys.stderr):
+        if hasattr(stream, "reconfigure"):
+            stream.reconfigure(encoding="utf-8", errors="replace")
 
 
 def _fetch_page(url: str, downloaded: bytes | str | None = None) -> bytes | str | None:
@@ -148,10 +153,16 @@ def parse_resources(path: Path) -> list[dict[str, str]]:
 
 
 def _format_block(entry: dict[str, str]) -> str:
-    """Render one entry dict as a YAML block string (without trailing newline)."""
+    """Render one entry dict as a YAML block string (without trailing newline).
+
+    Required fields are always written; optional ones (description, date) are
+    omitted while empty, which is how the pre-existing entries are formatted.
+    """
     lines = ["---"]
     for field in FIELD_ORDER:
         value = entry.get(field, "")
+        if field in OPTIONAL_FIELDS and not value.strip():
+            continue
         # Escape backslashes first so later quote-escaping can't turn a literal
         # backslash into a YAML escape sequence (e.g. C:\temp → "C:\itemp").
         value = value.replace("\\", "\\\\")
@@ -168,7 +179,9 @@ def write_resources(path: Path, blocks: list[dict[str, str]]) -> None:
     no blank lines between blocks, double-quoted values, fixed field order.
     """
     content = "\n".join(_format_block(b) for b in blocks) + "\n"
-    path.write_text(content, encoding="utf-8")
+    # newline="\n": the repo is LF-only; text mode would write CRLF on Windows
+    # and churn every line of the file.
+    path.write_text(content, encoding="utf-8", newline="\n")
 
 
 def make_block(
@@ -196,10 +209,43 @@ def append_blocks(path: Path, new_blocks: list[dict[str, str]]) -> None:
     if not new_blocks:
         return
     chunk = "\n" + "\n".join(_format_block(b) for b in new_blocks) + "\n"
-    with path.open("a", encoding="utf-8") as fh:
+    with path.open("a", encoding="utf-8", newline="\n") as fh:
         fh.write(chunk)
 
 
 def existing_links(path: Path) -> set[str]:
     """Return the set of all link values already in *path*."""
     return {b["link"] for b in parse_resources(path)}
+
+
+def catalog_dedupe_key(url: str) -> str:
+    """Identity of a resource for duplicate detection: scheme, `www.`, a
+    trailing slash and the fragment are presentation, not identity."""
+    parsed = urlparse(url.strip())
+    host = parsed.netloc.lower().removeprefix("www.")
+    path = parsed.path.rstrip("/")
+    query = urlencode(sorted(parse_qsl(parsed.query)))
+    return f"{host}{path}{'?' + query if query else ''}"
+
+
+def clean_url(url: str) -> str:
+    """Strip tracking parameters and repair pasted-markdown links. Returns the
+    input unchanged when it does not parse as an absolute URL."""
+    url = MARKDOWN_LINK.sub(r"\2", url.strip())
+    try:
+        parsed = urlparse(url)
+    except ValueError:
+        return url
+    if not parsed.scheme or not parsed.netloc:
+        return url
+    kept = [(k, v) for k, v in parse_qsl(parsed.query, keep_blank_values=True) if not TRACKING_PARAMS.match(k)]
+    return urlunparse(
+        (
+            parsed.scheme.lower(),
+            parsed.netloc.lower(),
+            parsed.path,
+            parsed.params,
+            urlencode(kept),
+            parsed.fragment,
+        )
+    )

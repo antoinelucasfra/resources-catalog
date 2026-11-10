@@ -7,6 +7,7 @@ project:
   render:
     - "index.qmd"
     - "topics.qmd"
+    - "404.qmd"
 
 quarto-required: ">=1.9.37"
 
@@ -49,9 +50,11 @@ format:
       light:
         - cosmo
         - _extensions/antoinelucasfra/al-brand/al-brand-light.scss
+        - assets/scss/catalog.scss
       dark:
         - cosmo
         - _extensions/antoinelucasfra/al-brand/al-brand-dark.scss
+        - assets/scss/catalog.scss
     lang: en
     date-format: "MMMM D, YYYY"
     highlight-style: dracula

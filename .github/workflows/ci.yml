@@ -34,3 +34,14 @@ jobs:
         working-directory: scripts
         run: uv run python lint.py
 
+      # Fails when resources.txt is not in normalized shape: duplicate URLs,
+      # tracking parameters, legacy types or malformed facets.
+      - name: Check resources.txt is normalized
+        working-directory: scripts
+        run: uv run python normalize.py --check
+
+      # The catalog page is rendered by this file at runtime; a syntax error
+      # would otherwise only surface as a blank catalog after deploy.
+      - name: Check catalog renderer syntax
+        run: node --check assets/js/catalog.js
+

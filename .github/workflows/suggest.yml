@@ -75,8 +75,25 @@ jobs:
           gh issue comment "$ISSUE_NUMBER" --body "This suggestion could not be processed automatically: ${reason#INVALID }"
           gh issue close "$ISSUE_NUMBER" --reason "not planned"
 
-      - name: Create pull request
+      - name: Check suggested URL is alive
         if: steps.convert.outputs.status == '0'
+        id: link
+        working-directory: scripts
+        run: |
+          url=$(echo "${{ steps.convert.outputs.output }}" | grep '^ADDED' | awk '{print $NF}')
+          uv run python link_health.py --url "$url" --json "$RUNNER_TEMP/link.json" --csv "$RUNNER_TEMP/link.csv" >/dev/null
+          state=$(jq -r --arg u "$url" '.entries[$u].state // "unknown"' "$RUNNER_TEMP/link.json")
+          echo "state=$state" >> "$GITHUB_OUTPUT"
+          echo "$url -> $state"
+
+      - name: Handle dead link
+        if: steps.link.outputs.state == 'dead'
+        run: |
+          gh issue comment "$ISSUE_NUMBER" --body "The suggested URL did not respond successfully when checked (404, DNS failure, or error). Please confirm the link works and open a new suggestion if it does."
+          gh issue close "$ISSUE_NUMBER" --reason "not planned"
+
+      - name: Create pull request
+        if: steps.convert.outputs.status == '0' && steps.link.outputs.state != 'dead'
         id: pr
         uses: peter-evans/create-pull-request@v7
         with:
@@ -92,7 +109,7 @@ jobs:
           add-paths: resources.txt
 
       - name: Comment and close issue
-        if: steps.convert.outputs.status == '0'
+        if: steps.convert.outputs.status == '0' && steps.link.outputs.state != 'dead'
         run: |
           gh issue comment "$ISSUE_NUMBER" --body "Opened ${{ steps.pr.outputs.pull-request-url }}"
           gh issue close "$ISSUE_NUMBER" -c "${{ steps.pr.outputs.pull-request-url }}"

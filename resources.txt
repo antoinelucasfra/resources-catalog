@@ -22,7 +22,7 @@ type: "Blog"
 link: "https://thinkr.fr/dockeriser-application-shiny/"
 language: "R"
 category: "Docker;MLOps;Shiny"
-description: "Retour sur l'intervention de Vincent aux 6e Rencontres R d'Anglet : \\\"Encapsuler une application R avec Docker\\\"."
+description: "Retour sur l'intervention de Vincent aux 6e Rencontres R d'Anglet : \"Encapsuler une application R avec Docker\"."
 date: "2023-07-10"
 ---
 ---
@@ -40,8 +40,6 @@ type: "Paper"
 link: "https://onlinelibrary.wiley.com/doi/abs/10.1002/pst.175"
 language: "Other"
 category: "Statistics"
-description: ""
-date: ""
 ---
 ---
 title: "Meta-Analysis Methods"
@@ -49,8 +47,6 @@ type: "Book"
 link: "https://onlinelibrary.wiley.com/doi/book/10.1002/0470854200"
 language: "Other"
 category: "Statistics"
-description: ""
-date: ""
 ---
 ---
 title: "PSI Meta-Analysis Course Notes"
@@ -58,8 +54,6 @@ type: "Paper"
 link: "https://www.psiweb.org/docs/default-source/default-document-library/meta-analysis-course-notes.pdf?sfvrsn=38ffdedb_0"
 language: "Other"
 category: "Statistics"
-description: ""
-date: ""
 ---
 ---
 title: "Robert Gower"
@@ -113,7 +107,6 @@ link: "http://www.cookbook-r.com/"
 language: "R"
 category: "Programming"
 description: "This site is powered by knitr and Jekyll. If you find any errors, please email winston@stdout.org"
-date: ""
 ---
 ---
 title: "Silvia Canelón"
@@ -175,12 +168,12 @@ type: "Blog"
 link: "https://people.bath.ac.uk/jjf23/mixchange/nested.html#mcmcglmm"
 language: "R"
 category: "Statistics"
-description: "[1] \\\"Created: Wed Apr 1 16:43:54 2015\\\" See the introduction for an overview."
+description: "[1] \"Created: Wed Apr 1 16:43:54 2015\" See the introduction for an overview."
 date: "2014-07-10"
 ---
 ---
 title: "R-help Mailing List"
-type: "Forum"
+type: "Community"
 link: "https://stat.ethz.ch/pipermail/r-help/2014-April/373488.html"
 language: "R"
 category: "Best Practices"
@@ -198,7 +191,7 @@ date: "2015-04-21"
 ---
 ---
 title: "PeerJ - Practical Data Science"
-type: "Journal"
+type: "Paper"
 link: "https://peerj.com/collections/50-practicaldatascistats"
 language: "Other"
 category: "Data Science;Statistics"
@@ -207,12 +200,11 @@ date: "2017-08-15"
 ---
 ---
 title: "JMS INSEE 2022"
-type: "Conference"
+type: "Community"
 link: "http://jms-insee.fr/programmejms2022/"
 language: "R;French"
 category: "Statistics"
 description: "A conference resource for R covering Statistics — JMS INSEE 2022."
-date: ""
 ---
 ---
 title: "ggeasy"
@@ -247,8 +239,6 @@ type: "Book"
 link: "https://buildmedia.readthedocs.org/media/pdf/a-little-book-of-r-for-bayesian-statistics/latest/a-little-book-of-r-for-bayesian-statistics.pdf"
 language: "R"
 category: "Statistics;Bayesian"
-description: ""
-date: ""
 ---
 ---
 title: "Biomedical Statistics in R"
@@ -256,8 +246,6 @@ type: "Book"
 link: "https://buildmedia.readthedocs.org/media/pdf/a-little-book-of-r-for-biomedical-statistics/latest/a-little-book-of-r-for-biomedical-statistics.pdf"
 language: "R"
 category: "Statistics;Medical & Life Sciences"
-description: ""
-date: ""
 ---
 ---
 title: "Andrew Gelman"
@@ -338,7 +326,6 @@ link: "http://mfviz.com/hierarchical-models/"
 language: "Other"
 category: "Statistics;Data Visualization"
 description: "A visual explanation of multi-level modeling"
-date: ""
 ---
 ---
 title: "RegExr"
@@ -373,8 +360,6 @@ type: "Book"
 link: "http://www-personal.umich.edu/~csev/books/py4inf/media/Py4Inf-11-Regex.pdf"
 language: "Python"
 category: "Programming"
-description: ""
-date: ""
 ---
 ---
 title: "Collège de France - Computer Science"
@@ -409,8 +394,6 @@ type: "Website"
 link: "http://guide.berkeley.edu/courses/"
 language: "Other"
 category: "Education"
-description: ""
-date: ""
 ---
 ---
 title: "Coursera - GANs"
@@ -427,7 +410,7 @@ type: "Course"
 link: "https://www.udemy.com/course/deployment-of-machine-learning-models/"
 language: "Python"
 category: "Machine Learning;MLOps"
-description: "<p>Welcome to Deployment of Machine Learning Models, the<strong> most comprehensive machine learning deployments online course available to date. </strong>This course will show you how to take your machine learning models from the research environment to a fully integrated production environment<str"
+description: "Welcome to Deployment of Machine Learning Models, the most comprehensive machine learning deployments online course available to date. This course will show you how to take your machine learning models from the research environment to a fully integrated production environment"
 date: "2025-09-21"
 ---
 ---
@@ -436,7 +419,7 @@ type: "Course"
 link: "https://www.udemy.com/course/nlp-with-bert-in-python/"
 language: "Python"
 category: "NLP & Speech;Deep Learning"
-description: "<p><strong>Welcome to Production-Grade ML Model Deployment with FastAPI, AWS, Docker, and NGINX!</strong></p><p>Unlock the power of seamless ML model deployment with our comprehensive course, <em>Production-Grade ML Model Deployment with FastAPI, AWS, Docker, and NGINX.</em> This course is designed "
+description: "Welcome to Production-Grade ML Model Deployment with FastAPI, AWS, Docker, and NGINX! Unlock the power of seamless ML model deployment with our comprehensive course, Production-Grade ML Model Deployment with FastAPI, AWS, Docker, and NGINX. This course is designed"
 date: "2025-10-05"
 ---
 ---
@@ -445,7 +428,7 @@ type: "Course"
 link: "https://www.udemy.com/course/data-science-natural-language-processing-in-python/"
 language: "Python"
 category: "NLP & Speech;Machine Learning"
-description: "<p>Ever wondered how AI technologies like <strong>OpenAI</strong> <strong>ChatGPT</strong>,<strong> GPT-4</strong>, <strong>DALL-E</strong>, <strong>Midjourney</strong>, and <strong>Stable Diffusion</strong> really work? In this course, you will learn the foundations of these groundbreaking applicat"
+description: "Ever wondered how AI technologies like OpenAI ChatGPT , GPT-4 , DALL-E , Midjourney , and Stable Diffusion really work? In this course, you will learn the foundations of these groundbreaking applicat"
 date: "2026-02-02"
 ---
 ---
@@ -508,8 +491,6 @@ type: "Blog"
 link: "https://www.datagen.tech/10-promising-synthesis-papers-from-cvpr-2021/"
 language: "Python"
 category: "Computer Vision;Research"
-description: ""
-date: ""
 ---
 ---
 title: "Open Data Science"
@@ -526,8 +507,6 @@ type: "Website"
 link: "http://www.xavierdupre.fr/app/ensae_teaching_cs/helpsphinx3/td_2a.html"
 language: "Python;French"
 category: "Education"
-description: ""
-date: ""
 ---
 ---
 title: "Stanford CS Cheatsheets"
@@ -598,7 +577,7 @@ type: "Book"
 link: "https://rafalab.github.io/dsbook/distributions.html"
 language: "R"
 category: "Statistics;Data Science"
-description: "This book introduces concepts and skills that can help you tackle real-world data analysis challenges. It covers concepts from probability, statistical inference, linear regression and machine learning and helps you develop skills such as R programming, data wrangling with dplyr, data visualization "
+description: "This book introduces concepts and skills that can help you tackle real-world data analysis challenges. It covers concepts from probability, statistical inference, linear regression and machine learning and helps you develop skills such as R programming, data wrangling with dplyr, data visualization"
 date: "2022-09-11"
 ---
 ---
@@ -607,8 +586,6 @@ type: "Website"
 link: "https://abcdr.thinkr.fr/ressources/"
 language: "R;French"
 category: "General"
-description: ""
-date: ""
 ---
 ---
 title: "Pierre Navaro"
@@ -643,7 +620,7 @@ type: "Blog"
 link: "https://www.r-bloggers.com/2021/03/how-to-build-your-own-image-recognition-app-with-r-part-1/"
 language: "R"
 category: "Computer Vision;Shiny"
-description: "<div style = \\\"width:60%; display: inline-block; float:left; \\\"> Imagine you could: Take a picture with your phone of a bird in your backyard. Upload the foto to an app. The app tells you what kind of bird it is. In this tutorial, you will learn how to quickly build an app that does just that – using "
+description: "Imagine you could: Take a picture with your phone of a bird in your backyard. Upload the foto to an app. The app tells you what kind of bird it is. In this tutorial, you will learn how to quickly build an app that does just that – using"
 date: "2021-03-16"
 ---
 ---
@@ -679,13 +656,11 @@ type: "Website"
 link: "http://sia.webpopix.org/mixtureModels.html"
 language: "Other"
 category: "Statistics"
-description: ""
-date: ""
 ---
 ---
 title: "Google AI Blog - TensorFlow"
 type: "Blog"
-link: "https://blog.google/technology/ai/5-ways-celebrate-tensorflows-5th-birthday?fbclid=IwAR2pY1R2HizLjs502hdqS5txviHvQpv85cWbPPGy3SnZ5q0R1DCFsGoKGKY"
+link: "https://blog.google/technology/ai/5-ways-celebrate-tensorflows-5th-birthday"
 language: "Python"
 category: "Deep Learning"
 description: "We're celebrating TensorFlow's fifth birthday way five ways you can use and learn about our machine learning framework."
@@ -697,7 +672,7 @@ type: "Blog"
 link: "https://www.r-bloggers.com/2017/02/an-intro-to-gaussian-mixture-modeling/"
 language: "R"
 category: "Statistics;Machine Learning"
-description: "<div style = \\\"width:60%; display: inline-block; float:left; \\\"> One of my goals for 2016 is to improve my ability to understand different statistical/machine learning problems. I have an educational background in economics, so I have spent a good deal of time studying and using linear modeling in it’"
+description: "One of my goals for 2016 is to improve my ability to understand different statistical/machine learning problems. I have an educational background in economics, so I have spent a good deal of time studying and using linear modeling in it’"
 date: "2017-02-15"
 ---
 ---
@@ -769,8 +744,6 @@ type: "Website"
 link: "https://deepai.org/developers"
 language: "Python"
 category: "Deep Learning;Programming"
-description: ""
-date: ""
 ---
 ---
 title: "Analytics Vidhya - Naive Bayes"
@@ -787,8 +760,6 @@ type: "Website"
 link: "https://www.confetti.ai/exams"
 language: "Other"
 category: "Education"
-description: ""
-date: ""
 ---
 ---
 title: "Cradle to Graver"
@@ -796,8 +767,6 @@ type: "Blog"
 link: "https://www.cradletograver.com/categories/random-r/"
 language: "R"
 category: "Programming"
-description: ""
-date: ""
 ---
 ---
 title: "R-bloggers - Project Structure"
@@ -815,7 +784,6 @@ link: "https://r-stat-sc-donnees.github.io/code_html/code.html"
 language: "R;French"
 category: "Statistics"
 description: "Vous retrouverez ici toutes les lignes de code utilisées dans le livre."
-date: ""
 ---
 ---
 title: "Big Book of R"
@@ -841,8 +809,6 @@ type: "Blog"
 link: "https://pythonforbiologists.com/29-common-beginner-errors-on-one-page/"
 language: "Python"
 category: "Programming"
-description: ""
-date: ""
 ---
 ---
 title: "Python from the Very Beginning"
@@ -850,8 +816,6 @@ type: "Website"
 link: "https://www.pythonfromtheverybeginning.com/"
 language: "Python"
 category: "Programming"
-description: ""
-date: ""
 ---
 ---
 title: "Python Cheat Sheets"
@@ -860,7 +824,6 @@ link: "https://ehmatthes.github.io/pcc_2e/cheat_sheets/cheat_sheets/"
 language: "Python"
 category: "Programming;Reference"
 description: "Cheat Sheets Cheat sheets can be really helpful when you’re trying a set of exercises related to a specific topic, or working on a project."
-date: ""
 ---
 ---
 title: "Automate the Boring Stuff"
@@ -869,7 +832,6 @@ link: "https://automatetheboringstuff.com/2e/"
 language: "Python"
 category: "Programming;Open Source & Automation"
 description: "A Page in : 2nd Edition"
-date: ""
 ---
 ---
 title: "Python Kitchen - Free Books"
@@ -877,7 +839,7 @@ type: "Website"
 link: "https://www.pythonkitchen.com/legally-free-python-books-list/"
 language: "Python"
 category: "General"
-description: "Here is my personal list of legally free Python books. Warning: Packt free books are highly unreliable, what can be free today can no longer be free tomorrow Th..."
+description: "Searching for the best legally free Python books can be overwhelming with so many broken links and outdated resources. This curated list provides over 80 high-q..."
 date: "2026-02-24"
 ---
 ---
@@ -886,7 +848,6 @@ type: "Blog"
 link: "https://jvns.ca/"
 language: "Other"
 category: "Programming;MLOps"
-description: ""
 date: "2025-01-11"
 ---
 ---
@@ -896,7 +857,6 @@ link: "http://wavedatalab.github.io/datawithpython/"
 language: "Python"
 category: "Data Science"
 description: "We work on open-source data projects and do education, consulting, and training in machine learning and statistics."
-date: ""
 ---
 ---
 title: "Python for Data Analysis"
@@ -941,7 +901,6 @@ link: "https://jakevdp.github.io/PythonDataScienceHandbook/"
 language: "Python"
 category: "Data Science"
 description: "Python Data Science Handbook Jake VanderPlas This website contains the full text of the Python Data Science Handbook by Jake VanderPlas; the content is available on GitHub in the form of Jupyter notebooks."
-date: ""
 ---
 ---
 title: "Michael Waskom"
@@ -976,8 +935,6 @@ type: "Blog"
 link: "https://blog.crossminds.ai/post/10-ai-books-to-read-in-2021-machine-learning-researchers-engineers"
 language: "Other"
 category: "Machine Learning"
-description: ""
-date: ""
 ---
 ---
 title: "PySimpleGUI"
@@ -985,7 +942,7 @@ type: "Package"
 link: "https://github.com/PySimpleGUI/PySimpleGUI"
 language: "Python"
 category: "Developer Tools;Programming"
-description: "Python GUIs for Humans! PySimpleGUI is the top-rated Python application development environment. Launched in 2018 and actively developed, maintained, and supported in 2024. Transforms tkinter, Qt, ..."
+description: "Python GUIs for Humans! Create any GUI simple or complicated in a way that's intuitive. Launched in 2018. NEW for 2026 - the LGPL3 Version 6. Transforms tkinter, Qt, WxPython, and Remi into a..."
 date: "2018-07-11"
 ---
 ---
@@ -1030,7 +987,7 @@ type: "Package"
 link: "https://github.com/anish-lakkapragada/SeaLion"
 language: "Python"
 category: "Machine Learning"
-description: "The first machine learning framework that encourages learning ML concepts instead of memorizing class functions. - GitHub - anish-lakkapragada/SeaLion: The first machine learning framework that en..."
+description: "The first machine learning framework that encourages learning ML concepts instead of memorizing class functions. - anish-lakkapragada/SeaLion"
 date: "2021-01-24"
 ---
 ---
@@ -1057,8 +1014,6 @@ type: "Blog"
 link: "https://www.conorjohanlon.com/web-scraping-with-python-using-ebay-as-an-example/"
 language: "Python"
 category: "Web Development"
-description: ""
-date: ""
 ---
 ---
 title: "Building ML App from Scratch"
@@ -1102,7 +1057,7 @@ type: "Paper"
 link: "https://arxiv.org/abs/1406.2661"
 language: "Python"
 category: "Machine Learning;Deep Learning"
-description: "We propose a new framework for estimating generative models via an adversarial process, in which we simultaneously train two models: a generative model G that captures the data distribution, and a discriminative model D that estimates the probability that a sample came from the training data rather "
+description: "We propose a new framework for estimating generative models via an adversarial process, in which we simultaneously train two models: a generative model G that captures the data distribution, and a discriminative model D that estimates the probability that a sample came from the training data rather"
 date: "2014-06-10"
 ---
 ---
@@ -1130,7 +1085,6 @@ link: "https://rahuldkjain.github.io/gh-profile-readme-generator/"
 language: "Other"
 category: "Git;Developer Tools"
 description: "Prettify your github profile using this amazing readme generator."
-date: ""
 ---
 ---
 title: "The Algorithms"
@@ -1147,8 +1101,6 @@ type: "Blog"
 link: "https://towardsdatascience.com/visualization-with-plotly-express-comprehensive-guide-eb5ee4b50b57"
 language: "Python"
 category: "Data Visualization"
-description: ""
-date: ""
 ---
 ---
 title: "TensorFlow Playlist"
@@ -1192,8 +1144,6 @@ type: "Website"
 link: "https://www.cc.gatech.edu/~parikh/humanstoriesai/"
 language: "Other"
 category: "AI;Ethics"
-description: ""
-date: ""
 ---
 ---
 title: "Stanford NLP Seminar"
@@ -1292,7 +1242,6 @@ link: "https://rstudio.github.io/renv/articles/renv.html"
 language: "R"
 category: "R Ecosystem;Reproducibility"
 description: "The renv package helps you create reproducible environments for your R projects."
-date: ""
 ---
 ---
 title: "Git Tutorial Video"
@@ -1309,8 +1258,6 @@ type: "Website"
 link: "https://learngitbranch.js.org/?locale=fr_FR"
 language: "Other;French"
 category: "Git;Data Visualization"
-description: ""
-date: ""
 ---
 ---
 title: "useR 2022 - Amelia McNamara"
@@ -1345,8 +1292,6 @@ type: "Website"
 link: "https://datasets.bifrost.ai/"
 language: "Other"
 category: "Data Science;Data Engineering"
-description: ""
-date: ""
 ---
 ---
 title: "Human Microbiome Project"
@@ -1381,8 +1326,6 @@ type: "Website"
 link: "http://eric.univ-lyon2.fr/~ricco/cours/cours_programmation_python.html"
 language: "Python;French"
 category: "Programming"
-description: ""
-date: ""
 ---
 ---
 title: "NumPy Reference"
@@ -1426,8 +1369,6 @@ type: "Website"
 link: "http://apprendre-python.com/page-apprendre-tuples-tuple-python"
 language: "Python;French"
 category: "Programming"
-description: ""
-date: ""
 ---
 ---
 title: "Python For Loops"
@@ -1435,7 +1376,6 @@ type: "Website"
 link: "https://www.codingame.com/playgrounds/17176/recueil-dexercices-pour-apprendre-python-au-lycee/cours---les-boucles-for"
 language: "Python;French"
 category: "Programming"
-description: ""
 date: "2024-11-01"
 ---
 ---
@@ -1454,7 +1394,6 @@ link: "https://www.crackingthecodinginterview.com/"
 language: "Other"
 category: "Programming;Career & Industry"
 description: "Help software engineers interview at their best. The best-selling book in computer science for 4 years running. Written by a former member of Google's hiring committee, and the consultant on engineering hiring for many of the top tech companies."
-date: ""
 ---
 ---
 title: "Hands-On ML with Scikit-Learn"
@@ -1525,7 +1464,7 @@ type: "Book"
 link: "https://github.com/rasbt/python-machine-learning-book-3rd-edition"
 language: "Python"
 category: "Machine Learning"
-description: "The \\\"Python Machine Learning (3rd edition)\\\" book code repository - rasbt/python-machine-learning-book-3rd-edition"
+description: "The \"Python Machine Learning (3rd edition)\" book code repository - rasbt/python-machine-learning-book-3rd-edition"
 date: "2019-06-07"
 ---
 ---
@@ -1624,8 +1563,6 @@ type: "Website"
 link: "https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging"
 language: "Other"
 category: "Git"
-description: ""
-date: ""
 ---
 ---
 title: "Happy Git with R"
@@ -1634,7 +1571,6 @@ link: "https://happygitwithr.com/"
 language: "R"
 category: "Git;Reproducibility"
 description: "Using Git and GitHub with R, Rstudio, and R Markdown"
-date: ""
 ---
 ---
 title: "STAT 545"
@@ -1697,7 +1633,6 @@ link: "https://pkg.garrickadenbuie.com/xaringanthemer/"
 language: "R"
 category: "Presentations"
 description: "Give your xaringan slides some style with xaringanthemer. Easy slide and plot themes for xaringan slides."
-date: ""
 ---
 ---
 title: "Garrick Aden-Buie"
@@ -1724,7 +1659,6 @@ link: "https://apreshill.github.io/data-vis-labs-2018/"
 language: "R"
 category: "Data Visualization;Education"
 description: "This is the site for sharing our Data Visualization Labs for CS631 at Oregon Health & Science University."
-date: ""
 ---
 ---
 title: "Julien Barnier - Tidyverse"
@@ -1742,7 +1676,6 @@ link: "https://www.tidyverse.org/"
 language: "R"
 category: "R Ecosystem"
 description: "R packages for data science The tidyverse is an opinionated collection of R packages designed for data science."
-date: ""
 ---
 ---
 title: "purrr"
@@ -1778,7 +1711,6 @@ link: "https://jennybc.github.io/purrr-tutorial/"
 language: "R"
 category: "Programming"
 description: "map() This work is licensed under a Creative Commons Attribution-ShareAlike 4."
-date: ""
 ---
 ---
 title: "Row-Oriented Workflows"
@@ -1805,7 +1737,6 @@ link: "https://ggplot2-book.org/"
 language: "R"
 category: "Data Visualization"
 description: "ggplot2: Elegant Graphics for Data Analysis (3e) Welcome This is the on-line version of work-in-progress 3rd edition of “ggplot2: elegant graphics for data analysis” published by Springer."
-date: ""
 ---
 ---
 title: "dplyr Tutorial"
@@ -1814,7 +1745,6 @@ link: "https://genomicsclass.github.io/book/pages/dplyr_tutorial.html"
 language: "R"
 category: "Data Science"
 description: "dplyr tutorial What is dplyr? dplyr is a powerful R-package to transform and summarize tabular data with rows and columns."
-date: ""
 ---
 ---
 title: "ThinkR - Create Package"
@@ -1841,7 +1771,6 @@ link: "http://r-pkgs.had.co.nz/"
 language: "R"
 category: "R Ecosystem"
 description: "Learn how to create a package, the fundamental unit of shareable, reusable, and reproducible R code."
-date: ""
 ---
 ---
 title: "R Package from Scratch"
@@ -1858,7 +1787,6 @@ type: "Website"
 link: "https://sites.google.com/site/mb3gustame/hypothesis-tests/anosim"
 language: "R"
 category: "Statistics"
-description: ""
 date: "2026-02-18"
 ---
 ---
@@ -1867,8 +1795,6 @@ type: "Website"
 link: "https://waves-vagues.dfo-mpo.gc.ca/Library/360070.pdf"
 language: "R"
 category: "Medical & Life Sciences;Statistics"
-description: ""
-date: ""
 ---
 ---
 title: "Murray Logan Stats"
@@ -1876,8 +1802,6 @@ type: "Website"
 link: "https://www.flutterbys.com.au/stats/tut/tut15.2.html"
 language: "R"
 category: "Statistics"
-description: ""
-date: ""
 ---
 ---
 title: "UMass Discriminant Analysis"
@@ -1885,8 +1809,6 @@ type: "Website"
 link: "http://www.umass.edu/landeco/teaching/multivariate/schedule/discriminate1.pdf"
 language: "R"
 category: "Statistics"
-description: ""
-date: ""
 ---
 ---
 title: "RStudio Useful Packages"
@@ -1939,8 +1861,6 @@ type: "Course"
 link: "https://www.datacamp.com/courses/data-table-data-manipulation-r-tutorial"
 language: "R"
 category: "Data Science"
-description: ""
-date: ""
 ---
 ---
 title: "Remi Bacha - Data Pre-processing"
@@ -1976,7 +1896,7 @@ link: "http://www.sthda.com/french/"
 language: "R;French"
 category: "Statistics"
 description: "Statistical tools for data analysis and visualization"
-date: ""
+date: "2000-01-01"
 ---
 ---
 title: "ggplot2 Tutorial"
@@ -1994,7 +1914,6 @@ link: "https://therinspark.com/"
 language: "R"
 category: "Data Engineering"
 description: "The Complete Guide to Large-Scale Analysis and Modeling."
-date: ""
 ---
 ---
 title: "RPubs"
@@ -2093,7 +2012,6 @@ link: "https://swirlstats.com/instructors.html"
 language: "R"
 category: "Education;Data Visualization"
 description: ":computer: swirl's official website"
-date: ""
 ---
 ---
 title: "Laurent Gourvès"
@@ -2128,8 +2046,6 @@ type: "Book"
 link: "https://www.mdpi.com/books/pdfview/book/5544"
 language: "R"
 category: "Statistics;Data Engineering"
-description: ""
-date: ""
 ---
 ---
 title: "tidyterra"
@@ -2137,7 +2053,7 @@ type: "Blog"
 link: "https://dieghernan.github.io/202205_tidyterra/"
 language: "R"
 category: "Data Engineering;R Ecosystem"
-description: "Easily work and ggplot SpatRasters - tidyterra provides tidyverse methods for terra objects and geom functions for plotting with ggplot2...."
+description: "Use tidyterra to manipulate terra spatial objects with tidyverse methods and plot SpatRasters with ggplot2."
 date: "2022-05-25"
 ---
 ---
@@ -2156,7 +2072,6 @@ link: "https://share.streamlit.io/jeanmilpied/reparatorai/main/reparator.py"
 language: "Python"
 category: "Web Development"
 description: "You need to enable JavaScript to run this app."
-date: ""
 ---
 ---
 title: "trackdown"
@@ -2219,7 +2134,6 @@ link: "http://datasciencebydesign.org/book"
 language: "Other"
 category: "Data Science"
 description: "DSxD’s Future of Data Science Book One part of the Data Science by Design (DSxD) initiative that we are especially excited about is showcasing the work created by the newly established DSxD community."
-date: ""
 ---
 ---
 title: "Tidyverse Tips"
@@ -2245,8 +2159,6 @@ type: "Blog"
 link: "https://www.quantmetry.com/blog/la-segmentation-bayesienne-appliquee-aux-irm-cerebraux/"
 language: "Python;French"
 category: "Medical & Life Sciences;Bayesian"
-description: ""
-date: ""
 ---
 ---
 title: "RStudio vetiver Announcement"
@@ -2263,8 +2175,6 @@ type: "Blog"
 link: "https://towardsdatascience.com/tips-and-tricks-in-rstudio-and-r-markdown-7a464508b0c"
 language: "R"
 category: "Developer Tools;R Markdown"
-description: ""
-date: ""
 ---
 ---
 title: "Econometrics with R"
@@ -2290,8 +2200,6 @@ type: "Book"
 link: "https://mlr3book.mlr-org.com/01-intro.html"
 language: "R"
 category: "Machine Learning"
-description: ""
-date: ""
 ---
 ---
 title: "reactable"
@@ -2300,7 +2208,6 @@ link: "https://glin.github.io/reactable/"
 language: "R"
 category: "Data Visualization"
 description: "Interactive data tables for R, based on the React Table JavaScript library. Provides an HTML widget that can be used in R Markdown or Quarto documents, Shiny applications, or viewed from an R console."
-date: ""
 ---
 ---
 title: "Corise Computer Vision"
@@ -2308,8 +2215,6 @@ type: "Course"
 link: "https://corise.com/course/computer-vision"
 language: "Python"
 category: "Computer Vision"
-description: ""
-date: ""
 ---
 ---
 title: "RFlow Biostatistics"
@@ -2321,12 +2226,12 @@ description: "R Workflow for Reproducible Data Analysis and Reporting"
 date: "2026-01-30"
 ---
 ---
-title: "Awesome Data Leadership"
-type: "Community"
-link: "https://github.com/ronikobrosly/awesome-data-leadership"
+title: "github"
+type: "Repository"
+link: "https://github.com/ronikobrosly/awesome-data-leadership#readme"
 language: "Other"
-category: "Data Science;Career & Industry"
-description: "A community resource covering Data Science and Leadership — Awesome Data Leadership."
+category: "Machine Learning"
+description: "A curated list of awesome posts, videos, and articles on leading a data team (small and large) - ronikobrosly/awesome-data-leadership"
 date: "2022-03-22"
 ---
 ---
@@ -2344,8 +2249,6 @@ type: "Blog"
 link: "https://sti.epfl.ch/they-werent-sure-it-could-be-done-an-artificially-intelligent-coffee-machine/"
 language: "Other"
 category: "AI;Data Engineering"
-description: ""
-date: ""
 ---
 ---
 title: "Bnomial Today"
@@ -2353,8 +2256,6 @@ type: "Website"
 link: "https://today.bnomial.com/"
 language: "R"
 category: "Shiny;Data Visualization"
-description: ""
-date: ""
 ---
 ---
 title: "waiter"
@@ -2363,7 +2264,6 @@ link: "https://waiter.john-coene.com/#/waitress"
 language: "R"
 category: "Shiny"
 description: "Loading screens and progress bars for the Shiny web framework."
-date: ""
 ---
 ---
 title: "Julie Josse"
@@ -2371,7 +2271,7 @@ type: "Website"
 link: "http://juliejosse.com/"
 language: "R"
 category: "Statistics"
-description: ""
+description: "Julie Josse - Senior Researcher at Inria"
 date: "2017-08-29"
 ---
 ---
@@ -2398,7 +2298,6 @@ type: "Website"
 link: "https://apreshill.github.io/palmerpenguins-useR-2022/#/thank-you"
 language: "R"
 category: "Data Science;Education"
-description: ""
 date: "2020-07-23"
 ---
 ---
@@ -2434,7 +2333,6 @@ type: "Website"
 link: "https://vas3k.com/blog/machine_learning/"
 language: "Other"
 category: "Machine Learning"
-description: ""
 date: "2018-11-21"
 ---
 ---
@@ -2470,7 +2368,6 @@ type: "Website"
 link: "https://www.dropbox.com/s/3ds01k9hdtn2ghb/user2022_silge.pdf"
 language: "R"
 category: "Machine Learning"
-description: ""
 date: "2022-01-01"
 ---
 ---
@@ -2497,8 +2394,6 @@ type: "Blog"
 link: "https://thedatathread.com/"
 language: "Other"
 category: "Data Science"
-description: ""
-date: ""
 ---
 ---
 title: "Climate Multiples"
@@ -2533,8 +2428,6 @@ type: "Book"
 link: "https://book.modeling-mindsets.com/"
 language: "Other"
 category: "Statistics;Social Sciences"
-description: ""
-date: ""
 ---
 ---
 title: "Yihui Xie blogdown"
@@ -2560,8 +2453,6 @@ type: "Website"
 link: "https://app.citedrive.com/"
 language: "Other"
 category: "Research;Developer Tools"
-description: ""
-date: ""
 ---
 ---
 title: "Patrick Weiss useR 2022"
@@ -2606,7 +2497,6 @@ link: "https://evamaerey.github.io/mytidytuesday/2022-06-20-tabyl/2022-06-20-tab
 language: "R"
 category: "R Ecosystem"
 description: "class: center, inverse, middle # Do you know the [{janitor}](https://github."
-date: ""
 ---
 ---
 title: "Pierre Alquier"
@@ -2623,8 +2513,6 @@ type: "Blog"
 link: "https://www.quantmetry.com/blog/choix-fonction-de-perte-en-computer-vision/"
 language: "Python;French"
 category: "Computer Vision;Deep Learning"
-description: ""
-date: ""
 ---
 ---
 title: "Appsilon Shiny Google Analytics"
@@ -2632,8 +2520,6 @@ type: "Blog"
 link: "https://appsilon.com/r-shiny-google-analytics/"
 language: "R"
 category: "Shiny;Data Science"
-description: ""
-date: ""
 ---
 ---
 title: "Achim Zeileis useR 2022"
@@ -2659,7 +2545,7 @@ type: "Blog"
 link: "https://beamilz.com/posts/series-gha/2022-series-gha-1-what-is/en/"
 language: "R"
 category: "MLOps;Git"
-description: "usethis::use_github_action(\\\"check-release\\\") Hi! This is the first blog post in the “GitHub Action” Series."
+description: "usethis::use_github_action(\"check-release\") Hi! This is the first blog post in the “GitHub Action” Series."
 date: "2022-06-30"
 ---
 ---
@@ -2695,12 +2581,12 @@ type: "Website"
 link: "https://christianb.gumroad.com/l/tidyverse-booster"
 language: "R"
 category: "R Ecosystem"
-description: "Transform yourself from a beginner to an advanced Tidyverse user with the help of this PDF-book. The book contains a collection of the most fascinating and useful Tidyverse tricks. I have been gathering all Tidyverse tricks I could find since June 2022 and compiled them into this singular resource. "
+description: "Transform yourself from a beginner to an advanced Tidyverse user with the help of this PDF-book. The book contains a collection of the most fascinating and useful Tidyverse tricks. I have been gathering all Tidyverse tricks I could find since June 2022 and compiled them into this singular resource."
 date: "2023-10-16"
 ---
 ---
 title: "Data Science Section July"
-type: "Newsletter"
+type: "Blog"
 link: "https://datasciencesection.org/2022/07/03/july-newsletter-3/"
 language: "Other"
 category: "Data Science"
@@ -2722,8 +2608,6 @@ type: "Website"
 link: "https://do4ds.com/chapters/sec1/docker.html"
 language: "Other"
 category: "Docker;Data Science"
-description: ""
-date: ""
 ---
 ---
 title: "Quarto Blog Writing Guide"
@@ -2749,8 +2633,6 @@ type: "Paper"
 link: "https://www.nature.com/articles/s42256-022-00465-9#citeas"
 language: "Other"
 category: "Ethics;AI"
-description: ""
-date: ""
 ---
 ---
 title: "Openscapes Quarto Migration"
@@ -2768,7 +2650,6 @@ link: "https://bioicons.com/"
 language: "Other"
 category: "Creative & Games;Medical & Life Sciences"
 description: "Bioicons contains free science illustrations for biologists, chemists, machine learning under permissive CC0, CC BY or MIT License."
-date: ""
 ---
 ---
 title: "Write the Docs Guide"
@@ -2803,7 +2684,7 @@ type: "Package"
 link: "https://business-science.github.io/modeltime/"
 language: "R"
 category: "Statistics;Machine Learning"
-description: "The time series forecasting framework for use with the tidymodels ecosystem. Models include ARIMA, Exponential Smoothing, and additional time series models from the forecast and prophet packages. Refer to \\\"Forecasting Principles & Practice, Second edition\\\" (<https://otexts.com/fpp2/>). Refer to \\\"Pro"
+description: "The time series forecasting framework for use with the tidymodels ecosystem. Models include ARIMA, Exponential Smoothing, and additional time series models from the forecast and prophet packages. Refer to \"Forecasting Principles & Practice, Second edition\" ( ). Refer to \"Pro"
 date: "2017-02-01"
 ---
 ---
@@ -2812,8 +2693,6 @@ type: "Website"
 link: "https://quantiq.io/jobs/internship-in-medical-deep-learning"
 language: "Other"
 category: "Medical & Life Sciences;Deep Learning;Career & Industry"
-description: ""
-date: ""
 ---
 ---
 title: "Forecasting Principles and Practice"
@@ -2822,7 +2701,7 @@ link: "https://otexts.com/fpp3/intro.html"
 language: "R"
 category: "Statistics"
 description: "Chapter 1 Getting started Forecasting has fascinated people for thousands of years, sometimes being considered a sign of divine inspiration, and sometimes being seen as a criminal activity."
-date: ""
+date: "2000-01-01"
 ---
 ---
 title: "Deep Creativity"
@@ -2830,7 +2709,6 @@ type: "Website"
 link: "https://ali-design.github.io/deepcreativity/"
 language: "Python"
 category: "Generative AI;Creative & Games"
-description: ""
 date: "2019-02-20"
 ---
 ---
@@ -2857,8 +2735,6 @@ type: "Website"
 link: "https://12ft.io/"
 language: "Other"
 category: "Developer Tools"
-description: ""
-date: ""
 ---
 ---
 title: "Crick Institute DeepMind"
@@ -2866,8 +2742,6 @@ type: "Blog"
 link: "https://www.crick.ac.uk/news/2022-07-06_the-francis-crick-institute-and-deepmind-join-forces-to-apply-machine-learning-to-biology"
 language: "Other"
 category: "Medical & Life Sciences;AI"
-description: ""
-date: ""
 ---
 ---
 title: "Math3ma"
@@ -2911,7 +2785,6 @@ type: "Book"
 link: "https://books.ropensci.org/targets/walkthrough.html"
 language: "R"
 category: "Reproducibility"
-description: ""
 date: "2025-01-01"
 ---
 ---
@@ -2920,8 +2793,6 @@ type: "Blog"
 link: "https://jollydata.blog/posts/2022-06-12-when-not-in-rome/when-not-in-rome.html"
 language: "R"
 category: "Best Practices"
-description: ""
-date: ""
 ---
 ---
 title: "Quarto Blog Template"
@@ -2956,8 +2827,6 @@ type: "Website"
 link: "https://osf.io/cdqub/"
 language: "Other"
 category: "Research;Reproducibility"
-description: ""
-date: ""
 ---
 ---
 title: "Containerizing R Markdown"
@@ -2992,8 +2861,6 @@ type: "Website"
 link: "https://papers.labml.ai/paper/063dc7ec6d1111ec905035ac8856fc87"
 language: "Other"
 category: "Research"
-description: ""
-date: ""
 ---
 ---
 title: "Deploy Flex Actions"
@@ -3055,7 +2922,7 @@ type: "Website"
 link: "https://github.com/hugo-apero/hugo-apero"
 language: "R"
 category: "R Ecosystem;Web Development"
-description: "Apéro is a Hugo theme for personal websites. A Hugo theme you'll want to hang out with :milky_way: . This is the source for the theme files to install. - GitHub - hugo-apero/hugo-apero: Apéro i..."
+description: "Apéro is a Hugo theme for personal websites. A Hugo theme you'll want to hang out with :milky_way: . This is the source for the theme files to install. - hugo-apero/hugo-apero"
 date: "2021-02-02"
 ---
 ---
@@ -3083,16 +2950,6 @@ link: "https://ashbaldry.github.io/designer/"
 language: "R"
 category: "Shiny"
 description: "A shiny application that enables the user to create a prototype UI, being able to drag and drop UI components before being able to save or download the equivalent R code."
-date: ""
----
----
-title: "RFlow Updated"
-type: "Website"
-link: "https://hbiostat.org/rflow/"
-language: "R"
-category: "Statistics;Reproducibility"
-description: "R Workflow for Reproducible Data Analysis and Reporting"
-date: "2026-01-30"
 ---
 ---
 title: "G*Power"
@@ -3127,8 +2984,7 @@ type: "Blog"
 link: "https://argmax.ghost.io/"
 language: "Other"
 category: "Machine Learning"
-description: ""
-date: ""
+description: "Thoughts, stories and ideas."
 ---
 ---
 title: "Yohan Mansiaux"
@@ -3169,11 +3025,9 @@ date: "2024-05-07"
 ---
 title: "GDR Stat Santé"
 type: "Website"
-link: "http://gdr-stat-sante.math.cnrs.fr/spip/spip.php?article129"
+link: "http://gdr-stat-sante.math.cnrs.fr/spip/spip.php?article129="
 language: "R;French"
 category: "Statistics;Medical & Life Sciences"
-description: ""
-date: ""
 ---
 ---
 title: "ML Notebooks"
@@ -3200,7 +3054,6 @@ link: "https://threadreaderapp.com/thread/1550220071649259521.html"
 language: "Other"
 category: "Machine Learning"
 description: "@Emil_Hvitfeldt: Are you using Quarto to create slides? Do you want to share your slides easily? Do you have minimal Github knowledge? If you answered yes to all 3 questions then read along in this 3...…"
-date: ""
 ---
 ---
 title: "Beautiful Tables in R"
@@ -3239,22 +3092,12 @@ description: "A free course designed for people with some coding experience, who
 date: "2020-01-01"
 ---
 ---
-title: "Containerizing R Markdown Full"
-type: "Blog"
-link: "https://hosting.analythium.io/containerizing-interactive-r-markdown-documents/"
-language: "R"
-category: "Docker;R Markdown"
-description: "R Markdown is a reproducible authoring format supporting dozens of static and dynamic output formats. Let's review why and how you should containerize Rmd files."
-date: "2022-07-08"
----
----
 title: "Intro to Transformers"
 type: "Website"
 link: "https://dair-ai.notion.site/Introduction-to-Transformers-4b869c9595b74f72b088e5f2793ece80"
 language: "Python"
 category: "Deep Learning"
 description: "JavaScript must be enabled in order to use Notion."
-date: ""
 ---
 ---
 title: "Desirée De Leon"
@@ -3289,8 +3132,6 @@ type: "Website"
 link: "https://fastverse.r-universe.dev/ui#packages"
 language: "R"
 category: "Programming;R Ecosystem"
-description: ""
-date: ""
 ---
 ---
 title: "ESIP Presentation"
@@ -3335,7 +3176,7 @@ link: "https://apply.workable.com/huggingface/j/A45A99EA5E/"
 language: "Other"
 category: "Career & Industry;NLP & Speech"
 description: "Here at Hugging Face, we’re on a journey to advance and democratize ML for everyone. Along the way, we contribute to the development of technology for the better."
-date: ""
+date: "2026-01-01"
 ---
 ---
 title: "GitLab GitHub Issues Summary"
@@ -3379,8 +3220,6 @@ type: "Website"
 link: "https://thomasmock.quarto.pub/quarto-curious/#/1"
 language: "R"
 category: "Quarto;Presentations"
-description: ""
-date: ""
 ---
 ---
 title: "Malcolm Barrett"
@@ -3406,8 +3245,6 @@ type: "Website"
 link: "https://debruine.github.io/quarto_demo/dark_mode.html"
 language: "R"
 category: "Quarto"
-description: "<- ggplot(diamonds, aes(x = cut, y = price, fill = cut)) + g geom_violin() + labs(title = \\\"Diamond price by cut\\\") Dark Mode Demo Toggle dark and light mode (there’s a switch in the upper right corner) to see the plot switch."
-date: ""
 ---
 ---
 title: "rex Regex Shortcuts"
@@ -3416,7 +3253,6 @@ link: "https://rex.r-lib.org/reference/shortcuts.html"
 language: "R"
 category: "Programming"
 description: "Commonly used character classes and regular expressions. These shortcuts are substituted inside rex calls."
-date: ""
 ---
 ---
 title: "DataTrail Mentors"
@@ -3424,8 +3260,6 @@ type: "Website"
 link: "https://www.datatrail.org/datatrail/datatrail-mentors"
 language: "Other"
 category: "Education"
-description: ""
-date: ""
 ---
 ---
 title: "RStudio Conf 2022 Program"
@@ -3433,7 +3267,7 @@ type: "Website"
 link: "https://github.com/rstudio/rstudio-conf-2022-program"
 language: "R"
 category: "General"
-description: "rstudio::conf(2022, \\\"program\\\"). Contribute to rstudio/rstudio-conf-2022-program development by creating an account on GitHub."
+description: "rstudio::conf(2022, \"program\"). Contribute to rstudio/rstudio-conf-2022-program development by creating an account on GitHub."
 date: "2022-05-20"
 ---
 ---
@@ -3515,7 +3349,6 @@ link: "https://clauswilke.com/dataviz/"
 language: "R"
 category: "Data Visualization"
 description: "A guide to making visualizations that accurately reflect the data, tell a story, and look professional."
-date: ""
 ---
 ---
 title: "caret vs tidymodels"
@@ -3523,8 +3356,6 @@ type: "Blog"
 link: "https://towardsdatascience.com/caret-vs-tidymodels-create-complete-reusable-machine-learning-workflows-5c50a7befd2d"
 language: "R"
 category: "Machine Learning"
-description: ""
-date: ""
 ---
 ---
 title: "RInterface"
@@ -3559,7 +3390,7 @@ type: "Website"
 link: "https://jamesotto852.github.io/JSM-2022/#/references"
 language: "R"
 category: "Data Visualization"
-description: "Let f(x, y) be the pdf of a random vector <X, Y> in R^2."
+description: "Let f(x, y) be the pdf of a random vector in R^2."
 date: "2022-07-08"
 ---
 ---
@@ -3577,7 +3408,7 @@ type: "Book"
 link: "http://rafalab.dfci.harvard.edu/dsbook/"
 language: "R"
 category: "Data Science"
-description: "This book introduces concepts and skills that can help you tackle real-world data analysis challenges. It covers concepts from probability, statistical inference, linear regression and machine learning and helps you develop skills such as R programming, data wrangling with dplyr, data visualization "
+description: "This book introduces concepts and skills that can help you tackle real-world data analysis challenges. It covers concepts from probability, statistical inference, linear regression and machine learning and helps you develop skills such as R programming, data wrangling with dplyr, data visualization"
 date: "2010-01-01"
 ---
 ---
@@ -3591,7 +3422,7 @@ date: "2022-08-08"
 ---
 ---
 title: "Mindful Modeler"
-type: "Newsletter"
+type: "Blog"
 link: "https://mindfulmodeler.substack.com/"
 language: "Other"
 category: "Machine Learning"
@@ -3820,8 +3651,6 @@ type: "Paper"
 link: "https://www.nature.com/articles/s41746-022-00592-y"
 language: "Other"
 category: "Medical & Life Sciences;AI"
-description: ""
-date: ""
 ---
 ---
 title: "Causal Inference Course"
@@ -3848,7 +3677,6 @@ link: "https://timteafan.github.io/loopurrr/"
 language: "R"
 category: "Programming;R Ecosystem"
 description: "Makes learning, teaching and debugging iterator functions from the purrr package easy by translating them into regular for loops."
-date: ""
 ---
 ---
 title: "Twitter Easlo"
@@ -3910,8 +3738,6 @@ type: "Package"
 link: "https://cran.r-project.org/web/packages/equatiomatic/vignettes/intro-equatiomatic.html"
 language: "R"
 category: "R Markdown;Statistics"
-description: ""
-date: ""
 ---
 ---
 title: "Twitter IML"
@@ -3938,7 +3764,6 @@ link: "https://betaandbit.github.io/RML/"
 language: "R"
 category: "Machine Learning"
 description: "The Hitchhiker’s Guide to Responsible Machine Learning"
-date: ""
 ---
 ---
 title: "PsyArXiv Preregistration"
@@ -3946,8 +3771,6 @@ type: "Paper"
 link: "https://psyarxiv.com/dnr9s/"
 language: "Other"
 category: "Research;Machine Learning"
-description: ""
-date: ""
 ---
 ---
 title: "PsyArXiv Meta-Science"
@@ -3955,8 +3778,6 @@ type: "Paper"
 link: "https://psyarxiv.com/9pjx5/"
 language: "Other"
 category: "Research"
-description: ""
-date: ""
 ---
 ---
 title: "Creating Quarto Websites"
@@ -3973,8 +3794,6 @@ type: "Website"
 link: "https://about.gitlab"
 language: "Other"
 category: "Git"
-description: ""
-date: ""
 ---
 ---
 title: "R-bloggers - ggplot2 Functions"
@@ -3982,7 +3801,7 @@ type: "Blog"
 link: "https://www.r-bloggers.com/writing-functions-to-automate-repetitive-plotting-tasks-in-ggplot2/"
 language: "R"
 category: "Data Visualization;Open Source & Automation"
-description: "<div style = \\\"width:60%; display: inline-block; float:left; \\\"> Introduction Making Multiple Plots on the Same Subject Preparing the Data Writing Functions to Generate Multiple Plots Making Custom Plot Themes Updating Plot Themes Introduction There are often situations when you need to perform repeti"
+description: "Introduction Making Multiple Plots on the Same Subject Preparing the Data Writing Functions to Generate Multiple Plots Making Custom Plot Themes Updating Plot Themes Introduction There are often situations when you need to perform repeti"
 date: "2020-07-08"
 ---
 ---
@@ -3992,12 +3811,11 @@ link: "https://www.r-bloggers.com/how-to-learn-r-2/"
 language: "R"
 category: "Education"
 description: "Error establishing a database connection."
-date: ""
 ---
 ---
 title: "PBIL Lyon R Teaching"
 type: "Website"
-link: "http://pbil.univ-lyon1.fr/R/enseignement_div.php?contents=html/entree"
+link: "http://pbil.univ-lyon1.fr/R/enseignement_div.php?contents=html%2Fentree"
 language: "R;French"
 category: "Statistics"
 description: "On trouve ici des cours, exercices, TD avec le logiciel R, pour l'enseignement de la statistique et de l'analyse des données pour des biologistes."
@@ -4009,8 +3827,6 @@ type: "Website"
 link: "https://cran.r-project.org/doc/contrib/Herve-Aide-memoire-statistique.pdf"
 language: "R;French"
 category: "Statistics;Reference"
-description: ""
-date: ""
 ---
 ---
 title: "abcdR ThinkR"
@@ -4018,8 +3834,6 @@ type: "Website"
 link: "https://abcdr.thinkr.fr/"
 language: "R;French"
 category: "General"
-description: ""
-date: ""
 ---
 ---
 title: "Duclert R Resources"
@@ -4090,7 +3904,7 @@ type: "Course"
 link: "http://www2.stat.duke.edu/courses/Fall17/sta112.01/"
 language: "R"
 category: "Statistics"
-description: "Course info | When | Tue & Thu 10:05 - 11:20am | | Where | Perkins LINK 070 (Seminar 4) | Teaching team | Instructor | Mine Çetinkaya-Rundel | OH: Mon 1 - 3pm & Wed by appointment at Old Chem 213 | | | TA | Kyle Burris | OH: Wed 9 - 10am & Fri 10 - 11am at Old Chem 211A | Texts All texts are freely "
+description: "Course info | When | Tue & Thu 10:05 - 11:20am | | Where | Perkins LINK 070 (Seminar 4) | Teaching team | Instructor | Mine Çetinkaya-Rundel | OH: Mon 1 - 3pm & Wed by appointment at Old Chem 213 | | | TA | Kyle Burris | OH: Wed 9 - 10am & Fri 10 - 11am at Old Chem 211A | Texts All texts are freely"
 date: "2015-01-01"
 ---
 ---
@@ -4100,7 +3914,6 @@ link: "https://adv-r.hadley.nz/"
 language: "R"
 category: "Programming"
 description: "A book created with bookdown."
-date: ""
 ---
 ---
 title: "R Packages"
@@ -4109,7 +3922,6 @@ link: "https://r-pkgs.org/"
 language: "R"
 category: "R Ecosystem"
 description: "Learn how to create a package, the fundamental unit of shareable, reusable, and reproducible R code."
-date: ""
 ---
 ---
 title: "What They Forgot to Teach You"
@@ -4126,8 +3938,6 @@ type: "Website"
 link: "https://www.pdfdrive.com/le-logiciel-r-ma%C3%AEtriser-le-langage-effectuer-des-analyses-statistiques-e156638014.html"
 language: "R;French"
 category: "General"
-description: ""
-date: ""
 ---
 ---
 title: "drake"
@@ -4145,7 +3955,6 @@ link: "https://jennybryan.org"
 language: "R"
 category: "Data Science;Programming"
 description: "Jenny Bryan's personal website"
-date: ""
 ---
 ---
 title: "rOpenSci"
@@ -4180,8 +3989,6 @@ type: "Website"
 link: "https://solutions.rstudio.com/python/overview/"
 language: "R;Python"
 category: "Open Source & Automation;R Ecosystem"
-description: ""
-date: ""
 ---
 ---
 title: "R & Python in RStudio"
@@ -4235,7 +4042,6 @@ link: "https://shiny.rstudio.com/articles/"
 language: "R"
 category: "Shiny"
 description: "Shiny is a package that makes it easy to create interactive web apps using R and Python."
-date: ""
 ---
 ---
 title: "Shiny Layout Guide"
@@ -4243,8 +4049,6 @@ type: "Website"
 link: "https://shiny.rstudio.com/articles/layout-guide.html"
 language: "R"
 category: "Shiny"
-description: ""
-date: ""
 ---
 ---
 title: "Zev Ross Shiny Tutorial"
@@ -4262,7 +4066,6 @@ link: "https://shiny.rstudio.com/reference/shiny/1.4.0/"
 language: "R"
 category: "Shiny"
 description: "Shiny is a package that makes it easy to create interactive web apps using R and Python."
-date: ""
 ---
 ---
 title: "Shiny Gallery"
@@ -4279,8 +4082,6 @@ type: "Website"
 link: "https://shiny.rstudio.com/gallery/widget-gallery.html"
 language: "R"
 category: "Shiny"
-description: ""
-date: ""
 ---
 ---
 title: "flexdashboard"
@@ -4315,8 +4116,6 @@ type: "Book"
 link: "https://thinkr-open.github.io/building-shiny-apps-workflow/"
 language: "R"
 category: "Shiny;Reproducibility"
-description: ""
-date: ""
 ---
 ---
 title: "golem"
@@ -4378,12 +4177,10 @@ type: "Website"
 link: "https://support.rstudio.com/hc/en-us/articles/231249288-Why-does-my-app-work-locally-but-not-on-my-Shiny-Server-"
 language: "R"
 category: "Shiny;Best Practices"
-description: ""
-date: ""
 ---
 ---
 title: "Shiny Display Issues"
-type: "Forum"
+type: "Community"
 link: "https://community.rstudio.com/t/output-served-by-shiny-server-does-not-display-on-laptop/23530/4"
 language: "R"
 category: "Shiny;Best Practices"
@@ -4392,7 +4189,7 @@ date: "2019-02-19"
 ---
 ---
 title: "Shiny GitHub Issue"
-type: "Forum"
+type: "Community"
 link: "https://github.com/rstudio/shiny/issues/260#event-129544469"
 language: "R"
 category: "Shiny;Best Practices"
@@ -4401,17 +4198,16 @@ date: "2013-10-03"
 ---
 ---
 title: "Shiny Google Group"
-type: "Forum"
+type: "Community"
 link: "https://groups.google.com/forum/m/#!topic/shiny-discuss/cGbnVQbutLI"
 language: "R"
 category: "Shiny"
-description: ""
 date: "2026-02-19"
 ---
 ---
 title: "PLOS ONE phyloseq"
 type: "Paper"
-link: "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0061217"
+link: "https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0061217"
 language: "R"
 category: "Medical & Life Sciences;Statistics"
 description: "Background The analysis of microbial communities through DNA sequencing brings many challenges: the integration of different types of data with methods from ecology, genetics, phylogenetics, multivariate statistics, visualization and testing. With the increased breadth of experimental designs now be"
@@ -4423,8 +4219,6 @@ type: "Paper"
 link: "https://academic.oup.com/bioinformatics/article/31/2/282/2365643"
 language: "R"
 category: "Medical & Life Sciences"
-description: ""
-date: ""
 ---
 ---
 title: "Shiny phyloseq"
@@ -4478,7 +4272,6 @@ link: "https://deanattali.com/shinyjs/overview#demo"
 language: "R"
 category: "Shiny;Programming"
 description: "Easily improve the user experience of your Shiny apps in seconds."
-date: ""
 ---
 ---
 title: "htmlwidgets Plotly"
@@ -4495,8 +4288,6 @@ type: "Paper"
 link: "https://academic.oup.com/nar/article/46/6/2777/4909991"
 language: "Other"
 category: "Medical & Life Sciences;Research"
-description: ""
-date: ""
 ---
 ---
 title: "Understanding Statistics"
@@ -4531,8 +4322,6 @@ type: "Website"
 link: "http://statsoft.fr/concepts-statistiques/test-non-parametriques/test-non-parametriques.htm"
 language: "Other;French"
 category: "Statistics"
-description: ""
-date: ""
 ---
 ---
 title: "Parametric vs Non-parametric"
@@ -4540,8 +4329,6 @@ type: "Website"
 link: "https://www.statisticshowto.datasciencecentral.com/parametric-and-non-parametric-data/"
 language: "Other"
 category: "Statistics"
-description: ""
-date: ""
 ---
 ---
 title: "XLSTAT Test Choice Guide"
@@ -4559,7 +4346,6 @@ link: "https://dcauseur.netlify.app/index.html"
 language: "R"
 category: "Statistics;Research"
 description: "L’Institut Agro Rennes Angers Département Statistique et Informatique 65 rue de Saint-Brieuc CS 84215 35042 Rennes cedex, FRANCE david [dot] causeur [at] institut-agro [dot] fr +33 (0) 223 485 884 Researchgate Google scholar."
-date: ""
 ---
 ---
 title: "Emily Mathieu"
@@ -4567,8 +4353,6 @@ type: "Website"
 link: "http://emily.perso.math.cnrs.fr/Mathieu_EMILYs_homepage/Home.html"
 language: "R"
 category: "Statistics;Research"
-description: ""
-date: ""
 ---
 ---
 title: "Marie Etienne"
@@ -4621,8 +4405,6 @@ type: "Website"
 link: "https://msragi.com/"
 language: "Other"
 category: "AI;Research"
-description: ""
-date: ""
 ---
 ---
 title: "Compositional Diffusion Models"
@@ -4639,8 +4421,6 @@ type: "Blog"
 link: "https://nrennie.rbind.io/categories/r/"
 language: "R"
 category: "Data Science;Data Visualization"
-description: ""
-date: ""
 ---
 ---
 title: "Bayes Causal Inference"
@@ -4685,7 +4465,6 @@ link: "https://statomics.github.io/"
 language: "R"
 category: "Statistics;Medical & Life Sciences"
 description: "The Statistical Omics Group, headed by Prof."
-date: ""
 ---
 ---
 title: "ShinyProxy"
@@ -4711,7 +4490,7 @@ type: "Website"
 link: "https://github.com/mine-cetinkaya-rundel/hello-quarto-demo"
 language: "R"
 category: "Quarto"
-description: "Repository for the demos in the \\\"Hello, Quarto!\\\" talk - mine-cetinkaya-rundel/hello-quarto-demo"
+description: "Repository for the demos in the \"Hello, Quarto!\" talk - mine-cetinkaya-rundel/hello-quarto-demo"
 date: "2022-07-14"
 ---
 ---
@@ -4738,8 +4517,6 @@ type: "Blog"
 link: "https://yury-zablotski.netlify.app/post/mixed-effects-models-2/"
 language: "R"
 category: "Statistics"
-description: ""
-date: ""
 ---
 ---
 title: "RStudio Conf 2022 Talks"
@@ -4810,8 +4587,6 @@ type: "Website"
 link: "https://nrennie.rbind.io/talks/2022-july-rstudio-conf/"
 language: "R"
 category: "Presentations"
-description: ""
-date: ""
 ---
 ---
 title: "Colin Gillespie Presentation"
@@ -4837,8 +4612,6 @@ type: "Website"
 link: "https://rconf-2022-caro-buck.netlify.app/#/section"
 language: "R"
 category: "Presentations"
-description: ""
-date: ""
 ---
 ---
 title: "Jared Nolis Ecommerce Shiny"
@@ -4846,8 +4619,6 @@ type: "Website"
 link: "https://jnolis.com/presentations/general/Nolis%20-%20Ecommerce%20Shiny%20-%20ggirl.pdf"
 language: "R"
 category: "Shiny;Career & Industry"
-description: ""
-date: ""
 ---
 ---
 title: "leafdown"
@@ -4883,16 +4654,13 @@ link: "https://stefvanbuuren.name/fimd/"
 language: "R"
 category: "Statistics"
 description: "Flexible Imputation of Missing Data, Second Edition"
-date: ""
 ---
 ---
 title: "MPRI Probabilistic Programming"
 type: "Website"
-link: "https://wikimpri.dptinfo.ens-cachan.fr/doku.php?id=cours:c-2-40"
+link: "https://wikimpri.dptinfo.ens-cachan.fr/doku.php?id=cours%3Ac-2-40"
 language: "Other"
 category: "Machine Learning"
-description: ""
-date: ""
 ---
 ---
 title: "Antoine Miech"
@@ -4972,8 +4740,6 @@ type: "Paper"
 link: "https://zpdesu.github.io/Barbershop/Barbershop.pdf"
 language: "Python"
 category: "Computer Vision;Deep Learning"
-description: ""
-date: ""
 ---
 ---
 title: "Attention Is All You Need"
@@ -5008,8 +4774,6 @@ type: "Paper"
 link: "https://arxiv.org/pdf/2104.00673.pdf"
 language: "Python"
 category: "Computer Vision;Deep Learning"
-description: ""
-date: ""
 ---
 ---
 title: "Densely Connected CNNs"
@@ -5026,8 +4790,6 @@ type: "Paper"
 link: "https://arxiv.org/pdf/1707.07435.pdf"
 language: "Python"
 category: "Computer Vision;Deep Learning"
-description: ""
-date: ""
 ---
 ---
 title: "BMC Medical Informatics"
@@ -5035,8 +4797,6 @@ type: "Paper"
 link: "https://bmcmedinformdecismak.biomedcentral.com/articles/10.1186/s12911-019-0874-0"
 language: "Other"
 category: "Medical & Life Sciences;AI"
-description: ""
-date: ""
 ---
 ---
 title: "PMC Article"
@@ -5170,7 +4930,6 @@ type: "Website"
 link: "https://data.nozav.org/"
 language: "Other;French"
 category: "Data Science"
-description: ""
 date: "2021-06-02"
 ---
 ---
@@ -5206,8 +4965,6 @@ type: "Paper"
 link: "https://www.nature.com/articles/s41591-022-01768-5"
 language: "Other"
 category: "Medical & Life Sciences;AI"
-description: ""
-date: ""
 ---
 ---
 title: "rstudio::conf 2022 Materials"
@@ -5224,7 +4981,7 @@ type: "Blog"
 link: "https://www.r-bloggers.com/2022/10/automating-dockerfile-creation-for-shiny-apps/"
 language: "R"
 category: "Shiny;Docker"
-description: "Introduction For creating a production deployment of a {shiny} application it is often useful to be able to provide a Docker image that contains all the dependencies for that application. Here we explore how one might go about automating the creation of a Dockerfile that will allow us to build such "
+description: "Introduction For creating a production deployment of a {shiny} application it is often useful to be able to provide a Docker image that contains all the dependencies for that application. Here we explore how one might go about automating the creation of a Dockerfile that will allow us to build such"
 date: "2022-10-20"
 ---
 ---
@@ -5242,8 +4999,6 @@ type: "Blog"
 link: "https://blog.devgenius.io/a-bayesian-network-in-r-4c2d2df89cc8"
 language: "R"
 category: "Statistics;Bayesian"
-description: ""
-date: ""
 ---
 ---
 title: "GitHub Actions for R"
@@ -5279,7 +5034,7 @@ link: "https://whatthediff.ai/"
 language: "Other"
 category: "AI;Developer Tools"
 description: "The AI powered GitHub and Gitlab app that explains the changes within your pull requests in plain english"
-date: ""
+date: "2026-01-01"
 ---
 ---
 title: "StackOverflow gt Formatting"
@@ -5296,7 +5051,7 @@ type: "Website"
 link: "https://rlang.r-lib.org/reference/topic-data-mask.html"
 language: "R"
 category: "Programming;R Ecosystem"
-description: "Data-masking is a distinctive feature of R whereby programming is performed directly on a data set, with columns defined as normal objects. # Unmasked programming mean(mtcars$cyl + mtcars$am) #> [1] 6.59375 # Referring to columns is an error - Where is the data? mean(cyl + am) #> Error: #> ! object "
+description: "Data-masking is a distinctive feature of R whereby programming is performed directly on a data set, with columns defined as normal objects. # Unmasked programming mean(mtcars$cyl + mtcars$am) #> [1] 6.59375 # Referring to columns is an error - Where is the data? mean(cyl + am) #> Error: #> ! object"
 date: "2018-03-01"
 ---
 ---
@@ -5305,7 +5060,7 @@ type: "Website"
 link: "https://rlang.r-lib.org/reference/topic-data-mask-programming.html"
 language: "R"
 category: "Programming;R Ecosystem"
-description: "Data-masking functions require special programming patterns when used inside other functions. In this topic we'll review and compare the different patterns that can be used to solve specific problems. If you are a beginner, you might want to start with one of these tutorials: Programming with dplyr "
+description: "Data-masking functions require special programming patterns when used inside other functions. In this topic we'll review and compare the different patterns that can be used to solve specific problems. If you are a beginner, you might want to start with one of these tutorials: Programming with dplyr"
 date: "2018-03-01"
 ---
 ---
@@ -5332,8 +5087,6 @@ type: "Blog"
 link: "https://mickael.canouil.fr/posts/"
 language: "R"
 category: "Data Science"
-description: ""
-date: ""
 ---
 ---
 title: "Cédric Batailler - Apéro"
@@ -5386,7 +5139,7 @@ type: "Paper"
 link: "https://openreview.net/forum?id=KSugKcbNf9"
 language: "Other"
 category: "Machine Learning;Research"
-description: "Currently, it is hard to reap the benefits of deep learning for Bayesian methods, which allow the explicit specification of prior knowledge and accurately capture model uncertainty. We present..."
+description: "Verifying your browser Complete the check below to continue to OpenReview Please complete the verification above."
 date: "2022-01-28"
 ---
 ---
@@ -5422,8 +5175,6 @@ type: "Book"
 link: "https://book.rwithoutstatistics.com/"
 language: "R"
 category: "Programming"
-description: ""
-date: ""
 ---
 ---
 title: "Python Speedsheet"
@@ -5432,7 +5183,6 @@ link: "https://speedsheet.io/s/python"
 language: "Python"
 category: "Programming;Reference"
 description: "This site requires JavaScript to work properly."
-date: ""
 ---
 ---
 title: "Tidy Modeling with R"
@@ -5449,8 +5199,7 @@ type: "Website"
 link: "https://r-universe.dev/search/"
 language: "R"
 category: "R Ecosystem;Developer Tools"
-description: ""
-date: ""
+description: "R-universe is rOpenSci’s open platform for publication and discovery of research software in R"
 ---
 ---
 title: "plotnine Gallery"
@@ -5458,8 +5207,6 @@ type: "Website"
 link: "https://plotnine.readthedocs.io/en/stable/gallery.html"
 language: "Python"
 category: "Data Visualization"
-description: ""
-date: ""
 ---
 ---
 title: "Testing for Data Science"
@@ -5485,8 +5232,6 @@ type: "Paper"
 link: "https://www.sciencedirect.com/science/article/abs/pii/S0950329322000568"
 language: "Other"
 category: "Medical & Life Sciences;Research"
-description: ""
-date: ""
 ---
 ---
 title: "SNB 2022 Conference"
@@ -5494,8 +5239,6 @@ type: "Website"
 link: "http://snb2022.paris/SC.aspx"
 language: "Other;French"
 category: "Statistics"
-description: ""
-date: ""
 ---
 ---
 title: "ArXiv Paper"
@@ -5503,7 +5246,7 @@ type: "Paper"
 link: "https://arxiv.org/abs/2203.13131"
 language: "Other"
 category: "Machine Learning;Research"
-description: "Recent text-to-image generation methods provide a simple yet exciting conversion capability between text and image domains. While these methods have incrementally improved the generated image fidelity and text relevancy, several pivotal gaps remain unanswered, limiting applicability and quality. We "
+description: "Recent text-to-image generation methods provide a simple yet exciting conversion capability between text and image domains. While these methods have incrementally improved the generated image fidelity and text relevancy, several pivotal gaps remain unanswered, limiting applicability and quality. We"
 date: "2022-03-24"
 ---
 ---
@@ -5521,8 +5264,6 @@ type: "Package"
 link: "https://vetiver.tidymodels.org/dev/"
 language: "R"
 category: "MLOps"
-description: ""
-date: ""
 ---
 ---
 title: "Yichuan Sun"
@@ -5530,8 +5271,6 @@ type: "Website"
 link: "https://ycsun2017.github.io/"
 language: "Other"
 category: "Computer Vision;Research"
-description: ""
-date: ""
 ---
 ---
 title: "golem Wiki"
@@ -5566,8 +5305,6 @@ type: "Book"
 link: "https://ubc-dsci.github.io/reproducible-and-trustworthy-workflows-for-data-science/README.html"
 language: "Other"
 category: "Data Science;Reproducibility"
-description: ""
-date: ""
 ---
 ---
 title: "GLMM with brms"
@@ -5593,7 +5330,7 @@ type: "Website"
 link: "https://settlers-rl.github.io/"
 language: "Python"
 category: "Deep Learning;Creative & Games"
-description: "In recent years RL has attracted a lot of attention due to the extremely impressive results that have been achieved in games such as Go As a way to teach myself about RL, a couple of years ago I built a simulator and trained an agent I ended up deciding that an interesting game to try would be \\\"Sett"
+description: "In recent years RL has attracted a lot of attention due to the extremely impressive results that have been achieved in games such as Go As a way to teach myself about RL, a couple of years ago I built a simulator and trained an agent I ended up deciding that an interesting game to try would be"
 date: "2019-01-01"
 ---
 ---
@@ -5629,7 +5366,7 @@ type: "Blog"
 link: "https://www.jumpingrivers.com/blog/regular-expressions-every-r-programmer-should-know/"
 language: "R"
 category: "Programming"
-description: "Regular expressions. How they can be cruel! Well we’re here to make them a tad easier. To do so we’re going to make use of the {stringr} package install.packages(\\\"stringr\\\") library(\\\"stringr\\\") We’re going to use the str_detect() and str_subset() functions. In particular the latter. These have the syn"
+description: "Regular expressions. How they can be cruel! Well we’re here to make them a tad easier. To do so we’re going to make use of the {stringr} package install.packages(\"stringr\") library(\"stringr\") We’re going to use the str_detect() and str_subset() functions. In particular the latter. These have the"
 date: "2018-04-12"
 ---
 ---
@@ -5638,7 +5375,7 @@ type: "Website"
 link: "https://slides.djnavarro.net/project-structure/#18"
 language: "R"
 category: "Best Practices;Reproducibility"
-description: "class: center, middle, inverse, title-slide # > 🏗 <br>> Project structure ### <br><br><b>Danielle Navarro</b> --- layout: true <div class=\\\"my-footer\\\"> <span> <a href=\\\"https://slides."
+description: "class: center, middle, inverse, title-slide # > 🏗 > Project structure ### Danielle Navarro --- layout: true"
 date: "2009-01-01"
 ---
 ---
@@ -5693,7 +5430,6 @@ link: "https://www.learnr4free.com/en/index.html"
 language: "R"
 category: "Education"
 description: "Free Resources for Learning R"
-date: ""
 ---
 ---
 title: "You.com Code"
@@ -5738,7 +5474,6 @@ link: "https://nyandwi.com/machine_learning_complete/"
 language: "Python"
 category: "Machine Learning"
 description: "Learn Machine Learning through understanding and doing!"
-date: ""
 ---
 ---
 title: "JavaScript for R"
@@ -5783,7 +5518,6 @@ link: "https://www.dataviz-inspiration.com/"
 language: "Other"
 category: "Data Visualization;Creative & Games"
 description: "The Pinterest of data visualization. Explore hundreds of stunning dataviz projects in a clean, organized layout. Easily searchable, filterable, and categorized by chart type for your convenience."
-date: ""
 ---
 ---
 title: "Bayesia Lab Webinar"
@@ -5791,8 +5525,6 @@ type: "Video"
 link: "https://tube.switch.ch/videos/fToRRl17oj"
 language: "Other"
 category: "Bayesian;Statistics"
-description: ""
-date: ""
 ---
 ---
 title: "prompt"
@@ -5819,7 +5551,6 @@ link: "https://diffify.com/R"
 language: "R"
 category: "R Ecosystem;Developer Tools"
 description: "Diffify provides you with a comparison between different versions of R packages stored on CRAN or Python packages stored on PyPI."
-date: ""
 ---
 ---
 title: "RStudio R Markdown Tips 2"
@@ -5854,8 +5585,6 @@ type: "Blog"
 link: "https://dominiquemakowski.github.io/post/2022-05-18-neurokit_release_2/"
 language: "R"
 category: "Social Sciences;Medical & Life Sciences"
-description: ""
-date: ""
 ---
 ---
 title: "Emily Riederer - Causal Design"
@@ -5868,12 +5597,11 @@ date: "2021-01-30"
 ---
 ---
 title: "Weights & Biases ML News"
-type: "Newsletter"
+type: "Blog"
 link: "https://wandb.ai/fully-connected/ml-news"
 language: "Python"
 category: "Machine Learning"
 description: "Find ML News articles & tutorials from leading machine learning practitioners. Fully Connected: An ML community from Weights & Biases."
-date: ""
 ---
 ---
 title: "Awesome Visual Transformer"
@@ -5894,15 +5622,6 @@ description: "We’ve detected that JavaScript is disabled in this browser."
 date: "2026-01-01"
 ---
 ---
-title: "ggsurvfit Package"
-type: "Documentation"
-link: "https://danieldsjoberg.com/ggsurvfit"
-language: "R"
-category: "Statistics"
-description: ""
-date: ""
----
----
 title: "Deep Learning Lecture Series"
 type: "Video"
 link: "https://www.youtube.com/watch?v=dJYGatp4SvA"
@@ -5917,8 +5636,6 @@ type: "Documentation"
 link: "https://about.gitlab.com/handbook/business-technology/data-team/"
 language: "Other"
 category: "Data Engineering"
-description: ""
-date: ""
 ---
 ---
 title: "The Turing Way"
@@ -5926,8 +5643,6 @@ type: "Book"
 link: "https://the-turing-way.netlify.app/welcome.html"
 language: "Other"
 category: "Reproducibility"
-description: ""
-date: ""
 ---
 ---
 title: "Quarto Design Mode"
@@ -5949,12 +5664,10 @@ date: "2022-11-01"
 ---
 ---
 title: "Rcheology Shiny App"
-type: "App"
+type: "Tool"
 link: "https://hughjonesd.shinyapps.io/rcheology/"
 language: "R"
 category: "Shiny"
-description: ""
-date: ""
 ---
 ---
 title: "Flow Field Art"
@@ -5962,8 +5675,6 @@ type: "Repository"
 link: "https://github.com/cj-holmes/flow-field-art"
 language: "Python"
 category: "Creative & Games"
-description: ""
-date: ""
 ---
 ---
 title: "Nature Human Behaviour Article"
@@ -5971,12 +5682,10 @@ type: "Paper"
 link: "https://www.nature.com/articles/s41562-022-01464-x"
 language: "Other"
 category: "Social Sciences"
-description: ""
-date: ""
 ---
 ---
 title: "Art of Command Line (FR)"
-type: "Guide"
+type: "Documentation"
 link: "https://github.com/jlevy/the-art-of-command-line/blob/master/README-fr.md"
 language: "Other"
 category: "Developer Tools"
@@ -5989,12 +5698,12 @@ type: "Blog"
 link: "https://github.blog/2015-06-08-how-to-undo-almost-anything-with-git/"
 language: "Other"
 category: "Git"
-description: "One of the most useful features of any version control system is the ability to \\\"undo\\\" your mistakes. In Git, \\\"undo\\\" can mean many slightly different things."
+description: "One of the most useful features of any version control system is the ability to \"undo\" your mistakes. In Git, \"undo\" can mean many slightly different things."
 date: "2015-06-08"
 ---
 ---
 title: "Graph Learning Workshop 2022"
-type: "Workshop"
+type: "Course"
 link: "http://snap.stanford.edu/graphlearning-workshop-2022/"
 language: "Python"
 category: "Machine Learning"
@@ -6007,7 +5716,7 @@ type: "Documentation"
 link: "https://gt.albert-rapp.de/"
 language: "R"
 category: "Data Visualization"
-description: "::session_info(\\\"installed\\\") sessioninfo## ─ Session info ─────────────────────────────────────────────────────────────── ## setting value ## version R version 4."
+description: "::session_info(\"installed\") sessioninfo## ─ Session info ─────────────────────────────────────────────────────────────── ## setting value ## version R version 4."
 date: "2024-12-08"
 ---
 ---
@@ -6057,7 +5766,7 @@ date: "2022-10-13"
 ---
 ---
 title: "Open Science for Health Data"
-type: "Slides"
+type: "Documentation"
 link: "https://speakerdeck.com/gaelvaroquaux/open-science-for-health-data-applying-the-scikit-learn-recipe"
 language: "Python"
 category: "Research"
@@ -6066,7 +5775,7 @@ date: "2022-11-22"
 ---
 ---
 title: "Human Compatible AI"
-type: "Platform"
+type: "Tool"
 link: "https://humancompatible.ai/"
 language: "Other"
 category: "AI"
@@ -6111,7 +5820,7 @@ date: "2023-02-27"
 ---
 ---
 title: "Good Practices in R"
-type: "Guide"
+type: "Documentation"
 link: "https://www.good-practices.etiennebacher.com/"
 language: "R"
 category: "Best Practices"
@@ -6120,7 +5829,7 @@ date: "2023-03-16"
 ---
 ---
 title: "Tidymodels Introduction"
-type: "Tutorial"
+type: "Course"
 link: "https://rviews.rstudio.com/2019/06/19/a-gentle-intro-to-tidymodels/"
 language: "R"
 category: "Machine Learning"
@@ -6138,7 +5847,7 @@ date: "2021-08-29"
 ---
 ---
 title: "Rzine"
-type: "Magazine"
+type: "Blog"
 link: "https://rzine.fr/"
 language: "R"
 category: "General"
@@ -6147,7 +5856,7 @@ date: "2025-10-08"
 ---
 ---
 title: "Multi-language Coding Cheatsheet"
-type: "Cheatsheet"
+type: "Documentation"
 link: "https://geekcologist.wordpress.com/2023/07/04/cheatsheet-for-coding-in-r-python-and-julia/"
 language: "R;Python;Julia"
 category: "Programming"
@@ -6169,8 +5878,6 @@ type: "Blog"
 link: "https://nrennie.rbind.io/blog/web-scraping-rvest-london-marathon/"
 language: "R"
 category: "Web Development"
-description: ""
-date: ""
 ---
 ---
 title: "Risk Ratio vs Odds Ratio"
@@ -6192,7 +5899,7 @@ date: "2023-04-12"
 ---
 ---
 title: "Hugging Face Papers"
-type: "Platform"
+type: "Tool"
 link: "https://huggingface.co/papers"
 language: "Python"
 category: "Machine Learning"
@@ -6232,26 +5939,22 @@ type: "Book"
 link: "https://www.packtpub.com/product/interpretable-machine-learning-with-python-second-edition/9781803235424"
 language: "Python"
 category: "Machine Learning"
-description: ""
-date: ""
 ---
 ---
 title: "Onyxia Data Platform"
-type: "Platform"
+type: "Tool"
 link: "https://www.onyxia.sh/"
 language: "Other"
 category: "Data Engineering"
 description: "Data science environment for k8s"
-date: ""
 ---
 ---
 title: "Modeling Mindsets Game"
-type: "Game"
+type: "Other"
 link: "https://christophm.github.io/modeling-mindsets-game/"
 language: "Other"
 category: "Statistics"
 description: "Want to get a better overview of the different modeling approaches? In less than 100 pages, Modeling Mindsets, The Many Cultures of Learning From Data elucidates the worldviews behind various statistical modeling and machine learning mindsets."
-date: ""
 ---
 ---
 title: "InseeFr GitHub"
@@ -6295,12 +5998,10 @@ type: "Blog"
 link: "http://projects.rajivshah.com/blog/2022/09/24/conformal_predictions/"
 language: "R;Python"
 category: "Statistics"
-description: ""
-date: ""
 ---
 ---
 title: "Data Visualization Guide"
-type: "Gallery"
+type: "Other"
 link: "https://royal-statistical-society.github.io/datavisguide/docs/"
 language: "Other"
 category: "Data Visualization"
@@ -6309,7 +6010,7 @@ date: "2024-01-01"
 ---
 ---
 title: "Hugging Face Chat"
-type: "Platform"
+type: "Tool"
 link: "https://huggingface.co/chat"
 language: "Other"
 category: "Generative AI"
@@ -6331,17 +6032,8 @@ type: "Website"
 link: "https://t.co/Atx1sVAb55"
 language: "Other"
 category: "Deep Learning"
-description: "Currently, it is hard to reap the benefits of deep learning for Bayesian methods, which allow the explicit specification of prior knowledge and accurately capture model uncertainty. We present..."
+description: "Verifying your browser Complete the check below to continue to OpenReview Please complete the verification above."
 date: "2022-01-28"
----
----
-title: "simplystatistics](https"
-type: "Website"
-link: "https://simplystatistics.org](https://simplystatistics.org/)"
-language: "Other"
-category: "General"
-description: ""
-date: ""
 ---
 ---
 title: "amazon"
@@ -6354,7 +6046,7 @@ date: "2017-05-09"
 ---
 ---
 title: "twitter"
-type: "Social"
+type: "Community"
 link: "https://twitter.com/_ColinFay/status/1539524332111679488?t=axH94EBeUDtOzcIgaPsJsQ&s=19"
 language: "Other"
 category: "General"
@@ -6371,31 +6063,12 @@ description: "An interactive Git visualization tool to educate and challenge!"
 date: "2020-11-09"
 ---
 ---
-title: "apprendre-python"
-type: "Website"
-link: "http://apprendre-python.com/page-apprendre-tuples-tuple-python?fbclid=IwAR0uvoiEj_Xy7Pq8q64IY11dm2PA1YxnMOYB93R4AYudq5s-SsZx7x82-g4"
-language: "Python"
-category: "General"
-description: ""
-date: ""
----
----
-title: "codingame"
-type: "Website"
-link: "https://www.codingame.com/playgrounds/17176/recueil-dexercices-pour-apprendre-python-au-lycee/cours---les-boucles-for?fbclid=IwAR3g7m2T_n3uFlSeRaaiO6koqPv4w6GCZX0XCYhbjlZ-EwKtV-GPL0fzl_w"
-language: "Python"
-category: "Machine Learning"
-description: ""
-date: "2024-11-01"
----
----
 title: "pkg.garrickadenbuie"
 type: "Website"
 link: "https://pkg.garrickadenbuie.com/xaringanthemer/articles/xaringanthemer.html"
 language: "Other"
 category: "Machine Learning"
 description: "Jump to: Quick Intro, Themes, Theme Settings, Fonts, Colors, Adding Custom CSS Quick Intro First, add the xaringan-themer."
-date: ""
 ---
 ---
 title: "pkg.garrickadenbuie"
@@ -6404,7 +6077,6 @@ link: "https://pkg.garrickadenbuie.com/xaringanthemer/index.html"
 language: "Other"
 category: "Machine Learning"
 description: "Give your xaringan slides some style with xaringanthemer. Easy slide and plot themes for xaringan slides."
-date: ""
 ---
 ---
 title: "github"
@@ -6421,7 +6093,7 @@ type: "Website"
 link: "https://apreshill.github.io/data-vis-labs-2018/slides/06-slides_xaringan.html#82"
 language: "Other"
 category: "Machine Learning"
-description: "class: center, middle, inverse, title-slide # Lab 06: CS631 ## Making Slides in the Tada!-verse ### Alison Hill --- class: center, middle, inverse # First: ## Slides with `xaringan` -- # Second: ## Sites with `blogdown` --- background-image: url(\\\"https://media."
+description: "class: center, middle, inverse, title-slide # Lab 06: CS631 ## Making Slides in the Tada!-verse ### Alison Hill --- class: center, middle, inverse # First: ## Slides with `xaringan` -- # Second: ## Sites with `blogdown` --- background-image: url(\"https://media."
 date: "2018-05-15"
 ---
 ---
@@ -6431,16 +6103,6 @@ link: "https://apreshill.github.io/data-vis-labs-2018/index.html"
 language: "Other"
 category: "Machine Learning"
 description: "This is the site for sharing our Data Visualization Labs for CS631 at Oregon Health & Science University."
-date: ""
----
----
-title: "r-statistics.co"
-type: "Website"
-link: "http://r-statistics.co/ggplot2-Tutorial-With-R.html#1.%20The%20Setup"
-language: "Other"
-category: "Machine Learning"
-description: "R Language Tutorials for Advanced Statistics"
-date: "2026-02-24"
 ---
 ---
 title: "r-pkgs"
@@ -6448,8 +6110,6 @@ type: "Website"
 link: "https://r-pkgs.org/e"
 language: "Other"
 category: "General"
-description: ""
-date: ""
 ---
 ---
 title: "statistique-et-logiciel-r"
@@ -6461,15 +6121,6 @@ description: "Le logiciel R est un environnement de programmation statistique et
 date: "2023-09-13"
 ---
 ---
-title: "statsoft.fr"
-type: "Website"
-link: "http://statsoft.fr/concepts-statistiques/test-non-parametriques/test-non-parametriques.htm#.XXXwwygzZaQ"
-language: "Other"
-category: "General"
-description: ""
-date: ""
----
----
 title: "github"
 type: "Repository"
 link: "https://github.com/rstudio/rstudio-conf/blob/master/2022/nicholastierney/The%20Future%20of%20NA%20Data.pdf"
@@ -6479,22 +6130,11 @@ description: "Materials for rstudio::conf. Contribute to rstudio/rstudio-conf de
 date: "2017-01-18"
 ---
 ---
-title: "nature"
-type: "Paper"
-link: "https://www.nature.com/articles/s41591-022-01768-5?utm_content=buffer9d00c&utm_medium=social&utm_source=linkedin.com&utm_campaign=buffer"
-language: "Other"
-category: "Machine Learning"
-description: ""
-date: ""
----
----
 title: "sciencedirect"
 type: "Paper"
 link: "https://www.sciencedirect.com/science/article/abs/pii/S0950329322000568?dgcid=author"
 language: "Other"
 category: "General"
-description: ""
-date: ""
 ---
 ---
 title: "ai.googleblog"
@@ -6506,49 +6146,12 @@ description: "Posted by Sharan Narang and Aakanksha Chowdhery, Software Engineer
 date: "2022-04-04"
 ---
 ---
-title: "github"
-type: "Repository"
-link: "https://github.com/jbkunst/klassets/?utm_campaign=Data_Elixir&utm_source=Data_Elixir_389#readme"
-language: "Other"
-category: "Machine Learning"
-description: "Contribute to jbkunst/klassets development by creating an account on GitHub."
-date: "2022-05-20"
----
----
-title: "emilhvitfeldt.github.io"
-type: "Website"
-link: "https://emilhvitfeldt.github.io/ISLR-tidymodels-labs/index.html?utm_content=bufferec866&utm_medium=social&utm_source=linkedin.com&utm_campaign=buffer"
-language: "Other"
-category: "Machine Learning"
-description: "ISLR tidymodels labs 1 Introduction This book aims to be a complement to the 2nd edition An Introduction to Statistical Learning book with translations of the labs into using the tidymodels set of packages."
-date: "2023-09-24"
----
----
-title: "github"
-type: "Repository"
-link: "https://github.com/ronikobrosly/awesome-data-leadership?utm_campaign=Data_Elixir&utm_source=Data_Elixir_391#readme"
-language: "Other"
-category: "Machine Learning"
-description: "A curated list of awesome posts, videos, and articles on leading a data team (small and large) - ronikobrosly/awesome-data-leadership"
-date: "2022-03-22"
----
----
 title: "dropbox"
 type: "Book"
 link: "https://www.dropbox.com/s/3ds01k9hdtn2ghb/user2022_silge.pdf?dl=0"
 language: "Other"
 category: "General"
-description: ""
 date: "2022-01-01"
----
----
-title: "appsilon"
-type: "Website"
-link: "https://appsilon.com/r-shiny-google-analytics/?utm_medium=social&utm_source=twitter&utm_campaign=shiny-ga"
-language: "R"
-category: "Shiny"
-description: ""
-date: ""
 ---
 ---
 title: "writethedocs"
@@ -6560,26 +6163,8 @@ description: "As a software developer or engineer, there is a magical feeling th
 date: "2010-08-23"
 ---
 ---
-title: "thinkr.fr"
-type: "Website"
-link: "https://thinkr.fr/deploiement-dune-application-shiny-dans-docker-avec-renv-et-golem/?utm_source=dlvr.it&utm_medium=twitter"
-language: "R"
-category: "Shiny"
-description: "La version 0.3.3 de golem est disponible sur le CRAN, elle propose une nouvelle approche de construction d'images docker pour le déploiement de vos"
-date: "2022-07-27"
----
----
-title: "rtask.thinkr.fr"
-type: "Website"
-link: "https://rtask.thinkr.fr/download-gitlab-or-github-issues-and-make-a-summary-report-of-your-commits/?utm_source=dlvr.it&utm_medium=twitter"
-language: "Other"
-category: "Git"
-description: "How can I download all issues information from Gitlab or Github and create a summary report of my commit messages for my client?"
-date: "2023-10-10"
----
----
 title: "twitter"
-type: "Social"
+type: "Community"
 link: "https://twitter.com/GoAbiAryan/status/1580852750526468097?s=20&t=qFrbF1hlfZcc5gElrfCXaw"
 language: "Other"
 category: "General"
@@ -6588,7 +6173,7 @@ date: "2026-01-01"
 ---
 ---
 title: "twitter"
-type: "Social"
+type: "Community"
 link: "https://twitter.com/ChristophMolnar/status/1570336874799190016?s=20&t=qFrbF1hlfZcc5gElrfCXaw"
 language: "Other"
 category: "General"
@@ -6597,7 +6182,7 @@ date: "2026-01-01"
 ---
 ---
 title: "twitter"
-type: "Social"
+type: "Community"
 link: "https://twitter.com/starfalldocs/status/1569248479536373764?s=20&t=qFrbF1hlfZcc5gElrfCXaw"
 language: "Other"
 category: "General"
@@ -6606,7 +6191,7 @@ date: "2026-01-01"
 ---
 ---
 title: "twitter"
-type: "Social"
+type: "Community"
 link: "https://twitter.com/PipingHotData/status/1565354597656690697?s=20&t=qFrbF1hlfZcc5gElrfCXaw"
 language: "Other"
 category: "General"
@@ -6615,7 +6200,7 @@ date: "2026-01-01"
 ---
 ---
 title: "twitter"
-type: "Social"
+type: "Community"
 link: "https://twitter.com/iximiuz/status/1563851156417298434?s=20&t=qFrbF1hlfZcc5gElrfCXaw"
 language: "Other"
 category: "General"
@@ -6624,7 +6209,7 @@ date: "2026-01-01"
 ---
 ---
 title: "twitter"
-type: "Social"
+type: "Community"
 link: "https://twitter.com/oaggimenez/status/1556559752938885120?s=20&t=qFrbF1hlfZcc5gElrfCXaw"
 language: "Other"
 category: "General"
@@ -6633,7 +6218,7 @@ date: "2026-01-01"
 ---
 ---
 title: "twitter"
-type: "Social"
+type: "Community"
 link: "https://twitter.com/jackclarkSF/status/1555980412333133824?s=20&t=qFrbF1hlfZcc5gElrfCXaw"
 language: "Other"
 category: "General"
@@ -6642,7 +6227,7 @@ date: "2026-01-01"
 ---
 ---
 title: "twitter"
-type: "Social"
+type: "Community"
 link: "https://twitter.com/WomenInStat/status/1286420597505892352?s=20&t=qFrbF1hlfZcc5gElrfCXaw"
 language: "Other"
 category: "General"
@@ -6651,7 +6236,7 @@ date: "2026-01-01"
 ---
 ---
 title: "twitter"
-type: "Social"
+type: "Community"
 link: "https://twitter.com/emollick/status/1549353991523426305?s=20&t=qFrbF1hlfZcc5gElrfCXaw"
 language: "Other"
 category: "General"
@@ -6660,7 +6245,7 @@ date: "2026-01-01"
 ---
 ---
 title: "twitter"
-type: "Social"
+type: "Community"
 link: "https://twitter.com/suzatweet/status/1545685140822687746?s=20&t=qFrbF1hlfZcc5gElrfCXaw"
 language: "Other"
 category: "General"
@@ -6669,7 +6254,7 @@ date: "2026-01-01"
 ---
 ---
 title: "twitter"
-type: "Social"
+type: "Community"
 link: "https://twitter.com/giulianonetto/status/1539707646751649793?s=20&t=qFrbF1hlfZcc5gElrfCXaw"
 language: "Other"
 category: "General"
@@ -6678,7 +6263,7 @@ date: "2026-01-01"
 ---
 ---
 title: "twitter"
-type: "Social"
+type: "Community"
 link: "https://twitter.com/iScienceLuvr/status/1531553413581791233?s=20&t=qFrbF1hlfZcc5gElrfCXaw"
 language: "Other"
 category: "General"
@@ -6687,7 +6272,7 @@ date: "2026-01-01"
 ---
 ---
 title: "twitter"
-type: "Social"
+type: "Community"
 link: "https://twitter.com/marktenenholtz/status/1522184346324459520?s=20&t=qFrbF1hlfZcc5gElrfCXaw"
 language: "Other"
 category: "General"
@@ -6696,7 +6281,7 @@ date: "2026-01-01"
 ---
 ---
 title: "twitter"
-type: "Social"
+type: "Community"
 link: "https://twitter.com/KarSergios/status/1516732541444763648?s=20&t=qFrbF1hlfZcc5gElrfCXaw"
 language: "Other"
 category: "General"
@@ -6705,7 +6290,7 @@ date: "2026-01-01"
 ---
 ---
 title: "twitter"
-type: "Social"
+type: "Community"
 link: "https://twitter.com/v_vashishta/status/1516461652400427010?s=20&t=qFrbF1hlfZcc5gElrfCXaw"
 language: "Other"
 category: "General"
@@ -6714,7 +6299,7 @@ date: "2026-01-01"
 ---
 ---
 title: "twitter"
-type: "Social"
+type: "Community"
 link: "https://twitter.com/DalianaLiu/status/1513962919884591106?s=20&t=qFrbF1hlfZcc5gElrfCXaw"
 language: "Other"
 category: "General"
@@ -6723,7 +6308,7 @@ date: "2026-01-01"
 ---
 ---
 title: "twitter"
-type: "Social"
+type: "Community"
 link: "https://twitter.com/marktenenholtz/status/1511312726923964421?s=20&t=qFrbF1hlfZcc5gElrfCXaw"
 language: "Other"
 category: "General"
@@ -6732,7 +6317,7 @@ date: "2026-01-01"
 ---
 ---
 title: "twitter"
-type: "Social"
+type: "Community"
 link: "https://twitter.com/heyeaslo/status/1487607754692956166?s=20&t=qFrbF1hlfZcc5gElrfCXaw"
 language: "Other"
 category: "General"
@@ -6741,7 +6326,7 @@ date: "2026-01-01"
 ---
 ---
 title: "twitter"
-type: "Social"
+type: "Community"
 link: "https://twitter.com/heyeaslo/status/1505725893674627075?s=20&t=qFrbF1hlfZcc5gElrfCXaw"
 language: "Other"
 category: "General"
@@ -6750,7 +6335,7 @@ date: "2026-01-01"
 ---
 ---
 title: "twitter"
-type: "Social"
+type: "Community"
 link: "https://twitter.com/ChristophMolnar/status/1504449282073677824?s=20&t=qFrbF1hlfZcc5gElrfCXaw"
 language: "Other"
 category: "General"
@@ -6759,7 +6344,7 @@ date: "2026-01-01"
 ---
 ---
 title: "twitter"
-type: "Social"
+type: "Community"
 link: "https://twitter.com/marktenenholtz/status/1501905740813848582?s=20&t=qFrbF1hlfZcc5gElrfCXaw"
 language: "Other"
 category: "General"
@@ -6768,7 +6353,7 @@ date: "2026-01-01"
 ---
 ---
 title: "twitter"
-type: "Social"
+type: "Community"
 link: "https://twitter.com/data_question/status/1498303990110777346?s=20&t=qFrbF1hlfZcc5gElrfCXaw"
 language: "Other"
 category: "General"
@@ -6777,7 +6362,7 @@ date: "2026-01-01"
 ---
 ---
 title: "twitter"
-type: "Social"
+type: "Community"
 link: "https://twitter.com/ChristophMolnar/status/1485549716268109824?s=20&t=qFrbF1hlfZcc5gElrfCXaw"
 language: "Other"
 category: "General"
@@ -6790,17 +6375,8 @@ type: "Video"
 link: "https://youtu.be/NFo9v_yKQXA"
 language: "Other"
 category: "Machine Learning"
-description: "The machine learning consultancy: https://truetheta.ioJoin my email list to get educational and useful articles: https://mailchi.mp/truetheta/true-theta-emai..."
+description: "Reach out to us :) https://truetheta.ioJoin my email list to get educational and useful articles: https://mailchi.mp/truetheta/true-theta-email-list#reinfor..."
 date: "2022-10-24"
----
----
-title: "nature"
-type: "Paper"
-link: "https://www.nature.com/articles/s41562-022-01464-x?utm_source=twitter&utm_medium=social&utm_campaign=nathumbehav"
-language: "Other"
-category: "Machine Learning"
-description: ""
-date: ""
 ---
 ---
 title: "youtu.be"
@@ -6884,15 +6460,6 @@ description: "L’objet de l’AFIA est de promouvoir et de favoriser le dévelo
 date: "2023-03-30"
 ---
 ---
-title: "playground.tensorflow"
-type: "Website"
-link: "https://playground.tensorflow.org/#activation=tanh&batchSize=10&dataset=circle&regDataset=reg-plane&learningRate=0.03&regularizationRate=0&noise=0&networkShape=4,2&seed=0.38845&showTestData=false&discretize=false&percTrainData=50&x=true&y=true&xTimesY=false&xSquared=false&ySquared=false&cosX=false&sinX=false&cosY=false&sinY=false&collectStats=false&problem=classification&initZero=false&hideText=false"
-language: "Python"
-category: "Bayesian"
-description: "Tinker with a real neural network right here in your browser."
-date: "2014-03-01"
----
----
 title: "github"
 type: "Repository"
 link: "https://github.com/andrewheiss/ath-quarto"
@@ -6916,8 +6483,6 @@ type: "Website"
 link: "https://indrajeetpatil.github.io/awesome-r-pkgtools/"
 language: "Other"
 category: "General"
-description: ""
-date: ""
 ---
 ---
 title: "library.bayesia"
@@ -6925,8 +6490,6 @@ type: "Book"
 link: "https://library.bayesia.com/articles/#!bayesialab-knowledge-hub/webinars-seminars-case-studies-the-book-of-why"
 language: "Other"
 category: "Bayesian"
-description: ""
-date: ""
 ---
 ---
 title: "emilhvitfeldt.github.io"
@@ -6934,8 +6497,7 @@ type: "Website"
 link: "https://emilhvitfeldt.github.io/quarto-iframe-examples/#/section-13"
 language: "Other"
 category: "Reproducibility"
-description: "Having fun with iFrames In Quarto Presentations one way to add something extra is to use Slide Backgrounds Images and videos are good for some added flair, and they automatically fill the background Using html elements and javascript to make an animated background, is almost impossible to get right "
-date: ""
+description: "Having fun with iFrames In Quarto Presentations one way to add something extra is to use Slide Backgrounds Images and videos are good for some added flair, and they automatically fill the background Using html elements and javascript to make an animated background, is almost impossible to get right"
 ---
 ---
 title: "ellakaye.co.uk"
@@ -6944,7 +6506,6 @@ link: "https://ellakaye.co.uk/"
 language: "Other"
 category: "General"
 description: "The personal website of Ella Kaye"
-date: ""
 ---
 ---
 title: "mgirlich.github.io"
@@ -6952,8 +6513,6 @@ type: "Website"
 link: "https://mgirlich.github.io/tibblify/"
 language: "Other"
 category: "General"
-description: ""
-date: ""
 ---
 ---
 title: "linc.cnil.fr"
@@ -6979,8 +6538,6 @@ type: "Website"
 link: "https://colauttilab.github.io/RCrashCourse/4_regex.html"
 language: "Other"
 category: "Machine Learning"
-description: ""
-date: ""
 ---
 ---
 title: "jumpingrivers"
@@ -7006,7 +6563,6 @@ type: "Website"
 link: "https://www.riffusion.com/about"
 language: "Other"
 category: "General"
-description: ""
 date: "2024-11-01"
 ---
 ---
@@ -7028,22 +6584,12 @@ description: "Randomized Controlled Trials (RCTs) may suffer from limited scope.
 date: "2022-08-16"
 ---
 ---
-title: "indrajeetpatil.github.io"
-type: "Website"
-link: "https://indrajeetpatil.github.io/dry-r-package-development/#/plan"
-language: "Other"
-category: "R Ecosystem"
-description: "Learn how to apply the DRY (Don't Repeat Yourself) principle to R package development. Covers documentation, vignette setup, unit testing, data management, dependency management, and exception handling to make your R packages more maintainable."
-date: "2026-01-13"
----
----
 title: "dynalist.io"
 type: "Website"
 link: "https://dynalist.io/d/n2ZWtnoYHrU1s4vnFSAQ519J"
 language: "Other"
 category: "General"
 description: "Dynalist lets you organize your ideas and tasks in simple lists. It's powerful, yet easy to use. Try the live demo now, no need to sign up."
-date: ""
 ---
 ---
 title: "johnbedwards.io"
@@ -7087,8 +6633,6 @@ type: "Website"
 link: "https://medium.com/@gspmalloy/a-quick-intro-to-infectious-disease-modeling-in-r-for-beginners-5f4dbdf68e9e"
 language: "Other"
 category: "General"
-description: ""
-date: ""
 ---
 ---
 title: "xcorr.net"
@@ -7141,8 +6685,6 @@ type: "Website"
 link: "https://isaac-flath.tech/posts/other/quartodocumentsbestpractices"
 language: "Other"
 category: "Reproducibility"
-description: ""
-date: ""
 ---
 ---
 title: "pudding.cool"
@@ -7186,8 +6728,6 @@ type: "Website"
 link: "https://www.quantmetry.com/blog/domaine-de-validite-ia-confiance/"
 language: "Other"
 category: "Machine Learning"
-description: ""
-date: ""
 ---
 ---
 title: "geocompx"
@@ -7210,11 +6750,9 @@ date: "2021-01-01"
 ---
 title: "voltrondata"
 type: "Website"
-link: "https://voltrondata.com/resources/12-open-source-projects-to-watch-2023?utm_source=twitter&utm_medium=thread&utm_campaign=12_os_projects_to_watch_in_2023&utm_content=release_011223#project-substrait"
+link: "https://voltrondata.com/resources/12-open-source-projects-to-watch-2023#project-substrait"
 language: "Other"
 category: "Machine Learning"
-description: ""
-date: ""
 ---
 ---
 title: "jhepc.github.io"
@@ -7231,8 +6769,6 @@ type: "Book"
 link: "https://udlbook.github.io/udlbook/"
 language: "Other"
 category: "General"
-description: ""
-date: ""
 ---
 ---
 title: "fr.vittascience"
@@ -7295,7 +6831,6 @@ link: "https://bachl.github.io/sim/"
 language: "Other"
 category: "General"
 description: "Workshop Data Simulation with Monte Carlo Methods Dr."
-date: ""
 ---
 ---
 title: "lihualei71.github.io"
@@ -7331,7 +6866,6 @@ link: "https://nixtla.github.io/statsforecast/"
 language: "Other"
 category: "General"
 description: "If you are not redirected, click here."
-date: ""
 ---
 ---
 title: "hsph.harvard.edu"
@@ -7411,8 +6945,6 @@ type: "Website"
 link: "https://appsilon.com/r-shiny-pharma-biotech-examples/#clincal?utm_medium=social&utm_source=linkedin&utm_campaign=45161"
 language: "R"
 category: "Shiny"
-description: ""
-date: ""
 ---
 ---
 title: "appsilon"
@@ -7420,8 +6952,6 @@ type: "Website"
 link: "https://appsilon.com/bringing-webr-into-shiny/"
 language: "R"
 category: "Shiny"
-description: ""
-date: ""
 ---
 ---
 title: "andrewheiss"
@@ -7438,8 +6968,6 @@ type: "Website"
 link: "https://arelbundock.com/marginaleffects_conformal.html"
 language: "Other"
 category: "Machine Learning"
-description: ""
-date: ""
 ---
 ---
 title: "github"
@@ -7474,12 +7002,10 @@ type: "Website"
 link: "https://www.r-consortium.org/tag/r-pharma"
 language: "Other"
 category: "General"
-description: ""
-date: ""
 ---
 ---
 title: "twitter"
-type: "Social"
+type: "Community"
 link: "https://twitter.com/GregoireSimpson/status/1655239877783347201?t=AmmSEMTAbxZI8yt4tx8Oaw&s=19"
 language: "Other"
 category: "General"
@@ -7502,7 +7028,6 @@ link: "https://spacesniffer.fr.softonic.com/m"
 language: "Other"
 category: "General"
 description: "JavaScript is disabled in your browser."
-date: ""
 ---
 ---
 title: "fromsmash"
@@ -7519,7 +7044,7 @@ type: "Paper"
 link: "https://arxiv.org/abs/2302.07730"
 language: "Other"
 category: "Machine Learning"
-description: "In the past few years we have seen the meteoric appearance of dozens of foundation models of the Transformer family, all of which have memorable and sometimes funny, but not self-explanatory, names. The goal of this paper is to offer a somewhat comprehensive but simple catalog and classification of "
+description: "In the past few years we have seen the meteoric appearance of dozens of foundation models of the Transformer family, all of which have memorable and sometimes funny, but not self-explanatory, names. The goal of this paper is to offer a somewhat comprehensive but simple catalog and classification of"
 date: "2023-02-12"
 ---
 ---
@@ -7559,15 +7084,6 @@ description: "Practical Statistics in Medicine with R 1st Edition Preface Whom i
 date: "2023-10-05"
 ---
 ---
-title: "good-practices.etiennebacher"
-type: "Website"
-link: "https://www.good-practices.etiennebacher.com/#/title-slide"
-language: "Other"
-category: "General"
-description: "Cleaning data can take hundreds or thousands of lines."
-date: "2023-03-16"
----
----
 title: "justice.pappers.fr"
 type: "Website"
 link: "https://justice.pappers.fr/"
@@ -7582,8 +7098,6 @@ type: "Website"
 link: "https://nrennie.rbind.io/talks/rladies-cambridge-ggplot2-colours/"
 language: "Other"
 category: "Data Visualization"
-description: ""
-date: ""
 ---
 ---
 title: "observablehq"
@@ -7591,7 +7105,7 @@ type: "Website"
 link: "https://observablehq.com/@observablehq/data-wrangling-translations"
 language: "Other"
 category: "General"
-description: "When adding JavaScript to your data work, it can be useful to see how it compares with other languages you’ve used before. Here, we show common data wrangling methods (like filtering, sorting, and adding columns) in JavaScript, Python, SQL, R, and Excel. All examples use the mock data below, stored "
+description: "When adding JavaScript to your data work, it can be useful to see how it compares with other languages you’ve used before. Here, we show common data wrangling methods (like filtering, sorting, and adding columns) in JavaScript, Python, SQL, R, and Excel. All examples use the mock data below, stored"
 date: "2023-03-20"
 ---
 ---
@@ -7609,7 +7123,6 @@ type: "Website"
 link: "https://yards.albert-rapp.de/index.html"
 language: "Other"
 category: "Machine Learning"
-description: ""
 date: "2010-07-01"
 ---
 ---
@@ -7735,8 +7248,6 @@ type: "Website"
 link: "https://t.co/AflLxMgm0I"
 language: "Other"
 category: "General"
-description: ""
-date: ""
 ---
 ---
 title: "bookdown"
@@ -7744,8 +7255,6 @@ type: "Book"
 link: "https://bookdown.org/content/4253/"
 language: "Other"
 category: "General"
-description: ""
-date: ""
 ---
 ---
 title: "arxiv"
@@ -7780,8 +7289,6 @@ type: "Website"
 link: "https://www.datarevenue.com/en-blog/interpretable-machine-learning"
 language: "Other"
 category: "General"
-description: ""
-date: ""
 ---
 ---
 title: "blog.ml.cmu.edu"
@@ -7847,22 +7354,11 @@ description: "Bayesian Causal Inference for Real World Interactive Systems"
 date: "1997-01-01"
 ---
 ---
-title: "statnmap"
-type: "Website"
-link: "https://statnmap.com/fr/2021-10-09-comment-ne-pas-etre-perdu-avec-vscode-quand-on-vient-de-rstudio/#je-ne-comprend-pas-sa-fa%C3%A7on-douvrir-des-fichiers-dans-des-onglets"
-language: "R"
-category: "General"
-description: "Quelques jours d'exploration de VSCode après de nombreuses années à développer avec RStudio"
-date: "2021-10-09"
----
----
 title: "datamares.netlify.app"
 type: "Website"
 link: "https://datamares.netlify.app/en/post/r-vscode/"
 language: "Other"
 category: "General"
-description: ""
-date: ""
 ---
 ---
 title: "github"
@@ -7879,8 +7375,6 @@ type: "Website"
 link: "https://pages.citedrive.com/r-markdown/"
 language: "Other"
 category: "General"
-description: ""
-date: ""
 ---
 ---
 title: "colinfay.me"
@@ -7897,8 +7391,6 @@ type: "Website"
 link: "https://legigpt.fr/"
 language: "Other"
 category: "General"
-description: ""
-date: ""
 ---
 ---
 title: "interiorai"
@@ -7915,8 +7407,6 @@ type: "Website"
 link: "https://poe.com/login?redirect_url=%2F"
 language: "Other"
 category: "General"
-description: ""
-date: ""
 ---
 ---
 title: "tellingstorieswithdata"
@@ -7942,8 +7432,6 @@ type: "Website"
 link: "https://huggingface.co/spaces/HuggingFaceH4/starchat-playground"
 language: "Python"
 category: "General"
-description: ""
-date: ""
 ---
 ---
 title: "huggingface.co"
@@ -7984,7 +7472,7 @@ date: "2026-02-16"
 ---
 title: "github"
 type: "Repository"
-link: "https://github.com/Giskard-AI/giskard?utm_campaign=Star%20us%20on%20Github&utm_content=166359246&utm_medium=social&utm_source=linkedin&hss_channel=lis-1hjc_qkWxD"
+link: "https://github.com/Giskard-AI/giskard?hss_channel=lis-1hjc_qkWxD"
 language: "Other"
 category: "Machine Learning"
 description: "🐢 Open-Source Evaluation & Testing library for LLM Agents - Giskard-AI/giskard-oss"
@@ -8005,8 +7493,6 @@ type: "Paper"
 link: "https://www.nature.com/articles/s41562-023-01623-8"
 language: "Other"
 category: "General"
-description: ""
-date: ""
 ---
 ---
 title: "github"
@@ -8042,7 +7528,6 @@ link: "https://do4ds.com/"
 language: "Other"
 category: "Data Science"
 description: "DevOps for Data Science Welcome! In this book, you’ll learn about DevOps conventions, tools, and practices that can be useful to you as a data scientist."
-date: ""
 ---
 ---
 title: "pub.demo.posit.team"
@@ -8086,8 +7571,6 @@ type: "Website"
 link: "https://cducloux.quarto.pub/sections/projects.html"
 language: "Other"
 category: "Machine Learning"
-description: ""
-date: ""
 ---
 ---
 title: "github"
@@ -8176,7 +7659,7 @@ type: "Paper"
 link: "https://arxiv.org/abs/2404.19756"
 language: "Other"
 category: "General"
-description: "Inspired by the Kolmogorov-Arnold representation theorem, we propose Kolmogorov-Arnold Networks (KANs) as promising alternatives to Multi-Layer Perceptrons (MLPs). While MLPs have fixed activation functions on nodes (\\\"neurons\\\"), KANs have learnable activation functions on edges (\\\"weights\\\"). KANs hav"
+description: "Inspired by the Kolmogorov-Arnold representation theorem, we propose Kolmogorov-Arnold Networks (KANs) as promising alternatives to Multi-Layer Perceptrons (MLPs). While MLPs have fixed activation functions on nodes (\"neurons\"), KANs have learnable activation functions on edges (\"weights\"). KANs"
 date: "2024-04-30"
 ---
 ---
@@ -8185,7 +7668,6 @@ type: "Website"
 link: "https://kindxiaoming.github.io/pykan/kan.html"
 language: "Other"
 category: "Machine Learning"
-description: ""
 date: "2024-01-01"
 ---
 ---
@@ -8204,7 +7686,6 @@ link: "https://indiedown.cynkra.com/articles/indiedown.html"
 language: "Other"
 category: "Machine Learning"
 description: "indiedown makes it easy to generate a customized R Markdown PDF template that follow the principles of your corporate design."
-date: ""
 ---
 ---
 title: "github"
@@ -8258,7 +7739,6 @@ link: "https://docs.sk8.inrae.fr/01-hebergement.html"
 language: "Other"
 category: "Machine Learning"
 description: "2 Faire une demande d’hébergement 2."
-date: ""
 ---
 ---
 title: "github"
@@ -8308,7 +7788,7 @@ date: "2025-05-14"
 ---
 title: "livebook.dev"
 type: "Book"
-link: "https://livebook.dev/?utm_source=twitter&utm_medium=social&utm_content=twitter-livebook-profile"
+link: "https://livebook.dev/"
 language: "Other"
 category: "General"
 description: "Automate code & data workflows with interactive notebooks"
@@ -8320,8 +7800,6 @@ type: "Website"
 link: "https://b-rodrigues.github.io/rix/articles/a-getting-started.html"
 language: "Other"
 category: "Machine Learning"
-description: ""
-date: ""
 ---
 ---
 title: "jiddualexander"
@@ -8338,8 +7816,6 @@ type: "Website"
 link: "https://www.llmfight.club/"
 language: "Other"
 category: "Machine Learning"
-description: ""
-date: ""
 ---
 ---
 title: "github"
@@ -8384,7 +7860,6 @@ link: "https://emilhvitfeldt.github.io/ISLR-tidymodels-labs/03-linear-regression
 language: "Other"
 category: "Machine Learning"
 description: "library(MASS) # For Boston data set library(tidymodels) library(ISLR) 3 Linear Regression This lab will go over how to perform linear regression."
-date: ""
 ---
 ---
 title: "magicinsert.github.io"
@@ -8410,8 +7885,6 @@ type: "Repository"
 link: "https://github.com/kennedymwavu/ambiorix-examples/tree/main/09_goals"
 language: "Other"
 category: "Machine Learning"
-description: ""
-date: ""
 ---
 ---
 title: "theclarkeorbit.github.io"
@@ -8425,7 +7898,7 @@ date: "2024-07-22"
 ---
 title: "taipy.io"
 type: "Website"
-link: "https://taipy.io/designer?ref=twitter&utm_source=twitter&utm_medium=social&utm_campaign=taipy_designer&utm_term=free_trial"
+link: "https://taipy.io/designer?ref=twitter"
 language: "Other"
 category: "Machine Learning"
 description: "Explore Taipy Designer, the cutting-edge drag-and-drop GUI builder designed for Python developers. Create dynamic GUIs effortlessly with a WYSIWYG environment. Connect widgets to your Python variables, style graphics with ease, and focus on results with our sophisticated yet convenient editor. Reque"
@@ -8446,8 +7919,6 @@ type: "Website"
 link: "https://blockr-org.github.io/blockr/articles/blockr_examples.html#dynamical-systems"
 language: "Other"
 category: "Machine Learning"
-description: ""
-date: ""
 ---
 ---
 title: "vincentarelbundock.github.io"
@@ -8456,7 +7927,6 @@ link: "https://vincentarelbundock.github.io/tinytable/"
 language: "Other"
 category: "General"
 description: "What? tinytable is a small but powerful R package to draw beautiful tables in a variety of formats: HTML, LaTeX, Word1, PDF, PNG, Markdown, and Typst."
-date: ""
 ---
 ---
 title: "cursor"
@@ -8518,8 +7988,7 @@ type: "Website"
 link: "https://r-wasm.github.io/quarto-drop/example.html#/title-slide"
 language: "Other"
 category: "Machine Learning"
-description: "A dropdown R or Python console Throughout this presentation, an interactive R console and editor can be invoked by pressing the drop shortcut By default, the drop shortcut is the backtick key: ` Alternatively, click the console button in the bottom left of the slide Set the drop shortcut and button "
-date: ""
+description: "A dropdown R or Python console Throughout this presentation, an interactive R console and editor can be invoked by pressing the drop shortcut By default, the drop shortcut is the backtick key: ` Alternatively, click the console button in the bottom left of the slide Set the drop shortcut and button"
 ---
 ---
 title: "github"
@@ -8600,7 +8069,6 @@ link: "https://jchiquet.github.io/MAP566/"
 language: "Other"
 category: "General"
 description: "Welcome Course description The objective of this course is to show students how statistics is used in practice to answer a specific question, by introducing a series of important model-based approaches."
-date: ""
 ---
 ---
 title: "pynerds"
@@ -8635,8 +8103,6 @@ type: "Website"
 link: "https://trypear.ai/docs/quickstart"
 language: "Other"
 category: "Machine Learning"
-description: ""
-date: ""
 ---
 ---
 title: "cosimameyer"
@@ -8708,7 +8174,6 @@ link: "https://llamaocr.com/"
 language: "Other"
 category: "General"
 description: "The easiest way to turn a document into markdown"
-date: ""
 ---
 ---
 title: "korben.info"
@@ -8716,7 +8181,7 @@ type: "Website"
 link: "https://korben.info/yt2doc-transcription-video-en-markdown.html"
 language: "Other"
 category: "Machine Learning"
-description: "Vous en avez assez de passer des heures à retranscrire à la main vos vidéos YouTube ? Ou peut-être cherchez-vous un moyen efficace de transformer vos ..."
+description: "yt2doc est un outil open-source qui transcrit automatiquement les vidéos YouTube et podcasts en documents Markdown lisibles. Il utilise l'IA pour segmenter ..."
 date: "2024-11-24"
 ---
 ---
@@ -8734,7 +8199,7 @@ type: "Website"
 link: "https://pydevtools.com/blog/effective-python-developer-tooling-in-december-2024/"
 language: "Python"
 category: "General"
-description: "I have been writing Python for 14 years next month. When I started, people were still using easy_install to install egg-based packages for Python 2.7 and nobody had heard about Conda yet, much less uv. The Python tool ecosystem has changed since. Many people are confused by the fragmentation in the "
+description: "I have been writing Python for 14 years next month. When I started, people were still using easy_install to install egg-based packages for Python 2.7 and nobody had heard about Conda yet, much less uv. The Python tool ecosystem has changed since. Many people are confused by the fragmentation in the"
 date: "2024-12-20"
 ---
 ---
@@ -8744,7 +8209,6 @@ link: "https://closeread.dev/"
 language: "Other"
 category: "General"
 description: "Closeread Closeread is a custom format for Quarto that enables scrollytelling features for HTML documents."
-date: ""
 ---
 ---
 title: "docs.astral.sh"
@@ -8753,7 +8217,6 @@ link: "https://docs.astral.sh/ruff/"
 language: "Other"
 category: "Programming"
 description: "An extremely fast Python linter and code formatter, written in Rust."
-date: ""
 ---
 ---
 title: "maturin.rs"
@@ -8825,7 +8288,6 @@ link: "https://www.thekangaroofactory.com/"
 language: "Other"
 category: "General"
 description: "Portfolio and Data Services. Power your business with automated data pipelines and carefully designed dashboards & apps."
-date: ""
 ---
 ---
 title: "Keybinding Conflict Scanner - Visual Studio Marketplace"
@@ -8905,8 +8367,6 @@ type: "Website"
 link: "https://blockr.cloud/app/csr"
 language: "R"
 category: "Shiny"
-description: ""
-date: ""
 ---
 ---
 title: "bristolmyerssquibb.github.io — Dplyr.Html"
@@ -8914,8 +8374,6 @@ type: "Website"
 link: "https://bristolmyerssquibb.github.io/blockr/showcase/dplyr.html"
 language: "R"
 category: "Shiny"
-description: ""
-date: ""
 ---
 ---
 title: "izwand.com — Knowledge Graph Completion"
@@ -8933,7 +8391,6 @@ link: "https://walker-data.com/geosam/"
 language: "Other"
 category: "General"
 description: "Geospatial Image Segmentation with SAM3 in R"
-date: ""
 ---
 ---
 title: "R + Python: From polyglot to pluralism | Emily Riederer"
@@ -8969,7 +8426,6 @@ link: "https://www.productive-r-workflow.com/r/bonus/webr"
 language: "R"
 category: "General"
 description: "Bring Quarto to life with {webR} Quarto can be frustrating: you read a report, but cannot interact with it! You're browser doesn't speak R,so there is nothing you can change."
-date: ""
 ---
 ---
 title: "AGENTS.md"
@@ -8978,7 +8434,6 @@ link: "https://agents.md/"
 language: "Other"
 category: "Machine Learning"
 description: "AGENTS.md is a simple, open format for guiding coding agents. Think of it as a README for agents."
-date: ""
 ---
 ---
 title: "Dr. Dominic Royé"
@@ -9040,8 +8495,7 @@ type: "Website"
 link: "https://cynkra.github.io/g6R/articles/shiny.html#mouse-position"
 language: "R"
 category: "General"
-description: "Introduction g6R can be easily integrated into Shiny applications using the g6_output() and render_g6() functions: library(shiny) library(g6R) library(bslib) nodes <- data."
-date: ""
+description: "Introduction g6R can be easily integrated into Shiny applications using the g6_output() and render_g6() functions: library(shiny) library(g6R) library(bslib) nodes"
 ---
 ---
 title: "Introduction"
@@ -9050,7 +8504,6 @@ link: "https://bioinfo.kaibitz.com/"
 language: "Other"
 category: "Medical & Life Sciences"
 description: "Introduction This website is an attempt to collect all the tutoring information I've created and put it in one place that can be accessed from anywhere with an internet connection."
-date: ""
 ---
 ---
 title: "Common statistical tests are linear models (or: how to teach stats)"
@@ -9085,7 +8538,7 @@ type: "Website"
 link: "https://futurize.futureverse.org/index.html"
 language: "R"
 category: "Programming"
-description: "The futurize() function transpiles calls to sequential map-reduce functions such as base::lapply(), purrr::map(), foreach::foreach() %do% { ... } into concurrent alternatives, providing you with a simple, straightforward path to scalable parallel computing via the future ecosystem <doi:10.32614/RJ-2"
+description: "The futurize() function transpiles calls to sequential map-reduce functions such as base::lapply(), purrr::map(), foreach::foreach() %do% { ... } into concurrent alternatives, providing you with a simple, straightforward path to scalable parallel computing via the future ecosystem"
 date: "2021-01-01"
 ---
 ---
@@ -9112,7 +8565,7 @@ type: "Blog"
 link: "https://korben.info/mistikee-gestionnaire-mots-de-passe-deni-plausible.html"
 language: "Other"
 category: "General"
-description: "Vous connaissez le concept de déni plausible appliqué aux mots de passe ? L'idée c'est que si quelqu'un chope votre coffre-fort de passwords et tente de le ..."
+description: "Mistikee est un gestionnaire de mots de passe qui ne stocke jamais votre mot de passe maitre. Résultat : un brute force donne des milliers de réponses ..."
 date: "2026-02-07"
 ---
 ---
@@ -9139,7 +8592,7 @@ type: "Blog"
 link: "https://korben.info/claude-code-safety-net-plugin-securite-agent-ia.html"
 language: "Other"
 category: "General"
-description: "Vous utilisez Claude Code comme moi pour bosser plus vite sur vos projets de dev ? Hé bien j'espère que vous n'avez jamais eu la mauvaise surprise de voir ..."
+description: "Vous utilisez Claude Code comme moi pour bosser plus vite sur vos projets ? Hé bien j'espère que vous n'avez jamais eu la mauvaise surprise de voir l'agent ..."
 date: "2025-12-26"
 ---
 ---
@@ -9148,7 +8601,7 @@ type: "Blog"
 link: "https://korben.info/the-vibe-companion-web-ui-claude-code.html"
 language: "Other"
 category: "General"
-description: "Claude Code, c'est super puissant... mais faut avouer que dans un terminal, quand l'IA commence à enchaîner les appels d'outils dans tous les sens, on se ..."
+description: "Découvrez Companion, une interface web open source pour Claude Code. Gérez plusieurs sessions, visualisez les appels d'outils et contrôlez votre ..."
 date: "2026-02-10"
 ---
 ---
@@ -9212,7 +8665,6 @@ link: "https://zeroclawlabs.ai/"
 language: "Other"
 category: "Machine Learning"
 description: "Premium, 100% Rust-based agent automation platform and visual control plane for the ZeroClaw Core Engine."
-date: ""
 ---
 ---
 title: "Zensical"
@@ -9284,7 +8736,6 @@ link: "https://posit-dev.github.io/mcptools/articles/server.html"
 language: "R"
 category: "Agents"
 description: "The mcptools package enables apps like Claude Desktop, Claude Code, and VS Code GitHub Copilot to run R code using the Model Context Protocol (MCP)."
-date: ""
 ---
 ---
 title: "Filter and Query Data Frames in shiny Using an LLM Chat Interface"
@@ -9302,7 +8753,6 @@ link: "https://posit-dev.github.io/shinychat/r/"
 language: "R"
 category: "General"
 description: "Provides a scrolling chat interface with multiline input, suitable for creating chatbot apps based on Large Language Models (LLMs). Designed to work particularly well with the ellmer R package for calling LLMs."
-date: ""
 ---
 ---
 title: "Top Python Libraries of 2025 (11th Edition)"
@@ -9382,8 +8832,6 @@ type: "Website"
 link: "https://www.sspcloud.fr/catalog"
 language: "R"
 category: "General"
-description: ""
-date: ""
 ---
 ---
 title: "Modules de formations à et Git dispensés au SSM Agriculture"
@@ -9419,7 +8867,6 @@ link: "https://rwarehouse.netlify.app/"
 language: "R"
 category: "General"
 description: "Find R packages by what they do Search 23,000+ packages from CRAN, Bioconductor, and GitHub."
-date: ""
 ---
 ---
 title: "R Toolkit for Databricks"
@@ -9427,7 +8874,7 @@ type: "Website"
 link: "https://databrickslabs.github.io/brickster/index.html"
 language: "Python"
 category: "Machine Learning"
-description: "Collection of utilities that improve using Databricks from R. Primarily functions that wrap specific Databricks APIs (<https://docs.databricks.com/api>), RStudio connection pane support, quality of life functions to make Databricks simpler to use."
+description: "Collection of utilities that improve using Databricks from R. Primarily functions that wrap specific Databricks APIs ( ), RStudio connection pane support, quality of life functions to make Databricks simpler to use."
 date: "2019-12-01"
 ---
 ---
@@ -9473,7 +8920,6 @@ link: "https://chat.z.ai/"
 language: "Other"
 category: "Machine Learning"
 description: "Meet Z.ai, your free AI-powered assistant. Build websites, create slides, analyze data, and get instant answers. Fast, smart, and reliable, powered by GLM-5."
-date: ""
 ---
 ---
 title: "Gram Language"
@@ -9482,7 +8928,6 @@ link: "https://gram-lang.org/fr/"
 language: "Other"
 category: "Programming;Data Visualization"
 description: "French documentation site for the Gram language."
-date: ""
 ---
 ---
 title: "my-ai-tools - cli.sh"
@@ -9491,7 +8936,6 @@ link: "https://github.com/jellydn/my-ai-tools/blob/main/cli.sh"
 language: "Other"
 category: "Agents;Developer Tools;Creative & Games"
 description: "Shell script inspiration for building a local agentic-setup folder."
-date: ""
 ---
 ---
 title: "CC Pricing Dashboard"
@@ -9500,7 +8944,6 @@ link: "https://cc-pricing.all-the.rest/?sort=requests%3Adesc"
 language: "Other"
 category: "Generative AI;Machine Learning"
 description: "Community dashboard comparing coding-agent pricing and request volumes."
-date: ""
 ---
 ---
 title: "shiny-prep"
@@ -9509,7 +8952,6 @@ link: "https://github.com/buddha2490/shiny-prep"
 language: "R"
 category: "Shiny;Web Development"
 description: "Preparation scaffolding for Shiny application projects."
-date: ""
 ---
 ---
 title: "engram"
@@ -9518,7 +8960,6 @@ link: "https://github.com/nagisanzenin/engram"
 language: "Other"
 category: "Agents;Developer Tools"
 description: "Memory layer project for persistent agent context."
-date: ""
 ---
 ---
 title: "Graft (NanoNets)"
@@ -9527,7 +8968,6 @@ link: "https://github.com/NanoNets/Graft"
 language: "Python"
 category: "Data Engineering;Machine Learning"
 description: "NanoNets open-source project for document/graph learning workflows."
-date: ""
 ---
 ---
 title: "r-project-template"
@@ -9536,7 +8976,6 @@ link: "https://github.com/novica/r-project-template"
 language: "R"
 category: "Reproducibility"
 description: "Reusable template for structuring R analysis projects."
-date: ""
 ---
 ---
 title: "OpenMed"
@@ -9545,7 +8984,6 @@ link: "https://github.com/maziyarpanahi/openmed"
 language: "Python"
 category: "Medical & Life Sciences;NLP & Speech;Machine Learning"
 description: "Open medical NLP models and resources curated by Maziyar Panahi."
-date: ""
 ---
 ---
 title: "omp.sh"
@@ -9554,7 +8992,6 @@ link: "https://omp.sh/"
 language: "Other"
 category: "Developer Tools"
 description: "Short-link installer/landing page for Oh My Posh."
-date: ""
 ---
 ---
 title: "Awesome Pi"
@@ -9563,7 +9000,6 @@ link: "https://awesome-pi.site/"
 language: "Other"
 category: "Agents;Open Source & Automation;Developer Tools"
 description: "Curated awesome list of Pi agent packages, skills and resources."
-date: ""
 ---
 ---
 title: "Slidecraft 101"
@@ -9572,7 +9008,6 @@ link: "https://emilhvitfeldt.com/project/slidecraft-101/"
 language: "R"
 category: "Quarto;Presentations;Education"
 description: "Emil Hvitfeldt's blog series teaching how to craft Quarto revealjs slides."
-date: ""
 ---
 ---
 title: "Slidecrafting Book (repo)"
@@ -9581,7 +9016,6 @@ link: "https://github.com/EmilHvitfeldt/slidecrafting-book.com"
 language: "R"
 category: "Quarto;Presentations"
 description: "Source repository of the Slidecrafting book."
-date: ""
 ---
 ---
 title: "Pierrot Show"
@@ -9590,16 +9024,14 @@ link: "https://pierrot.show/"
 language: "Other"
 category: "Social Media;Creative & Games"
 description: "Personal showcase site kept as design and content inspiration."
-date: ""
 ---
 ---
 title: "Rencontres R"
-type: "Conference"
+type: "Community"
 link: "https://www.rencontresr.fr/rencontres.html"
 language: "R"
 category: "Presentations;R Ecosystem"
 description: "French-speaking R community conference (Rencontres R) programme page."
-date: ""
 ---
 ---
 title: "Awesome GitHub Copilot"
@@ -9608,7 +9040,6 @@ link: "https://awesome-copilot.github.com/"
 language: "Other"
 category: "Agents;Open Source & Automation;Generative AI"
 description: "Official browsable catalogue of Copilot instructions, chat modes and prompts."
-date: ""
 ---
 ---
 title: "Awesome Claude"
@@ -9617,7 +9048,6 @@ link: "https://awesomeclaude.ai/"
 language: "Other"
 category: "AI;Open Source & Automation;Agents"
 description: "Curated directory of Claude tools, skills and community resources."
-date: ""
 ---
 ---
 title: "github/awesome-copilot"
@@ -9626,7 +9056,6 @@ link: "https://github.com/github/awesome-copilot"
 language: "Other"
 category: "Agents;Open Source & Automation;Generative AI"
 description: "Source repository of community-contributed Copilot customisations."
-date: ""
 ---
 ---
 title: "Claude Code Best Practice"
@@ -9635,7 +9064,6 @@ link: "https://github.com/shanraisshan/claude-code-best-practice"
 language: "Other"
 category: "Agents;Best Practices"
 description: "Community collection of Claude Code usage best practices."
-date: ""
 ---
 ---
 title: "Transformers - Speech to Text"
@@ -9644,25 +9072,22 @@ link: "https://huggingface.co/docs/transformers/model_doc/speech_to_text"
 language: "Python"
 category: "NLP & Speech;Generative AI"
 description: "Hugging Face Transformers documentation for the Speech2Text model family."
-date: ""
 ---
 ---
 title: "Real-time Speech-to-Text Streaming App"
-type: "Tutorial"
+type: "Course"
 link: "https://sadtalkerai.com/real-time-speech-text-streaming-app-hugging-face/"
 language: "Python"
 category: "NLP & Speech;Generative AI"
 description: "Tutorial for building a real-time speech-to-text streaming app on Hugging Face."
-date: ""
 ---
 ---
 title: "ASR Demo Space"
-type: "App"
+type: "Tool"
 link: "https://huggingface.co/spaces/GavinHuang/asr-demo"
 language: "Python"
 category: "NLP & Speech;Generative AI"
 description: "Hugging Face Space demonstrating automatic speech recognition."
-date: ""
 ---
 ---
 title: "SweetAlert2 in Shiny"
@@ -9671,7 +9096,6 @@ link: "https://yohann-data.fr/posts/sweetalert2/"
 language: "R"
 category: "Shiny;Programming"
 description: "French blog post on integrating SweetAlert2 dialogs into R applications."
-date: ""
 ---
 ---
 title: "Leeroopedia"
@@ -9680,7 +9104,6 @@ link: "https://leeroopedia.com/index.php/Main_Page"
 language: "Other"
 category: "Developer Tools;Reference"
 description: "Community wiki used as a reference knowledge base."
-date: ""
 ---
 ---
 title: "dockerstats"
@@ -9689,7 +9112,6 @@ link: "https://github.com/ColinFay/dockerstats"
 language: "R"
 category: "Docker;MLOps"
 description: "R package by Colin Fay to collect Docker container statistics."
-date: ""
 ---
 ---
 title: "shinyloadtest"
@@ -9698,7 +9120,6 @@ link: "https://rstudio.github.io/shinyloadtest/"
 language: "R"
 category: "Shiny;Programming;Best Practices"
 description: "Posit package and docs for load-testing Shiny applications."
-date: ""
 ---
 ---
 title: "RoboRev"
@@ -9707,7 +9128,6 @@ link: "https://www.roborev.io/"
 language: "Other"
 category: "Agents"
 description: "Automated AI-assisted code review service."
-date: ""
 ---
 ---
 title: "RTK"
@@ -9716,7 +9136,6 @@ link: "https://github.com/rtk-ai/rtk/"
 language: "Other"
 category: "Agents;Developer Tools"
 description: "Open-source agent toolkit from rtk-ai."
-date: ""
 ---
 ---
 title: "Agentic Search"
@@ -9725,7 +9144,6 @@ link: "https://ivanleo.com/blog/agentic-search"
 language: "Other"
 category: "Agents;Developer Tools;Generative AI"
 description: "Deep-dive blog post on designing agentic search systems."
-date: ""
 ---
 ---
 title: "ast-grep with R and Claude Code"
@@ -9734,7 +9152,6 @@ link: "https://emilhvitfeldt.com/post/ast-grep-r-claude-code/"
 language: "R"
 category: "Developer Tools;Agents;Programming"
 description: "Using ast-grep to do structural search and refactoring of R code with Claude Code."
-date: ""
 ---
 ---
 title: "How I Use Claude Code"
@@ -9743,7 +9160,6 @@ link: "https://boristane.com/blog/how-i-use-claude-code/"
 language: "Other"
 category: "Agents;Reproducibility"
 description: "Opinionated write-up of a day-to-day AI-assisted development workflow."
-date: ""
 ---
 ---
 title: "Copilot Instructions - Azure DevOps Pipelines"
@@ -9752,7 +9168,6 @@ link: "https://github.com/github/awesome-copilot/blob/main/instructions/azure-de
 language: "Other"
 category: "Agents;MLOps"
 description: "Copilot instruction file for authoring Azure DevOps pipelines."
-date: ""
 ---
 ---
 title: "Copilot Instructions - Docker Best Practices"
@@ -9761,7 +9176,6 @@ link: "https://github.com/github/awesome-copilot/blob/main/instructions/containe
 language: "Other"
 category: "Agents;Docker;Best Practices"
 description: "Copilot instruction file covering containerization and Docker best practices."
-date: ""
 ---
 ---
 title: "Copilot Instructions - Context7"
@@ -9770,7 +9184,6 @@ link: "https://github.com/github/awesome-copilot/blob/main/instructions/context7
 language: "Other"
 category: "Agents;Generative AI"
 description: "Copilot instruction file for using the Context7 documentation MCP."
-date: ""
 ---
 ---
 title: "Copilot Instructions - Power BI DAX"
@@ -9779,7 +9192,6 @@ link: "https://github.com/github/awesome-copilot/blob/main/instructions/power-bi
 language: "Other"
 category: "Agents;Business Intelligence;Best Practices"
 description: "Copilot instruction file with DAX best practices for Power BI."
-date: ""
 ---
 ---
 title: "Copilot Instructions - Power BI Custom Visuals"
@@ -9788,7 +9200,6 @@ link: "https://github.com/github/awesome-copilot/blob/main/instructions/power-bi
 language: "JavaScript"
 category: "Agents;Business Intelligence;Data Visualization"
 description: "Copilot instruction file for developing Power BI custom visuals."
-date: ""
 ---
 ---
 title: "Copilot Instructions - Power BI Data Modeling"
@@ -9797,7 +9208,6 @@ link: "https://github.com/github/awesome-copilot/blob/main/instructions/power-bi
 language: "Other"
 category: "Agents;Business Intelligence;Data Engineering"
 description: "Copilot instruction file with Power BI data modelling best practices."
-date: ""
 ---
 ---
 title: "Copilot Instructions - Power BI DevOps ALM"
@@ -9806,7 +9216,6 @@ link: "https://github.com/github/awesome-copilot/blob/main/instructions/power-bi
 language: "Other"
 category: "Agents;Business Intelligence;MLOps"
 description: "Copilot instruction file for Power BI DevOps and application lifecycle management."
-date: ""
 ---
 ---
 title: "Copilot Instructions - Power BI Report Design"
@@ -9815,7 +9224,6 @@ link: "https://github.com/github/awesome-copilot/blob/main/instructions/power-bi
 language: "Other"
 category: "Agents;Business Intelligence;Web Development"
 description: "Copilot instruction file with Power BI report design best practices."
-date: ""
 ---
 ---
 title: "Copilot Instructions - Rust"
@@ -9824,7 +9232,6 @@ link: "https://github.com/github/awesome-copilot/blob/main/instructions/rust.ins
 language: "Other"
 category: "Agents;Programming;Best Practices"
 description: "Copilot instruction file for idiomatic Rust development."
-date: ""
 ---
 ---
 title: "awesome-copilot - README.hooks"
@@ -9833,7 +9240,6 @@ link: "https://github.com/github/awesome-copilot/blob/main/docs/README.hooks.md"
 language: "Other"
 category: "AI;R Ecosystem"
 description: "Doc awesome-copilot sur les hooks."
-date: ""
 ---
 ---
 title: "awesome-copilot - session-auto-commit hook"
@@ -9842,7 +9248,6 @@ link: "https://github.com/github/awesome-copilot/blob/main/hooks/session-auto-co
 language: "Other"
 category: "AI;Git;R Ecosystem"
 description: "Hook d'auto-commit de session pour Copilot."
-date: ""
 ---
 ---
 title: "awesome-copilot - azure-cloud-development plugin"
@@ -9851,7 +9256,6 @@ link: "https://github.com/github/awesome-copilot/blob/main/plugins/azure-cloud-d
 language: "Other"
 category: "MLOps;AI"
 description: "Plugin Copilot pour dev cloud Azure."
-date: ""
 ---
 ---
 title: "Slidecrafting Book"
@@ -9860,7 +9264,6 @@ link: "https://slidecrafting-book.com/"
 language: "R"
 category: "Quarto;Presentations"
 description: "Online book on designing effective slides with Quarto."
-date: ""
 ---
 ---
 title: "gary149/llama-agent"
@@ -9869,16 +9272,14 @@ link: "https://github.com/gary149/llama-agent"
 language: "Python"
 category: "AI;Agents;Generative AI"
 description: "Agent Llama par gary149."
-date: ""
 ---
 ---
 title: "R Project Conference 2026 (Romania)"
-type: "Conference"
+type: "Community"
 link: "https://r-project.ro/conference2026.html#Registration"
 language: "R"
 category: "General"
 description: "Inscription à la conférence R 2026 (Roumanie)."
-date: ""
 ---
 ---
 title: "ollama-litellm-openwebui compose"
@@ -9887,7 +9288,6 @@ link: "https://github.com/ruanbekker/awesome-docker-compose/tree/main/ollama-lit
 language: "Other"
 category: "Docker;AI;Generative AI"
 description: "Stack docker-compose Ollama + LiteLLM + Open WebUI."
-date: ""
 ---
 ---
 title: "docker/awesome-compose - postgresql-pgadmin"
@@ -9896,7 +9296,6 @@ link: "https://github.com/docker/awesome-compose/tree/master/postgresql-pgadmin"
 language: "Other"
 category: "Docker;Data Engineering"
 description: "Compose officiel PostgreSQL + pgAdmin."
-date: ""
 ---
 ---
 title: "D4Vinci/Scrapling"
@@ -9905,7 +9304,6 @@ link: "https://github.com/D4Vinci/Scrapling"
 language: "Python"
 category: "Web Development"
 description: "Scraper web Python par D4Vinci."
-date: ""
 ---
 ---
 title: "statzhero/tidy-r-skill"
@@ -9914,7 +9312,6 @@ link: "https://github.com/statzhero/tidy-r-skill"
 language: "R"
 category: "R Ecosystem;Career & Industry"
 description: "Skill Claude/AI pour tidyverse R."
-date: ""
 ---
 ---
 title: "vllm-project/vllm"
@@ -9923,7 +9320,6 @@ link: "https://github.com/vllm-project/vllm"
 language: "Python"
 category: "AI;Generative AI;Statistics"
 description: "Moteur de serving LLM haute perf."
-date: ""
 ---
 ---
 title: "onyx"
@@ -9932,7 +9328,6 @@ link: "https://github.com/onyx-dot-app/onyx"
 language: "Python"
 category: "AI;Generative AI;Developer Tools"
 description: "Plateforme RAG / enterprise search open-source."
-date: ""
 ---
 ---
 title: "Claude resources/tutorials"
@@ -9941,7 +9336,6 @@ link: "https://claude.com/resources/tutorials"
 language: "Other"
 category: "AI"
 description: "Tutoriels officiels Anthropic Claude."
-date: ""
 ---
 ---
 title: "Jan"
@@ -9950,7 +9344,6 @@ link: "https://www.jan.ai/"
 language: "Other"
 category: "AI;Generative AI"
 description: "Client desktop LLM local open-source."
-date: ""
 ---
 ---
 title: "rworks.dev - Claude skills for R users"
@@ -9959,7 +9352,6 @@ link: "https://rworks.dev/posts/claude-skills-for-r-users/"
 language: "R"
 category: "AI"
 description: "Article sur les skills Claude pour utilisateurs R."
-date: ""
 ---
 ---
 title: "drmowinckels.io - dotfiles coding agents"
@@ -9968,7 +9360,6 @@ link: "https://drmowinckels.io/blog/2026/dotfiles-coding-agents/"
 language: "R"
 category: "Developer Tools;AI"
 description: "Dotfiles pour coding-agents par Athaea MOWinckels."
-date: ""
 ---
 ---
 title: "quickSentiment"
@@ -9977,7 +9368,6 @@ link: "https://cran.r-project.org/web/packages/quickSentiment/index.html"
 language: "R"
 category: "NLP & Speech"
 description: "Package R pour analyse de sentiment rapide."
-date: ""
 ---
 ---
 title: "korben.info - pyinfra"
@@ -9986,7 +9376,6 @@ link: "https://korben.info/pyinfra-automatisation-infrastructure-python.html"
 language: "French"
 category: "MLOps"
 description: "Article Korben sur pyinfra (automatisation infra Python)."
-date: ""
 ---
 ---
 title: "nyko.ai learn-ai-fast"
@@ -9995,7 +9384,6 @@ link: "https://nyko.ai/learn-ai-fast/chapter/1"
 language: "Other"
 category: "AI"
 description: "Cours accéléré AI / LLM par nyko.ai."
-date: ""
 ---
 ---
 title: "tabular-foundation"
@@ -10004,7 +9392,6 @@ link: "https://tabular-foundation.christophmolnar.com/"
 language: "Other"
 category: "Machine Learning"
 description: "Fondation Tabular par Christoph Molnar."
-date: ""
 ---
 ---
 title: "codegraphcontext"
@@ -10013,7 +9400,6 @@ link: "https://codegraphcontext.vercel.app/"
 language: "Other"
 category: "AI;Agents;Generative AI"
 description: "Outil de contexte code-graph pour agents AI."
-date: ""
 ---
 ---
 title: "EmilHvitfeldt/quarto-revealjs-editable"
@@ -10022,7 +9408,6 @@ link: "https://github.com/EmilHvitfeldt/quarto-revealjs-editable"
 language: "R"
 category: "Quarto;Presentations"
 description: "Extension quarto-revealjs éditable par Emil Hvitfeldt."
-date: ""
 ---
 ---
 title: "jolars/panache"
@@ -10031,7 +9416,6 @@ link: "https://jolars.github.io/panache/"
 language: "R"
 category: "Data Visualization"
 description: "Package panache (thèmes ggplot)."
-date: ""
 ---
 ---
 title: "karanbansal - Claude Code LSP"
@@ -10040,7 +9424,6 @@ link: "https://karanbansal.in/blog/claude-code-lsp/"
 language: "Other"
 category: "AI;Developer Tools"
 description: "Intégration LSP pour Claude Code."
-date: ""
 ---
 ---
 title: "f/prompts.chat"
@@ -10049,7 +9432,6 @@ link: "https://github.com/f/prompts.chat"
 language: "Other"
 category: "AI;Generative AI"
 description: "Collection / partage de prompts."
-date: ""
 ---
 ---
 title: "alibaba/OpenSandbox"
@@ -10058,7 +9440,6 @@ link: "https://github.com/alibaba/OpenSandbox"
 language: "Python"
 category: "AI;Agents"
 description: "Sandbox open-source Alibaba pour agents."
-date: ""
 ---
 ---
 title: "dein.fr - plan and checkout"
@@ -10067,7 +9448,6 @@ link: "https://www.dein.fr/posts/2026-01-08-write-and-checkout-the-plan"
 language: "French"
 category: "AI;Reproducibility"
 description: "Workflow 'write-and-checkout the plan' (dein.fr)."
-date: ""
 ---
 ---
 title: "pytogether playground"
@@ -10076,7 +9456,6 @@ link: "https://pytogether.org/playground"
 language: "Python"
 category: "General"
 description: "Playground Python collaboratif."
-date: ""
 ---
 ---
 title: "aitransformer - AI model monitoring"
@@ -10085,7 +9464,6 @@ link: "https://aitransformer.online/ai-model-monitoring-strategy/"
 language: "Other"
 category: "AI;MLOps"
 description: "Stratégies de monitoring de modèles AI."
-date: ""
 ---
 ---
 title: "conductorquantum - Coda MCP"
@@ -10094,7 +9472,6 @@ link: "https://conductorquantum.substack.com/p/introducing-coda-mcp-quantum-tool
 language: "Other"
 category: "AI;Generative AI;Programming"
 description: "MCP Coda pour outils quantiques AI."
-date: ""
 ---
 ---
 title: "r-lib/Rapp"
@@ -10103,7 +9480,6 @@ link: "https://github.com/r-lib/Rapp"
 language: "R"
 category: "Developer Tools"
 description: "Package R pour CLI apps (Rapp)."
-date: ""
 ---
 ---
 title: "spicytakes.org"
@@ -10112,7 +9488,6 @@ link: "https://www.spicytakes.org/"
 language: "Other"
 category: "Career & Industry"
 description: "Blog d'opinions sur la tech."
-date: ""
 ---
 ---
 title: "spolu - no flow is the new flow"
@@ -10121,7 +9496,6 @@ link: "https://spolu.sh/notes/20260311_no_flow_is_the_new_flow.html"
 language: "Other"
 category: "AI;Reproducibility;Agents"
 description: "Notes sur le paradigme 'no flow is the new flow' (agents)."
-date: ""
 ---
 ---
 title: "Firefox GitHub Download Button Addon"
@@ -10130,7 +9504,6 @@ link: "https://addons.mozilla.org/en-US/firefox/addon/github-download-button-add
 language: "Other"
 category: "Developer Tools;Git"
 description: "Module Firefox ajoutant un bouton de download GitHub."
-date: ""
 ---
 ---
 title: "r-mailing-lists.thecoatlessprofessor.com"
@@ -10139,7 +9512,6 @@ link: "https://r-mailing-lists.thecoatlessprofessor.com/"
 language: "R"
 category: "Social Media"
 description: "Mirror / archive des mailing-lists R."
-date: ""
 ---
 ---
 title: "humanstatement.org"
@@ -10148,7 +9520,6 @@ link: "https://humanstatement.org/"
 language: "Other"
 category: "Ethics;AI"
 description: "Site de la déclaration human-AI / human statement."
-date: ""
 ---
 ---
 title: "Elixir install (Linux)"
@@ -10157,7 +9528,6 @@ link: "https://elixir-lang.org/install.html#gnulinux"
 language: "Other"
 category: "Programming;Developer Tools"
 description: "Instructions d'installation Elixir sur GNU/Linux."
-date: ""
 ---
 ---
 title: "share.streamlit.io - modeling-mindsets"
@@ -10166,7 +9536,6 @@ link: "https://share.streamlit.io/-/auth/app?redirect_uri=https%3A%2F%2Fmodeling
 language: "Python"
 category: "Web Development;Machine Learning"
 description: "Auth share Streamlit pour l'app modeling-mindsets."
-date: ""
 ---
 ---
 title: "mauriceboe/NOMAD"
@@ -10175,7 +9544,6 @@ link: "https://github.com/mauriceboe/NOMAD"
 language: "Other"
 category: "Developer Tools"
 description: "Projet NOMAD (repository)."
-date: ""
 ---
 ---
 title: "data-goblin/power-bi-agentic-development"
@@ -10184,7 +9552,6 @@ link: "https://github.com/data-goblin/power-bi-agentic-development?tab=readme-ov
 language: "Other"
 category: "Business Intelligence;AI;Agents"
 description: "Développement agentic Power BI."
-date: ""
 ---
 ---
 title: "typst-in-production - crash course"
@@ -10193,7 +9560,6 @@ link: "https://typst-in-production.com/crash-course/lesson-1/"
 language: "Other"
 category: "Quarto"
 description: "Crash course Typst en production (lesson 1)."
-date: ""
 ---
 ---
 title: "TabArena leaderboard"
@@ -10202,7 +9568,6 @@ link: "https://huggingface.co/spaces/TabArena/leaderboard"
 language: "Other"
 category: "Machine Learning"
 description: "Leaderboard TabArena (données tabulaires)."
-date: ""
 ---
 ---
 title: "mlcontests.com"
@@ -10211,7 +9576,6 @@ link: "https://mlcontests.com/"
 language: "Other"
 category: "Machine Learning"
 description: "Agrégateur de compétitions ML."
-date: ""
 ---
 ---
 title: "emantzoo/excel2r"
@@ -10220,7 +9584,6 @@ link: "https://github.com/emantzoo/excel2r"
 language: "R"
 category: "Business Intelligence;Quarto"
 description: "Outil de conversion Excel -> R."
-date: ""
 ---
 ---
 title: "pi.dev"
@@ -10229,7 +9592,6 @@ link: "https://pi.dev/"
 language: "Other"
 category: "AI;Agents"
 description: "Site de pi coding-agent."
-date: ""
 ---
 ---
 title: "Transformers contributing with Codex"
@@ -10238,7 +9600,6 @@ link: "https://huggingface.co/blog/nielsr/contributing-to-transformers-with-code
 language: "Python"
 category: "Deep Learning;AI"
 description: "Contribuer à Transformers avec Codex AI."
-date: ""
 ---
 ---
 title: "rworks.dev - skills in RStudio Posit Assistant"
@@ -10247,7 +9608,6 @@ link: "https://rworks.dev/posts/skills-in-rstudio-posit-assistant/"
 language: "R"
 category: "R Ecosystem;AI"
 description: "Skills pour Posit Assistant dans RStudio."
-date: ""
 ---
 ---
 title: "ropensci - tree-sitter overview"
@@ -10256,7 +9616,6 @@ link: "https://ropensci.org/blog/2026/04/02/tree-sitter-overview/"
 language: "R"
 category: "Programming;Developer Tools"
 description: "Aperçu tree-sitter côté R par rOpenSci."
-date: ""
 ---
 ---
 title: "RoggeOhta/awesome-codex-cli"
@@ -10265,7 +9624,6 @@ link: "https://github.com/RoggeOhta/awesome-codex-cli"
 language: "Other"
 category: "AI;Agents;Developer Tools"
 description: "Liste curated de ressources pour Codex CLI."
-date: ""
 ---
 ---
 title: "open-vsx - vscode-flowr"
@@ -10274,7 +9632,6 @@ link: "https://open-vsx.org/extension/code-inspect/vscode-flowr"
 language: "R"
 category: "Developer Tools"
 description: "Extension VS Code flowr (LSP R) sur open-vsx."
-date: ""
 ---
 ---
 title: "ggilles.dev"
@@ -10283,7 +9640,6 @@ link: "https://ggilles.dev/"
 language: "Other"
 category: "Data Science"
 description: "Blog personnel ggilles."
-date: ""
 ---
 ---
 title: "Bayesian Workflow - sharks case study"
@@ -10292,7 +9648,6 @@ link: "https://avehtari.github.io/Bayesian-Workflow/sharks/sharks.html"
 language: "Other"
 category: "Statistics;Bayesian"
 description: "Cas d'étude workflow bayésien (sharks) par Aki Vehtari."
-date: ""
 ---
 ---
 title: "goose-docs"
@@ -10301,7 +9656,6 @@ link: "https://goose-docs.ai/"
 language: "Other"
 category: "AI;Agents"
 description: "Docs de Goose (coding agent AI)."
-date: ""
 ---
 ---
 title: "entire.io"
@@ -10310,7 +9664,6 @@ link: "https://entire.io/"
 language: "Other"
 category: "AI;Programming;Generative AI"
 description: "Service Entire (contexte codebase pour AI)."
-date: ""
 ---
 ---
 title: "blankuzr/R-Skills - r-package-dev SKILL.md"
@@ -10319,7 +9672,6 @@ link: "https://github.com/blankuzr/R-Skills/blob/main/claude/.claude/skills/r-pa
 language: "R"
 category: "AI;Career & Industry"
 description: "Skill Claude pour dev package R (blankuzr)."
-date: ""
 ---
 ---
 title: "thedecipherist - docker developer workflow 2026"
@@ -10328,7 +9680,6 @@ link: "https://thedecipherist.com/articles/the_docker_developer_workflow_guide_2
 language: "Other"
 category: "Docker;Reproducibility"
 description: "Guide workflow Docker pour devs (2026) par thedecipherist."
-date: ""
 ---
 ---
 title: "r-statistics.co - OOP in R"
@@ -10337,7 +9688,6 @@ link: "https://r-statistics.co/OOP-in-R.html"
 language: "R"
 category: "Programming"
 description: "Tutorial OOP en R (S3/S4/R6)."
-date: ""
 ---
 ---
 title: "quarto-revealjs-editable (site)"
@@ -10346,7 +9696,6 @@ link: "https://emilhvitfeldt.github.io/quarto-revealjs-editable/"
 language: "R"
 category: "Quarto;Presentations"
 description: "Démo site quarto-revealjs-editable."
-date: ""
 ---
 ---
 title: "vllm.ai"
@@ -10354,8 +9703,6 @@ type: "Website"
 link: "https://vllm.ai/"
 language: "Python"
 category: "AI;Generative AI;Statistics"
-description: "Site officiel vLLM."
-date: ""
 ---
 ---
 title: "Transformers to MLX"
@@ -10364,7 +9711,6 @@ link: "https://huggingface.co/blog/transformers-to-mlx"
 language: "Python"
 category: "Deep Learning"
 description: "Convertir Transformers vers MLX (Apple Silicon)."
-date: ""
 ---
 ---
 title: "biinsight - agentic AI in Power BI & Fabric pt 2"
@@ -10373,7 +9719,6 @@ link: "https://biinsight.com/agentic-ai-in-power-bi-and-fabric-part-2-getting-st
 language: "Other"
 category: "Business Intelligence;Data Engineering;AI"
 description: "Partie 2 agentic AI dans Power BI / Fabric (Copilot + MCP)."
-date: ""
 ---
 ---
 title: "langchain-ai/deepagent"
@@ -10382,7 +9727,6 @@ link: "https://github.com/langchain-ai/deepagent"
 language: "Python"
 category: "AI;Agents;Generative AI"
 description: "Deep agent framework par LangChain."
-date: ""
 ---
 ---
 title: "addyosmani/agent-skills"
@@ -10391,7 +9735,6 @@ link: "https://github.com/addyosmani/agent-skills"
 language: "Other"
 category: "AI;Career & Industry;Agents"
 description: "Collection de skills d'agents par Addy Osmani."
-date: ""
 ---
 ---
 title: "eitsupi/arf"
@@ -10400,7 +9743,6 @@ link: "https://github.com/eitsupi/arf"
 language: "R"
 category: "Developer Tools"
 description: "arf — outil CLI R par eitsupi."
-date: ""
 ---
 ---
 title: "deepwiki.com"
@@ -10409,7 +9751,6 @@ link: "https://deepwiki.com/"
 language: "Other"
 category: "AI;Developer Tools;Programming"
 description: "Wiki deep / contextuelle pour code."
-date: ""
 ---
 ---
 title: "Mega4alik/ollm"
@@ -10418,7 +9759,6 @@ link: "https://github.com/Mega4alik/ollm"
 language: "Other"
 category: "AI;Generative AI"
 description: "ollm — wrapper LLM local."
-date: ""
 ---
 ---
 title: "regisx001/Worklog"
@@ -10427,7 +9767,6 @@ link: "https://github.com/regisx001/Worklog"
 language: "Other"
 category: "Best Practices"
 description: "Outil de worklog / journal de travail."
-date: ""
 ---
 ---
 title: "theanshsonkar/carto"
@@ -10435,8 +9774,6 @@ type: "Repository"
 link: "https://github.com/theanshsonkar/carto"
 language: "Other"
 category: "Developer Tools"
-description: "Outil carto."
-date: ""
 ---
 ---
 title: "agentskills.io"
@@ -10445,7 +9782,6 @@ link: "https://agentskills.io/home"
 language: "Other"
 category: "AI;Career & Industry"
 description: "Site d'indexation des agent skills."
-date: ""
 ---
 ---
 title: "tidyverse blog - Rapp 0.3.0"
@@ -10454,7 +9790,6 @@ link: "https://tidyverse.org/blog/2026/02/rapp-0-3-0/"
 language: "R"
 category: "Developer Tools"
 description: "Notes de release Rapp 0.3.0 (tidyverse)."
-date: ""
 ---
 ---
 title: "biostatquest.com"
@@ -10463,7 +9798,6 @@ link: "https://www.biostatquest.com/"
 language: "Other"
 category: "Medical & Life Sciences"
 description: "Site Q&A biostatistiques."
-date: ""
 ---
 ---
 title: "whipson - maestro 1.1.0 release"
@@ -10472,7 +9806,6 @@ link: "https://whipson.github.io/data-in-flight/posts/maestro-1-1-0/maestro-1-1-
 language: "R"
 category: "MLOps;Developer Tools"
 description: "Release notes maestro 1.1.0 (pipelines R orchestrés)."
-date: ""
 ---
 ---
 title: "repoinsider"
@@ -10481,7 +9814,6 @@ link: "https://repoinsider.com/"
 language: "Other"
 category: "Git;Developer Tools"
 description: "Insights / veille sur repositories GitHub."
-date: ""
 ---
 ---
 title: "prepare.sh trends"
@@ -10490,7 +9822,6 @@ link: "https://prepare.sh/trends?country=EU&category=datascience&experience_leve
 language: "Other"
 category: "Career & Industry;Data Science"
 description: "Tendances de prep d'entretien data science (EU, mid)."
-date: ""
 ---
 ---
 title: "openrouter state-of-ai"
@@ -10499,7 +9830,6 @@ link: "https://openrouter.ai/state-of-ai"
 language: "Other"
 category: "AI;Generative AI;Machine Learning"
 description: "Rapport state-of-ai par OpenRouter."
-date: ""
 ---
 ---
 title: "supabaseR"
@@ -10508,7 +9838,6 @@ link: "https://deepanshkhurana.github.io/supabaseR/"
 language: "R"
 category: "Data Engineering"
 description: "Wrapper R pour Supabase par Deepansh Khurana."
-date: ""
 ---
 ---
 title: "build.nvidia.com models"
@@ -10517,7 +9846,6 @@ link: "https://build.nvidia.com/models?filters="
 language: "Other"
 category: "AI;Deep Learning;Machine Learning"
 description: "Catalogue de modèles NVIDIA NIM / build."
-date: ""
 ---
 ---
 title: "nicedreamzapp/claude-code-local"
@@ -10526,7 +9854,6 @@ link: "https://github.com/nicedreamzapp/claude-code-local"
 language: "Other"
 category: "AI;Generative AI"
 description: "Setup local Claude Code."
-date: ""
 ---
 ---
 title: "johnlokerse - opencode + Copilot CLI BYOK"
@@ -10535,7 +9862,6 @@ link: "https://johnlokerse.dev/2026/04/23/use-opencode-go-models-in-github-copil
 language: "Other"
 category: "AI;Generative AI;Developer Tools"
 description: "OpenCode + modèles Go dans Copilot CLI avec BYOK."
-date: ""
 ---
 ---
 title: "ai-declaration.md"
@@ -10544,7 +9870,6 @@ link: "https://ai-declaration.md/en/0.1.2/"
 language: "Other"
 category: "AI;Ethics"
 description: "Déclaration AI (ai-declaration.md) v0.1.2."
-date: ""
 ---
 ---
 title: "sci-bot.ru"
@@ -10553,7 +9878,6 @@ link: "https://sci-bot.ru/"
 language: "Other"
 category: "AI;Data Science;Developer Tools"
 description: "Bot AI pour la science (sci-bot.ru)."
-date: ""
 ---
 ---
 title: "smolmachines.com"
@@ -10562,7 +9886,6 @@ link: "https://smolmachines.com/"
 language: "Other"
 category: "AI;Machine Learning"
 description: "Site smolmachines (modèles compacts)."
-date: ""
 ---
 ---
 title: "zed 1.0 release blog"
@@ -10570,8 +9893,6 @@ type: "Blog"
 link: "https://zed.dev/blog/zed-1-0"
 language: "Other"
 category: "Developer Tools"
-description: "Annonce Zed 1.0."
-date: ""
 ---
 ---
 title: "dgadacha/wax"
@@ -10580,16 +9901,14 @@ link: "https://dgadacha.github.io/wax/#features"
 language: "Other"
 category: "Developer Tools"
 description: "Wax — outil/UI par dgadacha."
-date: ""
 ---
 ---
 title: "tylerfolkman - cut AI agent costs 7x"
 type: "Blog"
-link: "https://tylerfolkman.substack.com/p/i-cut-my-ai-agent-costs-7x-without?r=w7ji&utm_campaign=post-expanded-share&utm_medium=web&triedRedirect=true"
+link: "https://tylerfolkman.substack.com/p/i-cut-my-ai-agent-costs-7x-without?r=w7ji&triedRedirect=true"
 language: "Other"
 category: "AI;Machine Learning"
 description: "Comment réduire les coûts d'agents AI de 7x."
-date: ""
 ---
 ---
 title: "jcarroll - targets vs dbt"
@@ -10598,7 +9917,6 @@ link: "https://jcarroll.com.au/2026/05/04/comparing-r-s-targets-and-dbt-for-data
 language: "R"
 category: "Data Engineering;R Ecosystem"
 description: "Comparaison {targets} R et dbt pour data engineering."
-date: ""
 ---
 ---
 title: "fischerf/aar"
@@ -10607,7 +9925,6 @@ link: "https://fischerf.github.io/aar/"
 language: "R"
 category: "Developer Tools"
 description: "Outil aar par fischerf."
-date: ""
 ---
 ---
 title: "woheller69/FreeDroidWarn"
@@ -10616,16 +9933,14 @@ link: "https://github.com/woheller69/FreeDroidWarn#solutions"
 language: "Other"
 category: "Ethics"
 description: "Solutions FreeDroidWarn (warnings privacy Android)."
-date: ""
 ---
 ---
 title: "aipractitioner - LLMs in causal discovery"
 type: "Blog"
-link: "https://aipractitioner.substack.com/p/llms-in-causal-discovery-a-deep-dive?r=49ttp&utm_campaign=post&utm_medium=web&triedRedirect=true"
+link: "https://aipractitioner.substack.com/p/llms-in-causal-discovery-a-deep-dive?r=49ttp&triedRedirect=true"
 language: "Other"
 category: "AI;Causal Inference;Generative AI"
 description: "Plongée LLMs en causal discovery."
-date: ""
 ---
 ---
 title: "VectifyAI/PageIndex"
@@ -10634,7 +9949,6 @@ link: "https://github.com/VectifyAI/PageIndex"
 language: "Other"
 category: "AI;Generative AI;Developer Tools"
 description: "PageIndex par VectifyAI (indexation pour RAG)."
-date: ""
 ---
 ---
 title: "morphllm - vscode-multi-agent"
@@ -10643,7 +9957,6 @@ link: "https://www.morphllm.com/vscode-multi-agent"
 language: "Other"
 category: "AI;Developer Tools;Agents"
 description: "Extension VS Code multi-agent par MorphLLM."
-date: ""
 ---
 ---
 title: "RConsortium/pharma-skills"
@@ -10652,7 +9965,6 @@ link: "https://github.com/RConsortium/pharma-skills"
 language: "R"
 category: "Medical & Life Sciences;Career & Industry"
 description: "Skills pharma R par R Consortium."
-date: ""
 ---
 ---
 title: "rinpharma - genAI schedule"
@@ -10661,7 +9973,6 @@ link: "https://rinpharma.com/docs/blog/posts/2026-05-12-genAI-schedule/"
 language: "R"
 category: "Generative AI"
 description: "Programme genAI de rinpharma 2026."
-date: ""
 ---
 ---
 title: "data.ina.fr"
@@ -10670,7 +9981,6 @@ link: "https://data.ina.fr/"
 language: "French"
 category: "Data Science;Social Media"
 description: "Données INA (Institut National de l'Audiovisuel)."
-date: ""
 ---
 ---
 title: "ai-10-usd all-the-rest"
@@ -10679,7 +9989,6 @@ link: "https://ai-10-usd.all-the.rest/?match=0"
 language: "Other"
 category: "AI;Generative AI"
 description: "Liste de modèles AI à 10 USD (all-the-rest)."
-date: ""
 ---
 ---
 title: "sami-uysal - awesome open AI dev tools"
@@ -10688,7 +9997,6 @@ link: "https://sami-uysal.github.io/awesome-open-ai-developer-tools/#open-source
 language: "Other"
 category: "AI;Open Source & Automation"
 description: "Cheat sheet alternatives open-source d'outils AI devs."
-date: ""
 ---
 ---
 title: "ahundt/ai-session-search"
@@ -10697,7 +10005,6 @@ link: "https://github.com/ahundt/ai-session-search"
 language: "Other"
 category: "AI;Developer Tools"
 description: "Recherche dans sessions AI."
-date: ""
 ---
 ---
 title: "ArihantDeva/heimdall"
@@ -10706,7 +10013,6 @@ link: "https://github.com/ArihantDeva/heimdall"
 language: "Other"
 category: "AI;Developer Tools;Agents"
 description: "Heimdall — outil AI par Arihant Deva."
-date: ""
 ---
 ---
 title: "llama.app"
@@ -10715,7 +10021,6 @@ link: "https://llama.app/"
 language: "Other"
 category: "AI;Generative AI"
 description: "Site officiel Llama app."
-date: ""
 ---
 ---
 title: "artificialanalysis - models leaderboard"
@@ -10724,7 +10029,6 @@ link: "https://artificialanalysis.ai/leaderboards/models"
 language: "Other"
 category: "AI;Machine Learning"
 description: "Leaderboard de modèles AI par Artificial Analysis."
-date: ""
 ---
 ---
 title: "huggingbay.xyz"
@@ -10733,7 +10037,6 @@ link: "https://huggingbay.xyz/"
 language: "Other"
 category: "Generative AI;Machine Learning;Developer Tools"
 description: "Recherche modèles Hugging Face (huggingbay)."
-date: ""
 ---
 ---
 title: "benzi.fly.dev"
@@ -10742,7 +10045,6 @@ link: "https://benzi.fly.dev/"
 language: "Other"
 category: "Developer Tools"
 description: "Outil benzi (fly.dev)."
-date: ""
 ---
 ---
 title: "altdoc etiennebacher"
@@ -10751,7 +10053,6 @@ link: "https://altdoc.etiennebacher.com/#/"
 language: "R"
 category: "Developer Tools"
 description: "altdoc — outil de doc R par Etienne Bacher."
-date: ""
 ---
 ---
 title: "bjarkehautop/reftip"
@@ -10760,7 +10061,6 @@ link: "https://bjarkehautop.github.io/reftip/"
 language: "R"
 category: "Reference"
 description: "reftip — package R pour références."
-date: ""
 ---
 ---
 title: "coctostan/pi-hashline-readmap"
@@ -10769,7 +10069,6 @@ link: "https://github.com/coctostan/pi-hashline-readmap"
 language: "Other"
 category: "AI;Developer Tools"
 description: "Hashline readmap pour pi coding-agent."
-date: ""
 ---
 ---
 title: "modelscope.ai models"
@@ -10778,7 +10077,6 @@ link: "https://modelscope.ai/models"
 language: "Other"
 category: "AI;Machine Learning;Developer Tools"
 description: "Hub de modèles ModelScope."
-date: ""
 ---
 ---
 title: "slee-persis/GVS5H"
@@ -10787,7 +10085,6 @@ link: "https://github.com/slee-persis/GVS5H"
 language: "Other"
 category: "Developer Tools"
 description: "Repository GVS5H par slee-persis."
-date: ""
 ---
 ---
 title: "hfviewer.com"
@@ -10796,7 +10093,6 @@ link: "https://hfviewer.com/"
 language: "Other"
 category: "Generative AI;Developer Tools"
 description: "Viewer pour Hugging Face (hfviewer)."
-date: ""
 ---
 ---
 title: "GitHub - christopherkenny/awesome-rstats-skills: Awesome list of rstats skills for AI workflows"
@@ -10823,7 +10119,6 @@ link: "https://dsh-ai.org/?category=usage"
 language: "Other"
 category: "AI;Ethics"
 description: "Directory of AI resources filtered by usage category."
-date: ""
 ---
 ---
 title: "Delta - Toggling Features"
@@ -10832,7 +10127,6 @@ link: "https://dandavison.github.io/delta/tips-and-tricks/toggling-delta-feature
 language: "Other"
 category: "Git;Developer Tools"
 description: "Tips and tricks for toggling feature sets in the delta git pager."
-date: ""
 ---
 ---
 title: "Agent Session Browser"
@@ -10841,7 +10135,6 @@ link: "https://github.com/gautamgpt1/agent-session-browser"
 language: "JavaScript"
 category: "Agents;MLOps"
 description: "Browser interface to inspect and replay coding-agent sessions."
-date: ""
 ---
 ---
 title: "pi-posher"
@@ -10850,7 +10143,6 @@ link: "https://github.com/jeff-phil/pi-posher"
 language: "Other"
 category: "Agents;Developer Tools"
 description: "Community extension for the Pi agent ecosystem."
-date: ""
 ---
 ---
 title: "pi-clarify"
@@ -10859,7 +10151,6 @@ link: "https://github.com/dodo-reach/pi-clarify"
 language: "Other"
 category: "Agents;Developer Tools"
 description: "Pi plugin adding clarification prompting to agent workflows."
-date: ""
 ---
 ---
 title: "SoL-Pi (NVlabs)"
@@ -10868,7 +10159,6 @@ link: "https://github.com/NVlabs/SoL-Pi"
 language: "Python"
 category: "Machine Learning;Research;Deep Learning"
 description: "NVIDIA Labs research project SoL-Pi, with getting-started instructions in the README."
-date: ""
 ---
 ---
 title: "SoL-Pi Project Page"
@@ -10877,7 +10167,6 @@ link: "https://nvlabs.github.io/SoL-Pi/"
 language: "Python"
 category: "Machine Learning;Research;Deep Learning"
 description: "Official project website and documentation for NVlabs SoL-Pi."
-date: ""
 ---
 ---
 title: "pi-llm-wiki Package"
@@ -10886,7 +10175,6 @@ link: "https://pi.dev/packages/pi-llm-wiki?name=llm-wiki"
 language: "Other"
 category: "Agents;Developer Tools"
 description: "Pi package turning LLM knowledge into a browsable wiki."
-date: ""
 ---
 ---
 title: "PI-Desktop"
@@ -10895,7 +10183,6 @@ link: "https://github.com/vastsa/PI-Desktop"
 language: "Other"
 category: "Agents;Developer Tools"
 description: "Desktop client for the Pi agent ecosystem."
-date: ""
 ---
 ---
 title: "pi-web.dev"
@@ -10904,7 +10191,6 @@ link: "https://pi-web.dev/"
 language: "Other"
 category: "Agents;Developer Tools"
 description: "Web hub for Pi agent tooling and resources."
-date: ""
 ---
 ---
 title: "OSINT4ALL"
@@ -10913,16 +10199,14 @@ link: "https://start.me/p/L1rEYQ/osint4all"
 language: "Other"
 category: "Ethics;Research"
 description: "Curated start.me dashboard of OSINT tools and investigation resources."
-date: ""
 ---
 ---
 title: "InferX"
-type: "Platform"
+type: "Tool"
 link: "https://inferx.net/"
 language: "Other"
 category: "Generative AI;MLOps"
 description: "Inference serving platform for AI models."
-date: ""
 ---
 ---
 title: "pi-grill-me"
@@ -10931,7 +10215,6 @@ link: "https://pi.dev/packages/@majorgilles/pi-grill-me"
 language: "Other"
 category: "Agents;Developer Tools"
 description: "Pi package that critically interrogates plans and outputs of an agent."
-date: ""
 ---
 ---
 title: "raven"
@@ -10940,11 +10223,10 @@ link: "https://github.com/jbearak/raven/tree/ab66e5d78bf096802b34b85cede2219c68f
 language: "R"
 category: "Research;Reproducibility"
 description: "Pinned commit of the raven project for research workflows."
-date: ""
 ---
 ---
 title: "Shiny + React (posit::conf 2026 talk)"
-type: "Slides"
+type: "Documentation"
 link: "https://schloerke.com/presentation-2026-09-15-posit-conf-shinyreact/#/title-slide"
 language: "Python"
 category: "Shiny;Web Development;Presentations"
@@ -10958,7 +10240,6 @@ link: "https://iamaamir.github.io/pi-bifrost/#jev"
 language: "Other"
 category: "Agents;Developer Tools"
 description: "Bridge tooling for Pi agents, documented on GitHub Pages."
-date: ""
 ---
 ---
 title: "Nicola Rennie - Resources"
@@ -10967,11 +10248,10 @@ link: "https://nrennie.rbind.io/resources/"
 language: "R"
 category: "Education;Data Visualization;Quarto"
 description: "Curated R, Quarto and data-visualisation resources collected by Nicola Rennie."
-date: ""
 ---
 ---
 title: "MCP at posit::conf 2026"
-type: "Slides"
+type: "Documentation"
 link: "https://enpiar.com/mcp-posit-conf-2026/#/section"
 language: "R"
 category: "Generative AI;Agents;Presentations"
@@ -10985,7 +10265,6 @@ link: "https://docs.posit.co/connect/user/mcp-servers/"
 language: "Other"
 category: "Generative AI;MLOps"
 description: "Official Posit Connect user documentation for hosting and using MCP servers."
-date: ""
 ---
 ---
 title: "Databricks - Connect MCP Clients"
@@ -10994,7 +10273,6 @@ link: "https://docs.databricks.com/aws/en/agents/mcp-tools/connect-clients"
 language: "Python"
 category: "Generative AI;Data Engineering;Agents"
 description: "Databricks guide for connecting MCP clients to agent tools."
-date: ""
 ---
 ---
 title: "Cactus Needle"
@@ -11003,7 +10281,6 @@ link: "https://cactuscompute.com/needle"
 language: "Other"
 category: "Generative AI"
 description: "Cactus Compute's Needle product for local/edge model execution."
-date: ""
 ---
 ---
 title: "Piary"
@@ -11012,7 +10289,6 @@ link: "https://piary.dev/"
 language: "Other"
 category: "Agents;Developer Tools;Best Practices"
 description: "Journaling/diary companion for Pi agent sessions."
-date: ""
 ---
 ---
 title: "debugmcp"
@@ -11021,7 +10297,6 @@ link: "https://www.npmjs.com/package/debugmcp?activeTab=readme"
 language: "JavaScript"
 category: "Generative AI;Best Practices;Developer Tools"
 description: "npm package providing debugging capabilities for MCP servers."
-date: ""
 ---
 ---
 title: "Laya - Open Source Jev Alternative"
@@ -11030,7 +10305,6 @@ link: "https://flowtivity.ai/blog/laya-open-source-jev-alternative/"
 language: "Other"
 category: "Agents;Open Source & Automation"
 description: "Blog post presenting Laya as an open-source alternative to Jev."
-date: ""
 ---
 ---
 title: "system-one (pi-system-one)"
@@ -11039,7 +10313,6 @@ link: "https://github.com/iamaamir/system-one/tree/main/pi-system-one"
 language: "Other"
 category: "Agents;Developer Tools"
 description: "Opinionated personal agent system configuration for Pi."
-date: ""
 ---
 ---
 title: "marmel"
@@ -11048,7 +10321,6 @@ link: "https://github.com/Na1w/marmel"
 language: "Other"
 category: "Agents;Developer Tools"
 description: "Personal project repository collected for agentic tooling inspiration."
-date: ""
 ---
 ---
 title: "pi-gvs5h"
@@ -11057,7 +10329,6 @@ link: "https://github.com/srossitto79/pi-gvs5h"
 language: "Other"
 category: "Agents;Developer Tools"
 description: "Pi implementation of the GVS5H agent workflow."
-date: ""
 ---
 ---
 title: "pi-skills"
@@ -11066,7 +10337,6 @@ link: "https://github.com/badlogic/pi-skills"
 language: "Other"
 category: "Agents;Developer Tools"
 description: "Collection of reusable agent skills for the Pi CLI."
-date: ""
 ---
 ---
 title: "Pi Discussion #3373"
@@ -11075,7 +10345,6 @@ link: "https://github.com/earendil-works/pi/discussions/3373#discussioncomment-1
 language: "Other"
 category: "Agents"
 description: "GitHub discussion thread in the Pi repository with community tips."
-date: ""
 ---
 ---
 title: "pi-ahp"
@@ -11084,7 +10353,6 @@ link: "https://github.com/Qusic/pi-ahp"
 language: "Other"
 category: "Agents;Statistics"
 description: "Analytic Hierarchy Process helper packaged for Pi agents."
-date: ""
 ---
 ---
 title: "Oh My Posh"
@@ -11093,7 +10361,6 @@ link: "https://ohmyposh.dev/"
 language: "Other"
 category: "Developer Tools"
 description: "Cross-platform prompt theme engine for any shell."
-date: ""
 ---
 ---
 title: "Pringled/pi-extensions"
@@ -11174,7 +10441,6 @@ link: "https://r-devs.com/"
 language: "R"
 category: "Developer Tools;R Ecosystem"
 description: "Directory of modern R tooling: formatters, linters, kernels, package managers and more."
-date: ""
 ---
 ---
 title: "Avocado Pork Stuffed Peppers"
@@ -11228,16 +10494,14 @@ link: "https://fx.sh/"
 language: "Other"
 category: "Agents;Developer Tools"
 description: "Minimal native CLI coding agent written in Zig, built for research and for embedding in larger systems."
-date: ""
 ---
 ---
 title: "Weft Loom"
-type: "App"
+type: "Tool"
 link: "https://weftloom.dev/"
 language: "Other"
 category: "Creative & Games"
 description: "Free desktop app for pattern music built on Strudel, with click-in drum grids and pattern sequencing."
-date: ""
 ---
 ---
 title: "LibrePaper"
@@ -11273,7 +10537,6 @@ link: "https://dragonfarm.dev/articles/shiny-app.html"
 language: "R"
 category: "Shiny;Generative AI"
 description: "Walkthrough of dragonfarm's Shiny app for reading, indexing and querying document sets in R."
-date: ""
 ---
 ---
 title: "quarto-revealjs-live-questions"
@@ -11309,7 +10572,6 @@ link: "https://library-skills.io/use/"
 language: "Other"
 category: "Agents;Developer Tools"
 description: "CLI that finds skills shipped by installed libraries and links them into .agents/skills or .claude/skills."
-date: ""
 ---
 ---
 title: "Introducing shinyreact"
@@ -11322,12 +10584,11 @@ date: "2026-09-30"
 ---
 ---
 title: "Modeling Mindsets"
-type: "App"
+type: "Tool"
 link: "https://modeling-mindsets.streamlit.app/"
 language: "Python"
 category: "Education;Machine Learning"
 description: "Streamlit playground app for exploring modelling mindsets."
-date: ""
 ---
 ---
 title: "Papers with Code"

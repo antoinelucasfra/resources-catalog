@@ -1,0 +1,80 @@
+/*-- scss:rules --*/
+
+// Layout only: colours come from Bootstrap utilities in the markup, so the
+// light and dark bundles need no per-scheme values here.
+
+.catalog-title a {
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.catalog-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.catalog-description {
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+// Topic and language badges are filters, so they are buttons: strip the button
+// chrome so they still read as badges.
+.catalog-topic {
+  cursor: pointer;
+  font-weight: 400;
+}
+
+// List mode reflows the same cards into one column instead of rendering a
+// second copy of every item in the DOM.
+#catalog-results.catalog-list-mode {
+  grid-template-columns: 1fr;
+
+  .catalog-cell {
+    grid-column: 1 / -1;
+  }
+
+  .catalog-description {
+    -webkit-line-clamp: 3;
+  }
+}
+
+// Cite dialog uses the native <dialog> element, so it ships its own chrome.
+.catalog-dialog {
+  width: min(46rem, 92vw);
+  max-width: 100%;
+  margin: 8vh auto auto;
+  padding: 1rem 1.25rem;
+  color: var(--bs-body-color);
+  background-color: var(--bs-body-bg);
+  border: 1px solid var(--bs-border-color);
+  border-radius: 0.5rem;
+
+  &::backdrop {
+    background-color: rgb(0 0 0 / 50%);
+  }
+
+  dt {
+    margin-top: 0.75rem;
+    font-size: 0.8125rem;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+  }
+
+  dd {
+    margin-bottom: 0.5rem;
+  }
+
+  pre {
+    font-size: 0.8125rem;
+    white-space: pre-wrap;
+    word-break: break-word;
+  }
+}

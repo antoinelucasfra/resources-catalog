@@ -55,6 +55,7 @@ def find_block_line_ranges(text: str) -> list[tuple[int, int, dict[str, str]]]:
 
 
 def main() -> int:
+    utils.enable_utf8_output()
     parser = argparse.ArgumentParser(description="Remove one resource block from resources.txt by link.")
     parser.add_argument("--link", required=True, help="link of the entry to remove (trailing-slash-insensitive)")
     parser.add_argument(

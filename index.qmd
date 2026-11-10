@@ -6,46 +6,154 @@ search: false
 format:
   html:
     page-layout: full
-listing:
-  - id: resources
-    contents: resources-items.yml
-    type: custom
-    template: catalog-card.ejs
-    sort: "title"
-    sort-ui: [date, title]
-    filter-ui: true
-    categories: true
-    page-size: 24
-    fields: [date, title, description, categories]
+include-after-body:
+  - file: assets/js/catalog.js
 execute:
   echo: false
 ---
 
-## Overview
+```{r catalog-index}
+#| echo: false
+#| message: false
+#| warning: false
+#| results: asis
+source(here::here("resources.R"))
+
+resources <- parse_resources_md(here::here("resources.txt"))
+cat('<script type="application/json" id="catalog-data">\n')
+cat(catalog_index_json(resources))
+cat('\n</script>')
+```
+
+```{=html}
+<div id="catalog" data-page-size="24">
+
+  <form id="catalog-controls" class="mb-4" role="search" onsubmit="return false;">
+    <div class="row g-2 align-items-center mb-2">
+      <div class="col-12 col-md-8">
+        <div class="input-group">
+          <span class="input-group-text"><i class="bi bi-search" aria-hidden="true"></i></span>
+          <input type="search" id="catalog-search" class="form-control"
+            placeholder="Search resources, topics, languages…" aria-label="Search resources">
+        </div>
+      </div>
+      <div class="col-12 col-md-4 text-md-end">
+        <div class="btn-group" role="group" aria-label="Layout">
+          <input type="radio" class="btn-check" name="catalog-view" id="catalog-view-grid" checked>
+          <label class="btn btn-outline-secondary" for="catalog-view-grid">
+            <i class="bi bi-grid-3x3-gap" aria-hidden="true"></i> Grid
+          </label>
+          <input type="radio" class="btn-check" name="catalog-view" id="catalog-view-list">
+          <label class="btn btn-outline-secondary" for="catalog-view-list">
+            <i class="bi bi-list-ul" aria-hidden="true"></i> List
+          </label>
+        </div>
+      </div>
+    </div>
+
+    <div class="d-flex flex-wrap gap-2 align-items-center mb-2">
+      <button type="button" class="btn btn-sm btn-outline-success filter-chip" data-state="ok" aria-pressed="false">
+        <i class="bi bi-check-circle-fill" aria-hidden="true"></i> Link verified
+        <span class="chip-count text-muted"></span>
+      </button>
+      <button type="button" class="btn btn-sm btn-outline-danger filter-chip" data-state="dead" aria-pressed="false">
+        <i class="bi bi-exclamation-triangle-fill" aria-hidden="true"></i> Possibly dead
+        <span class="chip-count text-muted"></span>
+      </button>
+      <button type="button" class="btn btn-sm btn-outline-secondary filter-chip" data-state="unknown" aria-pressed="false">
+        <i class="bi bi-question-circle" aria-hidden="true"></i> Not verified
+        <span class="chip-count text-muted"></span>
+      </button>
+      <button type="button" class="btn btn-sm btn-outline-secondary ms-auto" id="catalog-clear">
+        <i class="bi bi-x-circle" aria-hidden="true"></i> Clear
+      </button>
+    </div>
+
+    <div class="row g-2">
+      <div class="col-12 col-sm-6 col-lg-4">
+        <label class="visually-hidden" for="catalog-type">Filter by type</label>
+        <select class="form-select form-select-sm" id="catalog-type">
+          <option value="">All types</option>
+        </select>
+      </div>
+      <div class="col-12 col-sm-6 col-lg-4">
+        <label class="visually-hidden" for="catalog-topic">Filter by topic</label>
+        <select class="form-select form-select-sm" id="catalog-topic">
+          <option value="">All topics</option>
+        </select>
+      </div>
+      <div class="col-6 col-lg-2">
+        <label class="visually-hidden" for="catalog-language">Filter by language</label>
+        <select class="form-select form-select-sm" id="catalog-language">
+          <option value="">All languages</option>
+        </select>
+      </div>
+      <div class="col-6 col-lg-2">
+        <div class="input-group input-group-sm">
+          <label class="input-group-text" for="catalog-sort">Sort</label>
+          <select class="form-select" id="catalog-sort">
+            <option value="date">Date</option>
+            <option value="title">Title</option>
+          </select>
+          <button type="button" class="btn btn-outline-secondary" id="catalog-direction"
+            data-direction="desc" aria-label="Sort descending">
+            <i class="bi bi-sort-down" aria-hidden="true"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </form>
+
+  <p id="catalog-counter" class="text-muted text-center mb-3" aria-live="polite">
+    <em>Loading resources…</em>
+  </p>
+
+  <noscript>
+    <div class="alert alert-warning" role="alert">
+      This catalog filters in the browser. Enable JavaScript, or browse the source list
+      <a href="https://github.com/antoinelucasfra/resources-catalog/blob/main/resources.txt">resources.txt</a>
+      on GitHub.
+    </div>
+  </noscript>
+
+  <div id="catalog-results" class="grid" role="list"></div>
+
+  <div id="catalog-empty" class="d-none text-center py-5">
+    <i class="bi bi-search fs-3 text-muted" aria-hidden="true"></i>
+    <p class="mt-3 mb-1"><strong>No resources match the current filters.</strong></p>
+    <p class="text-muted">Try a different search term, or clear the filters to start again.</p>
+    <button type="button" class="btn btn-outline-secondary btn-sm" id="catalog-empty-clear">
+      <i class="bi bi-x-circle" aria-hidden="true"></i> Clear filters
+    </button>
+  </div>
+
+  <div class="text-center my-4">
+    <button type="button" class="btn btn-outline-secondary d-none" id="catalog-load-more">Load more</button>
+  </div>
+
+  <dialog id="catalog-dialog" class="catalog-dialog" aria-labelledby="catalog-dialog-title">
+    <form method="dialog" class="catalog-dialog-head d-flex align-items-center gap-2">
+      <h2 id="catalog-dialog-title" class="h5 no-anchor mb-0 flex-grow-1"></h2>
+      <button class="btn-close" aria-label="Close"></button>
+    </form>
+    <div id="catalog-dialog-body"></div>
+  </dialog>
+
+</div>
+```
+
+## About this project
 
 This project turns a plain-text resource list into a searchable front end for curated data science references across R, Python, statistics, visualization, research workflows, and life sciences.
 
 It is intentionally both a curation project and a small product-engineering exercise: define a lightweight schema, keep the source easy to edit, and ship a fast browsing experience without introducing a heavyweight backend.
 
-## What This Project Includes
+## What this project includes
 
 - A hand-curated catalog stored in `resources.txt`, with each entry typed, categorized, and optionally annotated with a short description
-- An R step that turns the catalog into a native Quarto listing at render time — text search, sorting, category filtering, and pagination included, with no custom JavaScript
+- An R step that turns the catalog into an inlined JSON index at render time, and a dependency-free JavaScript renderer that draws one page of cards at a time — deep-linkable filters, type/topic/language facets, and a copy-ready citation for every entry
+- Link liveness data from `scripts/link_health.py`, surfaced as status filters and dead-link banners instead of living only in a monthly report
 - A low-friction contribution workflow based on small YAML blocks and documented pull requests
-
-```{r resource-catalog-items}
-#| echo: false
-#| message: false
-#| warning: false
-#| output: false
-source(here::here("resources.R"))
-
-resources <- parse_resources_md(here::here("resources.txt"))
-write_listing_items(resources, here::here("resources-items.yml"))
-```
-
-::: {#resources}
-:::
 
 :::: {.callout-note}
 ## Contributing

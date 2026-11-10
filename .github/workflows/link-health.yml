@@ -1,7 +1,9 @@
 # Monthly liveness check of every resource URL in resources.txt.
-# Report-only: results are data, never build status — this workflow never
-# fails, never auto-removes entries and never opens PRs. Retiring a dead
-# link is a manual decision made via scripts/retire.py.
+# Report-only for the catalog data: this workflow never fails, never
+# auto-removes entries and never edits resources.txt. Retiring a dead link is a
+# manual decision made via scripts/retire.py. The one file it publishes is the
+# liveness snapshot the site reads (scripts/reports/link-health.json), opened as
+# a PR so a human still reviews it before the catalog starts showing banners.
 
 name: Link health
 
@@ -12,7 +14,8 @@ on:
 
 permissions:
   issues: write
-  contents: read
+  contents: write
+  pull-requests: write
 
 jobs:
   link-health:
@@ -30,7 +33,19 @@ jobs:
 
       - name: Check all resource URLs
         working-directory: scripts
-        run: RESOURCES_PATH=../resources.txt uv run python link_health.py --output ../link-health-report.md
+        run: RESOURCES_PATH=../resources.txt uv run python link_health.py --output ../link-health-report.md --json reports/link-health.json
+
+      - name: Open data refresh PR
+        uses: peter-evans/create-pull-request@v7
+        with:
+          title: "chore: refresh link-health data"
+          commit-message: "chore: refresh link-health data"
+          branch: chore/link-health-data
+          add-paths: scripts/reports/link-health.json
+          body: |
+            Monthly snapshot from `link_health.py --json`, consumed by
+            `resources.R` to render verified / possibly dead / unverified
+            link states. Merging it does not add or remove catalog entries.
 
       - name: Create or update sticky link health issue
         env:
