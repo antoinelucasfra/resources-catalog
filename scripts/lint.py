@@ -7,10 +7,13 @@ Taxonomy rules (required fields present, `type` in the controlled list,
 tags.toml topic, no language-shaped value in `category`) are hard errors:
 exit code 1 on any violation, in default mode and --strict alike.
 
-Pre-existing data-hygiene rules (empty/overlong `description`, duplicate
-`link`) are printed as warnings and do not affect the exit code in default
-mode; pass --strict to treat them as errors too (used once the hygiene
-backfill/dedup workstream has cleaned the data).
+Data-hygiene rules that need a human judgement call (empty/overlong
+`description`) are printed as warnings and do not affect the exit code in
+default mode; pass --strict to treat them as errors too.
+
+Duplicate `link` values (ignoring scheme, `www.`, trailing slash and fragment)
+and `link` values carrying tracking parameters are hard errors: normalize.py
+fixes both, so a new occurrence is a regression.
 
 Each line is printed as:
   line <n> of block starting <line>: <rule> -- <value>
@@ -34,9 +37,16 @@ HARD_REQUIRED_FIELDS = ("title", "type", "link", "language", "category")
 OPTIONAL_FIELDS = ("date",)
 ALL_FIELDS = REQUIRED_FIELDS + OPTIONAL_FIELDS
 
+import utils
 from utils import DESC_MAX_LEN, KNOWN_LANGUAGES, KNOWN_TYPES
 
 LANGUAGE_SHAPED_CATEGORY_VALUES: frozenset[str] = frozenset({"R", "Python", "French"})
+
+
+def _query_keys(link: str) -> list[str]:
+    from urllib.parse import parse_qsl, urlparse
+
+    return [key for key, _ in parse_qsl(urlparse(link).query, keep_blank_values=True)]
 
 
 def split_semicolon(raw: str) -> list[str]:
@@ -44,7 +54,7 @@ def split_semicolon(raw: str) -> list[str]:
 
 
 def unescape(value: str) -> str:
-    return value.replace('\\"', '"')
+    return value.replace("\\\\", "\\").replace('\\"', '"')
 
 
 def parse_blocks(text: str) -> list[dict]:
@@ -80,14 +90,14 @@ def parse_blocks(text: str) -> list[dict]:
     return blocks
 
 
-def normalize_link(link: str) -> str:
-    return link.strip().rstrip("/").lower()
+
 
 
 def main() -> int:
+    utils.enable_utf8_output()
     with TAGS_TOML_PATH.open("rb") as fh:
         tags = tomllib.load(fh)
-    known_topics: set[str] = set(tags.get("topics", {}).keys())
+    known_topics: set[str] = set(tags.get("topics", []))
 
     text = RESOURCES_PATH.read_text(encoding="utf-8")
     blocks = parse_blocks(text)
@@ -136,16 +146,18 @@ def main() -> int:
         # --- pre-existing data-hygiene rules: warnings by default, errors in --strict ---
         if "description" not in fields or not fields["description"][0].strip():
             warn(start, "missing/empty field 'description'", "<empty>")
-        elif len(fields["description"][0]) > DESC_MAX_LEN:
+        elif len(unescape(fields["description"][0])) > DESC_MAX_LEN:
             value, line = fields["description"]
-            warn(line, f"description exceeds {DESC_MAX_LEN} chars", f"{len(value)} chars")
+            warn(line, f"description exceeds {DESC_MAX_LEN} chars", f"{len(unescape(value))} chars")
 
         if "link" in fields:
             value, line = fields["link"]
             if value:
-                key = normalize_link(value)
+                if any(utils.TRACKING_PARAMS.match(k) for k in _query_keys(value)):
+                    error(line, "link carries tracking parameters", value)
+                key = utils.catalog_dedupe_key(value)
                 if key in seen_links:
-                    warn(
+                    error(
                         line,
                         f"duplicate link (first seen at block starting {seen_links[key]})",
                         value,
