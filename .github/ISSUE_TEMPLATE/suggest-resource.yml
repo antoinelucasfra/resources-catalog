@@ -27,41 +27,28 @@ body:
       options:
         - Blog
         - Book
-        - Website
-        - Package
-        - Video
-        - Paper
-        - Course
         - Community
-        - Newsletter
-        - Conference
-        - Forum
-        - Journal
-        - Repository
-        - App
-        - Cheatsheet
+        - Course
         - Documentation
-        - Gallery
-        - Game
-        - Guide
-        - Magazine
-        - Platform
-        - Slides
-        - Social
+        - Other
+        - Package
+        - Paper
+        - Repository
         - Tool
-        - Tutorial
-        - Workshop
+        - Video
+        - Website
     validations:
       required: true
   - type: checkboxes
     id: language
     attributes:
       label: Language
-      description: Programming language(s) the resource is about. Select all that apply.
+      description: Programming language(s) the resource is about. Pick Other when it is not tied to one, and add French for French-language content.
       options:
         - label: R
         - label: Python
         - label: Other
+        - label: French
         - label: Julia
         - label: JavaScript
     validations:

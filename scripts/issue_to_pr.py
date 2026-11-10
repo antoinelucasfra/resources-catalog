@@ -22,18 +22,21 @@ Prints one marker line to stdout for the calling workflow to grep:
 from __future__ import annotations
 
 import argparse
-import datetime
 import os
 import re
 import sys
 import tomllib
 from pathlib import Path
 
+import utils
 from utils import (
     KNOWN_LANGUAGES,
     KNOWN_TYPES,
     append_blocks,
+    catalog_dedupe_key,
+    clean_url,
     existing_links,
+    fetch_date,
     fetch_description,
     make_block,
 )
@@ -46,11 +49,7 @@ _NO_RESPONSE = {"", "_no response_", "no response"}
 def _load_known_topics() -> set[str]:
     with TAGS_TOML_PATH.open("rb") as fh:
         tags = tomllib.load(fh)
-    return set(tags.get("topics", {}).keys())
-
-
-def _normalise_url(url: str) -> str:
-    return url.strip().rstrip("/")
+    return set(tags.get("topics", []))
 
 
 def parse_issue_body(body: str) -> dict[str, str]:
@@ -94,6 +93,7 @@ def _clean_scalar(raw: str) -> str:
 
 
 def main() -> int:
+    utils.enable_utf8_output()
     parser = argparse.ArgumentParser(description="Convert a suggestion issue body into a resources.txt entry.")
     parser.add_argument("--body", required=True, metavar="PATH", help="Path to the issue body text file.")
     parser.add_argument("--title", default=None, help="Issue title override (unused by the parser; informational).")
@@ -150,9 +150,9 @@ def main() -> int:
         print(f"INVALID category value(s) not in tags.toml topics: {bad_categories}")
         return 3
 
-    url_norm = _normalise_url(url)
-    known = {_normalise_url(link) for link in existing_links(resources_path)}
-    if url_norm in known:
+    url = clean_url(url)
+    known = {catalog_dedupe_key(link) for link in existing_links(resources_path)}
+    if catalog_dedupe_key(url) in known:
         print(f"ALREADY_PRESENT {url}")
         return 2
 
@@ -168,7 +168,9 @@ def main() -> int:
         description = f"A {rtype.lower()} for {title}."
         print("DESCRIPTION_PLACEHOLDER")
 
-    today = datetime.date.today().isoformat()
+    # The date is the resource's own publication date, not the suggestion date:
+    # an unknown date stays empty rather than claiming the entry is new.
+    date = fetch_date(url, downloaded=downloaded)
 
     block = make_block(
         title=title,
@@ -177,7 +179,7 @@ def main() -> int:
         language=";".join(languages),
         category=";".join(categories),
         description=description,
-        date=today,
+        date=date,
     )
     append_blocks(resources_path, [block])
 

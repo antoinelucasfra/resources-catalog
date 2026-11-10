@@ -21,6 +21,11 @@ Outputs:
   - CSV (title, link, status, http_code, checked_at) written to
     scripts/reports/link-health.csv by default (--csv)
   - optional human-readable markdown report grouped by category (--output)
+  - optional JSON liveness snapshot (--json), the file resources.R reads to
+    render verified / possibly dead / unverified link states in the catalog
+
+Use --url to check specific URLs instead of the whole file (the suggestion
+workflow does this before opening a PR for a new entry).
 
 Run from scripts/:
     uv run python link_health.py --help
@@ -30,6 +35,7 @@ from __future__ import annotations
 
 import argparse
 import csv
+import json
 import os
 import socket
 import sys
@@ -57,6 +63,19 @@ MAX_WORKERS = 3
 SUBMIT_INTERVAL_S = 0.25
 
 CATEGORIES_BY_PRIORITY = ("DEAD", "BLOCKED", "TIMEOUT", "DNS", "RATE_LIMITED", "ERROR", "OK")
+
+# UI-facing state for the catalog index (resources.R reads --json output).
+# Only "dead" is a claim: BLOCKED, RATE_LIMITED and TIMEOUT say nothing about
+# the link itself, so they stay "unknown" rather than guessing either way.
+STATE_BY_STATUS = {
+    "OK": "ok",
+    "DEAD": "dead",
+    "DNS": "dead",
+    "ERROR": "dead",
+    "BLOCKED": "unknown",
+    "RATE_LIMITED": "unknown",
+    "TIMEOUT": "unknown",
+}
 
 
 def _classify_http(code: int) -> str:
@@ -151,6 +170,21 @@ def _row(entry: dict[str, str], status: str, code: int | None, note: str = "") -
     }
 
 
+def build_json(rows: list[dict[str, str]], checked_at: str) -> dict:
+    return {
+        "generated_at": checked_at,
+        "entries": {
+            r["link"]: {
+                "status": r["status"],
+                "state": STATE_BY_STATUS.get(r["status"], "unknown"),
+                "http_code": r["http_code"] or None,
+                "checked_at": r["checked_at"],
+            }
+            for r in rows
+        },
+    }
+
+
 def build_report(rows: list[dict[str, str]], checked_at: str) -> str:
     counts = {cat: 0 for cat in CATEGORIES_BY_PRIORITY}
     for r in rows:
@@ -187,6 +221,7 @@ def build_report(rows: list[dict[str, str]], checked_at: str) -> str:
 
 
 def main() -> int:
+    utils.enable_utf8_output()
     parser = argparse.ArgumentParser(description="Check all resource URLs for liveness (report-only).")
     parser.add_argument(
         "--path",
@@ -203,10 +238,25 @@ def main() -> int:
         default=None,
         help="write a human-readable markdown report to this path",
     )
+    parser.add_argument(
+        "--json",
+        default=None,
+        help="write machine-readable liveness states to this path (consumed by resources.R)",
+    )
+    parser.add_argument(
+        "--url",
+        action="append",
+        default=None,
+        help="check only this URL (repeatable); URLs absent from resources.txt are checked anyway",
+    )
     args = parser.parse_args()
 
     resources_path = Path(args.path)
     entries = [e for e in parse_resources(resources_path) if e["link"]]
+    if args.url:
+        known = {e["link"].rstrip("/"): e for e in entries}
+        wanted = [u.strip() for u in args.url if u.strip()]
+        entries = [known.get(u.rstrip("/"), {"title": u, "link": u}) for u in wanted]
     if not entries:
         print(f"ERROR: no entries with links parsed from {resources_path}", file=sys.stderr)
         return 1
@@ -249,6 +299,15 @@ def main() -> int:
     if args.output:
         Path(args.output).write_text(build_report(ordered_rows, checked_at), encoding="utf-8")
         print(f"Markdown report written to {args.output}")
+
+    if args.json:
+        json_path = Path(args.json)
+        json_path.parent.mkdir(parents=True, exist_ok=True)
+        json_path.write_text(
+            json.dumps(build_json(ordered_rows, checked_at), indent=2, ensure_ascii=False) + "\n",
+            encoding="utf-8",
+        )
+        print(f"JSON index written to {json_path}")
 
     return 0
 

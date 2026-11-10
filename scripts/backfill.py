@@ -23,6 +23,7 @@ from urllib.parse import urlparse
 
 import trafilatura
 
+import utils
 from utils import (
     DATE_RE,
     DESC_MAX_LEN,
@@ -682,6 +683,7 @@ def _build_parser() -> argparse.ArgumentParser:
 
 
 def main() -> None:
+    utils.enable_utf8_output()
     parser = _build_parser()
     args = parser.parse_args()
 
