@@ -11,7 +11,7 @@ There are two ways to add a resource:
 
 ## Field Reference
 
-Every entry in `resources.txt` is a YAML block with **6 required fields**:
+Every entry in `resources.txt` is a YAML block. Five fields are required, two are optional:
 
 ```yaml
 ---
@@ -21,39 +21,45 @@ link: "https://mastering-shiny.org/"
 language: "R"
 category: "Shiny;Web Development"
 description: "The online version of Mastering Shiny, a book that teaches you to build production-quality Shiny apps."
+date: "2021-04-01"
 ---
 ```
 
 | Field | Required | Description | Example |
 |---|---|---|---|
-| `title` | yes | Display name of the resource | `"Mastering Shiny"` |
-| `type` | yes | Resource classification: see valid values below | `"Book"` |
-| `link` | yes | Full URL | `"https://mastering-shiny.org/"` |
-| `language` | yes | Programming language(s): use `;` for multiple | `"R"` or `"R;Python"` |
-| `category` | yes | Topical tags: use `;` for multiple, no spaces around `;` | `"Shiny;Web Development"` |
-| `description` | yes | One or two sentences describing the resource (max 300 chars) | `"The online version of ..."` |
+| `title` | yes | Display name of the resource (max 120 chars) | `"Mastering Shiny"` |
+| `type` | yes | Resource classification: one of the 12 values below | `"Book"` |
+| `link` | yes | Full URL, no tracking parameters | `"https://mastering-shiny.org/"` |
+| `language` | yes | Programming language(s) or `Other`: use `;` for multiple | `"R"`, `"R;Python"` |
+| `category` | yes | Canonical topic(s): use `;` for multiple, no spaces around `;` | `"Shiny;Web Development"` |
+| `description` | recommended | One or two sentences (max 300 chars); the card and search use it | `"The online version of ..."` |
+| `date` | optional | ISO date: `YYYY-MM-DD`, `YYYY-MM`, or `YYYY` | `"2021-04-01"` |
+
+Empty optional fields are omitted from the block, not written as `""`.
 
 ### Valid `type` values
 
-`Blog` · `Book` · `Website` · `Package` · `Video` · `Paper` · `Course` · `Community` · `Newsletter` · `Conference` · `Forum` · `Journal` · `Repository` · `App` · `Cheatsheet` · `Documentation` · `Gallery` · `Game` · `Guide` · `Magazine` · `Platform` · `Slides` · `Social` · `Tool` · `Tutorial` · `Workshop`
+`Blog` · `Book` · `Community` · `Course` · `Documentation` · `Other` · `Package` · `Paper` · `Repository` · `Tool` · `Video` · `Website`
+
+Type describes the kind of resource, never where it is hosted: a book on GitHub is a `Book`, not a `Repository`.
 
 ### Valid `language` values
 
 `R` · `Python` · `Other` · `French` · `JavaScript` · `Julia` · or a combination like `R;Python`
 
+`Other` means the resource is not tied to a programming language (most websites, books, and papers). `French` marks French-language content and can be combined with a programming language.
+
 ### `category` conventions
 
-- Use existing category tags when possible (check the catalog category filter for current tags)
-- Separate multiple tags with `;` and no surrounding spaces: `"Statistics;Mixed Models;GLMM"`
-- Tags are case-sensitive as written in the file: use title case
+- Only use values from the canonical topic list (see below); anything else fails CI
+- Separate multiple topics with `;` and no surrounding spaces: `"Statistics;Bayesian"`
+- `General` is the fallback for entries that fit nowhere else; prefer a real topic
 
-### Tag vocabulary
+### Topic vocabulary
 
-The canonical topic list lives in `scripts/tags.toml` under `[topics]`: each entry is a topic name followed by the raw tag spellings that merge onto it. `category` values that aren't a topic name or a listed alias are invented tags, and CI's `scripts/lint.py` rejects them, so don't make up a new tag inline in a PR.
+`scripts/tags.toml` holds the whole vocabulary as a flat `topics = [...]` array. There are no aliases and no per-entry inventions: `scripts/lint.py` rejects any `category` value that is not in that array, so the catalog filter, the [topics page](https://antoinelucasfra.github.io/resources-catalog/topics.html), and CI all read the same values.
 
-To propose a new topic (or a new alias for an existing one), open a PR that edits `scripts/tags.toml` alongside the resource entries that need it, and make sure `uv run python scripts/lint.py` passes. A new topic should cover more than one or two entries; smaller clusters belong as an alias on an existing topic instead.
-
-`General` is the fallback tag for entries that don't fit anywhere else yet. Prefer reusing an existing alias over adding `General` or inventing a new topic, and when scoring or auto-tagging new entries, check `scripts/tags.toml` first.
+To propose a new topic, open a PR that adds it to `scripts/tags.toml` and re-tags the entries that need it (at least a handful, otherwise the cluster belongs under an existing topic). Run `uv run python lint.py` from `scripts/` before pushing.
 
 ---
 
@@ -61,39 +67,35 @@ To propose a new topic (or a new alias for an existing one), open a PR that edit
 
 Visitors don't need to fork the repo or write YAML. Clicking **Suggest** in the site navbar opens a GitHub issue form; filling it in and submitting triggers `.github/workflows/suggest.yml`, which runs `scripts/issue_to_pr.py` to validate the submission, fetch a real description for the URL, and open a pull request with the new entry appended to `resources.txt`. A maintainer reviews and merges it like any other PR.
 
-Pick a `type` from the dropdown, the resource's programming language(s), and at least one `category` from the checkboxes: both are checked against the controlled vocabulary in `scripts/lint.py` and `scripts/tags.toml` (see Field Reference and Tag vocabulary above). Suggestions that fail validation, or whose URL is already in the catalog, get a comment explaining why and are closed automatically, no PR is opened.
+Pick a `type` from the dropdown, the resource's programming language(s), and at least one `category` from the checkboxes: both are checked against the controlled vocabulary in `scripts/lint.py` and `scripts/tags.toml` (see Field Reference and Topic vocabulary above). The workflow also checks the URL is reachable and refuses to open a PR for a link that returns 404 or fails to resolve. Suggestions that fail validation, or whose URL is already in the catalog, get a comment explaining why and are closed automatically, no PR is opened.
 
 ### Regenerating the listing
 
-`resources-items.yml` is generated from `resources.txt` by the R chunk in `index.qmd`. After editing the source, rebuild the page:
+The catalog data is generated from `resources.txt` by the R chunk in `index.qmd` and inlined in the page, then rendered in the browser by `assets/js/catalog.js`. After editing the source, rebuild the page:
 
 ```sh
 quarto render
 ```
 
-### Backfilling descriptions on existing entries
+### Backfilling and normalizing the data
 
-The `backfill.py --mode descriptions` script replaces all auto-generated placeholder descriptions in `resources.txt` with real ones fetched from each URL. **Run this once locally**. It takes a while (~980 entries × ~0.5 s each).
+Two scripts keep `resources.txt` in shape. Both are safe to re-run.
+
+`normalize.py` does the offline half (no HTTP): URL cleanup and tracking-parameter stripping, duplicate-URL merging, `type` remap, facet de-duplication, description cleanup, date validation.
+
+`backfill.py` does the network half: filling missing or broken descriptions and missing dates from the linked page.
 
 ```sh
-# From the repo root
 cd scripts/
 uv sync
-RESOURCES_PATH=../resources.txt uv run python backfill.py --mode descriptions
+uv run python normalize.py            # dry run: report only
+uv run python normalize.py --apply    # rewrite resources.txt
+RESOURCES_PATH=../resources.txt uv run python backfill.py --mode both
+RESOURCES_PATH=../resources.txt uv run python backfill.py --mode descriptions --force --urls URL1 URL2
+uv run python lint.py --strict        # taxonomy + hygiene gate
 ```
 
-Progress is printed to stdout. When it finishes:
-
-```sh
-# Review changes before committing
-git diff resources.txt
-
-# If happy:
-git add resources.txt
-git commit -m "chore: backfill resource descriptions"
-```
-
-Then push through the normal branch → PR flow.
+Review `git diff resources.txt` before committing: the file is the product, and a silent rewrite is worse than a warning.
 
 ---
 
@@ -115,7 +117,8 @@ description: "A one-sentence description of what this resource is and who it is 
 ---
 ```
 
-3. **Check your block** against the field reference above: all 6 fields are required, values must be double-quoted, multi-values use `;`
+3. **Check your block** against the field reference above: five fields are required, values must be double-quoted, multi-values use `;`
+4. **Run the checks** (from `scripts/`): `uv run python lint.py` and `uv run python normalize.py` (dry run reports what it would tidy)
 4. **Open a pull request** against `main` with a short description of what you are adding and why
 
 Rules:
