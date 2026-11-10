@@ -33,6 +33,7 @@ jobs:
             any::rmarkdown
             any::here
             any::yaml
+            any::jsonlite
             any::tibble
             any::dplyr
             any::rlang
@@ -58,6 +59,9 @@ jobs:
           test -f docs/index.html
           test ! -f docs/CONTRIBUTING.html
           grep -q 'Resources Catalog' docs/index.html
+          # The catalog itself is client-rendered from inlined JSON: a missing
+          # data node is a blank page that no HTML assertion above would catch.
+          grep -q 'id="catalog-data"' docs/index.html
 
       - name: Upload pages artifact
         if: github.event_name != 'pull_request'

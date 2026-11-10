@@ -1,0 +1,9 @@
+---
+title: "Page not found"
+description: "This page does not exist or has moved."
+search: false
+---
+
+That page does not exist or has moved.
+
+[Back to the catalog](index.qmd){.btn .btn-primary}

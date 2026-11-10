@@ -53,29 +53,64 @@ split_values <- function(x) {
   parts[nzchar(parts)]
 }
 
-# Emit one native-listing item per resource (contents: resources-items.yml).
-# Facets (type, languages, topics) all become categories so the native
-# filter UI covers them; undated entries omit `date` and sort last.
-write_listing_items <- function(resources, path) {
+# Liveness data written by scripts/link_health.py (--json). Missing file is
+# normal (the check runs monthly in CI and a fresh clone has no data yet):
+# every entry then reports state "unknown" and the UI shows no banner.
+read_link_health <- function(path) {
+  if (!file.exists(path)) {
+    return(list())
+  }
+  parsed <- tryCatch(
+    jsonlite::fromJSON(path, simplifyVector = FALSE),
+    error = function(e) NULL
+  )
+  entries <- parsed$entries
+  if (is.null(entries)) list() else entries
+}
+
+# One index entry per resource, emitted as JSON for index.qmd to inline in the
+# page. Facets stay separate (type, languages, topics) so the browser can render
+# one control per facet instead of a single flat category list. Undated entries
+# emit `date: null` and sort last.
+catalog_index_json <- function(
+  resources,
+  health_path = "scripts/reports/link-health.json"
+) {
+  health <- read_link_health(health_path)
   items <- lapply(seq_len(nrow(resources)), function(index) {
     row <- resources[index, ]
-    categories <- unique(c(row$type, split_values(row$language), split_values(row$category)))
-    categories <- categories[!is.na(categories) & nzchar(categories)]
-    item <- list(
+    entry <- health[[row$link]]
+    date <- as_catalog_date(row$date)
+    list(
       title = row$title,
       description = row$description,
-      link = row$link,
-      categories = as.list(categories)
+      url = row$link,
+      type = row$type,
+      languages = I(split_values(row$language)),
+      topics = I(split_values(row$category)),
+      date = if (is.na(date)) NULL else format(date, "%Y-%m-%d"),
+      # Raw value from resources.txt, so month-precision dates display as
+      # "2021-04" instead of the first-of-month anchor used for sorting.
+      datetext = row$date,
+      status = if (is.null(entry) || is.null(entry$state)) {
+        "unknown"
+      } else {
+        entry$state
+      },
+      checked = if (is.null(entry) || is.null(entry$checked_at)) {
+        NULL
+      } else {
+        substr(entry$checked_at, 1, 10)
+      }
     )
-    date <- as_catalog_date(row$date)
-    if (!is.na(date)) {
-      item$date <- format(date, "%Y-%m-%d")
-      # Milliseconds since epoch for the native date sort (List.js reads
-      # the data-listing-date-sort attribute the template emits for it)
-      item$datesort <- sprintf("%.0f", as.numeric(date) * 86400000)
-    }
-    item
   })
-  writeLines(yaml::as.yaml(items), path)
-  invisible(path)
+  json <- as.character(jsonlite::toJSON(
+    items,
+    auto_unbox = TRUE,
+    null = "null"
+  ))
+  # Scraped descriptions are untrusted: a literal "</script>" would end the
+  # inline tag early. "<\/" is the JSON escape for the same character and is
+  # the only sequence that can close it.
+  gsub("</", "<\\/", json, fixed = TRUE)
 }
