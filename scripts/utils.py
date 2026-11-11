@@ -9,6 +9,7 @@ import sys
 from pathlib import Path
 
 import trafilatura
+import trafilatura.settings
 import yaml
 from urllib.parse import parse_qsl, urlencode, urlparse, urlunparse
 
@@ -78,20 +79,40 @@ def enable_utf8_output() -> None:
             stream.reconfigure(encoding="utf-8", errors="replace")
 
 
-def _fetch_page(url: str, downloaded: bytes | str | None = None) -> bytes | str | None:
-    if downloaded is not None:
-        return downloaded
+# Bounded fetch: trafilatura defaults to a 30 s timeout, a 20 MB cap and a 5 s
+# politeness sleep per request, so one unreachable host costs a minute and one
+# large PDF more than the rest of the run. Callers that want spacing do it
+# themselves (backfill.py --workers and _FETCH_DELAY).
+_FETCH_CONFIG = trafilatura.settings.use_config()
+_FETCH_CONFIG.set("DEFAULT", "DOWNLOAD_TIMEOUT", "10")
+_FETCH_CONFIG.set("DEFAULT", "MAX_FILE_SIZE", "2000000")
+_FETCH_CONFIG.set("DEFAULT", "SLEEP_TIME", "0")
+
+
+def fetch_page(url: str) -> bytes | str | None:
+    """Download *url* under the bounded timeout and size (see _FETCH_CONFIG)."""
     try:
-        return trafilatura.fetch_url(url)
+        return trafilatura.fetch_url(url, config=_FETCH_CONFIG)
     except Exception:
         return None
+
+
+# Sent to the fetchers to mean "no page was attempted yet", as opposed to None
+# which means "the attempt already failed, do not try again".
+_NO_DOWNLOAD = object()
+
+
+def _fetch_page(url: str, downloaded: object = _NO_DOWNLOAD) -> bytes | str | None:
+    if downloaded is not _NO_DOWNLOAD:
+        return downloaded  # type: ignore[return-value]
+    return fetch_page(url)
 
 
 def is_placeholder(desc: str) -> bool:
     return bool(_PLACEHOLDER_RE.match(desc.strip().strip('"')))
 
 
-def fetch_description(url: str, downloaded: bytes | str | None = None) -> str:
+def fetch_description(url: str, downloaded: object = _NO_DOWNLOAD) -> str:
     page = _fetch_page(url, downloaded)
     if not page:
         return ""
@@ -114,7 +135,7 @@ def fetch_description(url: str, downloaded: bytes | str | None = None) -> str:
     return ""
 
 
-def fetch_date(url: str, downloaded: bytes | str | None = None) -> str:
+def fetch_date(url: str, downloaded: object = _NO_DOWNLOAD) -> str:
     page = _fetch_page(url, downloaded)
     if not page:
         return ""
