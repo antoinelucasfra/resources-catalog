@@ -656,6 +656,7 @@ type: "Website"
 link: "http://sia.webpopix.org/mixtureModels.html"
 language: "Other"
 category: "Statistics"
+description: "Find information, resources and relevant links for webpopix.org. This domain may be for sale."
 ---
 ---
 title: "Google AI Blog - TensorFlow"
@@ -1802,6 +1803,7 @@ type: "Website"
 link: "https://www.flutterbys.com.au/stats/tut/tut15.2.html"
 language: "R"
 category: "Statistics"
+description: "Find information, resources and relevant links for flutterbys.com.au. This domain may be for sale."
 ---
 ---
 title: "UMass Discriminant Analysis"
@@ -3245,6 +3247,7 @@ type: "Website"
 link: "https://debruine.github.io/quarto_demo/dark_mode.html"
 language: "R"
 category: "Quarto"
+description: "<- ggplot(diamonds, aes(x = cut, y = price, fill = cut)) + g geom_violin() + labs(title = \"Diamond price by cut\") Dark Mode Demo Toggle dark and light mode (there’s a switch in the upper right corner) to see the plot switch."
 ---
 ---
 title: "rex Regex Shortcuts"
@@ -5585,6 +5588,7 @@ type: "Blog"
 link: "https://dominiquemakowski.github.io/post/2022-05-18-neurokit_release_2/"
 language: "R"
 category: "Social Sciences;Medical & Life Sciences"
+description: "This page has moved to https://realitybendinglab."
 ---
 ---
 title: "Emily Riederer - Causal Design"
@@ -7375,6 +7379,7 @@ type: "Website"
 link: "https://pages.citedrive.com/r-markdown/"
 language: "Other"
 category: "General"
+description: "Point the bibliography field of an R Markdown document at a live CiteDrive .bib URL."
 ---
 ---
 title: "colinfay.me"
@@ -7391,6 +7396,7 @@ type: "Website"
 link: "https://legigpt.fr/"
 language: "Other"
 category: "General"
+description: "Discutons avec la loi."
 ---
 ---
 title: "interiorai"
@@ -7407,6 +7413,7 @@ type: "Website"
 link: "https://poe.com/login?redirect_url=%2F"
 language: "Other"
 category: "General"
+description: "Chat with the best AI, privately or in a group chat. Explore GPT-6-Astra, Claude-Opus-5.5, Claude-Fable-5.2, Gemini-4-Hydrogen, Gemini-4-Carbon, and thousands of others, all on Poe."
 ---
 ---
 title: "tellingstorieswithdata"
@@ -8583,7 +8590,7 @@ type: "Repository"
 link: "https://github.com/tgerke/ducklake-r"
 language: "Other"
 category: "General"
-description: "An R package to interface with DuckLake lakehouses - tgerke/ducklake-r"
+description: "Tidyverse-friendly R interface to DuckLake, the DuckDB lakehouse format - tgerke/ducklake-r"
 date: "2025-09-09"
 ---
 ---
@@ -9703,6 +9710,7 @@ type: "Website"
 link: "https://vllm.ai/"
 language: "Python"
 category: "AI;Generative AI;Statistics"
+description: "High-throughput and memory-efficient inference and serving engine for Large Language Models. Deploy AI faster with state-of-the-art performance."
 ---
 ---
 title: "Transformers to MLX"
@@ -9774,6 +9782,7 @@ type: "Repository"
 link: "https://github.com/theanshsonkar/carto"
 language: "Other"
 category: "Developer Tools"
+description: "Carto creates a portable AI container of a codebase & every AI tool then knows what breaks before it changes anything. Move fast with AI without losing confidence, context, or control. - thea..."
 ---
 ---
 title: "agentskills.io"
@@ -9893,6 +9902,7 @@ type: "Blog"
 link: "https://zed.dev/blog/zed-1-0"
 language: "Other"
 category: "Developer Tools"
+description: "From the Zed Blog: The editor we set out to build is now 1.0."
 ---
 ---
 title: "dgadacha/wax"
