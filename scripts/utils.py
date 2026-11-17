@@ -112,6 +112,23 @@ def is_placeholder(desc: str) -> bool:
     return bool(_PLACEHOLDER_RE.match(desc.strip().strip('"')))
 
 
+# Scraped descriptions are untrusted: parking pages, anti-bot challenges and
+# redirect notices return boilerplate that a meta-description scraper happily
+# accepts. Observed in real runs (PR #6/#9); each pattern is evidence-based.
+_JUNK_DESC_RE = re.compile(
+    r"(may be for sale"  # domain-parking boilerplate
+    r"|find information, resources and relevant links"  # same template; the first-sentence split cuts before the "for sale" part
+    r"|please wait while your request is being verified"  # CDN challenge
+    r"|this page has moved to"  # redirect notice, not a description
+    r")",
+    re.IGNORECASE,
+)
+
+
+def _is_junk_description(desc: str) -> bool:
+    return bool(_JUNK_DESC_RE.search(desc))
+
+
 def fetch_description(url: str, downloaded: object = _NO_DOWNLOAD) -> str:
     page = _fetch_page(url, downloaded)
     if not page:
@@ -120,7 +137,7 @@ def fetch_description(url: str, downloaded: object = _NO_DOWNLOAD) -> str:
         meta = trafilatura.extract_metadata(page)
         if meta and meta.description:
             desc = meta.description.strip().replace("\n", " ")
-            if len(desc) > 20:
+            if len(desc) > 20 and not _is_junk_description(desc):
                 return desc[:DESC_MAX_LEN]
     except Exception as exc:
         print(f"  WARNING: metadata extraction failed: {exc}", file=sys.stderr)
@@ -128,7 +145,7 @@ def fetch_description(url: str, downloaded: object = _NO_DOWNLOAD) -> str:
         text = trafilatura.extract(page)
         if text:
             sentence = text.split(".")[0].strip().replace("\n", " ")
-            if len(sentence) > 20:
+            if len(sentence) > 20 and not _is_junk_description(sentence):
                 return (sentence + ".")[:DESC_MAX_LEN]
     except Exception as exc:
         print(f"  WARNING: text extraction failed: {exc}", file=sys.stderr)
