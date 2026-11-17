@@ -52,21 +52,6 @@ OPTIONAL_FIELDS = ("description", "date")
 
 DESC_MAX_LEN = 300
 
-# Matches every auto-generated placeholder description pattern found in the file.
-# A description that does NOT match this regex is treated as real and left alone.
-_PLACEHOLDER_RE = re.compile(
-    r"""^(
-        A\ (blog|book|website|video|paper|course|community|resource|
-             journal|newsletter|conference|tool|cheatsheet|code\ repository)
-            \ (for|covering)
-        |An\ (online\ course|R/Python\ package|R\ package|Python\ package|
-               interactive|open-source)
-        |Personal\ (website|blog)\ by
-        |A\ code\ repository
-    )""",
-    re.VERBOSE | re.IGNORECASE,
-)
-
 # Matches ISO-8601 dates: YYYY-MM-DD, YYYY-MM, or YYYY
 DATE_RE = re.compile(r"^\d{4}(-\d{2}(-\d{2})?)?$")
 
@@ -106,10 +91,6 @@ def _fetch_page(url: str, downloaded: object = _NO_DOWNLOAD) -> bytes | str | No
     if downloaded is not _NO_DOWNLOAD:
         return downloaded  # type: ignore[return-value]
     return fetch_page(url)
-
-
-def is_placeholder(desc: str) -> bool:
-    return bool(_PLACEHOLDER_RE.match(desc.strip().strip('"')))
 
 
 # Scraped descriptions are untrusted: parking pages, anti-bot challenges and

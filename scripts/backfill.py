@@ -34,7 +34,6 @@ from utils import (
     existing_links,
     fetch_date,
     fetch_description,
-    is_placeholder,
     make_block,
     parse_resources,
     write_resources,
@@ -401,7 +400,7 @@ def _backfill(
         if force:
             return True
         desc = b.get("description", "").strip()
-        return not desc or is_placeholder(desc) or len(desc) > DESC_MAX_LEN
+        return not desc or len(desc) > DESC_MAX_LEN
 
     if mode == "dates":
         to_process = [b for b in blocks if _needs_date(b)]
@@ -494,10 +493,10 @@ def _backfill(
                 print(f"         → {short}")
                 changed = True
             else:
-                # Only clear the description when it was empty/placeholder.
-                # A fetch failure must never wipe a real (even overlong) one.
+                # Only clear an already-empty description. A fetch failure must
+                # never wipe a real (even overlong) one.
                 old_desc = block_by_link[url].get("description", "").strip()
-                if not dry_run and (not old_desc or is_placeholder(old_desc)):
+                if not dry_run and not old_desc:
                     block_by_link[url]["description"] = ""
                 print(f"{prefix} desc  SKIP {url} (no description found)")
 
