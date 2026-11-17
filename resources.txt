@@ -656,7 +656,6 @@ type: "Website"
 link: "http://sia.webpopix.org/mixtureModels.html"
 language: "Other"
 category: "Statistics"
-description: "Find information, resources and relevant links for webpopix.org. This domain may be for sale."
 ---
 ---
 title: "Google AI Blog - TensorFlow"
@@ -1803,7 +1802,6 @@ type: "Website"
 link: "https://www.flutterbys.com.au/stats/tut/tut15.2.html"
 language: "R"
 category: "Statistics"
-description: "Find information, resources and relevant links for flutterbys.com.au. This domain may be for sale."
 ---
 ---
 title: "UMass Discriminant Analysis"
@@ -3247,7 +3245,6 @@ type: "Website"
 link: "https://debruine.github.io/quarto_demo/dark_mode.html"
 language: "R"
 category: "Quarto"
-description: "<- ggplot(diamonds, aes(x = cut, y = price, fill = cut)) + g geom_violin() + labs(title = \"Diamond price by cut\") Dark Mode Demo Toggle dark and light mode (there’s a switch in the upper right corner) to see the plot switch."
 ---
 ---
 title: "rex Regex Shortcuts"
@@ -5588,7 +5585,6 @@ type: "Blog"
 link: "https://dominiquemakowski.github.io/post/2022-05-18-neurokit_release_2/"
 language: "R"
 category: "Social Sciences;Medical & Life Sciences"
-description: "This page has moved to https://realitybendinglab."
 ---
 ---
 title: "Emily Riederer - Causal Design"
