@@ -8,6 +8,11 @@ project:
     - "index.qmd"
     - "topics.qmd"
     - "404.qmd"
+  # Static files copied verbatim to docs/; the catalog renderer is loaded via
+  # a <script src> include in index.qmd (Quarto does not copy unreferenced
+  # files on its own).
+  resources:
+    - "assets/js/catalog.js"
 
 quarto-required: ">=1.9.37"
 
