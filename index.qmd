@@ -6,8 +6,12 @@ search: false
 format:
   html:
     page-layout: full
+# include-after-body inlines file content verbatim: a raw .js there renders as
+# page text, so the renderer is loaded as a real <script src> instead. The file
+# reaches docs/ via project.resources in _quarto.yml.
 include-after-body:
-  - file: assets/js/catalog.js
+  - text: |
+      <script src="assets/js/catalog.js" defer></script>
 execute:
   echo: false
 ---
