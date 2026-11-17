@@ -394,6 +394,7 @@ type: "Website"
 link: "http://guide.berkeley.edu/courses/"
 language: "Other"
 category: "Education"
+description: "The official record of UC Berkeley’s courses, programs, and academic policies is organized into two catalogs: Undergraduate and Graduate. Use the links below to access these catalogs for"
 ---
 ---
 title: "Coursera - GANs"
@@ -1802,6 +1803,7 @@ type: "Website"
 link: "https://www.flutterbys.com.au/stats/tut/tut15.2.html"
 language: "R"
 category: "Statistics"
+description: ""
 ---
 ---
 title: "UMass Discriminant Analysis"
@@ -2520,6 +2522,7 @@ type: "Blog"
 link: "https://appsilon.com/r-shiny-google-analytics/"
 language: "R"
 category: "Shiny;Data Science"
+description: "Try adding Google Analytics to your R Shiny app and gain valuable insights into user engagement."
 ---
 ---
 title: "Achim Zeileis useR 2022"
@@ -2633,6 +2636,7 @@ type: "Paper"
 link: "https://www.nature.com/articles/s42256-022-00465-9#citeas"
 language: "Other"
 category: "Ethics;AI"
+description: "An international security conference explored how artificial intelligence (AI) technologies for drug discovery could be misused for de novo design of biochemical weapons. A thought experiment evolved into a computational proof."
 ---
 ---
 title: "Openscapes Quarto Migration"
@@ -3651,6 +3655,7 @@ type: "Paper"
 link: "https://www.nature.com/articles/s41746-022-00592-y"
 language: "Other"
 category: "Medical & Life Sciences;AI"
+description: "Research in computer analysis of medical images bears many promises to improve patients’ health. However, a number of systematic challenges are slowing down the progress of the field, from limitations of the data, such as biases, to research incentives, such as optimizing for publication. In this pa"
 ---
 ---
 title: "Causal Inference Course"
@@ -4049,6 +4054,7 @@ type: "Website"
 link: "https://shiny.rstudio.com/articles/layout-guide.html"
 language: "R"
 category: "Shiny"
+description: "Shiny is a package that makes it easy to create interactive web apps using R and Python."
 ---
 ---
 title: "Zev Ross Shiny Tutorial"
@@ -4082,6 +4088,7 @@ type: "Website"
 link: "https://shiny.rstudio.com/gallery/widget-gallery.html"
 language: "R"
 category: "Shiny"
+description: "Shiny is a package that makes it easy to create interactive web apps using R and Python."
 ---
 ---
 title: "flexdashboard"
@@ -4219,6 +4226,7 @@ type: "Paper"
 link: "https://academic.oup.com/bioinformatics/article/31/2/282/2365643"
 language: "R"
 category: "Medical & Life Sciences"
+description: "Abstract. Summary: We have created a Shiny-based Web application, called Shiny-phyloseq , for dynamic interaction with microbiome data that runs on any mod"
 ---
 ---
 title: "Shiny phyloseq"
@@ -4288,6 +4296,7 @@ type: "Paper"
 link: "https://academic.oup.com/nar/article/46/6/2777/4909991"
 language: "Other"
 category: "Medical & Life Sciences;Research"
+description: "Abstract. Large studies profiling microbial communities and their association with healthy or disease phenotypes are now commonplace. Processed data from m"
 ---
 ---
 title: "Understanding Statistics"
@@ -4797,6 +4806,7 @@ type: "Paper"
 link: "https://bmcmedinformdecismak.biomedcentral.com/articles/10.1186/s12911-019-0874-0"
 language: "Other"
 category: "Medical & Life Sciences;AI"
+description: "Background Although complex machine learning models are commonly outperforming the traditional simple interpretable models, clinicians find it hard to understand and trust these complex models due to the lack of intuition and explanation of their predictions. The aim of this study to demonstrate the"
 ---
 ---
 title: "PMC Article"
@@ -4965,6 +4975,7 @@ type: "Paper"
 link: "https://www.nature.com/articles/s41591-022-01768-5"
 language: "Other"
 category: "Medical & Life Sciences;AI"
+description: "A decentralized, privacy-preserving machine learning framework used to train a clinically relevant AI system identifies actionable molecular alterations in patients with colorectal cancer by use of routine histopathology slides collected in real-world settings."
 ---
 ---
 title: "rstudio::conf 2022 Materials"
@@ -5682,6 +5693,7 @@ type: "Paper"
 link: "https://www.nature.com/articles/s41562-022-01464-x"
 language: "Other"
 category: "Social Sciences"
+description: "Boundy-Singer and the team studied how people’s confidence can predict the accuracy of their decisions. They found that confidence estimates reflect decision reliability, not accuracy, and that the uncertainty about stimulus uncertainty limits the quality of confidence judgments."
 ---
 ---
 title: "Art of Command Line (FR)"
@@ -6562,7 +6574,8 @@ title: "riffusion"
 type: "Website"
 link: "https://www.riffusion.com/about"
 language: "Other"
-category: "General"
+category: "Generative AI;Creative & Games"
+description: "Google Flow Music is a generative AI platform for creating, remixing, and sharing studio-quality songs. Direct music videos, vibe-code new instruments, and personalize your sound effortlessly."
 date: "2024-11-01"
 ---
 ---
@@ -6633,6 +6646,7 @@ type: "Website"
 link: "https://medium.com/@gspmalloy/a-quick-intro-to-infectious-disease-modeling-in-r-for-beginners-5f4dbdf68e9e"
 language: "Other"
 category: "General"
+description: "The COVID-19 pandemic brought the importance of infectious disease modeling to the forefront of our lives. I first became interested in…"
 ---
 ---
 title: "xcorr.net"
@@ -6945,6 +6959,7 @@ type: "Website"
 link: "https://appsilon.com/r-shiny-pharma-biotech-examples/#clincal?utm_medium=social&utm_source=linkedin&utm_campaign=45161"
 language: "R"
 category: "Shiny"
+description: "Pharmaceutical and Biotech companies and research institues are adopting R and Shiny. Explore live examples of Shiny in the Life Sciences."
 ---
 ---
 title: "appsilon"
@@ -6952,6 +6967,7 @@ type: "Website"
 link: "https://appsilon.com/bringing-webr-into-shiny/"
 language: "R"
 category: "Shiny"
+description: "Integrate webR into your Shiny apps for seamless R execution in web browsers, improve performance and user experience"
 ---
 ---
 title: "andrewheiss"
@@ -7496,6 +7512,7 @@ type: "Paper"
 link: "https://www.nature.com/articles/s41562-023-01623-8"
 language: "Other"
 category: "General"
+description: "This meta-analysis by Chan and Albarracı́n finds that science-relevant misinformation was, on average, persistent, and corrections fared better when they were detailed, when recipients were likely familiar with both sides of the issue ahead of the study, and when the issue was not politically polari"
 ---
 ---
 title: "github"
@@ -8989,14 +9006,6 @@ category: "Medical & Life Sciences;NLP & Speech;Machine Learning"
 description: "Open medical NLP models and resources curated by Maziyar Panahi."
 ---
 ---
-title: "omp.sh"
-type: "Tool"
-link: "https://omp.sh/"
-language: "Other"
-category: "Developer Tools"
-description: "Short-link installer/landing page for Oh My Posh."
----
----
 title: "Awesome Pi"
 type: "Community"
 link: "https://awesome-pi.site/"
@@ -9019,14 +9028,6 @@ link: "https://github.com/EmilHvitfeldt/slidecrafting-book.com"
 language: "R"
 category: "Quarto;Presentations"
 description: "Source repository of the Slidecrafting book."
----
----
-title: "Pierrot Show"
-type: "Website"
-link: "https://pierrot.show/"
-language: "Other"
-category: "Social Media;Creative & Games"
-description: "Personal showcase site kept as design and content inspiration."
 ---
 ---
 title: "Rencontres R"
@@ -9099,14 +9100,6 @@ link: "https://yohann-data.fr/posts/sweetalert2/"
 language: "R"
 category: "Shiny;Programming"
 description: "French blog post on integrating SweetAlert2 dialogs into R applications."
----
----
-title: "Leeroopedia"
-type: "Website"
-link: "https://leeroopedia.com/index.php/Main_Page"
-language: "Other"
-category: "Developer Tools;Reference"
-description: "Community wiki used as a reference knowledge base."
 ---
 ---
 title: "dockerstats"
@@ -9485,28 +9478,12 @@ category: "Developer Tools"
 description: "Package R pour CLI apps (Rapp)."
 ---
 ---
-title: "spicytakes.org"
-type: "Blog"
-link: "https://www.spicytakes.org/"
-language: "Other"
-category: "Career & Industry"
-description: "Blog d'opinions sur la tech."
----
----
 title: "spolu - no flow is the new flow"
 type: "Blog"
 link: "https://spolu.sh/notes/20260311_no_flow_is_the_new_flow.html"
 language: "Other"
 category: "AI;Reproducibility;Agents"
 description: "Notes sur le paradigme 'no flow is the new flow' (agents)."
----
----
-title: "Firefox GitHub Download Button Addon"
-type: "Repository"
-link: "https://addons.mozilla.org/en-US/firefox/addon/github-download-button-addon/"
-language: "Other"
-category: "Developer Tools;Git"
-description: "Module Firefox ajoutant un bouton de download GitHub."
 ---
 ---
 title: "r-mailing-lists.thecoatlessprofessor.com"
@@ -9523,22 +9500,6 @@ link: "https://humanstatement.org/"
 language: "Other"
 category: "Ethics;AI"
 description: "Site de la déclaration human-AI / human statement."
----
----
-title: "Elixir install (Linux)"
-type: "Website"
-link: "https://elixir-lang.org/install.html#gnulinux"
-language: "Other"
-category: "Programming;Developer Tools"
-description: "Instructions d'installation Elixir sur GNU/Linux."
----
----
-title: "share.streamlit.io - modeling-mindsets"
-type: "Website"
-link: "https://share.streamlit.io/-/auth/app?redirect_uri=https%3A%2F%2Fmodeling-mindsets.streamlit.app%2F"
-language: "Python"
-category: "Web Development;Machine Learning"
-description: "Auth share Streamlit pour l'app modeling-mindsets."
 ---
 ---
 title: "mauriceboe/NOMAD"
@@ -9877,22 +9838,6 @@ category: "AI;Ethics"
 description: "Déclaration AI (ai-declaration.md) v0.1.2."
 ---
 ---
-title: "sci-bot.ru"
-type: "Website"
-link: "https://sci-bot.ru/"
-language: "Other"
-category: "AI;Data Science;Developer Tools"
-description: "Bot AI pour la science (sci-bot.ru)."
----
----
-title: "smolmachines.com"
-type: "Website"
-link: "https://smolmachines.com/"
-language: "Other"
-category: "AI;Machine Learning"
-description: "Site smolmachines (modèles compacts)."
----
----
 title: "zed 1.0 release blog"
 type: "Blog"
 link: "https://zed.dev/blog/zed-1-0"
@@ -9933,14 +9878,6 @@ category: "Developer Tools"
 description: "Outil aar par fischerf."
 ---
 ---
-title: "woheller69/FreeDroidWarn"
-type: "Repository"
-link: "https://github.com/woheller69/FreeDroidWarn#solutions"
-language: "Other"
-category: "Ethics"
-description: "Solutions FreeDroidWarn (warnings privacy Android)."
----
----
 title: "aipractitioner - LLMs in causal discovery"
 type: "Blog"
 link: "https://aipractitioner.substack.com/p/llms-in-causal-discovery-a-deep-dive?r=49ttp&triedRedirect=true"
@@ -9979,14 +9916,6 @@ link: "https://rinpharma.com/docs/blog/posts/2026-05-12-genAI-schedule/"
 language: "R"
 category: "Generative AI"
 description: "Programme genAI de rinpharma 2026."
----
----
-title: "data.ina.fr"
-type: "Website"
-link: "https://data.ina.fr/"
-language: "French"
-category: "Data Science;Social Media"
-description: "Données INA (Institut National de l'Audiovisuel)."
 ---
 ---
 title: "ai-10-usd all-the-rest"
@@ -10035,22 +9964,6 @@ link: "https://artificialanalysis.ai/leaderboards/models"
 language: "Other"
 category: "AI;Machine Learning"
 description: "Leaderboard de modèles AI par Artificial Analysis."
----
----
-title: "huggingbay.xyz"
-type: "Website"
-link: "https://huggingbay.xyz/"
-language: "Other"
-category: "Generative AI;Machine Learning;Developer Tools"
-description: "Recherche modèles Hugging Face (huggingbay)."
----
----
-title: "benzi.fly.dev"
-type: "Website"
-link: "https://benzi.fly.dev/"
-language: "Other"
-category: "Developer Tools"
-description: "Outil benzi (fly.dev)."
 ---
 ---
 title: "altdoc etiennebacher"
@@ -10197,14 +10110,6 @@ link: "https://pi-web.dev/"
 language: "Other"
 category: "Agents;Developer Tools"
 description: "Web hub for Pi agent tooling and resources."
----
----
-title: "OSINT4ALL"
-type: "Website"
-link: "https://start.me/p/L1rEYQ/osint4all"
-language: "Other"
-category: "Ethics;Research"
-description: "Curated start.me dashboard of OSINT tools and investigation resources."
 ---
 ---
 title: "InferX"
@@ -10414,15 +10319,6 @@ description: "Animated explainer of a RAG pipeline: ingestion, chunking, metadat
 date: "2026-01-01"
 ---
 ---
-title: "Guide d'Autodéfense Numérique"
-type: "Book"
-link: "https://sindominio.net/guide/pr%C3%A9face-%C3%A0-cette-%C3%A9dition.html"
-language: "French"
-category: "Ethics;Open Source & Automation"
-description: "French guide to digital self-defence: how to protect privacy and reduce exposure to online surveillance."
-date: "2018-03-22"
----
----
 title: "guyavrhm/orion"
 type: "Repository"
 link: "https://github.com/guyavrhm/orion"
@@ -10432,30 +10328,12 @@ description: "Self-hosted torrent client and media server for running a personal
 date: "2026-08-18"
 ---
 ---
-title: "Guide d'Autodéfense Numérique (site)"
-type: "Website"
-link: "https://guide.boum.org/"
-language: "French"
-category: "Ethics;Open Source & Automation"
-description: "Sixth edition of the French Guide d'Autodéfense Numérique, a practical handbook for protecting privacy online."
-date: "2023-01-06"
----
----
 title: "New R Tooling"
 type: "Website"
 link: "https://r-devs.com/"
 language: "R"
 category: "Developer Tools;R Ecosystem"
 description: "Directory of modern R tooling: formatters, linters, kernels, package managers and more."
----
----
-title: "Avocado Pork Stuffed Peppers"
-type: "Website"
-link: "https://www.cookingforengineers.com/recipe/12/Avocado-Pork-Stuffed-Peppers"
-language: "Other"
-category: "General"
-description: "Cooking for Engineers recipe for avocado pork stuffed peppers, with step-by-step photos and reader discussion."
-date: "2004-09-24"
 ---
 ---
 title: "Mixed R and Python workflows in the browser with Emscripten-Forge"
@@ -10485,38 +10363,12 @@ description: "Linux tool that searches files by their content with local embeddi
 date: "2026-10-10"
 ---
 ---
-title: "Crafting Apps: open-source creative tools"
-type: "Website"
-link: "https://getartcraft.com/apps"
-language: "Other"
-category: "Creative & Games;Open Source & Automation"
-description: "Thirteen native open-source creative apps from ArtCraft covering image editing, vector, video, audio, CAD and spreadsheets."
-date: "2026-01-01"
----
----
 title: "fx"
 type: "Tool"
 link: "https://fx.sh/"
 language: "Other"
 category: "Agents;Developer Tools"
 description: "Minimal native CLI coding agent written in Zig, built for research and for embedding in larger systems."
----
----
-title: "Weft Loom"
-type: "Tool"
-link: "https://weftloom.dev/"
-language: "Other"
-category: "Creative & Games"
-description: "Free desktop app for pattern music built on Strudel, with click-in drum grids and pattern sequencing."
----
----
-title: "LibrePaper"
-type: "Website"
-link: "https://librepaper.org/"
-language: "Other"
-category: "Open Source & Automation;Web Development"
-description: "Collaborative writing platform with support for multiple file formats and self-hosting."
-date: "2026-01-01"
 ---
 ---
 title: "pi-bare-worktrees"
@@ -10597,15 +10449,6 @@ category: "Education;Machine Learning"
 description: "Streamlit playground app for exploring modelling mindsets."
 ---
 ---
-title: "Papers with Code"
-type: "Website"
-link: "https://paperswithcode.co/"
-language: "Other"
-category: "Machine Learning;Research"
-description: "Trending machine-learning papers, methods, benchmarks, datasets and open-source implementations."
-date: "2025-11-28"
----
----
 title: "ab604/claude-code-r-skills"
 type: "Repository"
 link: "https://github.com/ab604/claude-code-r-skills"
@@ -10658,4 +10501,38 @@ language: "Other"
 category: "Agents;AI"
 description: "Mickaël Canouil's GitHub star list of AI tools and resources."
 date: "2025-11-12"
+---
+---
+title: "Open Ontologies"
+type: "Repository"
+link: "https://github.com/fabio-rovai/open-ontologies"
+language: "Other"
+category: "Data Engineering;Developer Tools"
+description: "Plan, apply and roll back changes to a production ontology, with a blast radius report and a proof an auditor can re-check."
+---
+---
+title: "I Cut My AI Agent Costs 7x Without Switching Models"
+type: "Blog"
+link: "https://tylerfolkman.substack.com/p/i-cut-my-ai-agent-costs-7x-without"
+language: "Other"
+category: "Agents;Generative AI;MLOps"
+description: "rtk, context-mode, and Kimi K2.6 changed the equation. The Uber story shows how expensive agents get when nobody optimizes context."
+date: "2026-05-03"
+---
+---
+title: "LLMs in Causal Discovery: A Deep Dive into Constraint-Based Algorithms"
+type: "Blog"
+link: "https://aipractitioner.substack.com/p/llms-in-causal-discovery-a-deep-dive"
+language: "Other"
+category: "Causal Inference;Generative AI"
+description: "A Hands-on Guide to Bridging Statistics and Domain Expertise for Robust Causal Graphs"
+date: "2026-05-07"
+---
+---
+title: "Agent plugins in VS Code"
+type: "Documentation"
+link: "https://code.visualstudio.com/docs/copilot/customization/agent-plugins"
+language: "Other"
+category: "Agents;Developer Tools"
+description: "Find, install, and manage agent plugins from marketplaces in VS Code."
 ---
