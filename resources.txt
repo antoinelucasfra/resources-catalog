@@ -656,6 +656,7 @@ type: "Website"
 link: "http://sia.webpopix.org/mixtureModels.html"
 language: "Other"
 category: "Statistics"
+description: "Find information, resources and relevant links for webpopix.org. This domain may be for sale."
 ---
 ---
 title: "Google AI Blog - TensorFlow"
@@ -1802,6 +1803,7 @@ type: "Website"
 link: "https://www.flutterbys.com.au/stats/tut/tut15.2.html"
 language: "R"
 category: "Statistics"
+description: "Find information, resources and relevant links for flutterbys.com.au. This domain may be for sale."
 ---
 ---
 title: "UMass Discriminant Analysis"
@@ -3054,6 +3056,7 @@ link: "https://threadreaderapp.com/thread/1550220071649259521.html"
 language: "Other"
 category: "Machine Learning"
 description: "@Emil_Hvitfeldt: Are you using Quarto to create slides? Do you want to share your slides easily? Do you have minimal Github knowledge? If you answered yes to all 3 questions then read along in this 3...…"
+date: "2024-11-01"
 ---
 ---
 title: "Beautiful Tables in R"
@@ -3245,6 +3248,7 @@ type: "Website"
 link: "https://debruine.github.io/quarto_demo/dark_mode.html"
 language: "R"
 category: "Quarto"
+description: "<- ggplot(diamonds, aes(x = cut, y = price, fill = cut)) + g geom_violin() + labs(title = \"Diamond price by cut\") Dark Mode Demo Toggle dark and light mode (there’s a switch in the upper right corner) to see the plot switch."
 ---
 ---
 title: "rex Regex Shortcuts"
@@ -3938,6 +3942,8 @@ type: "Website"
 link: "https://www.pdfdrive.com/le-logiciel-r-ma%C3%AEtriser-le-langage-effectuer-des-analyses-statistiques-e156638014.html"
 language: "R;French"
 category: "General"
+description: "Loader Please wait while your request is being verified."
+date: "2024-11-01"
 ---
 ---
 title: "drake"
@@ -5585,6 +5591,8 @@ type: "Blog"
 link: "https://dominiquemakowski.github.io/post/2022-05-18-neurokit_release_2/"
 language: "R"
 category: "Social Sciences;Medical & Life Sciences"
+description: "This page has moved to https://realitybendinglab."
+date: "2022-01-01"
 ---
 ---
 title: "Emily Riederer - Causal Design"
@@ -6590,6 +6598,7 @@ link: "https://dynalist.io/d/n2ZWtnoYHrU1s4vnFSAQ519J"
 language: "Other"
 category: "General"
 description: "Dynalist lets you organize your ideas and tasks in simple lists. It's powerful, yet easy to use. Try the live demo now, no need to sign up."
+date: "2024-11-01"
 ---
 ---
 title: "johnbedwards.io"
@@ -7376,6 +7385,7 @@ link: "https://pages.citedrive.com/r-markdown/"
 language: "Other"
 category: "General"
 description: "Point the bibliography field of an R Markdown document at a live CiteDrive .bib URL."
+date: "2020-01-01"
 ---
 ---
 title: "colinfay.me"
@@ -8212,6 +8222,7 @@ link: "https://closeread.dev/"
 language: "Other"
 category: "General"
 description: "Closeread Closeread is a custom format for Quarto that enables scrollytelling features for HTML documents."
+date: "2026-01-01"
 ---
 ---
 title: "docs.astral.sh"
@@ -8668,6 +8679,7 @@ link: "https://zeroclawlabs.ai/"
 language: "Other"
 category: "Machine Learning"
 description: "Premium, 100% Rust-based agent automation platform and visual control plane for the ZeroClaw Core Engine."
+date: "2024-11-01"
 ---
 ---
 title: "Zensical"
@@ -8756,6 +8768,7 @@ link: "https://posit-dev.github.io/shinychat/r/"
 language: "R"
 category: "General"
 description: "Provides a scrolling chat interface with multiline input, suitable for creating chatbot apps based on Large Language Models (LLMs). Designed to work particularly well with the ellmer R package for calling LLMs."
+date: "2026-09-15"
 ---
 ---
 title: "Top Python Libraries of 2025 (11th Edition)"
@@ -8931,6 +8944,7 @@ link: "https://gram-lang.org/fr/"
 language: "Other"
 category: "Programming;Data Visualization"
 description: "French documentation site for the Gram language."
+date: "2026-11-01"
 ---
 ---
 title: "my-ai-tools - cli.sh"
@@ -8939,6 +8953,7 @@ link: "https://github.com/jellydn/my-ai-tools/blob/main/cli.sh"
 language: "Other"
 category: "Agents;Developer Tools;Creative & Games"
 description: "Shell script inspiration for building a local agentic-setup folder."
+date: "2026-01-08"
 ---
 ---
 title: "CC Pricing Dashboard"
@@ -8947,6 +8962,7 @@ link: "https://cc-pricing.all-the.rest/?sort=requests%3Adesc"
 language: "Other"
 category: "Generative AI;Machine Learning"
 description: "Community dashboard comparing coding-agent pricing and request volumes."
+date: "2026-10-26"
 ---
 ---
 title: "shiny-prep"
@@ -8955,6 +8971,7 @@ link: "https://github.com/buddha2490/shiny-prep"
 language: "R"
 category: "Shiny;Web Development"
 description: "Preparation scaffolding for Shiny application projects."
+date: "2026-06-13"
 ---
 ---
 title: "engram"
@@ -8963,6 +8980,7 @@ link: "https://github.com/nagisanzenin/engram"
 language: "Other"
 category: "Agents;Developer Tools"
 description: "Memory layer project for persistent agent context."
+date: "2026-07-05"
 ---
 ---
 title: "Graft (NanoNets)"
@@ -8971,6 +8989,7 @@ link: "https://github.com/NanoNets/Graft"
 language: "Python"
 category: "Data Engineering;Machine Learning"
 description: "NanoNets open-source project for document/graph learning workflows."
+date: "2026-07-03"
 ---
 ---
 title: "r-project-template"
@@ -8979,6 +8998,7 @@ link: "https://github.com/novica/r-project-template"
 language: "R"
 category: "Reproducibility"
 description: "Reusable template for structuring R analysis projects."
+date: "2026-02-24"
 ---
 ---
 title: "OpenMed"
@@ -8987,6 +9007,7 @@ link: "https://github.com/maziyarpanahi/openmed"
 language: "Python"
 category: "Medical & Life Sciences;NLP & Speech;Machine Learning"
 description: "Open medical NLP models and resources curated by Maziyar Panahi."
+date: "2025-10-04"
 ---
 ---
 title: "omp.sh"
@@ -8995,6 +9016,7 @@ link: "https://omp.sh/"
 language: "Other"
 category: "Developer Tools"
 description: "Short-link installer/landing page for Oh My Posh."
+date: "2026-01-01"
 ---
 ---
 title: "Awesome Pi"
@@ -9003,6 +9025,7 @@ link: "https://awesome-pi.site/"
 language: "Other"
 category: "Agents;Open Source & Automation;Developer Tools"
 description: "Curated awesome list of Pi agent packages, skills and resources."
+date: "2026-11-17"
 ---
 ---
 title: "Slidecraft 101"
@@ -9011,6 +9034,7 @@ link: "https://emilhvitfeldt.com/project/slidecraft-101/"
 language: "R"
 category: "Quarto;Presentations;Education"
 description: "Emil Hvitfeldt's blog series teaching how to craft Quarto revealjs slides."
+date: "2024-06-05"
 ---
 ---
 title: "Slidecrafting Book (repo)"
@@ -9019,6 +9043,7 @@ link: "https://github.com/EmilHvitfeldt/slidecrafting-book.com"
 language: "R"
 category: "Quarto;Presentations"
 description: "Source repository of the Slidecrafting book."
+date: "2024-11-14"
 ---
 ---
 title: "Pierrot Show"
@@ -9027,6 +9052,7 @@ link: "https://pierrot.show/"
 language: "Other"
 category: "Social Media;Creative & Games"
 description: "Personal showcase site kept as design and content inspiration."
+date: "2023-01-01"
 ---
 ---
 title: "Rencontres R"
@@ -9035,6 +9061,7 @@ link: "https://www.rencontresr.fr/rencontres.html"
 language: "R"
 category: "Presentations;R Ecosystem"
 description: "French-speaking R community conference (Rencontres R) programme page."
+date: "2026-06-16"
 ---
 ---
 title: "Awesome GitHub Copilot"
@@ -9043,6 +9070,7 @@ link: "https://awesome-copilot.github.com/"
 language: "Other"
 category: "Agents;Open Source & Automation;Generative AI"
 description: "Official browsable catalogue of Copilot instructions, chat modes and prompts."
+date: "2026-07-28"
 ---
 ---
 title: "Awesome Claude"
@@ -9051,6 +9079,7 @@ link: "https://awesomeclaude.ai/"
 language: "Other"
 category: "AI;Open Source & Automation;Agents"
 description: "Curated directory of Claude tools, skills and community resources."
+date: "2026-01-01"
 ---
 ---
 title: "github/awesome-copilot"
@@ -9059,6 +9088,7 @@ link: "https://github.com/github/awesome-copilot"
 language: "Other"
 category: "Agents;Open Source & Automation;Generative AI"
 description: "Source repository of community-contributed Copilot customisations."
+date: "2025-06-11"
 ---
 ---
 title: "Claude Code Best Practice"
@@ -9067,6 +9097,7 @@ link: "https://github.com/shanraisshan/claude-code-best-practice"
 language: "Other"
 category: "Agents;Best Practices"
 description: "Community collection of Claude Code usage best practices."
+date: "2025-10-31"
 ---
 ---
 title: "Transformers - Speech to Text"
@@ -9075,6 +9106,7 @@ link: "https://huggingface.co/docs/transformers/model_doc/speech_to_text"
 language: "Python"
 category: "NLP & Speech;Generative AI"
 description: "Hugging Face Transformers documentation for the Speech2Text model family."
+date: "2020-10-11"
 ---
 ---
 title: "Real-time Speech-to-Text Streaming App"
@@ -9083,6 +9115,7 @@ link: "https://sadtalkerai.com/real-time-speech-text-streaming-app-hugging-face/
 language: "Python"
 category: "NLP & Speech;Generative AI"
 description: "Tutorial for building a real-time speech-to-text streaming app on Hugging Face."
+date: "2026-02-25"
 ---
 ---
 title: "ASR Demo Space"
@@ -9091,6 +9124,7 @@ link: "https://huggingface.co/spaces/GavinHuang/asr-demo"
 language: "Python"
 category: "NLP & Speech;Generative AI"
 description: "Hugging Face Space demonstrating automatic speech recognition."
+date: "2025-05-03"
 ---
 ---
 title: "SweetAlert2 in Shiny"
@@ -9099,6 +9133,7 @@ link: "https://yohann-data.fr/posts/sweetalert2/"
 language: "R"
 category: "Shiny;Programming"
 description: "French blog post on integrating SweetAlert2 dialogs into R applications."
+date: "2024-04-30"
 ---
 ---
 title: "Leeroopedia"
@@ -9107,6 +9142,7 @@ link: "https://leeroopedia.com/index.php/Main_Page"
 language: "Other"
 category: "Developer Tools;Reference"
 description: "Community wiki used as a reference knowledge base."
+date: "2026-11-17"
 ---
 ---
 title: "dockerstats"
@@ -9115,6 +9151,7 @@ link: "https://github.com/ColinFay/dockerstats"
 language: "R"
 category: "Docker;MLOps"
 description: "R package by Colin Fay to collect Docker container statistics."
+date: "2020-04-24"
 ---
 ---
 title: "shinyloadtest"
@@ -9123,6 +9160,7 @@ link: "https://rstudio.github.io/shinyloadtest/"
 language: "R"
 category: "Shiny;Programming;Best Practices"
 description: "Posit package and docs for load-testing Shiny applications."
+date: "2018-01-01"
 ---
 ---
 title: "RoboRev"
@@ -9131,6 +9169,7 @@ link: "https://www.roborev.io/"
 language: "Other"
 category: "Agents"
 description: "Automated AI-assisted code review service."
+date: "2026-01-01"
 ---
 ---
 title: "RTK"
@@ -9139,6 +9178,7 @@ link: "https://github.com/rtk-ai/rtk/"
 language: "Other"
 category: "Agents;Developer Tools"
 description: "Open-source agent toolkit from rtk-ai."
+date: "2026-01-22"
 ---
 ---
 title: "Agentic Search"
@@ -9147,6 +9187,7 @@ link: "https://ivanleo.com/blog/agentic-search"
 language: "Other"
 category: "Agents;Developer Tools;Generative AI"
 description: "Deep-dive blog post on designing agentic search systems."
+date: "2025-10-11"
 ---
 ---
 title: "ast-grep with R and Claude Code"
@@ -9155,6 +9196,7 @@ link: "https://emilhvitfeldt.com/post/ast-grep-r-claude-code/"
 language: "R"
 category: "Developer Tools;Agents;Programming"
 description: "Using ast-grep to do structural search and refactoring of R code with Claude Code."
+date: "2026-02-26"
 ---
 ---
 title: "How I Use Claude Code"
@@ -9163,6 +9205,7 @@ link: "https://boristane.com/blog/how-i-use-claude-code/"
 language: "Other"
 category: "Agents;Reproducibility"
 description: "Opinionated write-up of a day-to-day AI-assisted development workflow."
+date: "2026-02-11"
 ---
 ---
 title: "Copilot Instructions - Azure DevOps Pipelines"
@@ -9171,6 +9214,7 @@ link: "https://github.com/github/awesome-copilot/blob/main/instructions/azure-de
 language: "Other"
 category: "Agents;MLOps"
 description: "Copilot instruction file for authoring Azure DevOps pipelines."
+date: "2025-06-11"
 ---
 ---
 title: "Copilot Instructions - Docker Best Practices"
@@ -9179,6 +9223,7 @@ link: "https://github.com/github/awesome-copilot/blob/main/instructions/containe
 language: "Other"
 category: "Agents;Docker;Best Practices"
 description: "Copilot instruction file covering containerization and Docker best practices."
+date: "2025-06-11"
 ---
 ---
 title: "Copilot Instructions - Context7"
@@ -9187,6 +9232,7 @@ link: "https://github.com/github/awesome-copilot/blob/main/instructions/context7
 language: "Other"
 category: "Agents;Generative AI"
 description: "Copilot instruction file for using the Context7 documentation MCP."
+date: "2025-06-11"
 ---
 ---
 title: "Copilot Instructions - Power BI DAX"
@@ -9195,6 +9241,7 @@ link: "https://github.com/github/awesome-copilot/blob/main/instructions/power-bi
 language: "Other"
 category: "Agents;Business Intelligence;Best Practices"
 description: "Copilot instruction file with DAX best practices for Power BI."
+date: "2025-06-11"
 ---
 ---
 title: "Copilot Instructions - Power BI Custom Visuals"
@@ -9203,6 +9250,7 @@ link: "https://github.com/github/awesome-copilot/blob/main/instructions/power-bi
 language: "JavaScript"
 category: "Agents;Business Intelligence;Data Visualization"
 description: "Copilot instruction file for developing Power BI custom visuals."
+date: "2025-06-11"
 ---
 ---
 title: "Copilot Instructions - Power BI Data Modeling"
@@ -9211,6 +9259,7 @@ link: "https://github.com/github/awesome-copilot/blob/main/instructions/power-bi
 language: "Other"
 category: "Agents;Business Intelligence;Data Engineering"
 description: "Copilot instruction file with Power BI data modelling best practices."
+date: "2025-06-11"
 ---
 ---
 title: "Copilot Instructions - Power BI DevOps ALM"
@@ -9219,6 +9268,7 @@ link: "https://github.com/github/awesome-copilot/blob/main/instructions/power-bi
 language: "Other"
 category: "Agents;Business Intelligence;MLOps"
 description: "Copilot instruction file for Power BI DevOps and application lifecycle management."
+date: "2025-06-11"
 ---
 ---
 title: "Copilot Instructions - Power BI Report Design"
@@ -9227,6 +9277,7 @@ link: "https://github.com/github/awesome-copilot/blob/main/instructions/power-bi
 language: "Other"
 category: "Agents;Business Intelligence;Web Development"
 description: "Copilot instruction file with Power BI report design best practices."
+date: "2025-06-11"
 ---
 ---
 title: "Copilot Instructions - Rust"
@@ -9235,6 +9286,7 @@ link: "https://github.com/github/awesome-copilot/blob/main/instructions/rust.ins
 language: "Other"
 category: "Agents;Programming;Best Practices"
 description: "Copilot instruction file for idiomatic Rust development."
+date: "2025-06-11"
 ---
 ---
 title: "awesome-copilot - README.hooks"
@@ -9243,6 +9295,7 @@ link: "https://github.com/github/awesome-copilot/blob/main/docs/README.hooks.md"
 language: "Other"
 category: "AI;R Ecosystem"
 description: "Doc awesome-copilot sur les hooks."
+date: "2025-06-11"
 ---
 ---
 title: "awesome-copilot - session-auto-commit hook"
@@ -9251,6 +9304,7 @@ link: "https://github.com/github/awesome-copilot/blob/main/hooks/session-auto-co
 language: "Other"
 category: "AI;Git;R Ecosystem"
 description: "Hook d'auto-commit de session pour Copilot."
+date: "2025-06-11"
 ---
 ---
 title: "awesome-copilot - azure-cloud-development plugin"
@@ -9259,6 +9313,7 @@ link: "https://github.com/github/awesome-copilot/blob/main/plugins/azure-cloud-d
 language: "Other"
 category: "MLOps;AI"
 description: "Plugin Copilot pour dev cloud Azure."
+date: "2025-06-11"
 ---
 ---
 title: "Slidecrafting Book"
@@ -9267,6 +9322,7 @@ link: "https://slidecrafting-book.com/"
 language: "R"
 category: "Quarto;Presentations"
 description: "Online book on designing effective slides with Quarto."
+date: "2025-09-24"
 ---
 ---
 title: "gary149/llama-agent"
@@ -9275,6 +9331,7 @@ link: "https://github.com/gary149/llama-agent"
 language: "Python"
 category: "AI;Agents;Generative AI"
 description: "Agent Llama par gary149."
+date: "2025-12-16"
 ---
 ---
 title: "R Project Conference 2026 (Romania)"
@@ -9283,6 +9340,7 @@ link: "https://r-project.ro/conference2026.html#Registration"
 language: "R"
 category: "General"
 description: "Inscription à la conférence R 2026 (Roumanie)."
+date: "2026-01-01"
 ---
 ---
 title: "ollama-litellm-openwebui compose"
@@ -9291,6 +9349,7 @@ link: "https://github.com/ruanbekker/awesome-docker-compose/tree/main/ollama-lit
 language: "Other"
 category: "Docker;AI;Generative AI"
 description: "Stack docker-compose Ollama + LiteLLM + Open WebUI."
+date: "2021-11-17"
 ---
 ---
 title: "docker/awesome-compose - postgresql-pgadmin"
@@ -9299,6 +9358,7 @@ link: "https://github.com/docker/awesome-compose/tree/master/postgresql-pgadmin"
 language: "Other"
 category: "Docker;Data Engineering"
 description: "Compose officiel PostgreSQL + pgAdmin."
+date: "2020-02-13"
 ---
 ---
 title: "D4Vinci/Scrapling"
@@ -9307,6 +9367,7 @@ link: "https://github.com/D4Vinci/Scrapling"
 language: "Python"
 category: "Web Development"
 description: "Scraper web Python par D4Vinci."
+date: "2024-10-13"
 ---
 ---
 title: "statzhero/tidy-r-skill"
@@ -9315,6 +9376,7 @@ link: "https://github.com/statzhero/tidy-r-skill"
 language: "R"
 category: "R Ecosystem;Career & Industry"
 description: "Skill Claude/AI pour tidyverse R."
+date: "2026-03-31"
 ---
 ---
 title: "vllm-project/vllm"
@@ -9323,6 +9385,7 @@ link: "https://github.com/vllm-project/vllm"
 language: "Python"
 category: "AI;Generative AI;Statistics"
 description: "Moteur de serving LLM haute perf."
+date: "2023-02-09"
 ---
 ---
 title: "onyx"
@@ -9331,6 +9394,7 @@ link: "https://github.com/onyx-dot-app/onyx"
 language: "Python"
 category: "AI;Generative AI;Developer Tools"
 description: "Plateforme RAG / enterprise search open-source."
+date: "2023-04-27"
 ---
 ---
 title: "Claude resources/tutorials"
@@ -9339,6 +9403,7 @@ link: "https://claude.com/resources/tutorials"
 language: "Other"
 category: "AI"
 description: "Tutoriels officiels Anthropic Claude."
+date: "2026-01-01"
 ---
 ---
 title: "Jan"
@@ -9355,6 +9420,7 @@ link: "https://rworks.dev/posts/claude-skills-for-r-users/"
 language: "R"
 category: "AI"
 description: "Article sur les skills Claude pour utilisateurs R."
+date: "2026-03-02"
 ---
 ---
 title: "drmowinckels.io - dotfiles coding agents"
@@ -9363,6 +9429,7 @@ link: "https://drmowinckels.io/blog/2026/dotfiles-coding-agents/"
 language: "R"
 category: "Developer Tools;AI"
 description: "Dotfiles pour coding-agents par Athaea MOWinckels."
+date: "2026-03-02"
 ---
 ---
 title: "quickSentiment"
@@ -9371,6 +9438,7 @@ link: "https://cran.r-project.org/web/packages/quickSentiment/index.html"
 language: "R"
 category: "NLP & Speech"
 description: "Package R pour analyse de sentiment rapide."
+date: "2026-11-08"
 ---
 ---
 title: "korben.info - pyinfra"
@@ -9379,6 +9447,7 @@ link: "https://korben.info/pyinfra-automatisation-infrastructure-python.html"
 language: "French"
 category: "MLOps"
 description: "Article Korben sur pyinfra (automatisation infra Python)."
+date: "2026-03-06"
 ---
 ---
 title: "nyko.ai learn-ai-fast"
@@ -9411,6 +9480,7 @@ link: "https://github.com/EmilHvitfeldt/quarto-revealjs-editable"
 language: "R"
 category: "Quarto;Presentations"
 description: "Extension quarto-revealjs éditable par Emil Hvitfeldt."
+date: "2025-08-20"
 ---
 ---
 title: "jolars/panache"
@@ -9427,6 +9497,7 @@ link: "https://karanbansal.in/blog/claude-code-lsp/"
 language: "Other"
 category: "AI;Developer Tools"
 description: "Intégration LSP pour Claude Code."
+date: "2026-02-28"
 ---
 ---
 title: "f/prompts.chat"
@@ -9435,6 +9506,7 @@ link: "https://github.com/f/prompts.chat"
 language: "Other"
 category: "AI;Generative AI"
 description: "Collection / partage de prompts."
+date: "2022-12-05"
 ---
 ---
 title: "alibaba/OpenSandbox"
@@ -9443,6 +9515,7 @@ link: "https://github.com/alibaba/OpenSandbox"
 language: "Python"
 category: "AI;Agents"
 description: "Sandbox open-source Alibaba pour agents."
+date: "2025-12-17"
 ---
 ---
 title: "dein.fr - plan and checkout"
@@ -9451,6 +9524,7 @@ link: "https://www.dein.fr/posts/2026-01-08-write-and-checkout-the-plan"
 language: "French"
 category: "AI;Reproducibility"
 description: "Workflow 'write-and-checkout the plan' (dein.fr)."
+date: "2026-01-08"
 ---
 ---
 title: "pytogether playground"
@@ -9467,6 +9541,7 @@ link: "https://aitransformer.online/ai-model-monitoring-strategy/"
 language: "Other"
 category: "AI;MLOps"
 description: "Stratégies de monitoring de modèles AI."
+date: "2026-03-16"
 ---
 ---
 title: "conductorquantum - Coda MCP"
@@ -9475,6 +9550,7 @@ link: "https://conductorquantum.substack.com/p/introducing-coda-mcp-quantum-tool
 language: "Other"
 category: "AI;Generative AI;Programming"
 description: "MCP Coda pour outils quantiques AI."
+date: "2026-03-16"
 ---
 ---
 title: "r-lib/Rapp"
@@ -9483,6 +9559,7 @@ link: "https://github.com/r-lib/Rapp"
 language: "R"
 category: "Developer Tools"
 description: "Package R pour CLI apps (Rapp)."
+date: "2022-10-12"
 ---
 ---
 title: "spicytakes.org"
@@ -9491,6 +9568,7 @@ link: "https://www.spicytakes.org/"
 language: "Other"
 category: "Career & Industry"
 description: "Blog d'opinions sur la tech."
+date: "2024-11-01"
 ---
 ---
 title: "spolu - no flow is the new flow"
@@ -9499,6 +9577,7 @@ link: "https://spolu.sh/notes/20260311_no_flow_is_the_new_flow.html"
 language: "Other"
 category: "AI;Reproducibility;Agents"
 description: "Notes sur le paradigme 'no flow is the new flow' (agents)."
+date: "2026-03-11"
 ---
 ---
 title: "Firefox GitHub Download Button Addon"
@@ -9515,6 +9594,7 @@ link: "https://r-mailing-lists.thecoatlessprofessor.com/"
 language: "R"
 category: "Social Media"
 description: "Mirror / archive des mailing-lists R."
+date: "2026-11-11"
 ---
 ---
 title: "humanstatement.org"
@@ -9523,6 +9603,7 @@ link: "https://humanstatement.org/"
 language: "Other"
 category: "Ethics;AI"
 description: "Site de la déclaration human-AI / human statement."
+date: "2025-10-01"
 ---
 ---
 title: "Elixir install (Linux)"
@@ -9547,6 +9628,7 @@ link: "https://github.com/mauriceboe/NOMAD"
 language: "Other"
 category: "Developer Tools"
 description: "Projet NOMAD (repository)."
+date: "2026-03-19"
 ---
 ---
 title: "data-goblin/power-bi-agentic-development"
@@ -9555,6 +9637,7 @@ link: "https://github.com/data-goblin/power-bi-agentic-development?tab=readme-ov
 language: "Other"
 category: "Business Intelligence;AI;Agents"
 description: "Développement agentic Power BI."
+date: "2026-01-15"
 ---
 ---
 title: "typst-in-production - crash course"
@@ -9563,6 +9646,7 @@ link: "https://typst-in-production.com/crash-course/lesson-1/"
 language: "Other"
 category: "Quarto"
 description: "Crash course Typst en production (lesson 1)."
+date: "2026-01-01"
 ---
 ---
 title: "TabArena leaderboard"
@@ -9571,6 +9655,7 @@ link: "https://huggingface.co/spaces/TabArena/leaderboard"
 language: "Other"
 category: "Machine Learning"
 description: "Leaderboard TabArena (données tabulaires)."
+date: "2025-05-21"
 ---
 ---
 title: "mlcontests.com"
@@ -9579,6 +9664,7 @@ link: "https://mlcontests.com/"
 language: "Other"
 category: "Machine Learning"
 description: "Agrégateur de compétitions ML."
+date: "2026-10-15"
 ---
 ---
 title: "emantzoo/excel2r"
@@ -9587,6 +9673,7 @@ link: "https://github.com/emantzoo/excel2r"
 language: "R"
 category: "Business Intelligence;Quarto"
 description: "Outil de conversion Excel -> R."
+date: "2026-03-29"
 ---
 ---
 title: "pi.dev"
@@ -9595,6 +9682,7 @@ link: "https://pi.dev/"
 language: "Other"
 category: "AI;Agents"
 description: "Site de pi coding-agent."
+date: "2025-11-30"
 ---
 ---
 title: "Transformers contributing with Codex"
@@ -9603,6 +9691,7 @@ link: "https://huggingface.co/blog/nielsr/contributing-to-transformers-with-code
 language: "Python"
 category: "Deep Learning;AI"
 description: "Contribuer à Transformers avec Codex AI."
+date: "2026-03-30"
 ---
 ---
 title: "rworks.dev - skills in RStudio Posit Assistant"
@@ -9611,6 +9700,7 @@ link: "https://rworks.dev/posts/skills-in-rstudio-posit-assistant/"
 language: "R"
 category: "R Ecosystem;AI"
 description: "Skills pour Posit Assistant dans RStudio."
+date: "2026-03-16"
 ---
 ---
 title: "ropensci - tree-sitter overview"
@@ -9619,6 +9709,7 @@ link: "https://ropensci.org/blog/2026/04/02/tree-sitter-overview/"
 language: "R"
 category: "Programming;Developer Tools"
 description: "Aperçu tree-sitter côté R par rOpenSci."
+date: "2026-04-02"
 ---
 ---
 title: "RoggeOhta/awesome-codex-cli"
@@ -9627,6 +9718,7 @@ link: "https://github.com/RoggeOhta/awesome-codex-cli"
 language: "Other"
 category: "AI;Agents;Developer Tools"
 description: "Liste curated de ressources pour Codex CLI."
+date: "2026-03-31"
 ---
 ---
 title: "open-vsx - vscode-flowr"
@@ -9643,6 +9735,7 @@ link: "https://ggilles.dev/"
 language: "Other"
 category: "Data Science"
 description: "Blog personnel ggilles."
+date: "2026-06-23"
 ---
 ---
 title: "Bayesian Workflow - sharks case study"
@@ -9659,6 +9752,7 @@ link: "https://goose-docs.ai/"
 language: "Other"
 category: "AI;Agents"
 description: "Docs de Goose (coding agent AI)."
+date: "2026-01-01"
 ---
 ---
 title: "entire.io"
@@ -9667,6 +9761,7 @@ link: "https://entire.io/"
 language: "Other"
 category: "AI;Programming;Generative AI"
 description: "Service Entire (contexte codebase pour AI)."
+date: "2026-10-26"
 ---
 ---
 title: "blankuzr/R-Skills - r-package-dev SKILL.md"
@@ -9683,6 +9778,7 @@ link: "https://thedecipherist.com/articles/the_docker_developer_workflow_guide_2
 language: "Other"
 category: "Docker;Reproducibility"
 description: "Guide workflow Docker pour devs (2026) par thedecipherist."
+date: "2026-02-22"
 ---
 ---
 title: "r-statistics.co - OOP in R"
@@ -9691,6 +9787,7 @@ link: "https://r-statistics.co/OOP-in-R.html"
 language: "R"
 category: "Programming"
 description: "Tutorial OOP en R (S3/S4/R6)."
+date: "2026-03-29"
 ---
 ---
 title: "quarto-revealjs-editable (site)"
@@ -9707,6 +9804,7 @@ link: "https://vllm.ai/"
 language: "Python"
 category: "AI;Generative AI;Statistics"
 description: "High-throughput and memory-efficient inference and serving engine for Large Language Models. Deploy AI faster with state-of-the-art performance."
+date: "2026-11-12"
 ---
 ---
 title: "Transformers to MLX"
@@ -9715,6 +9813,7 @@ link: "https://huggingface.co/blog/transformers-to-mlx"
 language: "Python"
 category: "Deep Learning"
 description: "Convertir Transformers vers MLX (Apple Silicon)."
+date: "2026-04-16"
 ---
 ---
 title: "biinsight - agentic AI in Power BI & Fabric pt 2"
@@ -9723,6 +9822,7 @@ link: "https://biinsight.com/agentic-ai-in-power-bi-and-fabric-part-2-getting-st
 language: "Other"
 category: "Business Intelligence;Data Engineering;AI"
 description: "Partie 2 agentic AI dans Power BI / Fabric (Copilot + MCP)."
+date: "2026-04-13"
 ---
 ---
 title: "langchain-ai/deepagent"
@@ -9739,6 +9839,7 @@ link: "https://github.com/addyosmani/agent-skills"
 language: "Other"
 category: "AI;Career & Industry;Agents"
 description: "Collection de skills d'agents par Addy Osmani."
+date: "2026-02-15"
 ---
 ---
 title: "eitsupi/arf"
@@ -9747,6 +9848,7 @@ link: "https://github.com/eitsupi/arf"
 language: "R"
 category: "Developer Tools"
 description: "arf — outil CLI R par eitsupi."
+date: "2026-01-13"
 ---
 ---
 title: "deepwiki.com"
@@ -9763,6 +9865,7 @@ link: "https://github.com/Mega4alik/ollm"
 language: "Other"
 category: "AI;Generative AI"
 description: "ollm — wrapper LLM local."
+date: "2025-08-16"
 ---
 ---
 title: "regisx001/Worklog"
@@ -9771,6 +9874,7 @@ link: "https://github.com/regisx001/Worklog"
 language: "Other"
 category: "Best Practices"
 description: "Outil de worklog / journal de travail."
+date: "2026-03-19"
 ---
 ---
 title: "theanshsonkar/carto"
@@ -9779,6 +9883,7 @@ link: "https://github.com/theanshsonkar/carto"
 language: "Other"
 category: "Developer Tools"
 description: "Carto creates a portable AI container of a codebase & every AI tool then knows what breaks before it changes anything. Move fast with AI without losing confidence, context, or control. - thea..."
+date: "2026-05-01"
 ---
 ---
 title: "agentskills.io"
@@ -9787,6 +9892,7 @@ link: "https://agentskills.io/home"
 language: "Other"
 category: "AI;Career & Industry"
 description: "Site d'indexation des agent skills."
+date: "2026-08-09"
 ---
 ---
 title: "tidyverse blog - Rapp 0.3.0"
@@ -9795,6 +9901,7 @@ link: "https://tidyverse.org/blog/2026/02/rapp-0-3-0/"
 language: "R"
 category: "Developer Tools"
 description: "Notes de release Rapp 0.3.0 (tidyverse)."
+date: "2026-02-18"
 ---
 ---
 title: "biostatquest.com"
@@ -9803,6 +9910,7 @@ link: "https://www.biostatquest.com/"
 language: "Other"
 category: "Medical & Life Sciences"
 description: "Site Q&A biostatistiques."
+date: "2026-01-01"
 ---
 ---
 title: "whipson - maestro 1.1.0 release"
@@ -9811,6 +9919,7 @@ link: "https://whipson.github.io/data-in-flight/posts/maestro-1-1-0/maestro-1-1-
 language: "R"
 category: "MLOps;Developer Tools"
 description: "Release notes maestro 1.1.0 (pipelines R orchestrés)."
+date: "2026-04-21"
 ---
 ---
 title: "repoinsider"
@@ -9819,6 +9928,7 @@ link: "https://repoinsider.com/"
 language: "Other"
 category: "Git;Developer Tools"
 description: "Insights / veille sur repositories GitHub."
+date: "2026-01-01"
 ---
 ---
 title: "prepare.sh trends"
@@ -9827,6 +9937,7 @@ link: "https://prepare.sh/trends?country=EU&category=datascience&experience_leve
 language: "Other"
 category: "Career & Industry;Data Science"
 description: "Tendances de prep d'entretien data science (EU, mid)."
+date: "2026-11-15"
 ---
 ---
 title: "openrouter state-of-ai"
@@ -9835,6 +9946,7 @@ link: "https://openrouter.ai/state-of-ai"
 language: "Other"
 category: "AI;Generative AI;Machine Learning"
 description: "Rapport state-of-ai par OpenRouter."
+date: "2025-12-04"
 ---
 ---
 title: "supabaseR"
@@ -9851,6 +9963,7 @@ link: "https://build.nvidia.com/models?filters="
 language: "Other"
 category: "AI;Deep Learning;Machine Learning"
 description: "Catalogue de modèles NVIDIA NIM / build."
+date: "2026-11-04"
 ---
 ---
 title: "nicedreamzapp/claude-code-local"
@@ -9859,6 +9972,7 @@ link: "https://github.com/nicedreamzapp/claude-code-local"
 language: "Other"
 category: "AI;Generative AI"
 description: "Setup local Claude Code."
+date: "2026-03-26"
 ---
 ---
 title: "johnlokerse - opencode + Copilot CLI BYOK"
@@ -9867,6 +9981,7 @@ link: "https://johnlokerse.dev/2026/04/23/use-opencode-go-models-in-github-copil
 language: "Other"
 category: "AI;Generative AI;Developer Tools"
 description: "OpenCode + modèles Go dans Copilot CLI avec BYOK."
+date: "2026-04-23"
 ---
 ---
 title: "ai-declaration.md"
@@ -9883,6 +9998,7 @@ link: "https://sci-bot.ru/"
 language: "Other"
 category: "AI;Data Science;Developer Tools"
 description: "Bot AI pour la science (sci-bot.ru)."
+date: "2000-01-01"
 ---
 ---
 title: "smolmachines.com"
@@ -9891,6 +10007,7 @@ link: "https://smolmachines.com/"
 language: "Other"
 category: "AI;Machine Learning"
 description: "Site smolmachines (modèles compacts)."
+date: "2024-11-01"
 ---
 ---
 title: "zed 1.0 release blog"
@@ -9899,6 +10016,7 @@ link: "https://zed.dev/blog/zed-1-0"
 language: "Other"
 category: "Developer Tools"
 description: "From the Zed Blog: The editor we set out to build is now 1.0."
+date: "2026-04-29"
 ---
 ---
 title: "dgadacha/wax"
@@ -9915,6 +10033,7 @@ link: "https://tylerfolkman.substack.com/p/i-cut-my-ai-agent-costs-7x-without?r=
 language: "Other"
 category: "AI;Machine Learning"
 description: "Comment réduire les coûts d'agents AI de 7x."
+date: "2026-05-03"
 ---
 ---
 title: "jcarroll - targets vs dbt"
@@ -9923,6 +10042,7 @@ link: "https://jcarroll.com.au/2026/05/04/comparing-r-s-targets-and-dbt-for-data
 language: "R"
 category: "Data Engineering;R Ecosystem"
 description: "Comparaison {targets} R et dbt pour data engineering."
+date: "2026-05-04"
 ---
 ---
 title: "fischerf/aar"
@@ -9931,6 +10051,7 @@ link: "https://fischerf.github.io/aar/"
 language: "R"
 category: "Developer Tools"
 description: "Outil aar par fischerf."
+date: "2026-06-10"
 ---
 ---
 title: "woheller69/FreeDroidWarn"
@@ -9939,6 +10060,7 @@ link: "https://github.com/woheller69/FreeDroidWarn#solutions"
 language: "Other"
 category: "Ethics"
 description: "Solutions FreeDroidWarn (warnings privacy Android)."
+date: "2025-08-26"
 ---
 ---
 title: "aipractitioner - LLMs in causal discovery"
@@ -9947,6 +10069,7 @@ link: "https://aipractitioner.substack.com/p/llms-in-causal-discovery-a-deep-div
 language: "Other"
 category: "AI;Causal Inference;Generative AI"
 description: "Plongée LLMs en causal discovery."
+date: "2026-05-07"
 ---
 ---
 title: "VectifyAI/PageIndex"
@@ -9955,6 +10078,7 @@ link: "https://github.com/VectifyAI/PageIndex"
 language: "Other"
 category: "AI;Generative AI;Developer Tools"
 description: "PageIndex par VectifyAI (indexation pour RAG)."
+date: "2025-04-01"
 ---
 ---
 title: "morphllm - vscode-multi-agent"
@@ -9963,6 +10087,7 @@ link: "https://www.morphllm.com/vscode-multi-agent"
 language: "Other"
 category: "AI;Developer Tools;Agents"
 description: "Extension VS Code multi-agent par MorphLLM."
+date: "2026-06-09"
 ---
 ---
 title: "RConsortium/pharma-skills"
@@ -9971,6 +10096,7 @@ link: "https://github.com/RConsortium/pharma-skills"
 language: "R"
 category: "Medical & Life Sciences;Career & Industry"
 description: "Skills pharma R par R Consortium."
+date: "2026-03-04"
 ---
 ---
 title: "rinpharma - genAI schedule"
@@ -9979,6 +10105,7 @@ link: "https://rinpharma.com/docs/blog/posts/2026-05-12-genAI-schedule/"
 language: "R"
 category: "Generative AI"
 description: "Programme genAI de rinpharma 2026."
+date: "2026-05-12"
 ---
 ---
 title: "data.ina.fr"
@@ -9987,6 +10114,7 @@ link: "https://data.ina.fr/"
 language: "French"
 category: "Data Science;Social Media"
 description: "Données INA (Institut National de l'Audiovisuel)."
+date: "2000-01-01"
 ---
 ---
 title: "ai-10-usd all-the-rest"
@@ -9995,6 +10123,7 @@ link: "https://ai-10-usd.all-the.rest/?match=0"
 language: "Other"
 category: "AI;Generative AI"
 description: "Liste de modèles AI à 10 USD (all-the-rest)."
+date: "2026-11-17"
 ---
 ---
 title: "sami-uysal - awesome open AI dev tools"
@@ -10003,6 +10132,7 @@ link: "https://sami-uysal.github.io/awesome-open-ai-developer-tools/#open-source
 language: "Other"
 category: "AI;Open Source & Automation"
 description: "Cheat sheet alternatives open-source d'outils AI devs."
+date: "2026-11-14"
 ---
 ---
 title: "ahundt/ai-session-search"
@@ -10011,6 +10141,7 @@ link: "https://github.com/ahundt/ai-session-search"
 language: "Other"
 category: "AI;Developer Tools"
 description: "Recherche dans sessions AI."
+date: "2026-02-23"
 ---
 ---
 title: "ArihantDeva/heimdall"
@@ -10019,6 +10150,7 @@ link: "https://github.com/ArihantDeva/heimdall"
 language: "Other"
 category: "AI;Developer Tools;Agents"
 description: "Heimdall — outil AI par Arihant Deva."
+date: "2026-08-20"
 ---
 ---
 title: "llama.app"
@@ -10027,6 +10159,7 @@ link: "https://llama.app/"
 language: "Other"
 category: "AI;Generative AI"
 description: "Site officiel Llama app."
+date: "2026-09-23"
 ---
 ---
 title: "artificialanalysis - models leaderboard"
@@ -10035,6 +10168,7 @@ link: "https://artificialanalysis.ai/leaderboards/models"
 language: "Other"
 category: "AI;Machine Learning"
 description: "Leaderboard de modèles AI par Artificial Analysis."
+date: "2015-06-01"
 ---
 ---
 title: "huggingbay.xyz"
@@ -10043,6 +10177,7 @@ link: "https://huggingbay.xyz/"
 language: "Other"
 category: "Generative AI;Machine Learning;Developer Tools"
 description: "Recherche modèles Hugging Face (huggingbay)."
+date: "2026-11-17"
 ---
 ---
 title: "benzi.fly.dev"
@@ -10051,6 +10186,7 @@ link: "https://benzi.fly.dev/"
 language: "Other"
 category: "Developer Tools"
 description: "Outil benzi (fly.dev)."
+date: "2000-01-01"
 ---
 ---
 title: "altdoc etiennebacher"
@@ -10075,6 +10211,7 @@ link: "https://github.com/coctostan/pi-hashline-readmap"
 language: "Other"
 category: "AI;Developer Tools"
 description: "Hashline readmap pour pi coding-agent."
+date: "2026-02-28"
 ---
 ---
 title: "modelscope.ai models"
@@ -10083,6 +10220,7 @@ link: "https://modelscope.ai/models"
 language: "Other"
 category: "AI;Machine Learning;Developer Tools"
 description: "Hub de modèles ModelScope."
+date: "2026-05-03"
 ---
 ---
 title: "slee-persis/GVS5H"
@@ -10091,6 +10229,7 @@ link: "https://github.com/slee-persis/GVS5H"
 language: "Other"
 category: "Developer Tools"
 description: "Repository GVS5H par slee-persis."
+date: "2026-08-26"
 ---
 ---
 title: "hfviewer.com"
@@ -10099,6 +10238,7 @@ link: "https://hfviewer.com/"
 language: "Other"
 category: "Generative AI;Developer Tools"
 description: "Viewer pour Hugging Face (hfviewer)."
+date: "2026-04-15"
 ---
 ---
 title: "GitHub - christopherkenny/awesome-rstats-skills: Awesome list of rstats skills for AI workflows"
@@ -10125,6 +10265,7 @@ link: "https://dsh-ai.org/?category=usage"
 language: "Other"
 category: "AI;Ethics"
 description: "Directory of AI resources filtered by usage category."
+date: "2024-11-01"
 ---
 ---
 title: "Delta - Toggling Features"
@@ -10141,6 +10282,7 @@ link: "https://github.com/gautamgpt1/agent-session-browser"
 language: "JavaScript"
 category: "Agents;MLOps"
 description: "Browser interface to inspect and replay coding-agent sessions."
+date: "2026-08-29"
 ---
 ---
 title: "pi-posher"
@@ -10149,6 +10291,7 @@ link: "https://github.com/jeff-phil/pi-posher"
 language: "Other"
 category: "Agents;Developer Tools"
 description: "Community extension for the Pi agent ecosystem."
+date: "2026-05-20"
 ---
 ---
 title: "pi-clarify"
@@ -10157,6 +10300,7 @@ link: "https://github.com/dodo-reach/pi-clarify"
 language: "Other"
 category: "Agents;Developer Tools"
 description: "Pi plugin adding clarification prompting to agent workflows."
+date: "2026-08-01"
 ---
 ---
 title: "SoL-Pi (NVlabs)"
@@ -10165,6 +10309,7 @@ link: "https://github.com/NVlabs/SoL-Pi"
 language: "Python"
 category: "Machine Learning;Research;Deep Learning"
 description: "NVIDIA Labs research project SoL-Pi, with getting-started instructions in the README."
+date: "2026-09-02"
 ---
 ---
 title: "SoL-Pi Project Page"
@@ -10173,6 +10318,7 @@ link: "https://nvlabs.github.io/SoL-Pi/"
 language: "Python"
 category: "Machine Learning;Research;Deep Learning"
 description: "Official project website and documentation for NVlabs SoL-Pi."
+date: "2000-01-01"
 ---
 ---
 title: "pi-llm-wiki Package"
@@ -10181,6 +10327,7 @@ link: "https://pi.dev/packages/pi-llm-wiki?name=llm-wiki"
 language: "Other"
 category: "Agents;Developer Tools"
 description: "Pi package turning LLM knowledge into a browsable wiki."
+date: "2026-04-04"
 ---
 ---
 title: "PI-Desktop"
@@ -10189,6 +10336,7 @@ link: "https://github.com/vastsa/PI-Desktop"
 language: "Other"
 category: "Agents;Developer Tools"
 description: "Desktop client for the Pi agent ecosystem."
+date: "2023-03-22"
 ---
 ---
 title: "pi-web.dev"
@@ -10197,6 +10345,7 @@ link: "https://pi-web.dev/"
 language: "Other"
 category: "Agents;Developer Tools"
 description: "Web hub for Pi agent tooling and resources."
+date: "2024-11-01"
 ---
 ---
 title: "OSINT4ALL"
@@ -10205,6 +10354,7 @@ link: "https://start.me/p/L1rEYQ/osint4all"
 language: "Other"
 category: "Ethics;Research"
 description: "Curated start.me dashboard of OSINT tools and investigation resources."
+date: "2024-11-01"
 ---
 ---
 title: "InferX"
@@ -10213,6 +10363,7 @@ link: "https://inferx.net/"
 language: "Other"
 category: "Generative AI;MLOps"
 description: "Inference serving platform for AI models."
+date: "2026-01-01"
 ---
 ---
 title: "pi-grill-me"
@@ -10221,6 +10372,7 @@ link: "https://pi.dev/packages/@majorgilles/pi-grill-me"
 language: "Other"
 category: "Agents;Developer Tools"
 description: "Pi package that critically interrogates plans and outputs of an agent."
+date: "2024-11-01"
 ---
 ---
 title: "raven"
@@ -10229,6 +10381,7 @@ link: "https://github.com/jbearak/raven/tree/ab66e5d78bf096802b34b85cede2219c68f
 language: "R"
 category: "Research;Reproducibility"
 description: "Pinned commit of the raven project for research workflows."
+date: "2026-01-30"
 ---
 ---
 title: "Shiny + React (posit::conf 2026 talk)"
@@ -10254,6 +10407,7 @@ link: "https://nrennie.rbind.io/resources/"
 language: "R"
 category: "Education;Data Visualization;Quarto"
 description: "Curated R, Quarto and data-visualisation resources collected by Nicola Rennie."
+date: "2026-11-16"
 ---
 ---
 title: "MCP at posit::conf 2026"
@@ -10271,6 +10425,7 @@ link: "https://docs.posit.co/connect/user/mcp-servers/"
 language: "Other"
 category: "Generative AI;MLOps"
 description: "Official Posit Connect user documentation for hosting and using MCP servers."
+date: "2026-11-01"
 ---
 ---
 title: "Databricks - Connect MCP Clients"
@@ -10279,6 +10434,7 @@ link: "https://docs.databricks.com/aws/en/agents/mcp-tools/connect-clients"
 language: "Python"
 category: "Generative AI;Data Engineering;Agents"
 description: "Databricks guide for connecting MCP clients to agent tools."
+date: "2026-11-12"
 ---
 ---
 title: "Cactus Needle"
@@ -10287,6 +10443,7 @@ link: "https://cactuscompute.com/needle"
 language: "Other"
 category: "Generative AI"
 description: "Cactus Compute's Needle product for local/edge model execution."
+date: "2026-01-01"
 ---
 ---
 title: "Piary"
@@ -10311,6 +10468,7 @@ link: "https://flowtivity.ai/blog/laya-open-source-jev-alternative/"
 language: "Other"
 category: "Agents;Open Source & Automation"
 description: "Blog post presenting Laya as an open-source alternative to Jev."
+date: "2026-09-21"
 ---
 ---
 title: "system-one (pi-system-one)"
@@ -10319,6 +10477,7 @@ link: "https://github.com/iamaamir/system-one/tree/main/pi-system-one"
 language: "Other"
 category: "Agents;Developer Tools"
 description: "Opinionated personal agent system configuration for Pi."
+date: "2026-09-22"
 ---
 ---
 title: "marmel"
@@ -10327,6 +10486,7 @@ link: "https://github.com/Na1w/marmel"
 language: "Other"
 category: "Agents;Developer Tools"
 description: "Personal project repository collected for agentic tooling inspiration."
+date: "2026-08-31"
 ---
 ---
 title: "pi-gvs5h"
@@ -10335,6 +10495,7 @@ link: "https://github.com/srossitto79/pi-gvs5h"
 language: "Other"
 category: "Agents;Developer Tools"
 description: "Pi implementation of the GVS5H agent workflow."
+date: "2026-09-12"
 ---
 ---
 title: "pi-skills"
@@ -10343,6 +10504,7 @@ link: "https://github.com/badlogic/pi-skills"
 language: "Other"
 category: "Agents;Developer Tools"
 description: "Collection of reusable agent skills for the Pi CLI."
+date: "2025-12-12"
 ---
 ---
 title: "Pi Discussion #3373"
@@ -10351,6 +10513,7 @@ link: "https://github.com/earendil-works/pi/discussions/3373#discussioncomment-1
 language: "Other"
 category: "Agents"
 description: "GitHub discussion thread in the Pi repository with community tips."
+date: "2026-04-18"
 ---
 ---
 title: "pi-ahp"
@@ -10359,6 +10522,7 @@ link: "https://github.com/Qusic/pi-ahp"
 language: "Other"
 category: "Agents;Statistics"
 description: "Analytic Hierarchy Process helper packaged for Pi agents."
+date: "2026-07-29"
 ---
 ---
 title: "Oh My Posh"
@@ -10367,6 +10531,7 @@ link: "https://ohmyposh.dev/"
 language: "Other"
 category: "Developer Tools"
 description: "Cross-platform prompt theme engine for any shell."
+date: "2026-01-01"
 ---
 ---
 title: "Pringled/pi-extensions"
@@ -10578,6 +10743,7 @@ link: "https://library-skills.io/use/"
 language: "Other"
 category: "Agents;Developer Tools"
 description: "CLI that finds skills shipped by installed libraries and links them into .agents/skills or .claude/skills."
+date: "2024-11-01"
 ---
 ---
 title: "Introducing shinyreact"
