@@ -164,8 +164,11 @@ def main() -> int:
         downloaded = None
 
     description = fetch_description(url, downloaded=downloaded)
+    # Empty means "no description could be fetched". Fabricating one
+    # ("A blog for <title>.") would be indistinguishable from real prose and
+    # forced backfill.py to guess via is_placeholder, which wiped real
+    # descriptions on fetch failures (PR #13).
     if not description:
-        description = f"A {rtype.lower()} for {title}."
         print("DESCRIPTION_PLACEHOLDER")
 
     # The date is the resource's own publication date, not the suggestion date:
