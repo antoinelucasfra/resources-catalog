@@ -4226,7 +4226,6 @@ type: "Website"
 link: "https://github.com/joey711/shiny-phyloseq"
 language: "R"
 category: "Shiny;Medical & Life Sciences"
-description: "An interactive web application for demonstrating and using phyloseq. - joey711/shiny-phyloseq"
 date: "2014-04-29"
 ---
 ---
