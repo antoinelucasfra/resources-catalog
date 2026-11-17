@@ -120,6 +120,7 @@ _JUNK_DESC_RE = re.compile(
     r"|find information, resources and relevant links"  # same template; the first-sentence split cuts before the "for sale" part
     r"|please wait while your request is being verified"  # CDN challenge
     r"|this page has moved to"  # redirect notice, not a description
+    r"|^\s*<-"  # R assignment operator: the scraper read a code block, not prose (seen twice)
     r")",
     re.IGNORECASE,
 )
